@@ -313,6 +313,7 @@ struct sector_cache_block : public cache_block_t {
     m_line_last_access_time = 0;
     m_line_fill_time = 0;
     m_dirty_byte_mask.reset();
+    m_cluster_state = CLUSTER_INVALID;
   }
 
   virtual void allocate(new_addr_type tag, new_addr_type block_addr,
@@ -424,6 +425,7 @@ struct sector_cache_block : public cache_block_t {
                           mem_access_sector_mask_t sector_mask) {
     unsigned sidx = get_sector_index(sector_mask);
     m_status[sidx] = status;
+    if (status == INVALID && is_invalid_line()) m_cluster_state = CLUSTER_INVALID;
   }
 
   virtual void set_byte_mask(mem_fetch *mf) {
@@ -500,6 +502,14 @@ struct sector_cache_block : public cache_block_t {
            m_status[0], m_status[1], m_status[2], m_status[3]);
   }
 
+  virtual void set_cluster_state(cluster_line_state state) {
+    m_cluster_state = state;
+  }
+
+  virtual cluster_line_state get_cluster_state() const {
+    return m_cluster_state;
+  }
+
  private:
   unsigned m_sector_alloc_time[SECTOR_CHUNCK_SIZE];
   unsigned m_last_sector_access_time[SECTOR_CHUNCK_SIZE];
@@ -514,6 +524,7 @@ struct sector_cache_block : public cache_block_t {
   bool m_set_byte_mask_on_fill;
   bool m_readable[SECTOR_CHUNCK_SIZE];
   mem_access_byte_mask_t m_dirty_byte_mask;
+  cluster_line_state m_cluster_state;
 
   unsigned get_sector_index(mem_access_sector_mask_t sector_mask) {
     assert(sector_mask.count() == 1);
