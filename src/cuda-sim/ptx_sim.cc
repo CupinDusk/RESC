@@ -65,6 +65,15 @@ unsigned ptx_cluster_info::get_cta_rank_of_shared_memory_region(addr_t addr) {
   return (UINT32_MAX - 1);
 }
 
+std::vector<ptx_cta_info *> ptx_cluster_info::get_ctas() const {
+  std::vector<ptx_cta_info *> result;
+  result.reserve(m_ctas_in_cluster.size());
+  for (const auto &entry : m_ctas_in_cluster) {
+    if (entry.second) result.push_back(entry.second);
+  }
+  return result;
+}
+
 void ptx_cluster_info::reset_arrive_status() {
   for (auto &cta : m_ctas_in_cluster) {
     for (auto &thread : cta.second->m_threads_in_cta) {
