@@ -30,6 +30,7 @@
 
 #include "gpu-cache.h"
 #include <assert.h>
+#include <stdio.h>
 #include <vector>
 #include "gpu-sim.h"
 #include "../cuda-sim/ptx_sim.h"
@@ -1893,6 +1894,15 @@ bool l1_cache::try_cluster_read_share(new_addr_type addr, mem_fetch *mf,
   update_line_access(local_index, time);
   source_cache->set_line_cluster_state(source_index, CLUSTER_FORWARD);
   source_cache->update_line_access(source_index, time);
+
+  unsigned dst_sid = m_owner ? m_owner->get_sid() : (unsigned)-1;
+  unsigned src_sid =
+      (source_cache && source_cache->m_owner)
+          ? source_cache->m_owner->get_sid()
+          : (unsigned)-1;
+  printf("Cluster read share: addr=0x%llx dst_sid=%u src_sid=%u warp=%u time=%u\n",
+         (unsigned long long)addr, dst_sid, src_sid, mf->get_wid(), time);
+  fflush(stdout);
 
   return true;
 }
