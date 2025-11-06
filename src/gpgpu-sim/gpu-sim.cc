@@ -2274,3 +2274,15 @@ const shader_core_config *gpgpu_sim::getShaderCoreConfig() {
 const memory_config *gpgpu_sim::getMemoryConfig() { return m_memory_config; }
 
 simt_core_cluster *gpgpu_sim::getSIMTCluster() { return *m_cluster.data(); }
+
+shader_core_ctx *gpgpu_sim::get_shader_core_ctx(unsigned sid) {
+  if (sid >= m_shader_config->num_shader()) return nullptr;
+  unsigned cluster_id = m_shader_config->sid_to_cluster(sid);
+  unsigned core_id = m_shader_config->sid_to_cid(sid);
+  if (cluster_id >= m_cluster.size()) return nullptr;
+  simt_core_cluster *cluster = m_cluster[cluster_id];
+  if (!cluster) return nullptr;
+  const std::vector<shader_core_ctx *> &cores = cluster->get_shader_cores();
+  if (core_id >= cores.size()) return nullptr;
+  return cores[core_id];
+}
