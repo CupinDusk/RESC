@@ -604,11 +604,17 @@ void shader_core_ctx::get_pdom_stack_top_info(unsigned tid, unsigned *pc,
 
 ptx_cluster_info *shader_core_ctx::get_warp_cluster_info(
     unsigned warp_id) const {
-  unsigned lane = warp_id * m_config->warp_size;
-  if (lane >= m_thread.size()) return nullptr;
-  ptx_thread_info *thd = m_thread[lane];
-  if (thd == nullptr) return nullptr;
-  return thd->m_cluster_info;
+  unsigned first_lane = warp_id * m_config->warp_size;
+  unsigned last_lane = std::min(first_lane + m_config->warp_size,
+                                (unsigned)m_thread.size());
+  if (first_lane >= last_lane) return nullptr;
+
+  for (unsigned lane = first_lane; lane < last_lane; ++lane) {
+    ptx_thread_info *thd = m_thread[lane];
+    if (thd && thd->m_cluster_info) return thd->m_cluster_info;
+  }
+
+  return nullptr;
 }
 
 float shader_core_ctx::get_current_occupancy(unsigned long long &active,
