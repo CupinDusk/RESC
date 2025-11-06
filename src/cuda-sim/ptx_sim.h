@@ -38,6 +38,7 @@
 
 #include <list>
 #include <map>
+#include <vector>
 #include <set>
 #include <string>
 
@@ -166,6 +167,8 @@ class ptx_cluster_info {
   ptx_cta_info *get_cta(unsigned cta_rank) {
     return m_ctas_in_cluster[cta_rank];
   }
+
+  std::vector<ptx_cta_info *> get_ctas() const;
 
   void reset_arrive_status();
   bool all_threads_arrived() const;
