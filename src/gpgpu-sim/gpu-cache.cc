@@ -32,6 +32,7 @@
 #include <assert.h>
 #include <vector>
 #include "gpu-sim.h"
+#include "../cuda-sim/ptx_sim.h"
 #include "hashing.h"
 #include "stat-tool.h"
 
@@ -1848,15 +1849,21 @@ bool l1_cache::try_cluster_read_share(new_addr_type addr, mem_fetch *mf,
   if (!m_owner) return false;
   if (mf->get_access_type() != GLOBAL_ACC_R) return false;
 
-  simt_core_cluster *cluster = m_owner->get_simt_core_cluster();
-  if (!cluster) return false;
+  ptx_cluster_info *cluster_info =
+      m_owner->get_warp_cluster_info(mf->get_wid());
+  if (!cluster_info) return false;
+
+  std::vector<ptx_cta_info *> ctas = cluster_info->get_ctas();
+  if (ctas.empty()) return false;
 
   new_addr_type block_addr = m_config.block_addr(addr);
   l1_cache *source_cache = nullptr;
   unsigned source_index = (unsigned)-1;
 
-  const std::vector<shader_core_ctx *> &cores = cluster->get_shader_cores();
-  for (auto *core : cores) {
+  for (auto *cta : ctas) {
+    if (!cta) continue;
+    shader_core_ctx *core =
+        m_owner->get_gpu()->get_shader_core_ctx(cta->get_shader_id());
     if (!core) continue;
     l1_cache *candidate = core->get_L1D_cache();
     if (!candidate || candidate == this) continue;
@@ -1867,6 +1874,9 @@ bool l1_cache::try_cluster_read_share(new_addr_type addr, mem_fetch *mf,
       source_cache = candidate;
       source_index = candidate_index;
       break;
+    } else if (state == CLUSTER_SHARED && source_cache == nullptr) {
+      source_cache = candidate;
+      source_index = candidate_index;
     }
   }
 

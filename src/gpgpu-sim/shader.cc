@@ -602,6 +602,15 @@ void shader_core_ctx::get_pdom_stack_top_info(unsigned tid, unsigned *pc,
   m_simt_stack[warp_id]->get_pdom_stack_top_info(pc, rpc);
 }
 
+ptx_cluster_info *shader_core_ctx::get_warp_cluster_info(
+    unsigned warp_id) const {
+  unsigned lane = warp_id * m_config->warp_size;
+  if (lane >= m_thread.size()) return nullptr;
+  ptx_thread_info *thd = m_thread[lane];
+  if (thd == nullptr) return nullptr;
+  return thd->m_cluster_info;
+}
+
 float shader_core_ctx::get_current_occupancy(unsigned long long &active,
                                              unsigned long long &total) const {
   // To match the achieved_occupancy in nvprof, only SMs that are active are

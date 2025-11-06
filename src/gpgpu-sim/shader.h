@@ -62,6 +62,8 @@
 
 #define NO_OP_FLAG 0xFF
 
+class ptx_cluster_info;
+
 /* READ_PACKET_SIZE:
    bytes: 6 address (flit can specify chanel so this gives up to ~2GB/channel,
    so good for now), 2 bytes   [shaderid + mshrid](14 bits) + req_size(0-2 bits
@@ -2122,6 +2124,7 @@ class shader_core_ctx : public core_t {
   l1_cache *get_L1D_cache() const {
     return m_ldst_unit ? m_ldst_unit->get_L1D() : nullptr;
   }
+  ptx_cluster_info *get_warp_cluster_info(unsigned warp_id) const;
 
   // used by functional simulation:
   // modifiers
