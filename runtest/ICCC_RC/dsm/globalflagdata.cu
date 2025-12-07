@@ -68,23 +68,31 @@ __device__ __forceinline__ void st_cg_f32(float* p, float v) {
 }
 
 __device__ __forceinline__ int ld_ca_s32(int* p) {
-  int v;
-#if __CUDA_ARCH__ >= 900
-  asm volatile("ld.global.ca.s32 %0, [%1];" : "=r"(v) : "l"(p));
-#else
-  v = *p;
-#endif
-  return v;
-}
+    int v;
+  #if __CUDA_ARCH__ >= 900
+    asm volatile("ld.global.ca.s32 %0, [%1];" : "=r"(v) : "l"(p));
+  #else
+    v = *p;
+  #endif
+    return v;
+  }
 
-// 强制经 L1 的全局写（.wb）——用于atomic flag，让ICCC接管
-__device__ __forceinline__ void st_wb_s32(int* p, int v) {
-#if __CUDA_ARCH__ >= 900
-  asm volatile("st.global.wb.s32 [%0], %1;" : : "l"(p), "r"(v) : "memory");
-#else
-  *p = v;
-#endif
-}
+  // 强制经 L1 的全局写（.wb）——用于atomic flag，让ICCC接管
+  __device__ __forceinline__ void st_wb_s32(int* p, int v) {
+  #if __CUDA_ARCH__ >= 900
+    asm volatile("st.global.wb.s32 [%0], %1;" : : "l"(p), "r"(v) : "memory");
+  #else
+    *p = v;
+  #endif
+  }
+
+  __device__ __forceinline__ void st_cg_s32(int* p, int v) {
+    #if __CUDA_ARCH__ >= 900
+      asm volatile("st.global.cg.s32 [%0], %1;" : : "l"(p), "r"(v) : "memory");
+    #else
+      *p = v;
+    #endif
+    }
 
 // smid
 __device__ __forceinline__ unsigned get_smid() {
@@ -112,27 +120,24 @@ void producer_consumer_kernel(float* __restrict__ g_data,
 #if __CUDA_ARCH__ >= 900
   cg::cluster_group cluster = cg::this_cluster();
   int rank = cluster.block_rank();   // 0..CLUSTER_SIZE-1
-  //printf("rank=%d\n", rank);
+  printf("rank=%d\n", rank);
   int tid  = threadIdx.x;
 
   if (tid >= 1) return;             // 保持你原先“单线程 CTA”框架
 
-  // --- Distributed Shared Memory (DSM) mailbox ---
-  __shared__ float smem_data;     // per-CTA shared, mapped across the cluster
-  __shared__ int   smem_flag;     // mailbox flag, stored in rank-0 shared
+  float* addr = &g_data[0];
+  int* flag_addr = &g_turn;
+  //int flag = g_turn;
 
-  // 所有 rank 都把 addr/flag 映射到 rank 0 的 shared 内存
-  float* addr     = cluster.map_shared_rank(&smem_data, 0);
-  int*   dsm_flag = cluster.map_shared_rank(&smem_flag, 0);
-
-  // (可选) 保留你的注册逻辑：把“通信地址”注册进去；同时初始化 flag
-  //if (tid == 0 && rank == 0) {
-    //gpgpusim_register_cluster_coherent_addr(addr);
-    //*dsm_flag = 0;
-  //}
-
-  // cluster.sync() 确保 cluster 内所有 CTA 已启动且 shared 初始化完成，才能安全访问 DSM
+  // (可选) 保留你的注册逻辑
+  if (tid == 0 && rank == 0) {
+    gpgpusim_register_cluster_coherent_addr(addr);
+    gpgpusim_register_cluster_coherent_addr(flag_addr);
+  }
   cluster.sync();
+
+  // device-scope atomic flag (works across SMs)
+  //cuda::atomic_ref<int, cuda::thread_scope_device> flag(g_turn);
 
   // 约束：这里按你的要求固定 cluster_size=2
   // rank0: producer, rank1: consumer
@@ -146,28 +151,31 @@ void producer_consumer_kernel(float* __restrict__ g_data,
       float write_value = 10.0f + (float)r;
 
       // 正确性：绕过 L1 写入，使数据到达 L2（一致性点）
-      // DSM 写入：写到 rank0 的 shared（被映射到分布式共享内存地址空间）
-      *addr = write_value;
+      st_cg_f32(addr, write_value);
       //float read_value2 = ld_ca_f32(addr);
       // 发布：让 consumer 在看到 flag==1 时必然看到 write_value
-      // 发布：写完数据后，把 mailbox 置 1（消费者以此为准开始读）
-      atomicExch(dsm_flag, 1);
+      //flag.store(1, cuda::std::memory_order_release);
+      st_cg_s32(flag_addr, 1);
+      //flag = 1;
 
       if (tid == 0) {
-        //printf("\nCLUSTER-[WRITE] rank=%d, wrote value=%f\n", rank, write_value);
+        printf("\nCLUSTER-[WRITE] rank=%d, wrote value=%f\n", rank, write_value);
       }
 
     } else { // rank == 1
       // -------- Consumer --------
       // 等待 producer 发布：flag==1
-      while (atomicAdd(dsm_flag, 0) != 1) { /* spin */ }
+      //while (flag.load(cuda::std::memory_order_acquire) != 1) { /* spin */ }
+
+      while (ld_cg_s32(flag_addr) != 1) { /*printf("\n轮询中\n"); */ }
+      //while (flag != 1) { /* spin */ }
 
       // 正确性：绕过 L1 读取（否则可能命中自己的旧 L1 行）
-      // DSM 读取：从 rank0 的 shared 读出 producer 写入的数据
-      float read_value = *addr;
+      //printf("\n通过轮询\n");
+      float read_value = ld_cg_f32(addr);
 
       if (tid == 0) {
-        //printf("\nCLUSTER-[READ] rank=%d, read value=%f\n", rank, read_value);
+        printf("\nCLUSTER-[READ] rank=%d, read value=%f\n", rank, read_value);
       }
 
       // ack：告诉 producer 本轮已消费完，可以进入下一轮
@@ -177,9 +185,9 @@ void producer_consumer_kernel(float* __restrict__ g_data,
     out[rank] = 1.0f; // 保留原布局/框架
 
     if(rank == CLUSTER_SIZE-1){
-      // 本轮结束：由最后一个 rank 把 mailbox 清 0，作为下一轮的 ack
-      //atomicExch(dsm_flag, 0);
-      //printf("\n本轮结束\n");
+      //st_wb_s32(flag_addr, 0);
+      //flag = 0;
+      printf("\n本轮结束\n");
     }
 
     cluster.sync();
