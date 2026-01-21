@@ -1,6 +1,15 @@
 // fa_tile_1toN.cu
 // nvcc -O3 -arch=sm_90a fa_tile_1toN.cu -o fa -DBACKEND=2 -DRESERVE_ELEMS=4096
 // ./fa 2 2000   # cluster_size=2 repeat=2000
+//
+// BACKEND=2 时的指令模式选择（编译时参数）：
+// -DREAD_MODE=0  使用 ld.cg (默认)
+// -DREAD_MODE=1  使用 ld.ca
+// -DWRITE_MODE=0 使用 st.cg (默认)
+// -DWRITE_MODE=1 使用 st.wb
+// 示例：
+//   nvcc ... -DBACKEND=2 -DREAD_MODE=1 -DWRITE_MODE=1  # 使用 ld.ca + st.wb
+//   nvcc ... -DBACKEND=2 -DREAD_MODE=0 -DWRITE_MODE=0  # 使用 ld.cg + st.cg (默认)
 
 #include <cstdio>
 #include <cstdlib>
@@ -17,6 +26,16 @@ namespace cg = cooperative_groups;
 
 #ifndef RESC_LINE_BYTES
 #define RESC_LINE_BYTES 128   // 你 sim 里如果是 64B，就改成 64
+#endif
+
+// BACKEND=2 时的指令模式选择
+// READ_MODE: 0=ld.cg (默认), 1=ld.ca
+// WRITE_MODE: 0=st.cg (默认), 1=st.wb
+#ifndef READ_MODE
+#define READ_MODE 0
+#endif
+#ifndef WRITE_MODE
+#define WRITE_MODE 0
 #endif
 
 #define CUDA_CHECK(x) do{auto e=(x); if(e!=cudaSuccess){                       \
@@ -158,7 +177,7 @@ void fa_tile(float* __restrict__ g_buf, float* __restrict__ out, int repeat){
 
 #endif
 
-if (rank==0) {
+if (rank==0 && BACKEND==2) {
     if (tid < 32) {
       register_range_by_line_warp0(tile_ptr, RESERVE_ELEMS * sizeof(float));
       register_range_by_line_warp0(flag_ptr, sizeof(int));
@@ -175,8 +194,7 @@ if (rank==0) {
 #if BACKEND == 1
       while(atomicAdd(flag_ptr,0)!=0){}
 #else
-      //while((BACKEND==2? ld_ca_s32(flag_ptr): ld_cg_s32(flag_ptr))!=0){}
-      while((BACKEND==2? ld_cg_s32(flag_ptr): ld_cg_s32(flag_ptr))!=0){}
+      while((BACKEND==2? (READ_MODE==1? ld_ca_s32(flag_ptr): ld_cg_s32(flag_ptr)): ld_cg_s32(flag_ptr))!=0){}
 #endif
         }
         __syncthreads();
@@ -184,8 +202,7 @@ if (rank==0) {
       for(int i=tid;i<RESERVE_ELEMS;i+=blockDim.x){
         float v = (float)(i + r) * 0.001f;
 #if BACKEND == 2
-        //st_wb_f32(&tile_ptr[i], v);
-        st_cg_f32(&tile_ptr[i], v);
+        (WRITE_MODE==1? st_wb_f32(&tile_ptr[i], v): st_cg_f32(&tile_ptr[i], v));
 #elif BACKEND == 0
         st_cg_f32(&tile_ptr[i], v);
 #else
@@ -196,8 +213,7 @@ if (rank==0) {
 #if BACKEND == 1
       atomicExch(flag_ptr, 1);
 #elif BACKEND == 2
-      //st_wb_s32(flag_ptr, 1);
-      st_cg_s32(flag_ptr, 1);
+      (WRITE_MODE==1? st_wb_s32(flag_ptr, 1): st_cg_s32(flag_ptr, 1));
 #else
       st_cg_s32(flag_ptr, 1);
 #endif
@@ -209,8 +225,7 @@ if (rank==0) {
 #if BACKEND == 1
       while(atomicAdd(flag_ptr,0)!=1){}
 #else
-      //while((BACKEND==2? ld_ca_s32(flag_ptr): ld_cg_s32(flag_ptr))!=1){}
-      while((BACKEND==2? ld_cg_s32(flag_ptr): ld_cg_s32(flag_ptr))!=1){}
+      while((BACKEND==2? (READ_MODE==1? ld_ca_s32(flag_ptr): ld_cg_s32(flag_ptr)): ld_cg_s32(flag_ptr))!=1){}
 #endif
         }
         __syncthreads();
@@ -218,8 +233,7 @@ if (rank==0) {
       float acc=0.f;
       for(int i=tid;i<RESERVE_ELEMS;i+=blockDim.x){
 #if BACKEND == 2
-        //acc += ld_ca_f32(&tile_ptr[i]);
-        acc += ld_cg_f32(&tile_ptr[i]);
+        acc += (READ_MODE==1? ld_ca_f32(&tile_ptr[i]): ld_cg_f32(&tile_ptr[i]));
 #elif BACKEND == 0
         acc += ld_cg_f32(&tile_ptr[i]);
 #else
@@ -235,8 +249,7 @@ if (rank==0) {
 #if BACKEND == 1
       atomicExch(flag_ptr, 0);
 #elif BACKEND == 2
-      //st_wb_s32(flag_ptr, 0);
-      st_cg_s32(flag_ptr, 0);
+      (WRITE_MODE==1? st_wb_s32(flag_ptr, 0): st_cg_s32(flag_ptr, 0));
 #else
       st_cg_s32(flag_ptr, 0);
 #endif
