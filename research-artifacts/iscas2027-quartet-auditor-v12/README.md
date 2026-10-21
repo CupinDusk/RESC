@@ -38,4 +38,3 @@ Unchanged optional --fetch-ordersage is not rerun; independently refetched
 historical negative controls remain. No new GPU acquisition, physical bias
 budget, slot-granularity validity, actual scalar archive or improved choice
 is established. Codex assisted arguments, code, analyses and documentation.
-
