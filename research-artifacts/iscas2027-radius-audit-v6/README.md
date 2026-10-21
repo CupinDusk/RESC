@@ -1,0 +1,11 @@
+# Minimum explanation radius and sharp slot-factor audit v6
+
+Standing-authorized minimal public research update. Archive SHA-256 `b42ba424d66eb53ac61c93e5a37ed91b163054a0e809a38000c14235e39e98f8`; 580644 bytes; 42 hashed inputs. Fresh extraction independently reran all prior numeric/model stages, all16020 continuous query radii,18 minimum-budget LPs,3498 boundary/midpoint LPs,5396 controlled LPs, six pinned CSV refetches, unchanged external assessments and all stationary/cyclic references.
+
+Correction of v5/R7 framing: its median-anchor inequality is true but redundant once disjoint individual path tests pass. It is not an additional criterion or independent contribution. All old PDFs/reports/results remain immutable history.
+
+The new inverse-budget analysis asks the minimum adjacent bias for ONE shared joint ranking explanation. Even ALL independently reanchored box feasibility answers can underestimate it by the sharp factor N-2 for four distinct slots in1..N. Positive-width controlled examples attain the factor. Standard DBM/inverse/cycle-ratio methods are prior machinery; this is a scoped quantitative relaxation limit, not a new general optimizer or a statement about every interval method.
+
+All16020 unique retained cases are preserved.1166 have positive continuous windows, including large hypothetical budgets; at the original2% fraction18 queries in14 cells are affected. The maximum ratio3.874709 has its upper radius outside the original10% fraction grid and is explicitly labeled. These are conditional mathematical examples, not hardware error rates or physical calibration.
+
+Only our already public numeric matrix, own code/proofs/protocols and derived aggregate reports are included. No manuscript, private acquisition/kernel/overlay/server/credential material, upstream raw CSV or reset/launch code. No new license grant. The optional fetch stage reads only pinned public numerical CSVs; no remote experiment/launcher is executed. No new GPU measurements, same-state truth, causal ordering diagnosis, improved choices or prospective selector validation is claimed. See the ZIP README and analysis/HOPPER_R8_METHOD.md for exact commands and literature retrieval levels. Codex assisted arguments, implementation, analysis and documentation.
