@@ -1,0 +1,589 @@
+{
+  "status": "PASS_FIXED_INPUT_SOURCE_AND_RAW_ROSTER_AUDIT_NO_TIMING_RERUN",
+  "all720": {
+    "common_closure_ns_per_plan": 390.5416666666667,
+    "cheap_flag_ns_per_plan": 18.0125,
+    "additional_quartet_ns_per_plan": 41.02777777777778,
+    "full_setup_cheap_ns_per_plan": 408.5541666666667,
+    "full_setup_quartet_ns_per_plan": 449.58194444444445,
+    "paired_blocks_quartet_query_faster": 7,
+    "paired_blocks_quartet_query_slower_or_equal": 2,
+    "actual_queries_per_plan": 48,
+    "modeled_totals_ns_per_plan": {
+      "1": {
+        "given_closed_R": {
+          "directBF": 174.93055555555554,
+          "beta_graph": 82.48842592592592,
+          "cheap_span_graph": 61.4037037037037,
+          "quartet_union_graph": 101.88171296296295
+        },
+        "all_routes_including_same_measured_closure": {
+          "directBF": 565.4722222222222,
+          "beta_graph": 473.0300925925926,
+          "cheap_span_graph": 451.94537037037037,
+          "quartet_union_graph": 492.4233796296296
+        }
+      },
+      "10": {
+        "given_closed_R": {
+          "directBF": 1749.3055555555554,
+          "beta_graph": 824.8842592592592,
+          "cheap_span_graph": 451.924537037037,
+          "quartet_union_graph": 487.4546296296296
+        },
+        "all_routes_including_same_measured_closure": {
+          "directBF": 2139.847222222222,
+          "beta_graph": 1215.4259259259259,
+          "cheap_span_graph": 842.4662037037037,
+          "quartet_union_graph": 877.9962962962964
+        }
+      },
+      "48": {
+        "given_closed_R": {
+          "directBF": 8396.666666666666,
+          "beta_graph": 3959.4444444444443,
+          "cheap_span_graph": 2100.7902777777776,
+          "quartet_union_graph": 2115.4291666666663
+        },
+        "all_routes_including_same_measured_closure": {
+          "directBF": 8787.208333333332,
+          "beta_graph": 4349.986111111111,
+          "cheap_span_graph": 2491.3319444444446,
+          "quartet_union_graph": 2505.9708333333333
+        }
+      },
+      "100": {
+        "given_closed_R": {
+          "directBF": 17493.055555555555,
+          "beta_graph": 8248.842592592593,
+          "cheap_span_graph": 4357.13287037037,
+          "quartet_union_graph": 4343.183796296296
+        },
+        "all_routes_including_same_measured_closure": {
+          "directBF": 17883.597222222223,
+          "beta_graph": 8639.38425925926,
+          "cheap_span_graph": 4747.674537037037,
+          "quartet_union_graph": 4733.725462962962
+        }
+      },
+      "1000": {
+        "given_closed_R": {
+          "directBF": 174930.55555555553,
+          "beta_graph": 82488.42592592593,
+          "cheap_span_graph": 43409.2162037037,
+          "quartet_union_graph": 42900.47546296296
+        },
+        "all_routes_including_same_measured_closure": {
+          "directBF": 175321.0972222222,
+          "beta_graph": 82878.9675925926,
+          "cheap_span_graph": 43799.75787037037,
+          "quartet_union_graph": 43291.017129629625
+        }
+      }
+    }
+  },
+  "n_aggregate": [
+    {
+      "n": 4,
+      "plans": 30,
+      "finite_queries": 1440,
+      "domain": "2 geometries x5 families x3seeds",
+      "route_query_ns": {
+        "directBF": {
+          "median": 52.388194444444444,
+          "min": 50.65416666666667,
+          "max": 53.13263888888889,
+          "all9": [
+            52.57013888888889,
+            51.928472222222226,
+            50.65416666666667,
+            52.044444444444444,
+            51.57222222222222,
+            52.388194444444444,
+            53.13263888888889,
+            52.84375,
+            53.075694444444444
+          ]
+        },
+        "beta_graph": {
+          "median": 38.864583333333336,
+          "min": 38.09722222222222,
+          "max": 42.645833333333336,
+          "all9": [
+            38.46666666666667,
+            38.515972222222224,
+            39.71875,
+            39.05277777777778,
+            39.06944444444444,
+            38.864583333333336,
+            38.09722222222222,
+            38.515972222222224,
+            42.645833333333336
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 9.390277777777778,
+          "min": 9.202777777777778,
+          "max": 11.568055555555556,
+          "all9": [
+            9.388194444444444,
+            9.41388888888889,
+            11.568055555555556,
+            9.202777777777778,
+            9.35625,
+            9.370833333333334,
+            9.725694444444445,
+            9.390277777777778,
+            9.414583333333333
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 9.041666666666666,
+          "min": 8.790277777777778,
+          "max": 9.721527777777778,
+          "all9": [
+            8.929166666666667,
+            9.22638888888889,
+            9.041666666666666,
+            9.721527777777778,
+            9.372916666666667,
+            8.972916666666666,
+            8.897916666666667,
+            8.790277777777778,
+            9.239583333333334
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 358,
+        "cheap_graph": 38,
+        "quartet_graph": 20,
+        "quartet_extra_scalar": 18
+      }
+    },
+    {
+      "n": 6,
+      "plans": 720,
+      "finite_queries": 34560,
+      "domain": "all720 total orders",
+      "route_query_ns": {
+        "directBF": {
+          "median": 174.93055555555554,
+          "min": 169.2939814814815,
+          "max": 191.31655092592592,
+          "all9": [
+            175.11574074074073,
+            176.0619212962963,
+            173.93229166666666,
+            173.70949074074073,
+            169.2939814814815,
+            191.31655092592592,
+            171.94155092592592,
+            178.0931712962963,
+            174.93055555555554
+          ]
+        },
+        "beta_graph": {
+          "median": 82.48842592592592,
+          "min": 80.72627314814815,
+          "max": 86.27314814814815,
+          "all9": [
+            82.72280092592592,
+            83.18287037037037,
+            81.30208333333333,
+            82.12673611111111,
+            80.72627314814815,
+            86.27314814814815,
+            83.05844907407408,
+            82.48842592592592,
+            81.20659722222223
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 43.3912037037037,
+          "min": 42.204861111111114,
+          "max": 47.4537037037037,
+          "all9": [
+            44.314236111111114,
+            42.65914351851852,
+            45.61921296296296,
+            47.4537037037037,
+            42.204861111111114,
+            43.3912037037037,
+            42.719907407407405,
+            42.35243055555556,
+            44.739583333333336
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 42.84143518518518,
+          "min": 41.504629629629626,
+          "max": 43.27546296296296,
+          "all9": [
+            43.217592592592595,
+            41.504629629629626,
+            42.80671296296296,
+            43.203125,
+            43.04398148148148,
+            42.84143518518518,
+            43.27546296296296,
+            41.5625,
+            42.083333333333336
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 13093,
+        "cheap_graph": 4634,
+        "quartet_graph": 4463,
+        "quartet_extra_scalar": 171
+      }
+    },
+    {
+      "n": 8,
+      "plans": 30,
+      "finite_queries": 1440,
+      "domain": "2 geometries x5 families x3seeds",
+      "route_query_ns": {
+        "directBF": {
+          "median": 227.61805555555554,
+          "min": 224.8625,
+          "max": 234.3201388888889,
+          "all9": [
+            227.51041666666666,
+            232.59722222222223,
+            227.61805555555554,
+            228.30833333333334,
+            227.82777777777778,
+            226.93472222222223,
+            224.8625,
+            226.59375,
+            234.3201388888889
+          ]
+        },
+        "beta_graph": {
+          "median": 120.01736111111111,
+          "min": 118.38263888888889,
+          "max": 121.91458333333334,
+          "all9": [
+            119.0,
+            118.70138888888889,
+            121.82916666666667,
+            121.91458333333334,
+            121.4888888888889,
+            120.01736111111111,
+            119.30277777777778,
+            118.38263888888889,
+            121.16805555555555
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 41.62777777777778,
+          "min": 40.53611111111111,
+          "max": 43.74791666666667,
+          "all9": [
+            43.74791666666667,
+            40.53611111111111,
+            41.87708333333333,
+            40.99166666666667,
+            41.64861111111111,
+            42.113194444444446,
+            40.97291666666667,
+            41.140972222222224,
+            41.62777777777778
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 41.68472222222222,
+          "min": 40.28819444444444,
+          "max": 43.1875,
+          "all9": [
+            41.796527777777776,
+            43.1875,
+            41.32361111111111,
+            42.39375,
+            42.57083333333333,
+            41.68472222222222,
+            40.822916666666664,
+            40.34305555555556,
+            40.28819444444444
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 454,
+        "cheap_graph": 128,
+        "quartet_graph": 128,
+        "quartet_extra_scalar": 0
+      }
+    },
+    {
+      "n": 16,
+      "plans": 30,
+      "finite_queries": 1440,
+      "domain": "2 geometries x5 families x3seeds",
+      "route_query_ns": {
+        "directBF": {
+          "median": 1377.5416666666667,
+          "min": 1366.34375,
+          "max": 1418.1875,
+          "all9": [
+            1366.545138888889,
+            1418.1875,
+            1377.5416666666667,
+            1393.3125,
+            1384.736111111111,
+            1366.34375,
+            1370.329861111111,
+            1378.482638888889,
+            1372.829861111111
+          ]
+        },
+        "beta_graph": {
+          "median": 434.6875,
+          "min": 428.9270833333333,
+          "max": 438.78125,
+          "all9": [
+            434.6875,
+            431.6423611111111,
+            438.40625,
+            437.7048611111111,
+            438.78125,
+            430.0138888888889,
+            428.9270833333333,
+            435.8333333333333,
+            432.14930555555554
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 174.82986111111111,
+          "min": 171.89583333333334,
+          "max": 177.63541666666666,
+          "all9": [
+            176.57986111111111,
+            171.89583333333334,
+            174.82986111111111,
+            173.16319444444446,
+            175.13194444444446,
+            173.51388888888889,
+            176.85416666666666,
+            174.41319444444446,
+            177.63541666666666
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 172.31597222222223,
+          "min": 170.04861111111111,
+          "max": 176.97916666666666,
+          "all9": [
+            172.29861111111111,
+            172.91319444444446,
+            174.22569444444446,
+            176.35763888888889,
+            172.31597222222223,
+            170.04861111111111,
+            176.97916666666666,
+            170.96527777777777,
+            172.16666666666666
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 520,
+        "cheap_graph": 156,
+        "quartet_graph": 156,
+        "quartet_extra_scalar": 0
+      }
+    },
+    {
+      "n": 32,
+      "plans": 30,
+      "finite_queries": 1440,
+      "domain": "2 geometries x5 families x3seeds",
+      "route_query_ns": {
+        "directBF": {
+          "median": 9296.944444444445,
+          "min": 9252.861111111111,
+          "max": 9389.541666666666,
+          "all9": [
+            9315.708333333334,
+            9385.722222222223,
+            9311.541666666666,
+            9269.708333333334,
+            9295.319444444445,
+            9389.541666666666,
+            9261.5,
+            9296.944444444445,
+            9252.861111111111
+          ]
+        },
+        "beta_graph": {
+          "median": 1788.7777777777778,
+          "min": 1735.1527777777778,
+          "max": 1813.3472222222222,
+          "all9": [
+            1788.7777777777778,
+            1765.3472222222222,
+            1789.4166666666667,
+            1763.6666666666667,
+            1791.9444444444443,
+            1813.3472222222222,
+            1735.1527777777778,
+            1788.9027777777778,
+            1759.875
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 804.9027777777778,
+          "min": 771.875,
+          "max": 912.2222222222222,
+          "all9": [
+            804.3194444444445,
+            797.0694444444445,
+            805.375,
+            771.875,
+            806.5555555555555,
+            809.9305555555555,
+            781.3611111111111,
+            804.9027777777778,
+            912.2222222222222
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 785.3055555555555,
+          "min": 768.6805555555555,
+          "max": 829.0277777777778,
+          "all9": [
+            829.0277777777778,
+            792.25,
+            781.5555555555555,
+            776.5833333333334,
+            788.6388888888889,
+            768.6805555555555,
+            772.5694444444445,
+            819.125,
+            785.3055555555555
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 560,
+        "cheap_graph": 163,
+        "quartet_graph": 163,
+        "quartet_extra_scalar": 0
+      }
+    },
+    {
+      "n": 64,
+      "plans": 30,
+      "finite_queries": 1440,
+      "domain": "2 geometries x5 families x3seeds",
+      "route_query_ns": {
+        "directBF": {
+          "median": 73808.22916666667,
+          "min": 72970.48611111111,
+          "max": 74163.95833333333,
+          "all9": [
+            73808.22916666667,
+            73991.28472222222,
+            74067.77777777778,
+            74082.98611111111,
+            73378.54166666667,
+            73441.31944444444,
+            72970.48611111111,
+            73554.30555555556,
+            74163.95833333333
+          ]
+        },
+        "beta_graph": {
+          "median": 9627.8125,
+          "min": 9540.555555555555,
+          "max": 9971.701388888889,
+          "all9": [
+            9592.048611111111,
+            9585.104166666666,
+            9801.840277777777,
+            9627.8125,
+            9728.090277777777,
+            9971.701388888889,
+            9540.555555555555,
+            9626.458333333334,
+            9718.333333333334
+          ]
+        },
+        "cheap_span_graph": {
+          "median": 5526.354166666667,
+          "min": 5441.666666666667,
+          "max": 5585.347222222223,
+          "all9": [
+            5526.354166666667,
+            5474.513888888889,
+            5564.201388888889,
+            5485.9375,
+            5444.791666666667,
+            5572.743055555556,
+            5441.666666666667,
+            5539.305555555556,
+            5585.347222222223
+          ]
+        },
+        "quartet_union_graph": {
+          "median": 5515.208333333333,
+          "min": 5392.638888888889,
+          "max": 5787.118055555556,
+          "all9": [
+            5392.638888888889,
+            5554.652777777777,
+            5617.361111111111,
+            5476.493055555556,
+            5691.805555555556,
+            5787.118055555556,
+            5460.763888888889,
+            5443.958333333333,
+            5515.208333333333
+          ]
+        }
+      },
+      "route_counts": {
+        "beta_reject": 582,
+        "cheap_graph": 169,
+        "quartet_graph": 169,
+        "quartet_extra_scalar": 0
+      }
+    }
+  ],
+  "limitations": [
+    "No stable incremental quartet runtime advantage established by overlapping run ranges and mixed paired signs. Median-stage nominal crossover75 is descriptive, not a reliable deployment threshold.",
+    "In the actual48-query/plan census, additional quartet setup exceeds the median query saving; preprocessing-inclusive nominal total is slightly worse.",
+    "Beta-survivor diagnostic has cheap median57.824ns/query and quartet58.154ns/query; it does not establish a runtime advantage.",
+    "All scaling strata with n>=8 have identical cheap-vs-quartet fallback counts. Differences in their runtime medians cannot be attributed to additional quartet pruning.",
+    "Several already-cheap-EXACT quartet preprocessing batches are only100--300ns; do not interpret their divided1--5ns values as precise individual call costs.",
+    "Common closure was measured explicitly. The timed direct BF consumes the same closed_R; a direct checker can use original ranking edges and avoid closure, but that variant was not timed.",
+    "The single-host block schedule reduces drift confounding without proving CPU-load independence, hardware representativeness or population speedup.",
+    "No H20 timing auditor, GPU, hardware behavior, physical drift or improved GPU choice was measured. Synthetic integer graph instances and existing retained H20 routing counts are distinct."
+  ],
+  "files": {
+    "RESULTS.json": "34d4ef89f0ee2bdd5aea352d97ae5bb6811819363ddf558eba5a7dcb6d2627fb",
+    "RESULTS.md": "3f4199ad27841d6b4bcb0be0b3489a14184f26ca108e02f332dc559b924c60d2",
+    "RUN_METADATA.json": "3a2663e9718558a342bd9660e9e88db549c99b1651b27cc3d3bc6c373e7fd023",
+    "timing-run.log": "8142cd4ee673b8cdd68ffd8781e8622cdbfe10838ce8824e2da700df6ce1c8b6",
+    "query_times.csv": "02eaf9cc9f65106dc7d2f7020863e6a5217b63e9c56deb5daf2f7687fd225c3a",
+    "preprocess_times.csv": "182866181da5afa17f9cfeaaa88f332f53fe47599b9f3cc559052d19dd81eef2",
+    "PROTOCOL.json": "ba692148b722feb8c71fc77070f74b0810dfaf235ebb0a7c833a57f5299afcbf",
+    "PRE_TIMING_AMENDMENT.json": "a9f9475eb9870d10b3fde71a0ecd9765332baa964e67dada65090558e24f4d04",
+    "INPUT_MANIFEST.json": "e938a2274caaaaf64335614930528280f21ce869591fc31951fa2538d7377887",
+    "PRE_TIMING_VALIDATION.json": "386b25e61cecc55bc8b12c41533f979619e6cab5858b978e70c4ba144bf1d2ed",
+    "benchmark.cpp": "cec1fd76e842405f664e36f31611c5f97cef43a38a9c3dc869705df9e1fe0c83",
+    "benchmark.exe": "4765e892802c934f479631493281d9d6558c9328070f90f2166994360cecea13",
+    "inputs.json": "6b1990c55835ab47063b05b961e12a661f71a87821ec9b55b5945de3c67e80bf",
+    "inputs.txt": "8fac0ac4a99cb3ab6ee5da8006ba6cd0ed6164b82a48fb93a57cef81afc784ad",
+    "schedule.json": "28d08c4fae4cc3d7f85b7cc071aeb827b2f6f6ec38dcce360d616793fe9dfc10",
+    "schedule.txt": "49e4bfb0f0aa6071a54bf51cc84408850b4f12a1ea6ad8f84568a9713e45d5e6",
+    "validation.csv": "6f3ebdc78f8b74f9bacfe8d7d1df9a03fea1a41254f65a7b7143492035729448",
+    "derived_survivor_streams.json": "fb5aca877dfe08f38a8e2a8e1cd113e4058c0c0695a613f6a6c760e51b00ab0e",
+    "generate_inputs.py": "0f45611bb5229cfda8716eff10d6b3d22e9503625e82300a8bda57170d3afbb4",
+    "independent_check.py": "aba2d0c31ac5cc2d875f6469b60e02e851e69d1338a0f69795cb079ad8066409",
+    "summarize.py": "8fe4896ab741287b2b204a0d239b3ffeac9d3c1b1519d6638e91df8a4d79b6ef",
+    "final_audit.py": "a421f084285c94ecbec8ce5663dc2a752a7d5d1802dcc62ee8313f805172e1ea"
+  }
+}

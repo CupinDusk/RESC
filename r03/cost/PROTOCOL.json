@@ -1,0 +1,38 @@
+{
+  "status": "prospectively specified before generating inputs or collecting timings",
+  "date": "2026-10-23",
+  "question": "Does polynomial quartet preprocessing repay its cost beyond strong beta, cheap structural exactness, integer-slot span admission and exact graph fallback?",
+  "scope": "Local CPU implementation experiment on exact synthetic integer log-unit rectangles. NOT timed H20 decisions, independently observed GPU workloads, physical drift, or GPU speedup. Retained H20 384480 route counts remain a distinct existing evidence set.",
+  "inputs": {
+    "six_arm": "Every one of 720 permutations on slots 1..6, without order filtering",
+    "scaling": "n=4,8,16,32,64; both contiguous slots 1..n and sparse slots 1+3i+(i mod 3); five ranking families aligned, reverse aligned, winner star, random complete order, sparse random acyclic order; three seeds per geometry/family/n",
+    "seeds": [20261023,20261024,20261025],
+    "ranking_closure": "Exact Boolean transitive closure, timing reported separately; identical closure shared by all comparators",
+    "rectangles_per_plan": "Eight: zero-width zero ties; positive-width zero ties; independent random centers with widths0,2,16; planted rank-compatible theta plus adjacent integer bias and width1; independent random center/width; and positive-width bad-quartet assignment-dual attainer if present (otherwise broad overlapping intervals). All cases retained.",
+    "budgets": [0,1,2,4,16,64],
+    "query_stream": "All 48 rectangle/budget pairs per plan, once each in seed-shuffled order. Plans remain separate reuse units. No endpoint-dependent plan selection. Input generator, complete realized schedule and input SHA256 frozen before validation/timing."
+  },
+  "comparators": [
+    "direct: construct dense graph and exact signed128 Bellman-Ford",
+    "beta: beta rejection then same graph",
+    "cheap: beta rejection then cheap aligned/reverse/winner-star exact flags and integer-slot span sufficient admission then same graph",
+    "quartet: beta rejection then union of cheap flags, full quartet universal exactness and integer-slot span admission then same graph"
+  ],
+  "preprocessing": "All routes use identical precomputed closure. Cheap flags measured separately. Quartet classifier visits every disjoint two-by-two orientation until first bad quartet or completion; no full factor enumeration. Quartet route also retains cheap flags to avoid doing quartet work for already cheaply proven EXACT rankings. No attribution of shared beta rejection to quartets.",
+  "arithmetic": "All endpoint and budget integers exact; signed128 for edge weights, products and distances. No floating decision thresholds. BF graph contains data edges u_b-l_a+delta*distance and zero reverse ranking edges. Final yes/no decisions equal direct BF. Exact integer queries have no unresolved numeric boundary, so unknown0 is explicit rather than dropped.",
+  "validation": "Before timing validate every route against direct BF; independently Floyd-Warshall every graph. Feasible BF potentials checked edgewise; rejecting BF negative cycles reconstructed and their edges/negative total checked. For n<=8, Python exact graph/checker additionally verifies generated oracle outputs where practical. All ties and negative performance results retained.",
+  "timing": {
+    "host": "One current Windows CPU host, no affinity/priority/service changes or remote work",
+    "compiler": "Existing trusted Zig0.14.1 clang C++17 -O3; record full command/version and source/executable hashes",
+    "blocks": 9,
+    "warmups": 1,
+    "order_seed": 20261023,
+    "order": "Within each n/geometry/ranking-family stratum, shuffle all four routes in each paired block. Same input stream for every route. Preprocessing stages use independent recorded shuffled orders.",
+    "reported": "All raw elapsed nanoseconds, realized orders, median/min/max; no confidence intervals or independent-host population claim. Volatile checksum prevents dead-code elimination. Validation outside timed regions. Query graph construction included; file parsing excluded. To resolve short strata, each timed region repeats its fixed full stream: 100 repetitions for scaling n4/n8,20 n16,5 n32,2 n64; all720 n6 census1 repetition. Record both raw elapsed and repeats, then divide. These repeated executions are timing resolution, not independent inputs.",
+    "preprocess_resolution": "Measure stage over 20 complete stratum repetitions and divide, recording raw duration and repetitions. Warm construction excluded. No cross-route reuse within measured stage except the declared common closure.",
+    "reuse": [1,10,100,1000],
+    "amortization": "Model total P+Q*mean query cost for each fixed stage/stratum, separately labeled modeled from measured stages; Q denotes rectangles/budget queries sharing one ranking/slots. No measured end-to-end GPU or application gain. Report observed full-stream query totals as measured, and preprocessing-inclusive crossover only where positive."
+  },
+  "unfavorable_cases": "Retain direct-fast n small, beta-dominant rectangles, already-cheap exact plans, quartet NONEXACT plans, zero-width ties, delta0, no-extra-admission strata, sparse-span weak bound, preprocessing failures to amortize, and all setup overhead. Synthetic mixtures are designed coverage, not estimated workload prevalence.",
+  "analysis": "Per n and complete finite all720-six-arm census: number plans/queries, exact cheaply vs quartet-only, beta rejects, cheap scalar admits, extra quartet admits, fallback counts, timings and storage. Aggregate and conditional beta-survivor route costs are distinct. Do not characterize 9 blocks on one host as 9 independent systems."
+}

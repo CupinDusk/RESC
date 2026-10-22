@@ -33,3 +33,34 @@ satisfy one comparison, and the negative-cycle certificate for their conjunction
 the universal ceiling, quartet flag, their union, and the full ranking factor.
 These are mathematical witnesses and graph-fallback counts, not new GPU
 measurements or measured runtime. All zero and unfavorable outcomes are retained.
+
+## Settled-clock construction and exact CPU auditor costs
+
+The r03/ extension adds a stipulated digital settled-clock model with exact
+rational observations, outward logarithm certificates and a fully separate
+Fraction validator. It also adds a prospective exact synthetic CPU-auditor
+experiment: all 720 six-arm total orders plus 150 scaling plans, 41,760 queries,
+all 5,049 raw timing records, and complete negative/no-gain outcomes. These are
+distinct from the retained H20 data and do not calibrate physical GPU drift.
+
+Run the new checks from a fresh extraction using Python 3.12 standard library:
+
+    python -B -X utf8 run_r03_checks.py
+
+To additionally rebuild and validate every C++ query with an existing compiler:
+
+    python -B -X utf8 run_r03_checks.py --zig /path/to/zig
+
+Use a new extraction for each run. The script writes r03-replay/ and refuses to
+overwrite completed results. It never collects new timings. The complete clock
+certificate stream is regenerated and checked against its uncompressed SHA-256.
+Recorded timings are audited, not represented as a repeated benchmark. Three
+metadata-only script adaptations and one metadata field removal are documented
+in r03/PORTABILITY_CHANGES.json. All earlier public analysis, copyright notices
+and licenses remain byte-identical; this command does not rerun that separate
+older suite. The older run_checks.py remains available with its stated numerical
+library dependencies.
+
+The authors will release the research code under an open-source license upon
+publication. This review snapshot contains the reproducible research materials
+described above; it does not imply release of private implementation components.

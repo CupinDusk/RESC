@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "role": "Independent author-side model/certificate validation, not a paper review",
+  "scope": "Declared digital settled-clock, fixed-cycle model only; no physical measurements or GPU validation",
+  "independence": {
+    "original_auditor_imported_read_or_executed": false,
+    "arithmetic": "stdlib Fraction and integer only; no Decimal/mpmath/floating point",
+    "logarithm_proof": "130-term exact rational atanh series after power-of-two reduction, including exact geometric upper tail; cached exact ln(2) interval",
+    "numerical_enclosure_guarantee": "Each independent exact rational log enclosure is contained in the recorded scaled integer interval, and has width below 1e-100",
+    "acquisition_check": "Literal per-cycle numerator accumulation followed by one exact Fraction division, for every modeled job/replay",
+    "graph_check": "Fresh six-node all-pairs shortest-path closure on tightened and relaxed edge bounds; serialized certificates verified separately edgewise"
+  },
+  "all_reports": {
+    "reports": 5768,
+    "reject": 2091,
+    "true_reports": 728,
+    "true_admitted": 728,
+    "true_rejected": 0,
+    "incorrect_but_admitted": 2949,
+    "boxes_admit_path_reject": 16,
+    "admit": 3677,
+    "unknown": 0
+  },
+  "total_orders": {
+    "reports": 5760,
+    "reject": 2088,
+    "true_reports": 727,
+    "true_admitted": 727,
+    "true_rejected": 0,
+    "incorrect_but_admitted": 2945,
+    "boxes_admit_path_reject": 14,
+    "admit": 3672,
+    "unknown": 0
+  },
+  "fixed_partials": {
+    "reports": 8,
+    "reject": 3,
+    "true_reports": 1,
+    "true_admitted": 1,
+    "true_rejected": 0,
+    "incorrect_but_admitted": 4,
+    "boxes_admit_path_reject": 2,
+    "admit": 5,
+    "unknown": 0
+  },
+  "all_real_anchor_box_statuses": {
+    "reject": 2075,
+    "admit": 3693,
+    "unknown": 0
+  },
+  "checks": {
+    "assertions": 153167,
+    "exact_log_enclosures_verified": 97,
+    "exact_controller_boundary_checks": 144,
+    "literal_cycle_increments": 144915000,
+    "rational_observations_verified": 144,
+    "original_truth_replay_rectangle_checks": 144,
+    "positive_width_rectangles": 48,
+    "independent_floyd_closures": 11536,
+    "negative_cycle_edges_verified": 4414,
+    "negative_cycle_ranking_edges_verified": 2207,
+    "negative_cycle_certificates": 2091,
+    "report_truth_checks": 5768,
+    "anchor_beta_enclosures_verified": 5768,
+    "positive_witness_rectangle_checks": 22062,
+    "positive_witness_lipschitz_checks": 22062,
+    "positive_witness_rank_checks": 55090,
+    "positive_original_variable_certificates": 3677
+  },
+  "unique_rational_logarithms": 33,
+  "worked_case_0_scaled_enclosures": {
+    "scale": "1000000000000000000000000000000000000000000000000000000000000",
+    "beta_R": [
+      "13566195763481292599464826289174220802699805640532664215455/3",
+      "4522065254493764199821608763058073600899935213510888071819/1"
+    ],
+    "guard_delta": [
+      "4987541511039073612102202459343471936720349426843582685142",
+      "4987541511039073612102202459343471936720349426843582685143"
+    ],
+    "four_arm_cycle_threshold": [
+      "5684096550070784955272194260773554812686757298606567786814/1",
+      "5684096550070784955272194260773554812686757298606567786816/1"
+    ],
+    "cycle_formula": "2*delta+u_S-l_P+u_F-l_A",
+    "negative_cycle_relaxed_sum": -1393110078063422686339983602860165751932815743525970203342,
+    "all_anchor_boxes_admit_and_common_path_rejects": true
+  },
+  "semantic_findings": [
+    "The model identity follows algebraically from fixed reset cycle counts and a settled multiplier held throughout each command; these are assumptions, not hardware observations.",
+    "The box baseline quantifies every real anchor separately; its witness may depend on anchor. It does not assert one common path or one witness shared across anchors.",
+    "Total orders use all 15 transitive ranking pairs in beta_R; retaining only five adjacent clauses would weaken the baseline.",
+    "All replay paths are constant after the reference-to-first boundary. They obey but do not stress or establish tightness of the guard.",
+    "All six per-arm rectangle extrema come from the same two constant paths in this construction, so rectangles are an explicit abstraction rather than measured noise distributions.",
+    "Incorrect-but-admitted reports remain possible: admission certifies model compatibility, not truth of the original cycle-count ordering.",
+    "No inference about GPU clock settling, fixed cycle counts, same-state semantics, execution cost, H20 observations, prevalence, or physical drift is licensed."
+  ],
+  "failures": [],
+  "input_sha256": {
+    "PROTOCOL.json": "69c10e321a9ae0a2ba3bc441c9d0699978e7f480e29a262f8ecfa2ab54883a48",
+    "NUMERIC_PROTOCOL_ADDENDUM.json": "c5f108d27a3c29e41dcc31f33a7bac5da8827d9fe40c3d0db5615ec71a3be127",
+    "OBSERVATIONS.json": "4e750d04aca4649dd9c3d84c10b58779efff52b2cc1eb2747dd3e41b93ba6bcd",
+    "RESULTS.json": "6445a72f7a8c036e42741519b64ab64bcbf1494c49c4d553f1924e5e70114bd9",
+    "ALL_REPORTS.jsonl.gz": "cb9ae7c9686b705d35f95a9ee8776a2dcb53764c63cbcd0f56a07238fd8262c7"
+  },
+  "validator_sha256": "b0463f36f84cca8bde4a289af386fdbd66ce842146cf56cc639186e95dc013f6",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "specified after exact input validation, before any timing collection",
+  "rationale": "Implement fair optimized comparators and sufficient timer resolution without changing generated domains or discarding inputs.",
+  "changes": [
+    "Cheap structural flag stage uses1000 repetitions/stratum, closure and quartet stage20, all recorded. Original20 would make several cheap stages shorter than practical timer resolution.",
+    "Common closure stage copies only its input n/slots/ranking edges, never rectangle/query payload. Closure is separately reported; incremental cheap-vs-quartet amortization shares it. Direct BF can consume raw ranking edges without closure; no preprocessing-inclusive universal superiority to that alternative is claimed.",
+    "Beta-only baseline never computes the span bound. Once cheap or quartet universal exactness is available, timed routes compute beta then return without redundant span products. Route-count diagnostics retain cheap-then-span-then-quartet precedence so marginal quartet admissions are not inflated by changing order.",
+    "Add diagnostic beta-survivor-only streams, deterministically derived from frozen input and exact beta comparison, while retaining the complete stream as primary. Every comparator still computes its beta when applicable. Do not treat conditional timing as end-to-end speedup. Freeze derived stream roster/hashes before time command.",
+    "For each scheduled stratum/block measure both streams, alternating their order by parity(block+stratum). Within each stream use the already-frozen route order. Raw CSV includes stream ID and actual query count. Empty survivor streams are retained as zero-query diagnostics."
+  ],
+  "not_changed": "All870 plans,41760 finite queries, budgets, strata, seeds, comparator semantics,9 paired blocks, one host, unfavorable cases and modeledQ regimes unchanged. No performance outcome inspected yet."
+}

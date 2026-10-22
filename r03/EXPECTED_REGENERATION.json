@@ -1,0 +1,23 @@
+{
+  "clock_report_records": 5768,
+  "clock_report_uncompressed_sha256": "dce495b7ce6e6353860f2adae91e7b52579ce16761c3fc65cb7edc654a16f58d",
+  "clock_report_compressed_recorded_sha256": "cb9ae7c9686b705d35f95a9ee8776a2dcb53764c63cbcd0f56a07238fd8262c7",
+  "clock_report_compression_note": "gzip headers may encode collection time; compare complete uncompressed record bytes after deterministic regeneration.",
+  "cost_unmodified_files": {
+    "PROTOCOL.json": "ba692148b722feb8c71fc77070f74b0810dfaf235ebb0a7c833a57f5299afcbf",
+    "PRE_TIMING_AMENDMENT.json": "a9f9475eb9870d10b3fde71a0ecd9765332baa964e67dada65090558e24f4d04",
+    "benchmark.cpp": "cec1fd76e842405f664e36f31611c5f97cef43a38a9c3dc869705df9e1fe0c83",
+    "generate_inputs.py": "0f45611bb5229cfda8716eff10d6b3d22e9503625e82300a8bda57170d3afbb4",
+    "inputs.json": "6b1990c55835ab47063b05b961e12a661f71a87821ec9b55b5945de3c67e80bf",
+    "inputs.txt": "8fac0ac4a99cb3ab6ee5da8006ba6cd0ed6164b82a48fb93a57cef81afc784ad",
+    "schedule.json": "28d08c4fae4cc3d7f85b7cc071aeb827b2f6f6ec38dcce360d616793fe9dfc10",
+    "schedule.txt": "49e4bfb0f0aa6071a54bf51cc84408850b4f12a1ea6ad8f84568a9713e45d5e6",
+    "validation.csv": "6f3ebdc78f8b74f9bacfe8d7d1df9a03fea1a41254f65a7b7143492035729448",
+    "derived_survivor_streams.json": "fb5aca877dfe08f38a8e2a8e1cd113e4058c0c0695a613f6a6c760e51b00ab0e",
+    "query_times.csv": "02eaf9cc9f65106dc7d2f7020863e6a5217b63e9c56deb5daf2f7687fd225c3a",
+    "preprocess_times.csv": "182866181da5afa17f9cfeaaa88f332f53fe47599b9f3cc559052d19dd81eef2",
+    "timing-run.log": "8142cd4ee673b8cdd68ffd8781e8622cdbfe10838ce8824e2da700df6ce1c8b6",
+    "RESULTS.md": "3f4199ad27841d6b4bcb0be0b3489a14184f26ca108e02f332dc559b924c60d2"
+  },
+  "previous_suite": "The earlier code/data/license bytes remain identical. The R03 command does not rerun their separate scipy-dependent suite."
+}

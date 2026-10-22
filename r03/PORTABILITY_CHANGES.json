@@ -1,0 +1,26 @@
+[
+  {
+    "file": "r03/cost/independent_check.py",
+    "original_sha256": "aba2d0c31ac5cc2d875f6469b60e02e851e69d1338a0f69795cb079ad8066409",
+    "portable_sha256": "39842543015620cec0c4be11c771216a899397c6766e443c18fd2234f821a1b2",
+    "change": "Provenance hash dictionary includes only existing files; no decision, witness, roster, timing, or numerical summary algorithm changed. Native binary remains an optional generated local file."
+  },
+  {
+    "file": "r03/cost/summarize.py",
+    "original_sha256": "8fe4896ab741287b2b204a0d239b3ffeac9d3c1b1519d6638e91df8a4d79b6ef",
+    "portable_sha256": "c7a3cf5c90df7a0d6f1667ccd15b6ff6550292a8a40f0199434417b65f209a00",
+    "change": "Provenance hash dictionary includes only existing files; no decision, witness, roster, timing, or numerical summary algorithm changed. Native binary remains an optional generated local file."
+  },
+  {
+    "file": "r03/cost/final_audit.py",
+    "original_sha256": "a421f084285c94ecbec8ce5663dc2a752a7d5d1802dcc62ee8313f805172e1ea",
+    "portable_sha256": "d14228bd15dbbc94b05c1a2257c84b874795db510973ff3b0b3d070f8c753279",
+    "change": "Provenance hash dictionary includes only existing files; no decision, witness, roster, timing, or numerical summary algorithm changed. Native binary remains an optional generated local file."
+  },
+  {
+    "file": "r03/cost/RUN_METADATA.json",
+    "original_sha256": "3a2663e9718558a342bd9660e9e88db549c99b1651b27cc3d3bc6c373e7fd023",
+    "portable_sha256": "112ba026e099b669f78e337ca914a171f94f4b2440af439fcced041cc2fb7561",
+    "change": "Removed the internal lane_clearance field; host, compiler, command, collection time and execution settings unchanged."
+  }
+]

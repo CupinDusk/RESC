@@ -1,0 +1,10 @@
+{
+  "status":"saved before clock-study generation or execution",
+  "arithmetic":"Exact Fraction acquisition/controller checks; Decimal prec100 correctly rounded logarithms with conservative absolute1e-90 margin, outward to1e-60 integer units. Integer BF and independent Floyd-Warshall. No floating-tolerance decisions.",
+  "reason_for_margin":"Inputs are positive integers below1e12; their logarithms have magnitude below30. Three correctly rounded prec100 log/subtraction operations have absolute rounding error below1e-96, safely below1e-90. Outward endpoint rounding encloses the exact rational logarithm.",
+  "admit":"Potential satisfies tightened graph using l_upper,u_lower,delta_lower; reconstruct and edgewise verify original-variable theta and allseven bias slots. Hence admits exact model.",
+  "reject":"Reconstructed negative cycle in relaxed graph using l_lower,u_upper,delta_upper, each edge/negative sum independently verified. Hence exact model infeasible.",
+  "unknown":"Neither certificate, including unresolved boundaries, retained explicitly.",
+  "boxes":"Upper beta bound against lower delta certifies every anchored box admits; lower beta bound against upper delta rejects. No artifact-derived physical interpretation.",
+  "truth":"Rank truth uses original fixed integer cycle counts, independent of the auditor. Any true report must admit; incorrect reports may remain feasible and are counted rather than discarded."
+}

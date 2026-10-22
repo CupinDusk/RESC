@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_PYTHON_INTEGER_ORIGINAL_VARIABLE_WITNESSES_AND_GRAPH_DECISIONS",
+  "native_all_query_validation": 41760,
+  "python_n_le_8_queries": 37440,
+  "python_feasible_original_variable_witnesses": 22658,
+  "survivor_queries": 26193,
+  "python": "3.12.14",
+  "sha256": {
+    "PROTOCOL.json": "ba692148b722feb8c71fc77070f74b0810dfaf235ebb0a7c833a57f5299afcbf",
+    "PRE_TIMING_AMENDMENT.json": "a9f9475eb9870d10b3fde71a0ecd9765332baa964e67dada65090558e24f4d04",
+    "INPUT_MANIFEST.json": "e938a2274caaaaf64335614930528280f21ce869591fc31951fa2538d7377887",
+    "inputs.txt": "8fac0ac4a99cb3ab6ee5da8006ba6cd0ed6164b82a48fb93a57cef81afc784ad",
+    "schedule.txt": "49e4bfb0f0aa6071a54bf51cc84408850b4f12a1ea6ad8f84568a9713e45d5e6",
+    "benchmark.cpp": "cec1fd76e842405f664e36f31611c5f97cef43a38a9c3dc869705df9e1fe0c83",
+    "benchmark.exe": "4765e892802c934f479631493281d9d6558c9328070f90f2166994360cecea13",
+    "validation.csv": "6f3ebdc78f8b74f9bacfe8d7d1df9a03fea1a41254f65a7b7143492035729448",
+    "independent_check.py": "aba2d0c31ac5cc2d875f6469b60e02e851e69d1338a0f69795cb079ad8066409",
+    "derived_survivor_streams.json": "fb5aca877dfe08f38a8e2a8e1cd113e4058c0c0695a613f6a6c760e51b00ab0e"
+  }
+}

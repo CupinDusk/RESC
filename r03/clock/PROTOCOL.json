@@ -1,0 +1,34 @@
+{
+  "status": "specified before generating clock-study outputs or auditing its reports",
+  "date": "2026-10-23",
+  "question": "Can an explicit settled inter-command clock-controller contract justify the shared log-bias path, and expose an independently certified joint-report false admission by anchored boxes?",
+  "scope": "Specified digital job/clock model only. No physical GPU/SoC acquisition, native Hopper implementation, measured runtime or inferred physical drift.",
+  "clock_contract": {
+    "reference_multiplier": 10000,
+    "per_boundary_max_ratio": "1005/1000 in either direction, including reference floor0 to first command",
+    "budget": "delta=log(1005/1000), fixed from the controller guard before observations",
+    "semantics": "Each command resets a fixed cycle-count job, waits for clock settling before its timed interval, then holds one common multiplier throughout that interval. The next command changes it only at the intervening boundary. Measured normalized duration is an exact rational number of reference-clock cycles.",
+    "log_model": "T_i=N_i*10000/M_j. theta_i=log(N_i), b_j=log(10000/M_j), b0=0. This is a stipulated constructive instance of the paper model, proved from the specified clock contract, not a fitted explanation of H20 data."
+  },
+  "slots": {"P":1,"S":2,"B":3,"G":4,"A":5,"F":6},
+  "cycle_count_vectors_in_slot_order": [
+    [1000000,1010000,1006000,998000,1024000,1002000],
+    [1000000,1000000,1000000,1000000,1000000,1000000],
+    [1000000,1002000,1004000,1006000,1008000,1010000],
+    [1010000,1008000,1006000,1004000,1002000,1000000],
+    [1000000,1000500,1001000,1001500,1002000,1002500],
+    [1000000,1010000,1020000,1030000,1040000,1050000],
+    [1002500,1000000,1002000,1000500,1001500,1001000],
+    [1024000,1010000,1006000,998000,1000000,1002000]
+  ],
+  "three_replay_multiplier_sequences": [
+    [10000,10000,10000,10000,10000,10000],
+    [10001,10001,10001,10001,10001,10001],
+    [9999,9999,9999,9999,9999,9999]
+  ],
+  "domains": "All eight fixed job vectors, all three declared replay paths; per-arm rectangle encloses all exact rational replay durations. Audit all720 total orders per vector at the single independently specified guard budget, plus the fixed partial report P<=F and A<=S on every vector. No outcome-dependent pruning or replacement.",
+  "correctness": "Check all adjacent multiplier ratios exactly and all observed times using independent integer/rational arithmetic. Check original true theta and actual replay paths obey the log rectangles and bound. Verify every physically true total/partial ranking is admitted; retain incorrect ranks that remain feasible (abstention is not error detection). For audit use outward80-digit Decimal logarithms and the existing graph/integer certificate approach, retain unresolved boundaries as unknown. Independently check any negative cycle edgewise and feasible original-variable witness.",
+  "worked_report": "The first predeclared cycle vector with report P<=F and A<=S. Derive beta_R, the four-arm cycle sum and threshold with outward arithmetic. Whether a separation occurs is an outcome, not a criterion for keeping this vector. Preserve all other seven report outcomes too.",
+  "outputs": "Protocol/source hashes, raw exact-rational observed durations, controller paths, rectangles, all reports with certificates/status, independent verification and concise positive/negative scope. No sampling confidence intervals or application prevalence inference.",
+  "negative_results": "No unknown count is assumed zero; incorrect reports may still be feasible under the admitted abstraction. No claim that budget is tight, or that simulated truth validates H20 same-state semantics. Command splitting changes the specified contract unless its guard is transformed. All data are generated from a declared model, not acquired hardware observations."
+}
