@@ -1,0 +1,12 @@
+{
+  "status": "specified_before_execution",
+  "date": "2026-10-23",
+  "question": "Does combining the cheap integer-slot ceiling with the quartet flag avoid more graph fallbacks than either alone?",
+  "inputs": ["HOPPER_R14_ALL_AUDITOR_ROUTES.csv", "HOPPER_R16_ALL_QUARTET_ROUTES.csv"],
+  "domain": "All 384480 retained certified cell/order/budget queries, without filtering. Six fixed budgets and 64080 queries per budget.",
+  "routes": ["beta reject only", "universal factor4 admission", "quartet exactness alone", "union of factor4 and quartet admission", "full ranking-specific factor"],
+  "comparison": "All routes share beta rejection and final exact graph decisions. Union admits if either established sufficient admission check admits; it never modifies endpoints, budgets or rankings.",
+  "metrics": ["marginal rejection counts", "scalar admission counts", "graph fallback counts", "union additional admissions over factor4", "union graph reduction vs factor4, including zero budgets and no-gain budgets"],
+  "validation": "Join by exact case/fraction keys; assert identical final decisions for all inputs. Assert every scalar admit has exact admit; union has no fewer admissions than either constituent and no more than full-factor scalar admission.",
+  "scope": "Finite dependent declared-model questions; neither measured runtime nor a physical accuracy/choice gain. The compound sufficient route is a local posthoc analysis of existing frozen route records, not newly collected data. Do not equate scalar/graph counts with CPU time; full-factor exponential preprocessing and polynomial quartet classification are different costs."
+}

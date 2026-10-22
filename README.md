@@ -24,3 +24,12 @@ the default checks use only bundled numerical summaries.
 The authors intend to release the research code under an open-source license
 upon publication. This review snapshot is an accessible reproduction package;
 it does not claim that every private project component has been released.
+
+## Joint explanation and admission-route checks
+
+`make_separate_witnesses.py` checks two exact rational bias paths that each
+satisfy one comparison, and the negative-cycle certificate for their conjunction.
+`route_ablation.py` joins all 384,480 retained certified routes and compares
+the universal ceiling, quartet flag, their union, and the full ranking factor.
+These are mathematical witnesses and graph-fallback counts, not new GPU
+measurements or measured runtime. All zero and unfavorable outcomes are retained.
