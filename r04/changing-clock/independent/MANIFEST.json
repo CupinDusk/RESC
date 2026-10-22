@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "scope": "Specified reset/settled/held digital-source model only. No RTL, silicon, GPU acquisition, physical bias calibration, timing, speedup, or workload prevalence validation.",
+  "base": "outputs/iscas-final-polish-20261022",
+  "inputs": [
+    {
+      "path": "r04-analysis/hopper-changing-clock/PROTOCOL.json",
+      "bytes": 3126,
+      "sha256": "76bab8dbe7c0be16e81760a2a874d089222dff580c91ceed6608ca913defde6b"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/OBSERVATIONS.json",
+      "bytes": 105894,
+      "sha256": "c070cd5990e65be0d4f2388dd8a35a1ccfbff02efc509db614e4100aec80977c"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/RESULTS.json",
+      "bytes": 1808,
+      "sha256": "92e01e5225691da511110eac9d6ddda7e419f37487937aeb79bdf61734cf953d"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/ALL_REPORTS.jsonl.gz",
+      "bytes": 222666,
+      "sha256": "82612c3a5e3203ae57465ca7684b795836b6e0b5cf8abc315d062fa4e48f99bd"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/SLOT_MAPPING_ADDENDUM.json",
+      "bytes": 754,
+      "sha256": "54d7f0dc20c50e98fba8c17c9b5b5e49c130ed54cb5d27f7eadf837cecf43148"
+    }
+  ],
+  "prior_mapping_source": {
+    "path": "r03-analysis/hopper-clock/PROTOCOL.json",
+    "bytes": 3875,
+    "sha256": "69c10e321a9ae0a2ba3bc441c9d0699978e7f480e29a262f8ecfa2ab54883a48"
+  },
+  "independent_outputs": [
+    {
+      "path": "r04-analysis/hopper-changing-clock/independent/validate_changing_clock_independently.py",
+      "bytes": 25273,
+      "sha256": "edae5516d260d0c14f810f170b9cc50333d9d749a17ae5d132aa2c124f2a398e"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/independent/VALIDATION.json",
+      "bytes": 13415,
+      "sha256": "d44eac09d948da9ee349da3e0571c8274fa6d5d261169f3f58ce9ef9e312297e"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/independent/ARGUMENT.md",
+      "bytes": 12181,
+      "sha256": "ffcc3af81256f0f5ff59f21b52ae8c3216d764673e89e40d21229b6d4d9930f2"
+    },
+    {
+      "path": "r04-analysis/hopper-changing-clock/independent/README.md",
+      "bytes": 2817,
+      "sha256": "fd967ef1467068a8c069ec456360b8cb6926ec2c56203937e8a17465e160614e"
+    }
+  ],
+  "manifest_self_hashed": false,
+  "forbidden_producer_source_files_opened_or_hashed": false,
+  "negative_outcomes": {
+    "failed_guard_bad_edges": [
+      2,
+      3
+    ],
+    "separate_contract_unknown_reports": 5768,
+    "control_numerical_audits": 0,
+    "mutation_predicates_detected": 9,
+    "mutation_predicates_total": 9,
+    "synthetic_graph_boundary": "unknown",
+    "synthetic_box_boundary": "unknown",
+    "incorrect_but_admitted_audit_records": 4176
+  },
+  "validation_report_status": "PASS",
+  "slot_mapping_addendum": "Post-generation clarification checked against prior R03 protocol; not a prospective protocol change."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "fixed before new observation generation or report audit",
+  "date": "2026-10-23",
+  "question": "Does the declared source/auditor interface preserve true rankings under changing guard-attaining clocks and abstain on a failed controller guard?",
+  "scope": "Exact specified digital-source model and numerical certificate checks only; not RTL, silicon, GPU acquisition, calibrated physical bias, workload prevalence or application speedup.",
+  "reference_multiplier": 10000,
+  "ratio_guard": "201/200",
+  "slots": [1,2,3,4,5,6],
+  "cycle_count_vectors": [
+    [1000000,1010000,1006000,998000,1024000,1002000],
+    [1000000,1000000,1000000,1000000,1000000,1000000],
+    [1000000,1002000,1004000,1006000,1008000,1010000],
+    [1010000,1008000,1006000,1004000,1002000,1000000],
+    [1000000,1000500,1001000,1001500,1002000,1002500],
+    [1000000,1010000,1020000,1030000,1040000,1050000],
+    [1002500,1000000,1002000,1000500,1001500,1001000],
+    [1024000,1010000,1006000,998000,1000000,1002000]
+  ],
+  "legal_paths": {
+    "rising": "M_j=10000*(201/200)^j for j=1..6",
+    "falling": "M_j=10000*(200/201)^j for j=1..6",
+    "alternating": "M_j=10050 for odd j and 10000 for even j"
+  },
+  "negative_control": "M=[10000,10060,10000,10000,10000,10000]; fail ratio guard 10060/10000>201/200 before audit. All 720 total reports plus the fixed partial report per vector must return contract-unknown, never a theorem-based reject/admit.",
+  "measurement_interface": "Each command separately resets a fixed-cycle job, waits settled, holds its positive rational multiplier and reports an exact rational normalized duration T_i=N_i*10000/M_i. Each path has its own rectangle with L_i=floor(T_i)-1, U_i=ceil(T_i)+1, modeling a declared one-reference-cycle enclosing timer interface. No merging across paths or posthoc budget fitting.",
+  "guard_boundary": "Check both exact rational adjacent ratios including M0=10000. Every legal edge attains the guard in one direction. Check all observations obey the reset/hold formula and rectangle. These are program-specified obligations, not evidence for H20.",
+  "reports": "Every 720 total orders and fixed partial P<=F,A<=S on all eight vectors and three legal paths. Keep all ties, false admissions, differences from box results and unknown numerical boundaries. No outcome-dependent replacement. True ranking means comparisons of original Ni, not observed timings.",
+  "numerics": "Outward logarithm bounds at scale1e60: Decimal100 with +/-1e-90 guard for positive exact rationals with numerator/denominator at most50 decimal digits. Relaxed negative cycles certify rejection; tightened graph potentials reconstruct original-variable admissions; unresolved boundaries are unknown. Independent Fraction/atanh logarithm and edgewise validator must separately check all enclosures, certificates and counts before paper use.",
+  "outputs": "Exact multipliers/durations/rectangles, full report stream, per vector and path summary, all guard checks, failed guard control, source/protocol/evidence hashes. No new timings or remote work. Retain old constant-clock evidence unchanged."
+}

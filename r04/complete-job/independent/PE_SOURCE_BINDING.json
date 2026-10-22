@@ -1,0 +1,45 @@
+{
+  "status": "PASS_ALL_EXECUTABLE_CODE_AND_DATA_SECTIONS_IDENTICAL",
+  "full_executable_bytes_identical": false,
+  "exact_difference_scope": "Only PE COFF timestamp field and .buildid section differ; every other executable byte matches.",
+  "differing_bytes": 20,
+  "sections": {
+    ".text": {
+      "original_sha256": "bd2847ec8fcd901fb1264bb735a98c0daa5f06e9316e6bc58dd5c22353740b11",
+      "rebuild_sha256": "bd2847ec8fcd901fb1264bb735a98c0daa5f06e9316e6bc58dd5c22353740b11",
+      "byte_identical": true
+    },
+    ".rdata": {
+      "original_sha256": "049ac526f9c06cf91fc89e3294af2fffadc9da57f7af40a3332b8a573fb59acd",
+      "rebuild_sha256": "049ac526f9c06cf91fc89e3294af2fffadc9da57f7af40a3332b8a573fb59acd",
+      "byte_identical": true
+    },
+    ".buildid": {
+      "original_sha256": "15a1428d7324fbb1fbbf1ed72a2e5f5b7f3e65086f290baa427bb81b9531bf1e",
+      "rebuild_sha256": "56aa6ba7d6c98ff31ea256942c91d162175bbb6c5bb2e21b7bf92b677049400b",
+      "byte_identical": false
+    },
+    ".data": {
+      "original_sha256": "f7921e1146170d75d94c004d06a06de353b31351e14f7d6d564d24b540316f75",
+      "rebuild_sha256": "f7921e1146170d75d94c004d06a06de353b31351e14f7d6d564d24b540316f75",
+      "byte_identical": true
+    },
+    ".pdata": {
+      "original_sha256": "35508596dfe1b15979668b45c357100912cccc64956ff99ff54b11d9a2929f62",
+      "rebuild_sha256": "35508596dfe1b15979668b45c357100912cccc64956ff99ff54b11d9a2929f62",
+      "byte_identical": true
+    },
+    ".tls": {
+      "original_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+      "rebuild_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+      "byte_identical": true
+    },
+    ".reloc": {
+      "original_sha256": "4e4b672daaa26280623d488b69a47abdebef935295e1362e033016ec3eb279de",
+      "rebuild_sha256": "4e4b672daaa26280623d488b69a47abdebef935295e1362e033016ec3eb279de",
+      "byte_identical": true
+    }
+  },
+  "source_core_matches_only_two_documented_raw_graph_edits": true,
+  "caveat": "This verifies saved timed executable against a fresh build of saved source; it does not observe historical measurement execution."
+}

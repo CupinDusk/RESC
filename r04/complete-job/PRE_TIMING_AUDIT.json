@@ -1,0 +1,13 @@
+{
+  "status": "PASS_BEFORE_TIMING",
+  "queries": 41760,
+  "all_previous_decisions_preserved": true,
+  "original_validation_sha256": "6f3ebdc78f8b74f9bacfe8d7d1df9a03fea1a41254f65a7b7143492035729448",
+  "new_validation_sha256": "892e0b365309997d5fe7c454c53cb5c0029a0199d99e1f823444e2d06a764582",
+  "expected_batches_sha256": "8b2351ca3f56dfdad868eb73a7f0c6de0b96c32ab05ded160867c84c8ec83d9c",
+  "input_manifest_sha256": "2cb86f6b51594076fed3d2a5bca4e227c0a0670368365298a7947956af18c474",
+  "benchmark_source_sha256": "38facb7f2938ae153131e7945f1f486834e8b00afc8d88a3e6269b8bc9b8eb21",
+  "core_sha256": "a427fccc3b6e75875f6f058131c36567997974d9415c42df4da593138b68ac3f",
+  "executable_sha256": "78c4e135ba7ade9acc8ad47e4f7c2c98dc20ec2cbae449a3b1f98f3eb8699b6f",
+  "protocol_sha256": "3d39cc700b6e602d151e1e64063ccd039d9564bf54512be5771ebd7a366de01e"
+}

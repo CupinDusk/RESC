@@ -1,0 +1,9 @@
+{
+  "status": "clarification during independent validation, after generation; original protocol and evidence preserved byte-exact",
+  "date": "2026-10-23",
+  "mapping_inherited_from_R03": {"P":1,"S":2,"B":3,"G":4,"A":5,"F":6},
+  "array_index": "slot minus1; the serialized fixed partial clauses [[0,5],[4,1]] mean P<=F and A<=S",
+  "reason": "The supplemental protocol listed slots1..6 and named clauses but did not repeat the prior explicit name-to-slot mapping. This records the existing generation semantics; no new path, vector, rectangle, claim, outcome or selection is introduced.",
+  "inherited_source": "r03-analysis/hopper-clock/PROTOCOL.json",
+  "scope": "Documentation repair only; not prospective redefinition or a regenerated experiment."
+}

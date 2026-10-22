@@ -64,3 +64,50 @@ library dependencies.
 The authors will release the research code under an open-source license upon
 publication. This review snapshot contains the reproducible research materials
 described above; it does not imply release of private implementation components.
+
+## Changing-clock certificates and complete Boolean jobs (R04)
+
+The additive r04/ directory retains the full specified changing-clock study:
+24 vector/path cases, 17,304 reports, 6,360 original-variable admission
+certificates, 10,944 negative-cycle rejection certificates, and 5,768 separate
+failed-contract dispatches. All 4,176 incorrect but compatible admissions remain.
+Its exact independent Fraction/atanh/Floyd checker validates all 289 log bounds,
+certificates, adverse outcomes and nine mutation controls. The inherited named
+slot mapping was clarified after generation; the addendum is retained honestly.
+
+The complete-job study retains all 870 plans, 41,760 distinct queries, 5,508 raw
+elapsed intervals, the seed/order schedule, all 50 scaling strata, original C++
+core and driver, independent graph source/output, summaries and audit records.
+It measures one synthetic Boolean CPU implementation on one Windows host,
+including route-specific setup. It establishes no GPU, RTL, H20 outward-auditor,
+certificate-service latency or application speedup. The Q192 quartet/cheap
+comparison includes its recorded tie: 3 faster / 5 slower / 1 tie. All adverse
+results are included; ranges describe nine paired block averages, not confidence
+intervals or individual request latencies.
+
+From a fresh extraction, using Python 3.12 standard library only:
+
+    python -B -X utf8 run_r04_checks.py
+
+To additionally rebuild both C++ correctness paths with an existing Zig compiler:
+
+    python -B -X utf8 run_r04_checks.py --zig /path/to/zig
+
+The default verifies every manifest byte, regenerates the complete changing-clock
+certificate stream and compares uncompressed bytes, runs the independent clock
+checker, reconstructs every saved timing/order/hash/summary, audits all recorded
+independent graph decisions, and regenerates source inputs/core/schedule in a
+separate directory. Optional compilation validates all 41,760 queries in both
+source and independent graph implementations, without timing. No compiler or
+executable is bundled. The saved historical PE/source binding is retained as
+evidence but cannot be reverified without the omitted historical timed binary.
+
+The command creates r04-replay/ and refuses to overwrite previous attempts.
+It never invokes a time mode and does not rerun the unchanged earlier SciPy
+suite. Historical prepare/run_once/check_complete scripts remain source evidence;
+use the package-root runner for portable replay. Only separate portable copies
+adapt workspace-relative paths and omitted-binary provenance; one historical
+native command record removes private installation paths. Exact hashes and each
+change appear in r04/PORTABILITY_CHANGES.json and ORIGINAL_INPUT_BINDINGS.json.
+All original R03 public research and license bytes remain unchanged, except this
+appended README and the extended manifest.

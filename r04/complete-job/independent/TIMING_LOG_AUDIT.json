@@ -1,0 +1,11 @@
+{
+  "final_volatile_checksum": 7605055063501189700,
+  "warmup_batch_count": 612,
+  "recorded_batch_count": 5508,
+  "all_27_logged_census_steps_match_order": true,
+  "raw_interval_sum_ns": 38317789000,
+  "process_wall_elapsed_ns": 39875388000,
+  "raw_interval_gcd_ns": 100,
+  "shortest_raw_interval_ns": 18600,
+  "longest_raw_interval_ns": 103544700
+}

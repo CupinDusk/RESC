@@ -1,0 +1,10 @@
+{
+  "source": "r03-analysis/hopper-clock/check_clock_contract.py",
+  "source_sha256": "0665d4394ee7a30387aca7091a4688c93ea99c0414123f94aaf6d4085df5f03d",
+  "new_core_sha256": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+  "changes": [
+    "Exclude original main function; retain outward log/BF/Floyd/audit functions unchanged.",
+    "Expand the asserted positive rational numerator/denominator size domain from12 to50 digits; independent exact-series validation remains mandatory."
+  ],
+  "scientific_scope": "No original R03 source, outputs or numerical values are modified."
+}

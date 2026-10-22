@@ -1,0 +1,60 @@
+{
+  "commands": [
+    {
+      "command": [
+        "zig",
+        "c++",
+        "benchmark.cpp",
+        "-std=c++17",
+        "-O3",
+        "-DNDEBUG",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "benchmark.exe"
+      ],
+      "cwd": "independent/native-validation-replay",
+      "returncode": 0,
+      "log": "rebuild.log"
+    },
+    {
+      "command": [
+        "benchmark.exe",
+        "validate"
+      ],
+      "cwd": "independent/native-validation-replay",
+      "returncode": 0,
+      "log": "source-validation.log"
+    },
+    {
+      "command": [
+        "zig",
+        "c++",
+        "independent_graph.cpp",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "independent_graph.exe"
+      ],
+      "cwd": "independent/native-validation-replay",
+      "returncode": 0,
+      "log": "independent-build.log"
+    },
+    {
+      "command": [
+        "independent_graph.exe"
+      ],
+      "cwd": "independent/native-validation-replay",
+      "returncode": 0,
+      "log": "independent-graph.log"
+    }
+  ],
+  "replay_executable_sha256": "9aeb337bf9581c99c4133b1e799ebac9f51f1671f0411ec77aa79a560105e662",
+  "original_executable_sha256": "78c4e135ba7ade9acc8ad47e4f7c2c98dc20ec2cbae449a3b1f98f3eb8699b6f",
+  "original_executable_hash_reproduced": false,
+  "validation_csv_byte_identical": true,
+  "expected_batches_byte_identical": true,
+  "independent_graph_source_sha256": "6165759625eeab71a0b7d522ee1ac84bae579a6fe355e1117d684de6d6501d6b"
+}

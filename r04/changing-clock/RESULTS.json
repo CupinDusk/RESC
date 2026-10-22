@@ -1,0 +1,51 @@
+{
+  "status": "PASS_SPECIFIED_CHANGING_CLOCK_INTERFACE",
+  "scale": "1000000000000000000000000000000000000000000000000000000000000",
+  "delta_scaled_enclosure": [
+    4987541511039073612102202459343471936720349426843582685142,
+    4987541511039073612102202459343471936720349426843582685143
+  ],
+  "legal_cases": 24,
+  "reports": 17304,
+  "total_order_summary": {
+    "reports": 17280,
+    "reject": 10934,
+    "true": 2181,
+    "false_admit": 4165,
+    "box_reject": 10896,
+    "box_admit_path_reject": 38,
+    "admit": 6346,
+    "box_admit": 6384
+  },
+  "guard_checks": 144,
+  "guard_attaining_edges": 144,
+  "contract_negative_control": {
+    "multipliers": [
+      "10000/1",
+      "10060/1",
+      "10000/1",
+      "10000/1",
+      "10000/1",
+      "10000/1"
+    ],
+    "bad_edges": [
+      2,
+      3
+    ],
+    "vectors": 8,
+    "reports_per_vector": 721,
+    "contract_unknown": 5768,
+    "rule": "Guard fails before numerical audit; no admit/reject conclusion is licensed."
+  },
+  "positive_certificates": 6360,
+  "negative_certificates": 10944,
+  "numeric_unknown": 0,
+  "provenance": {
+    "PROTOCOL.json": "76bab8dbe7c0be16e81760a2a874d089222dff580c91ceed6608ca913defde6b",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "build_and_check.py": "5c9c978c2dbd2e84e6f2421a15bccd2f993375486d2f2eaeb8d402f7358bb1e6",
+    "OBSERVATIONS.json": "c070cd5990e65be0d4f2388dd8a35a1ccfbff02efc509db614e4100aec80977c",
+    "ALL_REPORTS.jsonl.gz": "82612c3a5e3203ae57465ca7684b795836b6e0b5cf8abc315d062fa4e48f99bd"
+  },
+  "scope": "Exact specified digital-source model and numerical certificate checks only; not RTL, silicon, GPU acquisition, calibrated physical bias, workload prevalence or application speedup."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_ONCE",
+  "start_utc": "2026-10-22T20:50:38.446215+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "compiler": "Zig0.14.1 Clang19.1.7 C++17 -O3 -DNDEBUG -Wall -Wextra",
+  "command": [
+    "benchmark.exe",
+    "time"
+  ],
+  "cpu": "Intel Core i9-14900HX (previously verified on this same host)",
+  "controls": "No affinity, priority, power, frequency, service or remote changes; one ordinary Windows process.",
+  "methodology": "Exactly one complete untimed warmup; nine predeclared paired blocks, fresh route-specific ranking setup per job. Preloaded immutable inputs/common scratch capacity; parsing/validation/file writing excluded equally. Boolean decision hashes consumed; not certificate-service timing.",
+  "pre_timing_audit_sha256": "42bfdfe812df34b61a477fb3ee7218930ad04cd91077c51c0f92503930e80e0a",
+  "returncode": 0,
+  "end_utc": "2026-10-22T20:51:18.415165+00:00",
+  "wall_elapsed_ns": 39875388000,
+  "complete_records": 5508,
+  "raw_timing_sha256": "175af6e1fb46e0e3a37b5c2cbbb1add881feb2c92bc897a0e097d51afd66efa8",
+  "log_sha256": "1fc9c4cadbdfcf82c8f261c2210e955de4dc4cb294bda411cb06f3009de1da31"
+}

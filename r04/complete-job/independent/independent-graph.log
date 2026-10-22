@@ -1,0 +1,1 @@
+PASS_INDEPENDENT_GRAPH queries=41760 feasible=25244 quartet_exact_plans=138 raw_closed_Floyd_and_edge_certificates=4_per_query

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "r04/changing-clock/independent/README.md",
+    "original_sha256": "fd967ef1467068a8c069ec456360b8cb6926ec2c56203937e8a17465e160614e",
+    "portable_sha256": "0004755db3245a01b3a591e2fa9f19a3d4c9dd0ad1cfc528e2f11e89b48f9f5a",
+    "change": "Replaced a private local Python installation command with the package-root portable replay command. Scientific prose and outcomes unchanged."
+  },
+  {
+    "file": "r04/complete-job/independent/NATIVE_VALIDATION.json",
+    "original_sha256": "0fe278bb47606d8d375fc0f84943b8e20aea32b4a30eaaa8e4701cda9a6d4670",
+    "portable_sha256": "f6b02437f036b776b3eb2a27954d9c7ab6bc8a543f2a256e5c05c9b6e7c66f87",
+    "change": "Historical command/cwd installation paths replaced by tool name and relative replay directory. Commands, versions, statuses, executable hashes and all scientific values retained. This is recorded historical evidence, not a new public PE binding."
+  },
+  {
+    "file": "r04/changing-clock/independent/replay_changing_clock.py",
+    "original_sha256": "edae5516d260d0c14f810f170b9cc50333d9d749a17ae5d132aa2c124f2a398e",
+    "portable_sha256": "edd0113afc07d23b1924a26bea74d85d4d29fcbda37a04a4468f49291dfa1f4c",
+    "change": "Separate portable copy: inherited R03 mapping input resolved at package r03/clock/PROTOCOL.json. All numerical and certificate predicates unchanged."
+  },
+  {
+    "file": "r04/complete-job/independent/replay_complete.py",
+    "original_sha256": "c491383d094d06279c4a6a75729f3cf65113c46c0a2574230a0c86c8d00d0f36",
+    "portable_sha256": "e34894c1a6c4a72928775cd292308423b007ab3fcde88581d75b67e6a2b7d142",
+    "change": "Separate portable checker: package-relative R03 import; default uses retained independent graph CSV; --zig optionally rebuilds both correctness executables and compares every output byte. Rechecks source core derivation. Omitted original executable hash checked against retained native metadata; historical PE record explicitly not freshly reverified. Suppresses regeneration of original paper-facts prose containing historical PE/rebuild claims. All input/order/hash/numeric/timing/summary/certificate checks and adverse cases retained."
+  },
+  {
+    "file": "run_r04_checks.py",
+    "change": "New standard-library orchestration; in a separate replay preparation directory only, changes the unchanged historical prepare.py R03 input path from r03-analysis/hopper-cost to package r03/cost. Regenerates and byte-compares inputs.json, inputs.txt, core.hpp, schedule.json and schedule.txt. This runtime copy has a new source hash, so its temporary generated INPUT_MANIFEST.json is not represented as the original pre-timing manifest. Original package prepare.py and all original binding hashes remain unchanged. Clock generation gzip headers/provenance are freshly generated then scientific values and complete uncompressed certificates compared; the independent checker separately validates retained original serialized hashes."
+  }
+]

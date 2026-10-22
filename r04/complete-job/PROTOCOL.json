@@ -1,0 +1,30 @@
+{
+  "status": "fixed before supplemental source generation or timing",
+  "date": "2026-10-23",
+  "question": "What does a complete reused-ranking job cost when the raw-edge direct baseline can avoid closure and every routed method pays its actual setup?",
+  "scope": "Supplemental local exact-integer synthetic CPU experiment; not GPU measurements, H20 outward-auditor timing, application speedup, new independent workloads, or selected successful orders.",
+  "input_binding": "Use all unchanged original r03-analysis/hopper-cost/inputs.json and inputs.txt: 870 fixed plans, 41760 distinct rectangle/budget queries, complete all720 six-arm census and all150 scaling plans. Copy bytes and bind SHA256 before native validation/timing. Do not regenerate or tune inputs based on timing.",
+  "routes": [
+    "raw_direct: original acyclic ranking edges plus complete data edges, exact signed128 Bellman-Ford; no transitive closure or structural flags",
+    "closure_direct: fresh ranking closure plus same dense Bellman-Ford",
+    "cheap: fresh closure, aligned/star flags, beta rejection, span admission and same BF fallback",
+    "quartet: fresh closure, cheap flags and only-if-needed quartet exactness classification, beta/span routing and same BF fallback"
+  ],
+  "complete_job": "One independently initialized plan record from preloaded immutable source arrays, route-specific actual ranking preparation, the declared number of queries sharing that ranking, and consumed decision checksum. Include actual allocation/copying, graph construction and output hash; exclude common file parsing, pre-timing correctness validation and console/file writing equally for every route. No cross-plan/cross-job closure/flag reuse. Certificate validation is outside timings for every route and must be explicit; do not characterize timed Boolean query loops as certificate-serving service latency.",
+  "query_counts": [1,48,192],
+  "query_order": "Use the frozen original per-plan shuffled 48-query stream; Q=1 its first query, Q=48 each once, Q=192 exactly four repetitions. Repetition increases reuse only, not independent input count.",
+  "validation": "Before timing compare all four routes on all41760 distinct queries to unchanged R03 exact decisions. Independently validate raw-edge versus closure graph feasibility using exact Floyd-Warshall and edgewise BF potentials/negative cycles. For raw ranking constraints, original edges suffice; closure changes graph shape/cost but never the feasible set. Keep all ties, zero budgets, zero-width intervals and adverse cases.",
+  "timing": {
+    "host": "Same current Windows CPU, record actual CPU/OS/runtime/compiler/version. Existing trusted Zig0.14.1 Clang C++17O3 signed128. No affinity/priority/frequency/services/remote changes.",
+    "timer": "std::chrono::steady_clock nanoseconds, record is_steady and period",
+    "blocks": 9,
+    "untimed_warmups": 1,
+    "seed": 20261024,
+    "order": "Precompute and freeze all route/Q/stratum paired block orders before measurements; same plan/query streams per route. Time a whole declared original stratum per batch then divide, retaining raw elapsed and repeats. Fresh per-job preparation in every repetition. Complete original census is one stratum; remaining original n/geometry/family strata preserved.",
+    "resolution": "Use fixed repeats from original input stratum resolution (census1,n4/n8 100,n16 20,n32 5,n64 2). All original cases retained. No fastest-repeat selection, failed timing replacement or timing-based changes. If an implementation bug is detected, preserve failed source/output and publish a numbered amendment before a full corrected run.",
+    "consumption": "Volatile checksum and compiler memory barrier protect repeated complete jobs. Compare decision counts to predetermined expected sums for every recorded batch. All raw records, order, wall timings, executable/source hashes and logs saved.",
+    "report": "Paired nine-block min/median/max complete-job ns and per-query equivalents; primaryQ48, others reuse sensitivity. Separate all720 census and every scaling stratum; no pooling as prevalence. State actual paired win/loss counts and adverse/narrow overlapping ranges. No gain is assumed and no confidence intervals or multiple-host inference."
+  },
+  "storage": "Document setup representations and their dependence on n; timing is one implementation, not a theorem of optimality. Do not change existing R03 graph-call counts or timing records.",
+  "publication_gate": "Independent complete correctness and raw timing/order/checksum audit plus fresh portable extraction replay before source/paper use. Do not rerun timing merely for a preferred outcome. No manuscript/source from other projects, remote configuration, credentials, executables or third-party raw data in minimal public supplement."
+}
