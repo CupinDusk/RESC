@@ -1,0 +1,15 @@
+{
+  "status": "PASS_BEFORE_SINGLE_COLLECTION",
+  "distinct_queries": 720,
+  "expected_batches": 60,
+  "bindings": {
+    "INPUT_MANIFEST.json": "00536f14103d17d9f20b6058b72f9b53ae2944c359eb382fcb82398d648ba4fb",
+    "validation.csv": "c1ef43b50a87b701c662cf603f95f2e6f4f74f746d33d95882a1fd5d0d04d114",
+    "expected_batches.csv": "a141b101caf9f50dda4f56365203c5f776c8dec060bbbe1638b8de1e481eec9a",
+    "core.hpp": "3adfbc72e28a0338f373bae075f14a2cd65a871836f4117426f6f31837443104",
+    "benchmark.cpp": "31a147a44e5c699f757f6128a33d5e7b3e840fa64362d6d982f2f1dd09bfb0f3",
+    "benchmark.exe": "25d2c824ce32ac77987b3b5cd9c9ceac9c0f9604606512ad3f6c270ed12f7f48",
+    "PROTOCOL.md": "fb9bd7d00bf854c61475f28d86896aedbe611d2c406e19a81e345a711eb718b1",
+    "run_once.py": "6b3193af206cc1eb8f560e88aed008f09ca3faae8d264d6f933bc4c5fba372f3"
+  }
+}

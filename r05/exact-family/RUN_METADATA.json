@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_ONCE",
+  "start_utc": "2026-10-22T22:07:13.937138+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "compiler": "Zig0.14.1 C++17 -O3 -DNDEBUG -Wall -Wextra",
+  "cpu": "Intel Core i9-14900HX; live OS inventory recorded separately",
+  "controls": "Ordinary Windows process, no affinity/priority/power/frequency/service changes. Other agent requested to defer heavy RTL tools; normal apps/PDF reviews may remain active. No machine-idle guarantee.",
+  "methodology": "One complete warmup, nine fixed paired shuffled blocks, every declared n/family/Q/route; fresh actual preparation, shared immutable inputs and reusable scratch capacity. Parsing/validation/file output/expected checks and outer volatile consumption excluded equally.",
+  "source_audit_sha256": "7fc84a557035bbaa718628787f5e17621f28c02853ed9741b566aa1fcdb5bdb5",
+  "scope": "Designed planted exact-family synthetic jobs, not a population or physical application.",
+  "returncode": 0,
+  "end_utc": "2026-10-22T22:07:17.404653+00:00",
+  "wall_elapsed_ns": 3390175700,
+  "records": 2160,
+  "raw_timing_sha256": "53ab6fa03818468fa28e4270776fdcee86f73016c5957d9614d10e161fb5cab2",
+  "log_sha256": "ade4b1b9c8838b7f16bd906323b41c71f74c76a3825b2aaa25d2b11f4306becc"
+}

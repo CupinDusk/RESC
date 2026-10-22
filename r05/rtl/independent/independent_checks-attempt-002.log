@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "independent\independent_checks.py", line 258, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "independent\independent_checks.py", line 201, in main
+    if not exe_equal:raise AssertionError('compiled PE differs beyond permitted timestamp')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: compiled PE differs beyond permitted timestamp

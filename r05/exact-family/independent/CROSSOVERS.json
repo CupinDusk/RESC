@@ -1,0 +1,194 @@
+[
+  {
+    "n": 4,
+    "family": "first",
+    "first_sampled_Q_median_gain_vs_Cheap": 1,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 4,
+    "family": "last",
+    "first_sampled_Q_median_gain_vs_Cheap": 1,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 4,
+    "family": "all",
+    "first_sampled_Q_median_gain_vs_Cheap": 1,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 8,
+    "family": "first",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 8,
+    "family": "last",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 8,
+    "family": "all",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 16,
+    "family": "first",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 16,
+    "family": "last",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 16,
+    "family": "all",
+    "first_sampled_Q_median_gain_vs_Cheap": 48,
+    "first_sampled_Q_median_gain_vs_fastest_old": 48,
+    "no_gain_Q_vs_Cheap": [
+      1
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1
+    ]
+  },
+  {
+    "n": 32,
+    "family": "first",
+    "first_sampled_Q_median_gain_vs_Cheap": 192,
+    "first_sampled_Q_median_gain_vs_fastest_old": 192,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48
+    ]
+  },
+  {
+    "n": 32,
+    "family": "last",
+    "first_sampled_Q_median_gain_vs_Cheap": 192,
+    "first_sampled_Q_median_gain_vs_fastest_old": 192,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48
+    ]
+  },
+  {
+    "n": 32,
+    "family": "all",
+    "first_sampled_Q_median_gain_vs_Cheap": 192,
+    "first_sampled_Q_median_gain_vs_fastest_old": 192,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48
+    ]
+  },
+  {
+    "n": 64,
+    "family": "first",
+    "first_sampled_Q_median_gain_vs_Cheap": 768,
+    "first_sampled_Q_median_gain_vs_fastest_old": 768,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48,
+      192
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48,
+      192
+    ]
+  },
+  {
+    "n": 64,
+    "family": "last",
+    "first_sampled_Q_median_gain_vs_Cheap": 768,
+    "first_sampled_Q_median_gain_vs_fastest_old": 768,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48,
+      192
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48,
+      192
+    ]
+  },
+  {
+    "n": 64,
+    "family": "all",
+    "first_sampled_Q_median_gain_vs_Cheap": 768,
+    "first_sampled_Q_median_gain_vs_fastest_old": 768,
+    "no_gain_Q_vs_Cheap": [
+      1,
+      48,
+      192
+    ],
+    "no_gain_Q_vs_fastest_old": [
+      1,
+      48,
+      192
+    ]
+  }
+]

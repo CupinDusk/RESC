@@ -1,0 +1,6 @@
+baseline BASELINE_PASS
+widen_guard MUTANT_DETECTED
+missing_held_check MUTANT_DETECTED
+short_countdown MUTANT_DETECTED
+missing_reset_license MUTANT_DETECTED
+missing_settle_gate MUTANT_DETECTED

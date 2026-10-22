@@ -1,0 +1,67 @@
+{
+  "name": "baseline",
+  "mutation": {
+    "old": null,
+    "new": null
+  },
+  "commands": [
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+        "mutant_harness.cpp",
+        "-o",
+        "check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execute",
+      "argv": [
+        "independent/mutants/baseline/check.exe"
+      ],
+      "returncode": 0
+    }
+  ],
+  "source_hashes": {
+    "reference.v": "19bd4592b6cfd5060a6dc785ef181934fdfe9249825add623bce257d2ae19890",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+  },
+  "status": "BASELINE_PASS",
+  "output_hashes": {
+    "check.exe": "b9bfd130382e46b319f30545404a1da5c88d1842f8f3793e98a81dc2ad4d8a0f",
+    "check.pdb": "af6be29eb9d91ae76f61305770698dc912ce8b6fa231277f8906cf8eae8781ec",
+    "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+    "execute.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "execute.stdout.log": "b54f7071bee6c1fd9d2778589a50b89573fc169e1e88c9182511eca9b9b7efe3",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "netlist.cpp": "fec36f109121beef0e4d9921f09cb72754fc19bf1021faed03a991d311f127f5",
+    "reference.v": "19bd4592b6cfd5060a6dc785ef181934fdfe9249825add623bce257d2ae19890",
+    "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthesis.stdout.log": "6116255584e43c54aecdb8e0bd58fcef9ec6b0f53615ae093817ef296d87181e"
+  }
+}

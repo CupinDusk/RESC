@@ -111,3 +111,22 @@ native command record removes private installation paths. Exact hashes and each
 change appear in r04/PORTABILITY_CHANGES.json and ORIGINAL_INPUT_BINDINGS.json.
 All original R03 public research and license bytes remain unchanged, except this
 appended README and the extended manifest.
+
+## R05: logical RTL and designed exact-family cost
+
+The additive r05/ directory contains the own RTL/CXXRTL source, fixed schedules,
+complete logical traces and certificates, independent edge/graph/mutation
+checkers, all 720 new CPU queries, all 2,160 unchanged original timing rows and
+all negative cells. See r05/SCOPE.md and both independent/PAPER_READY_FACTS.md.
+
+Fresh Python3.12 stdlib replay (isolated mode supported):
+
+    python -I -S -B -X utf8 run_r05_checks.py
+
+Fresh actual correctness builds with already installed external tools:
+
+    python -B -X utf8 run_r05_checks.py --zig /path/to/zig --yosys /path/to/yosys --include /path/to/yosys/include
+
+For an installed Python YoWASP wrapper, use --yosys-python-wrapper instead of
+--yosys. Nothing invokes performance mode. Prior evidence remains exact;
+old SciPy legacy scope is not rerun. The runner refuses to overwrite an attempt.

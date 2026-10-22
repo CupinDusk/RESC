@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "files": {
+    "PROTOCOL.md": "fb9bd7d00bf854c61475f28d86896aedbe611d2c406e19a81e345a711eb718b1",
+    "EXACT_FAMILY_ARGUMENT.md": "558e17c53c10cf0bb2497efc2864ab310310ed60c6afb7751788705d847444ac",
+    "prepare.py": "11e1706b1b2e81e3e8790c7df3cb1d909f324c7cacca6488ebe3dc79e8562fec",
+    "core.hpp": "3adfbc72e28a0338f373bae075f14a2cd65a871836f4117426f6f31837443104",
+    "benchmark.cpp": "31a147a44e5c699f757f6128a33d5e7b3e840fa64362d6d982f2f1dd09bfb0f3",
+    "census.cpp": "a7d8aed15796e6358aabb108c1cf8c02b87925cba106107d78efe1a9ff0a9ba1",
+    "SOURCE_DIFF.patch": "80d6626313e41ac8a405f5e9cd1ad0033462d50936860329be90293868215489",
+    "INPUT_MANIFEST.json": "00536f14103d17d9f20b6058b72f9b53ae2944c359eb382fcb82398d648ba4fb",
+    "PRE_TIMING_AUDIT.json": "7fc84a557035bbaa718628787f5e17621f28c02853ed9741b566aa1fcdb5bdb5",
+    "inputs.json": "b551a215ed0421f6b625c51eaa3f92ac74fbc56c1aa2f499c021167201ac14a3",
+    "inputs.txt": "16a9ce71b156dc093c8ff5fe988b3fd8a07b225f824d917de3a6985d6e0ca8b3",
+    "schedule.json": "1c17beb60f3cda835033ca463fc936e8a5a0c4b78cdabf200c90be401ddef2b1",
+    "schedule.txt": "c52043243211dd0cfe9503aacb7dfabe26247c2496482fe7d68df96ad272909e",
+    "validation.csv": "c1ef43b50a87b701c662cf603f95f2e6f4f74f746d33d95882a1fd5d0d04d114",
+    "expected_batches.csv": "a141b101caf9f50dda4f56365203c5f776c8dec060bbbe1638b8de1e481eec9a",
+    "routing_census.csv": "94368cdcb30f631f310e7a6661638fc1af16af2a0fe0ffde0afdf8c060835c16",
+    "complete_times.csv": "53ab6fa03818468fa28e4270776fdcee86f73016c5957d9614d10e161fb5cab2",
+    "timing-run.log": "ade4b1b9c8838b7f16bd906323b41c71f74c76a3825b2aaa25d2b11f4306becc",
+    "RUN_METADATA.json": "9cd3b0390b4a5d2ca52c89f597bd00ae20f17d459876f757726979eafc11cdb3",
+    "CPU_INVENTORY.json": "0428b0218a3bf2886cbb87b1af4faafd931ad9bda5f7a16d53685bf005e50158",
+    "summarize.py": "fc98f3ba0d555aeff6312bdb5087ba308265b517fa131f230aff41bdd04ddf98",
+    "SUMMARY.json": "45cf8a1a5f2a8445e548609efe1572e1aad6427bad50f6b472f6f63c4f7556a3",
+    "ALL_STRATA.csv": "080403308b12e838c73d4f6d189973a83a97b608ee63fc6e6eba838533cde23e",
+    "benchmark.exe": "25d2c824ce32ac77987b3b5cd9c9ceac9c0f9604606512ad3f6c270ed12f7f48",
+    "census.exe": "baaa14ecd869e046ae42b185896e03160a25b0c87e6ee992955256bc216fce64"
+  },
+  "baseline": {
+    "core.hpp": "a427fccc3b6e75875f6f058131c36567997974d9415c42df4da593138b68ac3f",
+    "benchmark.cpp": "38facb7f2938ae153131e7945f1f486834e8b00afc8d88a3e6269b8bc9b8eb21"
+  }
+}

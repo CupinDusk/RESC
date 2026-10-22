@@ -1,0 +1,67 @@
+{
+  "name": "missing_reset_license",
+  "mutation": {
+    "old": "if (!licensed)",
+    "new": "if (1'b0)"
+  },
+  "commands": [
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+        "mutant_harness.cpp",
+        "-o",
+        "check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execute",
+      "argv": [
+        "independent/mutants/missing_reset_license/check.exe"
+      ],
+      "returncode": 1
+    }
+  ],
+  "source_hashes": {
+    "reference.v": "4d6d0778d93f03eb224e0a42ee8fc4a9d4cdb1da438aa5fc41320c58c71ffd80",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+  },
+  "status": "MUTANT_DETECTED",
+  "output_hashes": {
+    "check.exe": "ed771f6c3000b56382ce42d8bfb8b29031c42bbbbd2d1247ef8cab132fb967b0",
+    "check.pdb": "1e48ecb27f9c7bd0dc193060f9a1b7e7dd414b0d0d85087a2d09493aad15bf8f",
+    "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+    "execute.stderr.log": "70d1f2ccda1dc34a7ee7750fd7d474620b59bd98d158fefc0138949a23d53317",
+    "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "netlist.cpp": "c997e25066b8eccc8d0b4c6fa8e322f5048004ad345682f0526e5541fced84a3",
+    "reference.v": "4d6d0778d93f03eb224e0a42ee8fc4a9d4cdb1da438aa5fc41320c58c71ffd80",
+    "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthesis.stdout.log": "8669ace5676de52bbf5f2aa3474698e36211d586d969e672dfcd6dea7b6c7465"
+  }
+}

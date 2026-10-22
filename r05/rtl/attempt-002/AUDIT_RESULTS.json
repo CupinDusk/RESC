@@ -1,0 +1,905 @@
+{
+  "status": "PASS_AUTHOR_RTL_TIMER_GRAPH_AUDIT_PENDING_INDEPENDENT_GATE",
+  "valid_reports": 32,
+  "jobs": 192,
+  "queries": 23072,
+  "total_orders": {
+    "reports": 23040,
+    "true": 2908,
+    "false": 20132,
+    "admit": 8864,
+    "reject": 14176,
+    "unknown": 0,
+    "true_admit": 2908,
+    "true_reject": 0,
+    "true_unknown": 0,
+    "false_admit": 5956,
+    "false_reject": 14176,
+    "false_unknown": 0,
+    "box_admit": 8940,
+    "box_reject": 14100,
+    "box_unknown": 0,
+    "box_admit_path_reject": 76
+  },
+  "fixed_partial": {
+    "reports": 32,
+    "true": 4,
+    "false": 28,
+    "admit": 14,
+    "reject": 18,
+    "unknown": 0,
+    "true_admit": 4,
+    "true_reject": 0,
+    "true_unknown": 0,
+    "false_admit": 10,
+    "false_reject": 18,
+    "false_unknown": 0,
+    "box_admit": 20,
+    "box_reject": 12,
+    "box_unknown": 0,
+    "box_admit_path_reject": 6
+  },
+  "total_orders_by_group": {
+    "all_tie": {
+      "reports": 2880,
+      "true": 2880,
+      "false": 0,
+      "admit": 2880,
+      "reject": 0,
+      "unknown": 0,
+      "true_admit": 2880,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 0,
+      "false_unknown": 0,
+      "box_admit": 2880,
+      "box_reject": 0,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "distinct_vectors": {
+      "reports": 20160,
+      "true": 28,
+      "false": 20132,
+      "admit": 5984,
+      "reject": 14176,
+      "unknown": 0,
+      "true_admit": 28,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 5956,
+      "false_reject": 14176,
+      "false_unknown": 0,
+      "box_admit": 6060,
+      "box_reject": 14100,
+      "box_unknown": 0,
+      "box_admit_path_reject": 76
+    }
+  },
+  "fixed_partial_by_group": {
+    "all_tie": {
+      "reports": 4,
+      "true": 4,
+      "false": 0,
+      "admit": 4,
+      "reject": 0,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 0,
+      "false_unknown": 0,
+      "box_admit": 4,
+      "box_reject": 0,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "distinct_vectors": {
+      "reports": 28,
+      "true": 0,
+      "false": 28,
+      "admit": 10,
+      "reject": 18,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 10,
+      "false_reject": 18,
+      "false_unknown": 0,
+      "box_admit": 16,
+      "box_reject": 12,
+      "box_unknown": 0,
+      "box_admit_path_reject": 6
+    }
+  },
+  "per_vector_total_orders": {
+    "0": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 101,
+      "reject": 2779,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 97,
+      "false_reject": 2779,
+      "false_unknown": 0,
+      "box_admit": 123,
+      "box_reject": 2757,
+      "box_unknown": 0,
+      "box_admit_path_reject": 22
+    },
+    "1": {
+      "reports": 2880,
+      "true": 2880,
+      "false": 0,
+      "admit": 2880,
+      "reject": 0,
+      "unknown": 0,
+      "true_admit": 2880,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 0,
+      "false_unknown": 0,
+      "box_admit": 2880,
+      "box_reject": 0,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "2": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 1615,
+      "reject": 1265,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 1611,
+      "false_reject": 1265,
+      "false_unknown": 0,
+      "box_admit": 1621,
+      "box_reject": 1259,
+      "box_unknown": 0,
+      "box_admit_path_reject": 6
+    },
+    "3": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 1530,
+      "reject": 1350,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 1526,
+      "false_reject": 1350,
+      "false_unknown": 0,
+      "box_admit": 1531,
+      "box_reject": 1349,
+      "box_unknown": 0,
+      "box_admit_path_reject": 1
+    },
+    "4": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 1621,
+      "reject": 1259,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 1617,
+      "false_reject": 1259,
+      "false_unknown": 0,
+      "box_admit": 1621,
+      "box_reject": 1259,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "5": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 11,
+      "reject": 2869,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 7,
+      "false_reject": 2869,
+      "false_unknown": 0,
+      "box_admit": 11,
+      "box_reject": 2869,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "6": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 976,
+      "reject": 1904,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 972,
+      "false_reject": 1904,
+      "false_unknown": 0,
+      "box_admit": 1009,
+      "box_reject": 1871,
+      "box_unknown": 0,
+      "box_admit_path_reject": 33
+    },
+    "7": {
+      "reports": 2880,
+      "true": 4,
+      "false": 2876,
+      "admit": 130,
+      "reject": 2750,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 126,
+      "false_reject": 2750,
+      "false_unknown": 0,
+      "box_admit": 144,
+      "box_reject": 2736,
+      "box_unknown": 0,
+      "box_admit_path_reject": 14
+    }
+  },
+  "per_vector_fixed_partial": {
+    "0": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 0,
+      "reject": 4,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 4,
+      "false_unknown": 0,
+      "box_admit": 2,
+      "box_reject": 2,
+      "box_unknown": 0,
+      "box_admit_path_reject": 2
+    },
+    "1": {
+      "reports": 4,
+      "true": 4,
+      "false": 0,
+      "admit": 4,
+      "reject": 0,
+      "unknown": 0,
+      "true_admit": 4,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 0,
+      "false_unknown": 0,
+      "box_admit": 4,
+      "box_reject": 0,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "2": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 3,
+      "reject": 1,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 3,
+      "false_reject": 1,
+      "false_unknown": 0,
+      "box_admit": 3,
+      "box_reject": 1,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "3": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 2,
+      "reject": 2,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 2,
+      "false_reject": 2,
+      "false_unknown": 0,
+      "box_admit": 3,
+      "box_reject": 1,
+      "box_unknown": 0,
+      "box_admit_path_reject": 1
+    },
+    "4": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 3,
+      "reject": 1,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 3,
+      "false_reject": 1,
+      "false_unknown": 0,
+      "box_admit": 3,
+      "box_reject": 1,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "5": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 0,
+      "reject": 4,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 0,
+      "false_reject": 4,
+      "false_unknown": 0,
+      "box_admit": 0,
+      "box_reject": 4,
+      "box_unknown": 0,
+      "box_admit_path_reject": 0
+    },
+    "6": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 1,
+      "reject": 3,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 1,
+      "false_reject": 3,
+      "false_unknown": 0,
+      "box_admit": 3,
+      "box_reject": 1,
+      "box_unknown": 0,
+      "box_admit_path_reject": 2
+    },
+    "7": {
+      "reports": 4,
+      "true": 0,
+      "false": 4,
+      "admit": 1,
+      "reject": 3,
+      "unknown": 0,
+      "true_admit": 0,
+      "true_reject": 0,
+      "true_unknown": 0,
+      "false_admit": 1,
+      "false_reject": 3,
+      "false_unknown": 0,
+      "box_admit": 2,
+      "box_reject": 2,
+      "box_unknown": 0,
+      "box_admit_path_reject": 1
+    }
+  },
+  "certificates": {
+    "reject": 14194,
+    "admit": 8878
+  },
+  "invalid_controls_contract_unknown": 12,
+  "numerics": {
+    "delta_scaled": [
+      4987541511039073612102202459343471936720349426843582685142,
+      4987541511039073612102202459343471936720349426843582685143
+    ],
+    "method": "positive atanh series plus geometric tail; exact integer floor/ceil per term",
+    "terms": 120,
+    "work_scale": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "output_scale": "1000000000000000000000000000000000000000000000000000000000000",
+    "range": "all input x>=1; binary range reduction y in[1,2), z in[0,1/3)",
+    "tail": "2*z^(2M+1)/((2M+1)*(1-z^2))",
+    "boundary": "tight feasible => admit; relaxed negative cycle => reject; otherwise unknown, never forced"
+  },
+  "changed_verdict_examples": [
+    {
+      "case_id": 0,
+      "vector_id": 0,
+      "path_name": "constant",
+      "kind": "total_order",
+      "order": [
+        0,
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4588404144465445470820236420111915959685466234902798882873/1",
+      "beta_upper": "13765212433396336412460709260335747879056398704708396648621/3",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          8956792754058263776532236021108375019661780847748809653416,
+          0,
+          -16729995160363196630195366345874055253822545957683813528102
+        ],
+        "total": -7773202406304932853663130324765680234160765109935003874686
+      }
+    },
+    {
+      "case_id": 1,
+      "vector_id": 0,
+      "path_name": "increasing",
+      "kind": "total_order",
+      "order": [
+        3,
+        0,
+        1,
+        2,
+        5,
+        4
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "12812094423597580245187729336601273236397030322071689692548/3",
+      "beta_upper": "12812094423597580245187729336601273236397030322071689692550/3",
+      "certificate": {
+        "cycle": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "weights": [
+          -9924591023799140756035817844871532905911208768726753744914,
+          0,
+          8058581908067231628054461163487878528754247471167153108356,
+          0
+        ],
+        "total": -1866009115731909127981356681383654377156961297559600636558
+      }
+    },
+    {
+      "case_id": 2,
+      "vector_id": 0,
+      "path_name": "decreasing",
+      "kind": "total_order",
+      "order": [
+        0,
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4707450682203770673107142466004002356113246344856534879099/1",
+      "beta_upper": "14122352046611312019321427398012007068339739034569604637299/3",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          10914723114354996859158051545660704713772046320126029548955,
+          0,
+          -20819958176425241992608737514090383653805232434689841974102
+        ],
+        "total": -9905235062070245133450685968429678940033186114563812425147
+      }
+    },
+    {
+      "case_id": 11,
+      "vector_id": 2,
+      "path_name": "alternating",
+      "kind": "total_order",
+      "order": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "10956715931623182113111039517424608412933003780308378006994/3",
+      "beta_upper": "3652238643874394037703679839141536137644334593436126002332/1",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          -1993024074553570497306243984165224899875419411752966944544,
+          0,
+          1983149817421825328828022486800642835273842326354204242775
+        ],
+        "total": -9874257131745168478221497364582064601577085398762701769
+      }
+    },
+    {
+      "case_id": 15,
+      "vector_id": 3,
+      "path_name": "alternating",
+      "kind": "total_order",
+      "order": [
+        3,
+        2,
+        5,
+        4,
+        1,
+        0
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "3656206214474146588787992920477121346543193985140203873186/1",
+      "beta_upper": "10968618643422439766363978761431364039629581955420611619560/3",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "weights": [
+          1987088548541515355047447188401799592732706745272653987498,
+          0,
+          -1997006143275777259551707513447176155803010065984321291867,
+          0
+        ],
+        "total": -9917594734261904504260325045376563070303320711667304369
+      }
+    },
+    {
+      "case_id": 25,
+      "vector_id": 6,
+      "path_name": "increasing",
+      "kind": "total_order",
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4700602773729521693178076543887716576626331122863375670596/1",
+      "beta_upper": "4700602773729521693178076543887716576626331122863375670597/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          573877474619103837848251830911510720188036607960414029094,
+          0,
+          -900467839869434869521571285450029630037582737482802508376,
+          0
+        ],
+        "total": -326590365250331031673319454538518909849546129522388479282
+      }
+    },
+    {
+      "case_id": 26,
+      "vector_id": 6,
+      "path_name": "decreasing",
+      "kind": "total_order",
+      "order": [
+        1,
+        0,
+        4,
+        3,
+        2,
+        5
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "14117357056999548626522628028770030071913376846477539771427/3",
+      "beta_upper": "4705785685666516208840876009590010023971125615492513257143/1",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          -566373866706525553305095773766545664056411665874249657063,
+          0,
+          399201692080819805181610351731279286030028272152842838350
+        ],
+        "total": -167172174625705748123485422035266378026383393721406818713
+      }
+    },
+    {
+      "case_id": 28,
+      "vector_id": 7,
+      "path_name": "constant",
+      "kind": "total_order",
+      "order": [
+        3,
+        1,
+        4,
+        2,
+        0,
+        5
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4343507334280454048459513761043505438108579076905479242649/1",
+      "beta_upper": "21717536671402270242297568805217527190542895384527396213247/5",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          -7758386618552091000457449365158668910362372093897296647821,
+          0,
+          6986543175708636201462263737966714896717900864739770420454
+        ],
+        "total": -771843442843454798995185627191954013644471229157526227367
+      }
+    },
+    {
+      "case_id": 29,
+      "vector_id": 7,
+      "path_name": "increasing",
+      "kind": "total_order",
+      "order": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "3916204216134088158091712866733455642628422518401967284303/1",
+      "beta_upper": "3916204216134088158091712866733455642628422518401967284304/1",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          2142674589809970908020979185220032588183853816883230801680,
+          0,
+          -3780121610243358020333239072171593318540955748926705209130
+        ],
+        "total": -1637447020433387112312259886951560730357101932043474407450
+      }
+    },
+    {
+      "case_id": 31,
+      "vector_id": 7,
+      "path_name": "alternating",
+      "kind": "total_order",
+      "order": [
+        5,
+        3,
+        1,
+        2,
+        4,
+        0
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "2990539809972157261247620346135586709175411255217910319527/1",
+      "beta_upper": "2990539809972157261247620346135586709175411255217910319528/1",
+      "certificate": {
+        "cycle": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "weights": [
+          0,
+          -7983078801052936993639837622748737146495124646486805854016,
+          0,
+          7978076873839652400843411525338466250894328271373048793913
+        ],
+        "total": -5001927213284592796426097410270895600796375113757060103
+      }
+    }
+  ],
+  "bindings": {
+    "PROTOCOL.json": "58e12453c45bda38089478994cdc8a0d76a7c1387ba4fd3bbec1238e9ddcb73c",
+    "reference.v": "5f34f836537dbac1b7544c331d49ad7e4819d670f59695ce9cc096563af172f8",
+    "driver.cpp": "0baab2aa857d851ca67d9fe7561d703d2188a336dfad0d776ca4ba3fbb18c11b",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "CORE_PROVENANCE.json": "7f152cda245f9efa34af48e4ae28301f90cb245ebfcebc91c01ac4fc0c44e669",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "audit_reports.py": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520",
+    "JOBS.csv": "eacd8e64c2fbd19a1456838d0215384c1e6020da11a094ee8e33776ddac3ed98",
+    "INVALID_CONTROLS.csv": "fc9326270a2d925dce7403c9f4af496d61858f668e00845d6df7725cacd884f3",
+    "AUDITOR_INPUTS.json": "f9f847230d9cf970346620e741d86af631d39baf1122d9cf4b382a302f85c832",
+    "OBSERVATIONS.json": "987c26f0af20c64e718b30e803c167c2df9ec62f96692427816df32c82d27999",
+    "ALL_REPORTS.jsonl.gz": "cf4fd5518903d36e470e5f6697e6cb4333c3995c84e893777b07ae7b2b799df4"
+  },
+  "limitations": "New author-owned logical reference RTL only; no GPU, native H20/HUSH, physical clock calibration, silicon, FPGA, PPA or performance evidence. No remote execution or release."
+}

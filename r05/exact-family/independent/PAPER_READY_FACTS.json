@@ -1,0 +1,703 @@
+{
+  "status": "PASS",
+  "scope": "Author-side independent validation of a prospectively designed favorable synthetic CPU routing study; not a blind review.",
+  "plans": 15,
+  "distinct_queries": 720,
+  "query_counts": [
+    1,
+    48,
+    192,
+    768
+  ],
+  "raw_timing_rows": 2160,
+  "paired_blocks": 9,
+  "routing": {
+    "admitted": 720,
+    "cheap_flags": 0,
+    "quartet_flags": 15,
+    "cheap_graph_queries": 720,
+    "quartet_graph_queries": 0,
+    "raw_graph_queries": 720,
+    "closed_graph_queries": 720
+  },
+  "timed_logical_work": {
+    "complete_jobs_per_route": 13824,
+    "queries_per_route": 3487104,
+    "graph_builds_per_route": {
+      "Raw": 3487104,
+      "Closed": 3487104,
+      "Cheap": 3487104,
+      "Quartet": 0
+    },
+    "warmup_jobs_per_route": 60,
+    "warmup_queries_per_route": 15135
+  },
+  "exactness": {
+    "analytic": "C_R=1 for arbitrary disjoint reversed adjacent pairs, proved in INDEPENDENT_AUDIT.md",
+    "quartet_directed_cuts": 12118086,
+    "full_assignment_small_n": [
+      {
+        "plan": 0,
+        "n": 4,
+        "family": "first",
+        "quartet_directed_cuts": 6,
+        "quartet_admitted_cuts": 2,
+        "full_assignment": {
+          "tested_endpoint_pairs": 18,
+          "admitted_endpoint_pairs": 8,
+          "enumerated_bijections": 24
+        }
+      },
+      {
+        "plan": 1,
+        "n": 4,
+        "family": "last",
+        "quartet_directed_cuts": 6,
+        "quartet_admitted_cuts": 2,
+        "full_assignment": {
+          "tested_endpoint_pairs": 18,
+          "admitted_endpoint_pairs": 8,
+          "enumerated_bijections": 24
+        }
+      },
+      {
+        "plan": 2,
+        "n": 4,
+        "family": "all",
+        "quartet_directed_cuts": 6,
+        "quartet_admitted_cuts": 2,
+        "full_assignment": {
+          "tested_endpoint_pairs": 18,
+          "admitted_endpoint_pairs": 8,
+          "enumerated_bijections": 24
+        }
+      },
+      {
+        "plan": 3,
+        "n": 8,
+        "family": "first",
+        "quartet_directed_cuts": 420,
+        "quartet_admitted_cuts": 140,
+        "full_assignment": {
+          "tested_endpoint_pairs": 1106,
+          "admitted_endpoint_pairs": 322,
+          "enumerated_bijections": 5936
+        }
+      },
+      {
+        "plan": 4,
+        "n": 8,
+        "family": "last",
+        "quartet_directed_cuts": 420,
+        "quartet_admitted_cuts": 140,
+        "full_assignment": {
+          "tested_endpoint_pairs": 1106,
+          "admitted_endpoint_pairs": 322,
+          "enumerated_bijections": 5936
+        }
+      },
+      {
+        "plan": 5,
+        "n": 8,
+        "family": "all",
+        "quartet_directed_cuts": 420,
+        "quartet_admitted_cuts": 140,
+        "full_assignment": {
+          "tested_endpoint_pairs": 1106,
+          "admitted_endpoint_pairs": 322,
+          "enumerated_bijections": 5936
+        }
+      }
+    ]
+  },
+  "timing_original_only": {
+    "start_utc": "2026-10-22T22:07:13.937138+00:00",
+    "end_utc": "2026-10-22T22:07:17.404653+00:00",
+    "records": 2160,
+    "performance_rerun": false
+  },
+  "median_gain_cells_vs_Cheap": 39,
+  "median_gain_cells_vs_fastest_old": 36,
+  "no_gain_cells_vs_Cheap": [
+    {
+      "n": 8,
+      "family": "first",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.6129032258064516,
+      "Cheap_over_Quartet_min": 0.5490196078431373,
+      "Cheap_over_Quartet_max": 0.8468468468468469
+    },
+    {
+      "n": 8,
+      "family": "last",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.5963302752293578,
+      "Cheap_over_Quartet_min": 0.5533596837944664,
+      "Cheap_over_Quartet_max": 0.6576576576576577
+    },
+    {
+      "n": 8,
+      "family": "all",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.5915492957746479,
+      "Cheap_over_Quartet_min": 0.5681818181818182,
+      "Cheap_over_Quartet_max": 0.6227272727272727
+    },
+    {
+      "n": 16,
+      "family": "first",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.16032608695652173,
+      "Cheap_over_Quartet_min": 0.1557377049180328,
+      "Cheap_over_Quartet_max": 0.19496021220159152
+    },
+    {
+      "n": 16,
+      "family": "last",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.15710382513661203,
+      "Cheap_over_Quartet_min": 0.14617486338797814,
+      "Cheap_over_Quartet_max": 0.17493472584856398
+    },
+    {
+      "n": 16,
+      "family": "all",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.14323962516733602,
+      "Cheap_over_Quartet_min": 0.13835616438356163,
+      "Cheap_over_Quartet_max": 0.4418918918918919
+    },
+    {
+      "n": 32,
+      "family": "first",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.04373291682936353,
+      "Cheap_over_Quartet_min": 0.037667272426895756,
+      "Cheap_over_Quartet_max": 0.05768844221105528
+    },
+    {
+      "n": 32,
+      "family": "first",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.5632530120481928,
+      "Cheap_over_Quartet_min": 0.5437468268742596,
+      "Cheap_over_Quartet_max": 0.6884848484848485
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.04639758581667296,
+      "Cheap_over_Quartet_min": 0.041809735406988485,
+      "Cheap_over_Quartet_max": 0.05150048402710552
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.5611042729031124,
+      "Cheap_over_Quartet_min": 0.5550737207285342,
+      "Cheap_over_Quartet_max": 0.6054694970357621
+    },
+    {
+      "n": 32,
+      "family": "all",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.03619729514717582,
+      "Cheap_over_Quartet_min": 0.0331152092008725,
+      "Cheap_over_Quartet_max": 0.07635082223962412
+    },
+    {
+      "n": 32,
+      "family": "all",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.5436807874846195,
+      "Cheap_over_Quartet_min": 0.5039766271709138,
+      "Cheap_over_Quartet_max": 0.5531952247191011
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.01544851708810027,
+      "Cheap_over_Quartet_min": 0.012288326090214297,
+      "Cheap_over_Quartet_max": 0.015896993238382968
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.16459146665434637,
+      "Cheap_over_Quartet_min": 0.15815977760561456,
+      "Cheap_over_Quartet_max": 0.16840589290773444
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 192,
+      "Cheap_over_Quartet_median": 0.5500925866802886,
+      "Cheap_over_Quartet_min": 0.48163664550420787,
+      "Cheap_over_Quartet_max": 0.5602465664539851
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.015296412039756574,
+      "Cheap_over_Quartet_min": 0.014814332812771126,
+      "Cheap_over_Quartet_max": 0.01558591495093323
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.16355827361639552,
+      "Cheap_over_Quartet_min": 0.1532917626858253,
+      "Cheap_over_Quartet_max": 0.1670207743153919
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 192,
+      "Cheap_over_Quartet_median": 0.5756231648653714,
+      "Cheap_over_Quartet_min": 0.520901935587503,
+      "Cheap_over_Quartet_max": 0.6220489309739063
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 1,
+      "Cheap_over_Quartet_median": 0.010701716584069525,
+      "Cheap_over_Quartet_min": 0.010129365803448195,
+      "Cheap_over_Quartet_max": 0.01111164213343529
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 48,
+      "Cheap_over_Quartet_median": 0.15459900737511018,
+      "Cheap_over_Quartet_min": 0.151050043656082,
+      "Cheap_over_Quartet_max": 0.16632998111633218
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 192,
+      "Cheap_over_Quartet_median": 0.545121615614217,
+      "Cheap_over_Quartet_min": 0.518384236453202,
+      "Cheap_over_Quartet_max": 0.5850835297307444
+    }
+  ],
+  "no_gain_cells_vs_fastest_old": [
+    {
+      "n": 4,
+      "family": "first",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.5108695652173914,
+      "Fastest_old_over_Quartet_min": 0.4879725085910653,
+      "Fastest_old_over_Quartet_max": 0.5234657039711191
+    },
+    {
+      "n": 4,
+      "family": "last",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.5108695652173914,
+      "Fastest_old_over_Quartet_min": 0.46545454545454545,
+      "Fastest_old_over_Quartet_max": 0.5218978102189781
+    },
+    {
+      "n": 4,
+      "family": "all",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.5072992700729927,
+      "Fastest_old_over_Quartet_min": 0.5,
+      "Fastest_old_over_Quartet_max": 0.5238095238095238
+    },
+    {
+      "n": 8,
+      "family": "first",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.25806451612903225,
+      "Fastest_old_over_Quartet_min": 0.22745098039215686,
+      "Fastest_old_over_Quartet_max": 0.30837004405286345
+    },
+    {
+      "n": 8,
+      "family": "last",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.25225225225225223,
+      "Fastest_old_over_Quartet_min": 0.233201581027668,
+      "Fastest_old_over_Quartet_max": 0.27102803738317754
+    },
+    {
+      "n": 8,
+      "family": "all",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.26291079812206575,
+      "Fastest_old_over_Quartet_min": 0.2545454545454545,
+      "Fastest_old_over_Quartet_max": 0.27358490566037735
+    },
+    {
+      "n": 16,
+      "family": "first",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.0572987721691678,
+      "Fastest_old_over_Quartet_min": 0.054376657824933686,
+      "Fastest_old_over_Quartet_max": 0.06048387096774194
+    },
+    {
+      "n": 16,
+      "family": "last",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.05771812080536913,
+      "Fastest_old_over_Quartet_min": 0.05473965287049399,
+      "Fastest_old_over_Quartet_max": 0.06420765027322405
+    },
+    {
+      "n": 16,
+      "family": "all",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.05945945945945946,
+      "Fastest_old_over_Quartet_min": 0.056074766355140186,
+      "Fastest_old_over_Quartet_max": 0.06241519674355495
+    },
+    {
+      "n": 32,
+      "family": "first",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.01170534813319879,
+      "Fastest_old_over_Quartet_min": 0.010738476788369403,
+      "Fastest_old_over_Quartet_max": 0.017929089443996776
+    },
+    {
+      "n": 32,
+      "family": "first",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.39936215450035434,
+      "Fastest_old_over_Quartet_min": 0.3822981892029108,
+      "Fastest_old_over_Quartet_max": 0.44173160173160175
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.011771747805267359,
+      "Fastest_old_over_Quartet_min": 0.011127876273104489,
+      "Fastest_old_over_Quartet_max": 0.01651560926485398
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.41363469312752665,
+      "Fastest_old_over_Quartet_min": 0.380840275262586,
+      "Fastest_old_over_Quartet_max": 0.4470774091627172
+    },
+    {
+      "n": 32,
+      "family": "all",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.011928429423459244,
+      "Fastest_old_over_Quartet_min": 0.010279286268425137,
+      "Fastest_old_over_Quartet_max": 0.015513126491646777
+    },
+    {
+      "n": 32,
+      "family": "all",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.3909761235955056,
+      "Fastest_old_over_Quartet_min": 0.3552713661883968,
+      "Fastest_old_over_Quartet_max": 0.39757155247181264
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.0030925959614335093,
+      "Fastest_old_over_Quartet_min": 0.0025850442080023977,
+      "Fastest_old_over_Quartet_max": 0.006728730758595263
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.11195881113971448,
+      "Fastest_old_over_Quartet_min": 0.10708861333393783,
+      "Fastest_old_over_Quartet_max": 0.11707904429124563
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "Q": 192,
+      "Fastest_old_over_Quartet_median": 0.4168919649616092,
+      "Fastest_old_over_Quartet_min": 0.3635944190166839,
+      "Fastest_old_over_Quartet_max": 0.4381152551097004
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.0031362442866867644,
+      "Fastest_old_over_Quartet_min": 0.0029136022932869663,
+      "Fastest_old_over_Quartet_max": 0.003323347687698933
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.11537646809612352,
+      "Fastest_old_over_Quartet_min": 0.1126770538243626,
+      "Fastest_old_over_Quartet_max": 0.12581898694139443
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "Q": 192,
+      "Fastest_old_over_Quartet_median": 0.4043412310124554,
+      "Fastest_old_over_Quartet_min": 0.3784033410971006,
+      "Fastest_old_over_Quartet_max": 0.43058823529411766
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 1,
+      "Fastest_old_over_Quartet_median": 0.0029475752684398906,
+      "Fastest_old_over_Quartet_min": 0.0027136064550213725,
+      "Fastest_old_over_Quartet_max": 0.003267589741178683
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 48,
+      "Fastest_old_over_Quartet_median": 0.10919236686798173,
+      "Fastest_old_over_Quartet_min": 0.10447499011901103,
+      "Fastest_old_over_Quartet_max": 0.11357474380772943
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "Q": 192,
+      "Fastest_old_over_Quartet_median": 0.3949155749942175,
+      "Fastest_old_over_Quartet_min": 0.37376267625550486,
+      "Fastest_old_over_Quartet_max": 0.40733475127511515
+    }
+  ],
+  "mixed_paired_cells": [
+    {
+      "n": 16,
+      "family": "all",
+      "Q": 48,
+      "Cheap_over_Quartet_quartet_wins": 8,
+      "Fastest_old_over_Quartet_quartet_wins": 8
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "Q": 192,
+      "Cheap_over_Quartet_quartet_wins": 9,
+      "Fastest_old_over_Quartet_quartet_wins": 8
+    }
+  ],
+  "crossovers": [
+    {
+      "n": 4,
+      "family": "first",
+      "first_sampled_Q_median_gain_vs_Cheap": 1,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "family": "last",
+      "first_sampled_Q_median_gain_vs_Cheap": 1,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "family": "all",
+      "first_sampled_Q_median_gain_vs_Cheap": 1,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "family": "first",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "family": "last",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "family": "all",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 16,
+      "family": "first",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 16,
+      "family": "last",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 16,
+      "family": "all",
+      "first_sampled_Q_median_gain_vs_Cheap": 48,
+      "first_sampled_Q_median_gain_vs_fastest_old": 48,
+      "no_gain_Q_vs_Cheap": [
+        1
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1
+      ]
+    },
+    {
+      "n": 32,
+      "family": "first",
+      "first_sampled_Q_median_gain_vs_Cheap": 192,
+      "first_sampled_Q_median_gain_vs_fastest_old": 192,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48
+      ]
+    },
+    {
+      "n": 32,
+      "family": "last",
+      "first_sampled_Q_median_gain_vs_Cheap": 192,
+      "first_sampled_Q_median_gain_vs_fastest_old": 192,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48
+      ]
+    },
+    {
+      "n": 32,
+      "family": "all",
+      "first_sampled_Q_median_gain_vs_Cheap": 192,
+      "first_sampled_Q_median_gain_vs_fastest_old": 192,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48
+      ]
+    },
+    {
+      "n": 64,
+      "family": "first",
+      "first_sampled_Q_median_gain_vs_Cheap": 768,
+      "first_sampled_Q_median_gain_vs_fastest_old": 768,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48,
+        192
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48,
+        192
+      ]
+    },
+    {
+      "n": 64,
+      "family": "last",
+      "first_sampled_Q_median_gain_vs_Cheap": 768,
+      "first_sampled_Q_median_gain_vs_fastest_old": 768,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48,
+        192
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48,
+        192
+      ]
+    },
+    {
+      "n": 64,
+      "family": "all",
+      "first_sampled_Q_median_gain_vs_Cheap": 768,
+      "first_sampled_Q_median_gain_vs_fastest_old": 768,
+      "no_gain_Q_vs_Cheap": [
+        1,
+        48,
+        192
+      ],
+      "no_gain_Q_vs_fastest_old": [
+        1,
+        48,
+        192
+      ]
+    }
+  ],
+  "limitations": [
+    "Deliberately favorable planted synthetic family; no independent application inputs or presence estimate.",
+    "A cheaper adjacent-reversal family flag could replace the general quartet recognizer; no necessity/optimality claim.",
+    "Q=192 and 768 repeat the same 48 immutable inputs; Q=1 uses only rectangle 0.",
+    "One original ordinary Windows run, normal apps/PDF reviews active, heavy RTL deferred by request; no idle/affinity/frequency control claim.",
+    "Steady-clock CPU process observations, no hardware/GPU/physical-time/outward-certificate-service claim.",
+    "R04 adverse plans and timing remain unchanged; source baseline files were read only."
+  ]
+}

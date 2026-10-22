@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_VALIDATION_AND_SINGLE_TIMING_COLLECTION",
+  "plans": 15,
+  "distinct_queries": 720,
+  "paired_blocks": 9,
+  "timed_records": 2160,
+  "source_binding": {
+    "core.hpp": "a427fccc3b6e75875f6f058131c36567997974d9415c42df4da593138b68ac3f",
+    "benchmark.cpp": "38facb7f2938ae153131e7945f1f486834e8b00afc8d88a3e6269b8bc9b8eb21"
+  },
+  "files": {
+    "PROTOCOL.md": "fb9bd7d00bf854c61475f28d86896aedbe611d2c406e19a81e345a711eb718b1",
+    "prepare.py": "11e1706b1b2e81e3e8790c7df3cb1d909f324c7cacca6488ebe3dc79e8562fec",
+    "core.hpp": "3adfbc72e28a0338f373bae075f14a2cd65a871836f4117426f6f31837443104",
+    "benchmark.cpp": "31a147a44e5c699f757f6128a33d5e7b3e840fa64362d6d982f2f1dd09bfb0f3",
+    "SOURCE_DIFF.patch": "80d6626313e41ac8a405f5e9cd1ad0033462d50936860329be90293868215489",
+    "inputs.json": "b551a215ed0421f6b625c51eaa3f92ac74fbc56c1aa2f499c021167201ac14a3",
+    "inputs.txt": "16a9ce71b156dc093c8ff5fe988b3fd8a07b225f824d917de3a6985d6e0ca8b3",
+    "schedule.json": "1c17beb60f3cda835033ca463fc936e8a5a0c4b78cdabf200c90be401ddef2b1",
+    "schedule.txt": "c52043243211dd0cfe9503aacb7dfabe26247c2496482fe7d68df96ad272909e"
+  },
+  "scope": "Deliberately favorable synthetic exact family; not a representative workload."
+}

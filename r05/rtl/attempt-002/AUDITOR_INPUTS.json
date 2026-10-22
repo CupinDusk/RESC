@@ -1,0 +1,3336 @@
+{
+  "kind": "auditor abstraction interface; private N,D excluded",
+  "valid_reports": [
+    {
+      "case_id": 0,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011999,
+          "timer_upper": 2012001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1995999,
+          "timer_upper": 1996001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2047999,
+          "timer_upper": 2048001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 1,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2040199,
+          "timer_upper": 2040201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2042179,
+          "timer_upper": 2042181,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2035919,
+          "timer_upper": 2035921,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2099199,
+          "timer_upper": 2099201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2064119,
+          "timer_upper": 2064121,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 2,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1991999,
+          "timer_upper": 1992001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003839,
+          "timer_upper": 2003841,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1987855,
+          "timer_upper": 1987857,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1964063,
+          "timer_upper": 1964065,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2007039,
+          "timer_upper": 2007041,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1955903,
+          "timer_upper": 1955905,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 3,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2022059,
+          "timer_upper": 2022061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1995999,
+          "timer_upper": 1996001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2058239,
+          "timer_upper": 2058241,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 4,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 5,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2029999,
+          "timer_upper": 2030001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2039999,
+          "timer_upper": 2040001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2049999,
+          "timer_upper": 2050001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2059999,
+          "timer_upper": 2060001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 6,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1991999,
+          "timer_upper": 1992001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1983999,
+          "timer_upper": 1984001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1975999,
+          "timer_upper": 1976001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1967999,
+          "timer_upper": 1968001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1959999,
+          "timer_upper": 1960001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1951999,
+          "timer_upper": 1952001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 7,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 8,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2007999,
+          "timer_upper": 2008001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011999,
+          "timer_upper": 2012001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015999,
+          "timer_upper": 2016001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 9,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2024039,
+          "timer_upper": 2024041,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2038119,
+          "timer_upper": 2038121,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2052239,
+          "timer_upper": 2052241,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2066399,
+          "timer_upper": 2066401,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2080599,
+          "timer_upper": 2080601,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 10,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1991999,
+          "timer_upper": 1992001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1987967,
+          "timer_upper": 1987969,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1983903,
+          "timer_upper": 1983905,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1979807,
+          "timer_upper": 1979809,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1975679,
+          "timer_upper": 1975681,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1971519,
+          "timer_upper": 1971521,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 11,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2018039,
+          "timer_upper": 2018041,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011999,
+          "timer_upper": 2012001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2026079,
+          "timer_upper": 2026081,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 12,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015999,
+          "timer_upper": 2016001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011999,
+          "timer_upper": 2012001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2007999,
+          "timer_upper": 2008001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 13,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2030099,
+          "timer_upper": 2030101,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2036159,
+          "timer_upper": 2036161,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2042179,
+          "timer_upper": 2042181,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2048159,
+          "timer_upper": 2048161,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2054099,
+          "timer_upper": 2054101,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2059999,
+          "timer_upper": 2060001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 14,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011919,
+          "timer_upper": 2011921,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999871,
+          "timer_upper": 1999873,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1987855,
+          "timer_upper": 1987857,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1975871,
+          "timer_upper": 1975873,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1963919,
+          "timer_upper": 1963921,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1951999,
+          "timer_upper": 1952001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 15,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2030099,
+          "timer_upper": 2030101,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015999,
+          "timer_upper": 2016001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2022059,
+          "timer_upper": 2022061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2007999,
+          "timer_upper": 2008001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2014019,
+          "timer_upper": 2014021,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 16,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2000999,
+          "timer_upper": 2001001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2001999,
+          "timer_upper": 2002001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2002999,
+          "timer_upper": 2003001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2004999,
+          "timer_upper": 2005001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 17,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2021009,
+          "timer_upper": 2021011,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2032029,
+          "timer_upper": 2032031,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2043059,
+          "timer_upper": 2043061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2054099,
+          "timer_upper": 2054101,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2065149,
+          "timer_upper": 2065151,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 18,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1991999,
+          "timer_upper": 1992001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1984991,
+          "timer_upper": 1984993,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1977975,
+          "timer_upper": 1977977,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1970951,
+          "timer_upper": 1970953,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1963919,
+          "timer_upper": 1963921,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1956879,
+          "timer_upper": 1956881,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 19,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2000999,
+          "timer_upper": 2001001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2012009,
+          "timer_upper": 2012011,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2002999,
+          "timer_upper": 2003001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2014019,
+          "timer_upper": 2014021,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2004999,
+          "timer_upper": 2005001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 20,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2039999,
+          "timer_upper": 2040001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2059999,
+          "timer_upper": 2060001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2079999,
+          "timer_upper": 2080001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2099999,
+          "timer_upper": 2100001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 21,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2040199,
+          "timer_upper": 2040201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2070599,
+          "timer_upper": 2070601,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2101199,
+          "timer_upper": 2101201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2131999,
+          "timer_upper": 2132001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2162999,
+          "timer_upper": 2163001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 22,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1991999,
+          "timer_upper": 1992001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003839,
+          "timer_upper": 2003841,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015519,
+          "timer_upper": 2015521,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2027039,
+          "timer_upper": 2027041,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2038399,
+          "timer_upper": 2038401,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2049599,
+          "timer_upper": 2049601,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 23,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2050199,
+          "timer_upper": 2050201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2059999,
+          "timer_upper": 2060001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2090399,
+          "timer_upper": 2090401,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2099999,
+          "timer_upper": 2100001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 24,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2004999,
+          "timer_upper": 2005001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2000999,
+          "timer_upper": 2001001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2002999,
+          "timer_upper": 2003001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2001999,
+          "timer_upper": 2002001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 25,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015024,
+          "timer_upper": 2015026,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2034059,
+          "timer_upper": 2034061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2041019,
+          "timer_upper": 2041021,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2053074,
+          "timer_upper": 2053076,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2062059,
+          "timer_upper": 2062061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 26,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1996979,
+          "timer_upper": 1996981,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1983999,
+          "timer_upper": 1984001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1979951,
+          "timer_upper": 1979953,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1968983,
+          "timer_upper": 1968985,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1962939,
+          "timer_upper": 1962941,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1953951,
+          "timer_upper": 1953953,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 27,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2015024,
+          "timer_upper": 2015026,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2014019,
+          "timer_upper": 2014021,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2000999,
+          "timer_upper": 2001001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2013014,
+          "timer_upper": 2013016,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2001999,
+          "timer_upper": 2002001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 28,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2047999,
+          "timer_upper": 2048001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2011999,
+          "timer_upper": 2012001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1995999,
+          "timer_upper": 1996001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1999999,
+          "timer_upper": 2000001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 29,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2058239,
+          "timer_upper": 2058241,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2040199,
+          "timer_upper": 2040201,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2042179,
+          "timer_upper": 2042181,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2035919,
+          "timer_upper": 2035921,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2049999,
+          "timer_upper": 2050001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2064119,
+          "timer_upper": 2064121,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 30,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2039807,
+          "timer_upper": 2039809,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003839,
+          "timer_upper": 2003841,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1987855,
+          "timer_upper": 1987857,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1964063,
+          "timer_upper": 1964065,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1959999,
+          "timer_upper": 1960001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1955903,
+          "timer_upper": 1955905,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 31,
+      "jobs": [
+        {
+          "slot": 0,
+          "slot_name": "P",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2058239,
+          "timer_upper": 2058241,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 1,
+          "slot_name": "S",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2019999,
+          "timer_upper": 2020001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 2,
+          "slot_name": "B",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2022059,
+          "timer_upper": 2022061,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 3,
+          "slot_name": "G",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 1995999,
+          "timer_upper": 1996001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 4,
+          "slot_name": "A",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2009999,
+          "timer_upper": 2010001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        },
+        {
+          "slot": 5,
+          "slot_name": "F",
+          "valid": true,
+          "reason": "licensed",
+          "timer_lower": 2003999,
+          "timer_upper": 2004001,
+          "source_obligations": {
+            "command_reset": true,
+            "settled": true,
+            "held_divider": true,
+            "fixed_cycle_countdown": true,
+            "timer_counts_reference_edges": true,
+            "adjacent_ratio_guard": true
+          }
+        }
+      ]
+    }
+  ],
+  "invalid_controls": [
+    {
+      "invalid_id": 0,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 1,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 1,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 1,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 2,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 1,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 3,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 2,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 4,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 2,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 5,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 3,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 6,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 3,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 7,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 3,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 8,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 4,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 9,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 4,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 10,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 4,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    },
+    {
+      "invalid_id": 11,
+      "valid": false,
+      "status": "contract-unknown",
+      "reason_code": 4,
+      "timer_enclosure": null,
+      "graph_audit_licensed": false
+    }
+  ],
+  "privacy": "Interface abstraction only; no cryptographic or inference-resistance assurance"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "widen_guard",
+  "mutation": {
+    "old": "40'd201",
+    "new": "40'd202"
+  },
+  "commands": [
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+        "mutant_harness.cpp",
+        "-o",
+        "check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execute",
+      "argv": [
+        "independent/mutants/widen_guard/check.exe"
+      ],
+      "returncode": 1
+    }
+  ],
+  "source_hashes": {
+    "reference.v": "3ce700c834182bf03ad4c9a37d77508946053d9def5dbbb86c63bfe0f697b682",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+  },
+  "status": "MUTANT_DETECTED",
+  "output_hashes": {
+    "check.exe": "0a01987b41927f75df4f98135fa0ebbdac267e044a3d9cca637e60aab6466477",
+    "check.pdb": "3867ddda016ff5394586c7c668d731d162d9f688aeecacf75ce1e68d1f767c97",
+    "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+    "execute.stderr.log": "eee0858a802e47b05bd69fb63671c1546f79d5721093552043da6916ffdd5079",
+    "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "netlist.cpp": "94495ce5eb2b8e3d9f5c9c435816b9158d1ede418c88d27d051a8007217318a3",
+    "reference.v": "3ce700c834182bf03ad4c9a37d77508946053d9def5dbbb86c63bfe0f697b682",
+    "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthesis.stdout.log": "e7abe638d270d26446913248faa721694e72e107e078f0950e859b629074d827"
+  }
+}

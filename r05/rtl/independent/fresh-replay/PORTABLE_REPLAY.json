@@ -1,0 +1,141 @@
+{
+  "kind": "fresh portable new reference RTL generated compilation/execution",
+  "sources": {
+    "PROTOCOL.json": "58e12453c45bda38089478994cdc8a0d76a7c1387ba4fd3bbec1238e9ddcb73c",
+    "reference.v": "5f34f836537dbac1b7544c331d49ad7e4819d670f59695ce9cc096563af172f8",
+    "driver.cpp": "0baab2aa857d851ca67d9fe7561d703d2188a336dfad0d776ca4ba3fbb18c11b",
+    "generate_inputs.py": "0a9a4629ba38acd75701b0079ef385f4775578353f3f1ce595cc410739f2113f",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "CORE_PROVENANCE.json": "7f152cda245f9efa34af48e4ae28301f90cb245ebfcebc91c01ac4fc0c44e669",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "audit_reports.py": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520",
+    "replay_portable.py": "0be8847e9d4721bc50593c310347763cbccf25e39039be4f7b63617e8e4ac44a"
+  },
+  "commands": [
+    {
+      "name": "vectors",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "generate_inputs.py",
+        "--out",
+        "vectors"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "yosys_version",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compiler_version",
+      "argv": [
+        "zig",
+        "version"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "simulation",
+      "argv": [
+        "independent/fresh-replay/simulate.exe",
+        "independent/fresh-replay/vectors",
+        "independent/fresh-replay"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "audit",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "audit_reports.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "status": "PASS_EXECUTED_GENERATED_REFERENCE_RTL_AND_AUDIT_PENDING_INDEPENDENT_GATE",
+  "outputs": {
+    "ALL_REPORTS.jsonl.gz": "a260278b0cadd3ad7a96eb206b7b1a0821cd774fbf4db30770e834d5e25240f2",
+    "audit.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit.stdout.log": "7e5252910fdd3f26f39c540b38a4c043ecfb2c78984f4a7589e72eb4d88290a6",
+    "AUDITOR_INPUTS.json": "f9f847230d9cf970346620e741d86af631d39baf1122d9cf4b382a302f85c832",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "audit_reports.py": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520",
+    "AUDIT_RESULTS.json": "5608223d3a80b77933182145505577da14e954aa688dc7bac1961ada17dc4c6b",
+    "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compiler_version.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compiler_version.stdout.log": "21b8abaa6293c32a0e5d69083c162f77c1ee85671dcdfad8e90fd7e0cfa7de3f",
+    "CORE_PROVENANCE.json": "7f152cda245f9efa34af48e4ae28301f90cb245ebfcebc91c01ac4fc0c44e669",
+    "driver.cpp": "0baab2aa857d851ca67d9fe7561d703d2188a336dfad0d776ca4ba3fbb18c11b",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "generate_inputs.py": "0a9a4629ba38acd75701b0079ef385f4775578353f3f1ce595cc410739f2113f",
+    "INVALID_CONTROLS.csv": "fc9326270a2d925dce7403c9f4af496d61858f668e00845d6df7725cacd884f3",
+    "JOBS.csv": "eacd8e64c2fbd19a1456838d0215384c1e6020da11a094ee8e33776ddac3ed98",
+    "netlist.cpp": "fec36f109121beef0e4d9921f09cb72754fc19bf1021faed03a991d311f127f5",
+    "OBSERVATIONS.json": "987c26f0af20c64e718b30e803c167c2df9ec62f96692427816df32c82d27999",
+    "PROTOCOL.json": "58e12453c45bda38089478994cdc8a0d76a7c1387ba4fd3bbec1238e9ddcb73c",
+    "reference.v": "5f34f836537dbac1b7544c331d49ad7e4819d670f59695ce9cc096563af172f8",
+    "replay_portable.py": "0be8847e9d4721bc50593c310347763cbccf25e39039be4f7b63617e8e4ac44a",
+    "RTL_RESULTS.json": "f157f15bb8624adfde284d55a911146089dc2e054e49c8d4c55294b8a431e9f8",
+    "SCENARIOS.csv": "146cf3340becacda00db156f36e0b24b10d37be263e688f4aab4c98ccbb5a022",
+    "simulate.exe": "6e8428d661e5b8012e7a4c0f9f752ac7f73080b608042017df6d25bf2ff2c1e3",
+    "simulate.pdb": "d76ee9484d0003e9030c30e69f5a9b5b8220598927aee8a9b7140a8b28d6347a",
+    "simulation.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation.stdout.log": "24ae992088a21ffa8ae7a702ded933417fea53bf00a877983d26206849d481fb",
+    "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthesis.stdout.log": "9800021b54ea113e696d8b0841e6a817c6da1884dd76259b18eac23ab99b9a99",
+    "TICKS_RLE.csv": "f91ff5097d34a93f2dc4b8638b0d3a0152e061394c942a53fe40918b8c59387d",
+    "vectors.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vectors.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "yosys_version.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "yosys_version.stdout.log": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c",
+    "vectors/INPUTS.json": "30ad36a55c4091de0656f8e01154238308c215929bf397b39f4f0fe5c0f750ac",
+    "vectors/INPUT_MANIFEST.json": "da012af266bb99351987d909107233b4c1ee10c5fe893539f6e519f37fd51f19",
+    "vectors/vectors.txt": "bf657992c02a09f3b5c3a238e9d7d2de44d4ed9621325d36ad8f6a3d31869909"
+  }
+}

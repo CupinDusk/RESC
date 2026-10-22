@@ -1,0 +1,8 @@
+{
+  "public_author_source": "outputs/iscas-final-polish-20261022/r04-analysis/hopper-changing-clock/audit_core.py",
+  "source_sha256": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+  "local_copy": "audit_core.py",
+  "local_copy_sha256": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+  "changes": [],
+  "usage": "Unchanged audit, matrix, bf and floyd graph/certificate functions at scale10^60. The original Decimal log_bounds is never called; exact_logs.py supplies rational-series outward enclosures with a rigorous tail bound."
+}

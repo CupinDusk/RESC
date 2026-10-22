@@ -1,0 +1,12 @@
+{
+  "status":"PASS_EXECUTED_GENERATED_REFERENCE_RTL",
+  "valid_reports":32,
+  "valid_jobs":192,
+  "invalid_attempts":12,
+  "all_reference_edges":389022846,
+  "valid_active_reference_edges":387019984,
+  "invalid_scenario_reference_edges":2002062,
+  "valid_job_pulses":386440,
+  "per_edge_checks":true,
+  "mismatches":0
+}

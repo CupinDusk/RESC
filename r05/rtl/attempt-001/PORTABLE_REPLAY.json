@@ -1,0 +1,79 @@
+{
+  "kind": "fresh portable new reference RTL generated compilation/execution",
+  "sources": {
+    "PROTOCOL.json": "58e12453c45bda38089478994cdc8a0d76a7c1387ba4fd3bbec1238e9ddcb73c",
+    "reference.v": "5f34f836537dbac1b7544c331d49ad7e4819d670f59695ce9cc096563af172f8",
+    "driver.cpp": "0baab2aa857d851ca67d9fe7561d703d2188a336dfad0d776ca4ba3fbb18c11b",
+    "generate_inputs.py": "0a9a4629ba38acd75701b0079ef385f4775578353f3f1ce595cc410739f2113f",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "CORE_PROVENANCE.json": "7f152cda245f9efa34af48e4ae28301f90cb245ebfcebc91c01ac4fc0c44e669",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "audit_reports.py": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520",
+    "replay_portable.py": "e6b9200b1771768ea9ab05e0f4b76f339311e64182d7cff107c6966c43fb6b20"
+  },
+  "commands": [
+    {
+      "name": "vectors",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "generate_inputs.py",
+        "--out",
+        "vectors"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "yosys_version",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compiler_version",
+      "argv": [
+        "zig",
+        "version"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 1
+    }
+  ],
+  "status": "FAILED_COMPILE"
+}

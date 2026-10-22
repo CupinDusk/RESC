@@ -1,0 +1,67 @@
+{
+  "name": "missing_settle_gate",
+  "mutation": {
+    "old": "else if (settled != 2 || cfgd != heldd)",
+    "new": "else if (1'b0)"
+  },
+  "commands": [
+    {
+      "name": "synthesis",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "-p",
+        "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE",
+        "-I",
+        "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+        "mutant_harness.cpp",
+        "-o",
+        "check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execute",
+      "argv": [
+        "independent/mutants/missing_settle_gate/check.exe"
+      ],
+      "returncode": 1
+    }
+  ],
+  "source_hashes": {
+    "reference.v": "6349a3c30f7c215576fbbccb390cb24a7d50cdc5e070ca21027f4a3936c8d743",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+  },
+  "status": "MUTANT_DETECTED",
+  "output_hashes": {
+    "check.exe": "a96ba2dae6f0c124bb855285c1eff4ebdbaa352f357927e749b1f279549d1da0",
+    "check.pdb": "515d23721b2167a9159c6ff03f2796fd4b439d73c3b5709db57c9934da24a263",
+    "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+    "execute.stderr.log": "93fcf94f29d932ff77d442223e419cbf0e828162a3c85acde9ac9c1691a837c3",
+    "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+    "netlist.cpp": "0e914ed1721d409c15a0a6368d62b89ea50b13cca35badb4cc7fd1194f357cd8",
+    "reference.v": "6349a3c30f7c215576fbbccb390cb24a7d50cdc5e070ca21027f4a3936c8d743",
+    "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthesis.stdout.log": "90d37870dfa7818970312e648c2c13e94d28f6e8f44955c31880a60020fc41d7"
+  }
+}

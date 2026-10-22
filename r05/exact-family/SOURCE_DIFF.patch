@@ -1,0 +1,64 @@
+--- R04/core.hpp
++++ R05/core.hpp
+@@ -14,7 +14,7 @@
+ using I=__int128_t;using Clock=std::chrono::steady_clock;
+ volatile uint64_t checksum=0;
+ struct Rect{std::vector<int64_t> l,u;};
+-struct Plan{int id,sid,n,expect;std::vector<int64_t> pos;std::vector<std::pair<int,int>> edges,pairs;std::vector<uint8_t> R;std::array<Rect,8> rect;std::vector<std::pair<int,int>> queries,survivors;bool cheap=false,exact=false;int64_t span=0;};
++struct Plan{int id,sid,n,expect;std::vector<int64_t> pos;std::vector<std::pair<int,int>> edges,pairs;std::vector<uint8_t> R;std::array<Rect,48> rect;std::vector<std::pair<int,int>> queries,survivors;bool cheap=false,exact=false;int64_t span=0;};
+ struct Stratum{int id,reps;std::vector<int> ids;};
+ struct Schedule{int block,sid;std::array<int,4> routes;std::array<int,3> prep;};
+ [[noreturn]]void fail(const std::string&s){std::cerr<<s<<"\n";std::exit(2);}void require(bool b,const std::string&s){if(!b)fail(s);}
+--- R04/benchmark.cpp
++++ R05/benchmark.cpp
+@@ -32,10 +32,10 @@
+  }
+  std::vector<Stratum>strata(ns);
+  for(auto&s:strata){int ni;in>>s.id>>s.reps>>ni;s.ids.resize(ni);for(auto&x:s.ids)in>>x;}
+- require(bool(in)&&np==870&&ns==51,"input parse/count failure");
++ require(bool(in)&&np==15&&ns==15,"input parse/count failure");
+  std::ifstream sf("schedule.txt");int nr;sf>>nr;std::vector<Batch>schedule(nr);
+  for(auto&b:schedule){sf>>b.block>>b.sid>>b.q;for(auto&x:b.routes)sf>>x;}
+- require(bool(sf)&&nr==9*51*3,"schedule parse failure");
++ require(bool(sf)&&nr==9*15*4,"schedule parse failure");
+  Scratch scratch;
+  if(!timing){
+   std::ofstream out("validation.csv");out<<"plan,rectangle,delta,decision,raw_floyd,closure_floyd,cheap,quartet\n";
+@@ -52,22 +52,22 @@
+    }
+   }
+   std::ofstream expected("expected_batches.csv");expected<<"stratum,queries,expected_checksum\n";
+-  for(auto&s:strata)for(int q:{1,48,192}){
++  for(auto&s:strata)for(int q:{1,48,192,768}){
+    uint64_t sums[4]={0,0,0,0};
+    for(int route=0;route<4;route++)for(int id:s.ids)sums[route]+=complete_job(plans[id],route,q,scratch);
+    require(sums[0]==sums[1]&&sums[0]==sums[2]&&sums[0]==sums[3],"complete-job hash mismatch");
+    expected<<s.id<<','<<q<<','<<sums[0]<<'\n';
+   }
+-  std::cout<<"PASS_VALIDATION distinct_queries="<<checked<<" raw/closed_BF_certificates_and_Floyd complete_batch_hashes=153\n";return 0;
++  std::cout<<"PASS_VALIDATION distinct_queries="<<checked<<" raw/closed_BF_certificates_and_Floyd complete_batch_hashes=60\n";return 0;
+  }
+  // Predetermined expected sums are verified again before any timed region.
+  std::ifstream ef("expected_batches.csv");require(bool(ef),"validated expected hashes missing");
+- std::string line;std::getline(ef,line);std::vector<std::array<uint64_t,3>>expected(ns);
+- while(std::getline(ef,line)){for(auto&ch:line)if(ch==',')ch=' ';std::istringstream row(line);int sid,q;uint64_t h;row>>sid>>q>>h;require(bool(row),"expected parse");expected[sid][q==1?0:q==48?1:2]=h;}
++ std::string line;std::getline(ef,line);std::vector<std::array<uint64_t,4>>expected(ns);
++ while(std::getline(ef,line)){for(auto&ch:line)if(ch==',')ch=' ';std::istringstream row(line);int sid,q;uint64_t h;row>>sid>>q>>h;require(bool(row),"expected parse");expected[sid][q==1?0:q==48?1:q==192?2:3]=h;}
+  // One complete untimed warmup, actual prepared jobs and every declared Q/route/stratum.
+- for(auto&s:strata)for(int q:{1,48,192})for(int route=0;route<4;route++){
++ for(auto&s:strata)for(int q:{1,48,192,768})for(int route=0;route<4;route++){
+   uint64_t h=0;for(int id:s.ids)h+=complete_job(plans[id],route,q,scratch);
+-  require(h==expected[s.id][q==1?0:q==48?1:2],"warmup expected mismatch");checksum+=h;
++  require(h==expected[s.id][q==1?0:q==48?1:q==192?2:3],"warmup expected mismatch");checksum+=h;
+  }
+  std::ofstream out("complete_times.csv");out<<"block,stratum,queries,position,route,repeats,jobs_per_repeat,elapsed_ns,checksum,expected_checksum\n";
+  for(auto&b:schedule){auto&s=strata[b.sid];
+@@ -77,7 +77,7 @@
+     asm volatile("" : : "g"(&plans[id]) : "memory");
+     h+=complete_job(plans[id],route,b.q,scratch);
+    }
+-   auto stop=Clock::now();uint64_t want=expected[s.id][b.q==1?0:b.q==48?1:2]*uint64_t(s.reps);
++   auto stop=Clock::now();uint64_t want=expected[s.id][b.q==1?0:b.q==48?1:b.q==192?2:3]*uint64_t(s.reps);
+    require(h==want,"timed expected mismatch");checksum+=h;
+    auto elapsed=std::chrono::duration_cast<std::chrono::nanoseconds>(stop-start).count();
+    out<<b.block<<','<<s.id<<','<<b.q<<','<<position<<','<<route<<','<<s.reps<<','<<s.ids.size()<<','<<elapsed<<','<<h<<','<<want<<'\n';

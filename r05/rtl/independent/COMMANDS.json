@@ -1,0 +1,137 @@
+{
+  "commands": [
+    {
+      "name": "fresh_portable_replay",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "replay_portable.py",
+        "--out",
+        "independent/fresh-replay",
+        "--yosys-python-wrapper",
+        "EXTERNAL_YOSYS_WRAPPER",
+        "--cxx",
+        "zig",
+        "--zig",
+        "--include",
+        "EXTERNAL_YOSYS_INCLUDE"
+      ],
+      "returncode": 0,
+      "stage_logs": "fresh-replay/PORTABLE_REPLAY.json"
+    },
+    {
+      "name": "compile_independent_edge_oracle",
+      "argv": [
+        "zig",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "independent/edge_oracle.cpp",
+        "-o",
+        "independent/edge_oracle.exe"
+      ],
+      "returncode": 0,
+      "observed_stdout": "",
+      "observed_stderr": ""
+    },
+    {
+      "name": "producer_full_edge_expansion",
+      "argv": [
+        "independent/edge_oracle.exe",
+        "attempt-002",
+        "independent/PRODUCER_EDGE_CHECK.json"
+      ],
+      "returncode": 0,
+      "observed_stdout": "PASS every decoded edge: 389022846\n"
+    },
+    {
+      "name": "fresh_full_edge_expansion",
+      "argv": [
+        "independent/edge_oracle.exe",
+        "independent/fresh-replay",
+        "independent/FRESH_EDGE_CHECK.json"
+      ],
+      "returncode": 0,
+      "observed_stdout": "PASS every decoded edge: 389022846\n"
+    },
+    {
+      "name": "independent_checks_attempt_001",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/independent_checks.py"
+      ],
+      "returncode": 1,
+      "combined_log": "independent_checks-attempt-001.log"
+    },
+    {
+      "name": "independent_checks_attempt_002",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/independent_checks.py"
+      ],
+      "returncode": 1,
+      "combined_log": "independent_checks-attempt-002.log"
+    },
+    {
+      "name": "independent_checks_attempt_003",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/independent_checks.py"
+      ],
+      "returncode": 0,
+      "combined_log": "independent_checks-attempt-003.log"
+    },
+    {
+      "name": "independent_checks_attempt_004",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/independent_checks.py"
+      ],
+      "returncode": 0,
+      "combined_log": "independent_checks-attempt-004.log"
+    },
+    {
+      "name": "synthesized_mutants",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/run_mutants.py"
+      ],
+      "returncode": 0,
+      "combined_log": "mutant_run-attempt-001.log",
+      "stage_logs": "mutants/*/RESULT.json"
+    },
+    {
+      "name": "finalize_audit",
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "independent/finalize_audit.py"
+      ],
+      "returncode": 0,
+      "note": "Final artifact generation; only metadata/file hashing, not scientific execution"
+    }
+  ],
+  "working_directory": "RESEARCH_WORKSPACE",
+  "performance_timings_collected": false,
+  "note": "Recorded from actual tool calls; final checker source is snapshotted in checker-sources. Initial failed check logs remain unchanged."
+}

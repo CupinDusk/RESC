@@ -1,0 +1,688 @@
+{
+  "status": "PASS",
+  "gate": "Bounded logical source/trace/semantic/certificate validation",
+  "full_replay_byte_identity": false,
+  "producer_inventory_unchanged": true,
+  "independence": {
+    "graph": "13 original variables, separate edge-list synchronous Bellman-Ford",
+    "logs": "exact Fraction 170-term atanh sum, exact geometric tail, 10^70 graph bounds",
+    "producer_modules_imported": false
+  },
+  "edges": {
+    "status": "PASS",
+    "decoded_edges": 389022846,
+    "rle_rows": 1166181,
+    "valid_active_edges": 387019984,
+    "valid_pulses": 386440,
+    "scenario_edges": [
+      12080025,
+      12291645,
+      11910729,
+      12110325,
+      12000025,
+      12210025,
+      11832025,
+      12030025,
+      12060025,
+      12271425,
+      11890905,
+      12090145,
+      12060025,
+      12270725,
+      11891465,
+      12090205,
+      12015025,
+      12225375,
+      11846745,
+      12045055,
+      12300025,
+      12517025,
+      12126425,
+      12330625,
+      12015025,
+      12225265,
+      11846833,
+      12045085,
+      12080025,
+      12290685,
+      11911497,
+      12110325,
+      2,
+      5,
+      10,
+      3,
+      4,
+      5,
+      6,
+      8,
+      6,
+      1004,
+      1005,
+      2000004
+    ]
+  },
+  "graph_summary": {
+    "queries": 23072,
+    "certificates": {
+      "reject": 14194,
+      "admit": 8878
+    },
+    "totals": {
+      "total": {
+        "reports": 23040,
+        "true": 2908,
+        "false": 20132,
+        "admit": 8864,
+        "reject": 14176,
+        "unknown": 0,
+        "true_admit": 2908,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 5956,
+        "false_reject": 14176,
+        "false_unknown": 0,
+        "box_admit": 8940,
+        "box_reject": 14100,
+        "box_unknown": 0,
+        "box_admit_path_reject": 76
+      },
+      "partial": {
+        "reports": 32,
+        "true": 4,
+        "false": 28,
+        "admit": 14,
+        "reject": 18,
+        "unknown": 0,
+        "true_admit": 4,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 10,
+        "false_reject": 18,
+        "false_unknown": 0,
+        "box_admit": 20,
+        "box_reject": 12,
+        "box_unknown": 0,
+        "box_admit_path_reject": 6
+      },
+      "tie_total": {
+        "reports": 2880,
+        "true": 2880,
+        "false": 0,
+        "admit": 2880,
+        "reject": 0,
+        "unknown": 0,
+        "true_admit": 2880,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 0,
+        "false_reject": 0,
+        "false_unknown": 0,
+        "box_admit": 2880,
+        "box_reject": 0,
+        "box_unknown": 0,
+        "box_admit_path_reject": 0
+      },
+      "other_total": {
+        "reports": 20160,
+        "true": 28,
+        "false": 20132,
+        "admit": 5984,
+        "reject": 14176,
+        "unknown": 0,
+        "true_admit": 28,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 5956,
+        "false_reject": 14176,
+        "false_unknown": 0,
+        "box_admit": 6060,
+        "box_reject": 14100,
+        "box_unknown": 0,
+        "box_admit_path_reject": 76
+      },
+      "tie_partial": {
+        "reports": 4,
+        "true": 4,
+        "false": 0,
+        "admit": 4,
+        "reject": 0,
+        "unknown": 0,
+        "true_admit": 4,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 0,
+        "false_reject": 0,
+        "false_unknown": 0,
+        "box_admit": 4,
+        "box_reject": 0,
+        "box_unknown": 0,
+        "box_admit_path_reject": 0
+      },
+      "other_partial": {
+        "reports": 28,
+        "true": 0,
+        "false": 28,
+        "admit": 10,
+        "reject": 18,
+        "unknown": 0,
+        "true_admit": 0,
+        "true_reject": 0,
+        "true_unknown": 0,
+        "false_admit": 10,
+        "false_reject": 18,
+        "false_unknown": 0,
+        "box_admit": 16,
+        "box_reject": 12,
+        "box_unknown": 0,
+        "box_admit_path_reject": 6
+      }
+    },
+    "changed_partial_case_ids": [
+      0,
+      2,
+      15,
+      26,
+      27,
+      28
+    ]
+  },
+  "replay_nonidentity": {
+    "gzip": {
+      "producer_sha256": "cf4fd5518903d36e470e5f6697e6cb4333c3995c84e893777b07ae7b2b799df4",
+      "fresh_sha256": "a260278b0cadd3ad7a96eb206b7b1a0821cd774fbf4db30770e834d5e25240f2",
+      "archive_bytes_equal": false,
+      "differing_byte_offsets": [
+        4,
+        5
+      ],
+      "decompressed_bytes_equal": true,
+      "decompressed_sha256": "36034e1d46803bc327cb7cecf7343a2448ef81dddacd619f5105b7ac9cbf16a4"
+    },
+    "binary": {
+      "byte_equal": false,
+      "equal_after_PE_timestamps_only": false,
+      "differing_byte_offsets": [
+        128,
+        130,
+        131,
+        823300,
+        823302,
+        823303,
+        823328,
+        823330,
+        823331,
+        823356,
+        823357,
+        823358,
+        823359,
+        823360,
+        823361,
+        823362,
+        823363
+      ],
+      "text_section_sha256": "854ab5c540ef3b64d7e3e1ac1d3f5fea4d8b7dff9d1fbc1390df6c0d4446682d",
+      "classification": "PE COFF/debug timestamps and CodeView RSDS build GUID; GUID difference is retained, not ignored",
+      "producer": {
+        "timestamp_offsets": [
+          128,
+          823300,
+          823328
+        ],
+        "timestamp_values": [
+          3243529093,
+          3243529093,
+          3243529093
+        ],
+        "guid_fields": [
+          [
+            823356,
+            "2a734a9671d89eef4c4c44205044422e"
+          ]
+        ],
+        "text_sha256": "854ab5c540ef3b64d7e3e1ac1d3f5fea4d8b7dff9d1fbc1390df6c0d4446682d"
+      },
+      "fresh": {
+        "timestamp_offsets": [
+          128,
+          823300,
+          823328
+        ],
+        "timestamp_values": [
+          639849341,
+          639849341,
+          639849341
+        ],
+        "guid_fields": [
+          [
+            823356,
+            "e9648d8c1a758e844c4c44205044422e"
+          ]
+        ],
+        "text_sha256": "854ab5c540ef3b64d7e3e1ac1d3f5fea4d8b7dff9d1fbc1390df6c0d4446682d"
+      }
+    }
+  },
+  "mutants": {
+    "status": "PASS",
+    "baseline_passed": true,
+    "actually_synthesized_and_compiled_mutants": 5,
+    "all_five_detected": true,
+    "cases": [
+      {
+        "name": "baseline",
+        "mutation": {
+          "old": null,
+          "new": null
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/baseline/check.exe"
+            ],
+            "returncode": 0
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "19bd4592b6cfd5060a6dc785ef181934fdfe9249825add623bce257d2ae19890",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "BASELINE_PASS",
+        "output_hashes": {
+          "check.exe": "b9bfd130382e46b319f30545404a1da5c88d1842f8f3793e98a81dc2ad4d8a0f",
+          "check.pdb": "af6be29eb9d91ae76f61305770698dc912ce8b6fa231277f8906cf8eae8781ec",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "execute.stdout.log": "b54f7071bee6c1fd9d2778589a50b89573fc169e1e88c9182511eca9b9b7efe3",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "fec36f109121beef0e4d9921f09cb72754fc19bf1021faed03a991d311f127f5",
+          "reference.v": "19bd4592b6cfd5060a6dc785ef181934fdfe9249825add623bce257d2ae19890",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "6116255584e43c54aecdb8e0bd58fcef9ec6b0f53615ae093817ef296d87181e"
+        }
+      },
+      {
+        "name": "widen_guard",
+        "mutation": {
+          "old": "40'd201",
+          "new": "40'd202"
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/widen_guard/check.exe"
+            ],
+            "returncode": 1
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "3ce700c834182bf03ad4c9a37d77508946053d9def5dbbb86c63bfe0f697b682",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "MUTANT_DETECTED",
+        "output_hashes": {
+          "check.exe": "0a01987b41927f75df4f98135fa0ebbdac267e044a3d9cca637e60aab6466477",
+          "check.pdb": "3867ddda016ff5394586c7c668d731d162d9f688aeecacf75ce1e68d1f767c97",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "eee0858a802e47b05bd69fb63671c1546f79d5721093552043da6916ffdd5079",
+          "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "94495ce5eb2b8e3d9f5c9c435816b9158d1ede418c88d27d051a8007217318a3",
+          "reference.v": "3ce700c834182bf03ad4c9a37d77508946053d9def5dbbb86c63bfe0f697b682",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "e7abe638d270d26446913248faa721694e72e107e078f0950e859b629074d827"
+        }
+      },
+      {
+        "name": "missing_held_check",
+        "mutation": {
+          "old": "if (cfgd != heldd) begin",
+          "new": "if (1'b0) begin"
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/missing_held_check/check.exe"
+            ],
+            "returncode": 1
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "340e1cade609bce25d807c76086bd25e9ba83f61a730497a2cc8768f97d68b53",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "MUTANT_DETECTED",
+        "output_hashes": {
+          "check.exe": "3a96dfa77399f2c99673360621dc9fce45d2de3790cf63f1b91a8b5b7a029219",
+          "check.pdb": "cfb3378d225bb2fbf6b4ccf6848a98d37c3af6a97c331bc2d7e74a531a436e6e",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "d5fd682617ff5e174a24c561be618b31d3b6156484d308a916dcc70e5ec02f6d",
+          "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "0aef4609e827c4646b21654aa8c75732cd0cd96fe591a30422015cbdd2c89c65",
+          "reference.v": "340e1cade609bce25d807c76086bd25e9ba83f61a730497a2cc8768f97d68b53",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "b732541c792fa4f0200964143e00c4ad3f00727ca3ee657ffd60eb63c129632f"
+        }
+      },
+      {
+        "name": "short_countdown",
+        "mutation": {
+          "old": "remaining <= nlatched;",
+          "new": "remaining <= nlatched - 1;"
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/short_countdown/check.exe"
+            ],
+            "returncode": 1
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "d6f297a51037649bcbbc4ed0acc3d4307dad2b0ae1a3487d5ae7e0f0750947d9",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "MUTANT_DETECTED",
+        "output_hashes": {
+          "check.exe": "067c540758f0605257f1ede7040cb25a06ea35b9b428a111cddca0329a923a26",
+          "check.pdb": "251a32b3f8bc5f299ea088c0300b7054f8897f9c54b0a5248720d933a72d9df1",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "e5b6e0518aebfe90aabbf25a5e4dcaa381863bf76d2f1b643a498ddec62f7ee8",
+          "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "a39390db8c6974bbe920066c185f2a75060079629daa82cd75953d11e1d4f186",
+          "reference.v": "d6f297a51037649bcbbc4ed0acc3d4307dad2b0ae1a3487d5ae7e0f0750947d9",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "d4a4631b9843290c10116835b59752e14078a9bb62997fa7ac78840c8ce1f24b"
+        }
+      },
+      {
+        "name": "missing_reset_license",
+        "mutation": {
+          "old": "if (!licensed)",
+          "new": "if (1'b0)"
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/missing_reset_license/check.exe"
+            ],
+            "returncode": 1
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "4d6d0778d93f03eb224e0a42ee8fc4a9d4cdb1da438aa5fc41320c58c71ffd80",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "MUTANT_DETECTED",
+        "output_hashes": {
+          "check.exe": "ed771f6c3000b56382ce42d8bfb8b29031c42bbbbd2d1247ef8cab132fb967b0",
+          "check.pdb": "1e48ecb27f9c7bd0dc193060f9a1b7e7dd414b0d0d85087a2d09493aad15bf8f",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "70d1f2ccda1dc34a7ee7750fd7d474620b59bd98d158fefc0138949a23d53317",
+          "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "c997e25066b8eccc8d0b4c6fa8e322f5048004ad345682f0526e5541fced84a3",
+          "reference.v": "4d6d0778d93f03eb224e0a42ee8fc4a9d4cdb1da438aa5fc41320c58c71ffd80",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "8669ace5676de52bbf5f2aa3474698e36211d586d969e672dfcd6dea7b6c7465"
+        }
+      },
+      {
+        "name": "missing_settle_gate",
+        "mutation": {
+          "old": "else if (settled != 2 || cfgd != heldd)",
+          "new": "else if (1'b0)"
+        },
+        "commands": [
+          {
+            "name": "synthesis",
+            "argv": [
+              "python",
+              "-B",
+              "-X",
+              "utf8",
+              "EXTERNAL_YOSYS_WRAPPER",
+              "-p",
+              "read_verilog reference.v; hierarchy -check -top reference_job; prep -top reference_job; check -assert; write_cxxrtl netlist.cpp"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "compile",
+            "argv": [
+              "zig",
+              "c++",
+              "-std=c++17",
+              "-O3",
+              "-UNDEBUG",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE",
+              "-I",
+              "EXTERNAL_YOSYS_INCLUDE/backends/cxxrtl/runtime",
+              "mutant_harness.cpp",
+              "-o",
+              "check.exe"
+            ],
+            "returncode": 0
+          },
+          {
+            "name": "execute",
+            "argv": [
+              "independent/mutants/missing_settle_gate/check.exe"
+            ],
+            "returncode": 1
+          }
+        ],
+        "source_hashes": {
+          "reference.v": "6349a3c30f7c215576fbbccb390cb24a7d50cdc5e070ca21027f4a3936c8d743",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df"
+        },
+        "status": "MUTANT_DETECTED",
+        "output_hashes": {
+          "check.exe": "a96ba2dae6f0c124bb855285c1eff4ebdbaa352f357927e749b1f279549d1da0",
+          "check.pdb": "515d23721b2167a9159c6ff03f2796fd4b439d73c3b5709db57c9934da24a263",
+          "compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "compile.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "edge_oracle.cpp": "75358aa5e18af74f25f78656d2f4cd7ba813638db10a810a8535a73404eb94df",
+          "execute.stderr.log": "93fcf94f29d932ff77d442223e419cbf0e828162a3c85acde9ac9c1691a837c3",
+          "execute.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mutant_harness.cpp": "0a7245d6d8bd0f631cd5ba1f8f9e1d1b378be9c5839fa5826bb3fbb53e10c76e",
+          "netlist.cpp": "0e914ed1721d409c15a0a6368d62b89ea50b13cca35badb4cc7fd1194f357cd8",
+          "reference.v": "6349a3c30f7c215576fbbccb390cb24a7d50cdc5e070ca21027f4a3936c8d743",
+          "synthesis.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "synthesis.stdout.log": "90d37870dfa7818970312e648c2c13e94d28f6e8f44955c31880a60020fc41d7"
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Author-side independent validation, not a blind review and not a conference judgment.",
+    "New logical reference RTL and synchronous reference ticks only; no native Hopper/H20/HUSH, GPU, silicon, FPGA, physical clock calibration, CDC/metastability, PPA, latency, or performance validation.",
+    "All 32 designed reports and 23,072 graph queries are a fixed census, not workload frequencies or a representative distribution; all-tie admissions dominate the true-order population.",
+    "Admission is feasibility of a real-valued log abstraction; it does not identify the original private N, prove concrete alternate integer N/D RTL realizability, or provide cryptographic/inference-resistant privacy.",
+    "Source trust still includes truthful guard/obligation bits and the timer interface. Full debug evidence intentionally discloses N/D, while the audited interface excludes them.",
+    "Reset initializes the synchronous model; pre-reset CXXRTL zero values are recorded but are not a hardware initialization guarantee. Logical settlement means two stable quiet sampled edges, not analog settling.",
+    "The explicit full-edge oracle uses signed int64 trace storage and is valid on the declared bounded runs; it is not a proof for arbitrary uint64 overflow states.",
+    "Declared maximum N=2100, D=1030, N*D<=2163000 makes all 32-bit counters, 64-bit timer, and 40-bit products nonoverflowing. Overflow reason7 was source-reviewed but not forced by simulation. The small independent harness additionally exercised zero inputs (reason6), busy reset (reason5), and repeated busy start (reason8), without adding them to the 12 declared controls.",
+    "The generated executable is not byte-identical even after PE timestamps alone: CodeView RSDS build GUID bytes also differ. Its .text section and all semantic outputs are exact; the GUID difference is preserved and not ignored.",
+    "The gzip query archives have different mtime bytes and actual SHA256 bindings; their decompressed bytes are exact. No archive byte-identity or fully deterministic-build claim is made.",
+    "Independent finite-census/certificate verification and state induction do not constitute a general formal proof of arbitrary RTL/compiler/toolchain behavior."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS_AUTHOR_RTL_TIMER_GRAPH_AUDIT_PENDING_INDEPENDENT_GATE",
+  "queries": 23072,
+  "total_orders": {
+    "reports": 23040,
+    "true": 2908,
+    "false": 20132,
+    "admit": 8864,
+    "reject": 14176,
+    "unknown": 0,
+    "true_admit": 2908,
+    "true_reject": 0,
+    "true_unknown": 0,
+    "false_admit": 5956,
+    "false_reject": 14176,
+    "false_unknown": 0,
+    "box_admit": 8940,
+    "box_reject": 14100,
+    "box_unknown": 0,
+    "box_admit_path_reject": 76
+  },
+  "fixed_partial": {
+    "reports": 32,
+    "true": 4,
+    "false": 28,
+    "admit": 14,
+    "reject": 18,
+    "unknown": 0,
+    "true_admit": 4,
+    "true_reject": 0,
+    "true_unknown": 0,
+    "false_admit": 10,
+    "false_reject": 18,
+    "false_unknown": 0,
+    "box_admit": 20,
+    "box_reject": 12,
+    "box_unknown": 0,
+    "box_admit_path_reject": 6
+  },
+  "certificates": {
+    "reject": 14194,
+    "admit": 8878
+  }
+}

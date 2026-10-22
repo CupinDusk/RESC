@@ -1,0 +1,5942 @@
+[
+  {
+    "block": 0,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 0,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 1,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 2,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 3,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 4,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 5,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 6,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "block": 7,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 0,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 0,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 0,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 0,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 1,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 1,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 1,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 1,
+    "queries": 48,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 2,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 2,
+    "queries": 1,
+    "routes": [
+      1,
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 2,
+    "queries": 768,
+    "routes": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 2,
+    "queries": 48,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 3,
+    "queries": 1,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 3,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 3,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 3,
+    "queries": 48,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 4,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 4,
+    "queries": 768,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 4,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 4,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 5,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 5,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 5,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 5,
+    "queries": 1,
+    "routes": [
+      1,
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 6,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 6,
+    "queries": 1,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 6,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 6,
+    "queries": 192,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 7,
+    "queries": 1,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 7,
+    "queries": 192,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 7,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 7,
+    "queries": 48,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 8,
+    "queries": 768,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 8,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 8,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 8,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 9,
+    "queries": 48,
+    "routes": [
+      3,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 9,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 9,
+    "queries": 1,
+    "routes": [
+      3,
+      0,
+      2,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 9,
+    "queries": 768,
+    "routes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 10,
+    "queries": 48,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 10,
+    "queries": 768,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 10,
+    "queries": 192,
+    "routes": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 10,
+    "queries": 1,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 11,
+    "queries": 48,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 11,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 11,
+    "queries": 192,
+    "routes": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 11,
+    "queries": 768,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 12,
+    "queries": 192,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 12,
+    "queries": 768,
+    "routes": [
+      2,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 12,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 12,
+    "queries": 1,
+    "routes": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 13,
+    "queries": 1,
+    "routes": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 13,
+    "queries": 48,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 13,
+    "queries": 768,
+    "routes": [
+      3,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 13,
+    "queries": 192,
+    "routes": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 14,
+    "queries": 192,
+    "routes": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 14,
+    "queries": 1,
+    "routes": [
+      2,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 14,
+    "queries": 48,
+    "routes": [
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "block": 8,
+    "stratum": 14,
+    "queries": 768,
+    "routes": [
+      1,
+      0,
+      3,
+      2
+    ]
+  }
+]

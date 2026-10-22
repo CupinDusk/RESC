@@ -1,0 +1,146 @@
+[
+  {
+    "plan": 0,
+    "n": 4,
+    "family": "first",
+    "quartet_directed_cuts": 6,
+    "quartet_admitted_cuts": 2,
+    "full_assignment": {
+      "tested_endpoint_pairs": 18,
+      "admitted_endpoint_pairs": 8,
+      "enumerated_bijections": 24
+    }
+  },
+  {
+    "plan": 1,
+    "n": 4,
+    "family": "last",
+    "quartet_directed_cuts": 6,
+    "quartet_admitted_cuts": 2,
+    "full_assignment": {
+      "tested_endpoint_pairs": 18,
+      "admitted_endpoint_pairs": 8,
+      "enumerated_bijections": 24
+    }
+  },
+  {
+    "plan": 2,
+    "n": 4,
+    "family": "all",
+    "quartet_directed_cuts": 6,
+    "quartet_admitted_cuts": 2,
+    "full_assignment": {
+      "tested_endpoint_pairs": 18,
+      "admitted_endpoint_pairs": 8,
+      "enumerated_bijections": 24
+    }
+  },
+  {
+    "plan": 3,
+    "n": 8,
+    "family": "first",
+    "quartet_directed_cuts": 420,
+    "quartet_admitted_cuts": 140,
+    "full_assignment": {
+      "tested_endpoint_pairs": 1106,
+      "admitted_endpoint_pairs": 322,
+      "enumerated_bijections": 5936
+    }
+  },
+  {
+    "plan": 4,
+    "n": 8,
+    "family": "last",
+    "quartet_directed_cuts": 420,
+    "quartet_admitted_cuts": 140,
+    "full_assignment": {
+      "tested_endpoint_pairs": 1106,
+      "admitted_endpoint_pairs": 322,
+      "enumerated_bijections": 5936
+    }
+  },
+  {
+    "plan": 5,
+    "n": 8,
+    "family": "all",
+    "quartet_directed_cuts": 420,
+    "quartet_admitted_cuts": 140,
+    "full_assignment": {
+      "tested_endpoint_pairs": 1106,
+      "admitted_endpoint_pairs": 322,
+      "enumerated_bijections": 5936
+    }
+  },
+  {
+    "plan": 6,
+    "n": 16,
+    "family": "first",
+    "quartet_directed_cuts": 10920,
+    "quartet_admitted_cuts": 3640,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 7,
+    "n": 16,
+    "family": "last",
+    "quartet_directed_cuts": 10920,
+    "quartet_admitted_cuts": 3640,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 8,
+    "n": 16,
+    "family": "all",
+    "quartet_directed_cuts": 10920,
+    "quartet_admitted_cuts": 3640,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 9,
+    "n": 32,
+    "family": "first",
+    "quartet_directed_cuts": 215760,
+    "quartet_admitted_cuts": 71920,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 10,
+    "n": 32,
+    "family": "last",
+    "quartet_directed_cuts": 215760,
+    "quartet_admitted_cuts": 71920,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 11,
+    "n": 32,
+    "family": "all",
+    "quartet_directed_cuts": 215760,
+    "quartet_admitted_cuts": 71920,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 12,
+    "n": 64,
+    "family": "first",
+    "quartet_directed_cuts": 3812256,
+    "quartet_admitted_cuts": 1270752,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 13,
+    "n": 64,
+    "family": "last",
+    "quartet_directed_cuts": 3812256,
+    "quartet_admitted_cuts": 1270752,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  },
+  {
+    "plan": 14,
+    "n": 64,
+    "family": "all",
+    "quartet_directed_cuts": 3812256,
+    "quartet_admitted_cuts": 1270752,
+    "full_assignment": "not enumerated; analytic proof and all quartets"
+  }
+]

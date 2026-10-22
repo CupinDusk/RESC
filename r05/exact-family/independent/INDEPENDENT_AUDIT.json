@@ -1,0 +1,388 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-22T22:30:07.876727+00:00",
+  "checks": [
+    {
+      "name": "All 15 rankings and 720 full rectangle declarations equal independent reconstruction",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Entire inputs.txt exactly equals independent declaration serialization",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All 720 actual ranking/rectangle/budget queries are distinct",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All frozen input manifest hashes",
+      "status": "PASS",
+      "detail": {
+        "PROTOCOL.md": "fb9bd7d00bf854c61475f28d86896aedbe611d2c406e19a81e345a711eb718b1",
+        "prepare.py": "11e1706b1b2e81e3e8790c7df3cb1d909f324c7cacca6488ebe3dc79e8562fec",
+        "core.hpp": "3adfbc72e28a0338f373bae075f14a2cd65a871836f4117426f6f31837443104",
+        "benchmark.cpp": "31a147a44e5c699f757f6128a33d5e7b3e840fa64362d6d982f2f1dd09bfb0f3",
+        "SOURCE_DIFF.patch": "80d6626313e41ac8a405f5e9cd1ad0033462d50936860329be90293868215489",
+        "inputs.json": "b551a215ed0421f6b625c51eaa3f92ac74fbc56c1aa2f499c021167201ac14a3",
+        "inputs.txt": "16a9ce71b156dc093c8ff5fe988b3fd8a07b225f824d917de3a6985d6e0ca8b3",
+        "schedule.json": "1c17beb60f3cda835033ca463fc936e8a5a0c4b78cdabf200c90be401ddef2b1",
+        "schedule.txt": "c52043243211dd0cfe9503aacb7dfabe26247c2496482fe7d68df96ad272909e"
+      }
+    },
+    {
+      "name": "R04 source binding hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Core algorithm bytes identical except Rect 8 to 48",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Benchmark identical except declared corpus counts and Q indexing",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Declared SOURCE_DIFF.patch equals actual R04 to R05 diff",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Generator has expected guarded initialization and frozen seed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Actual frozen generator replays byte-exact in independent directory",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All 540 shuffled batches equal prospectively seeded schedule",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Whole schedule.txt equals independent schedule",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All pre-timing bindings still match",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Run metadata bindings match frozen audit, raw rows, and log",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Rebuilt PE equal after only COFF timestamp, its buildid copies and RSDS GUID normalization",
+      "status": "PASS",
+      "detail": {
+        "original_sha256": "25d2c824ce32ac77987b3b5cd9c9ceac9c0f9604606512ad3f6c270ed12f7f48",
+        "rebuilt_sha256": "35cc5bc021b0b2b42dce633af8ca890bba0643e97e0aece9e48f1b0174667ec6",
+        "headers": [
+          {
+            "bytes": 840704,
+            "timestamp_offset": 128,
+            "coff_timestamp": "d1a5fc4e",
+            "build_guid_offset": 799804,
+            "build_guid": "52d37f5aec2d9eb54c4c44205044422e",
+            "buildid_debug_timestamp_copies": [
+              799748,
+              799776
+            ],
+            "pdb_suffix": "benchmark.pdb"
+          },
+          {
+            "bytes": 840704,
+            "timestamp_offset": 128,
+            "coff_timestamp": "387bce25",
+            "build_guid_offset": 799804,
+            "build_guid": "ed0f175dd288ccd94c4c44205044422e",
+            "buildid_debug_timestamp_copies": [
+              799748,
+              799776
+            ],
+            "pdb_suffix": "benchmark.pdb"
+          }
+        ],
+        "remaining_differences": []
+      }
+    },
+    {
+      "name": "Optimized assembly retains preparation, query loop, hash multiply and timed complete-job calls",
+      "status": "PASS",
+      "detail": {
+        "assembly_sha256": "619dfe5196fc3df664a2646d10162faf32807e865845d3a34281480440909865",
+        "symbols": [
+          "call\t_Z12prepare_planRK4Plani",
+          "call\t_Z5queryRK4PlanRK4RectiiR7ScratchPi",
+          "call\t_Z12complete_jobRK4PlaniiR7Scratch",
+          "movabs\trax, 1099511628211",
+          "movabs\trsi, 1469598103934665603",
+          "#APP",
+          "#NO_APP",
+          "call\t_ZNSt3__16chrono12steady_clock3nowEv",
+          "call\t_Z7quartetRK4Plan",
+          "call\t_Z5closeR4Plan"
+        ]
+      }
+    },
+    {
+      "name": "Rebuilt validation rows match original byte for byte",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Rebuilt complete hash rows match original byte for byte",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Rebuilt census rows match original byte for byte",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Independent quartet checks all 15 complete rankings",
+      "status": "PASS",
+      "detail": {
+        "directed_cuts": 12118086,
+        "admitted_cuts": 4039362
+      }
+    },
+    {
+      "name": "All 720 decisions independently feasible with raw and closed graph certificates",
+      "status": "PASS",
+      "detail": {
+        "graph_certificates": 1440,
+        "planted_edge_certificates": 1440,
+        "max_absolute_edge_weight": 4728
+      }
+    },
+    {
+      "name": "Actual all-admit routing census matches independent beta/span/flags",
+      "status": "PASS",
+      "detail": [
+        {
+          "plan": 0,
+          "n": 4,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 1,
+          "n": 4,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 2,
+          "n": 4,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 3,
+          "n": 8,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 4,
+          "n": 8,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 5,
+          "n": 8,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 6,
+          "n": 16,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 7,
+          "n": 16,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 8,
+          "n": 16,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 9,
+          "n": 32,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 10,
+          "n": 32,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 11,
+          "n": 32,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 12,
+          "n": 64,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 13,
+          "n": 64,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        },
+        {
+          "plan": 14,
+          "n": 64,
+          "cheap_flag": 0,
+          "quartet_flag": 1,
+          "queries": 48,
+          "cheap_graph": 48,
+          "quartet_graph": 0
+        }
+      ]
+    },
+    {
+      "name": "All 60 complete batch rolling hashes independently reconstructed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All 2160 raw rows, checksums, repeats, exact order and paired nine blocks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Outer volatile checksum independently includes warmup and every timed hash",
+      "status": "PASS",
+      "detail": {
+        "checksum": 1644266606762366368
+      }
+    },
+    {
+      "name": "All author per-stratum medians/min/max and paired ratios recompute",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "binary_binding": {
+    "original_sha256": "25d2c824ce32ac77987b3b5cd9c9ceac9c0f9604606512ad3f6c270ed12f7f48",
+    "rebuilt_sha256": "35cc5bc021b0b2b42dce633af8ca890bba0643e97e0aece9e48f1b0174667ec6",
+    "headers": [
+      {
+        "bytes": 840704,
+        "timestamp_offset": 128,
+        "coff_timestamp": "d1a5fc4e",
+        "build_guid_offset": 799804,
+        "build_guid": "52d37f5aec2d9eb54c4c44205044422e",
+        "buildid_debug_timestamp_copies": [
+          799748,
+          799776
+        ],
+        "pdb_suffix": "benchmark.pdb"
+      },
+      {
+        "bytes": 840704,
+        "timestamp_offset": 128,
+        "coff_timestamp": "387bce25",
+        "build_guid_offset": 799804,
+        "build_guid": "ed0f175dd288ccd94c4c44205044422e",
+        "buildid_debug_timestamp_copies": [
+          799748,
+          799776
+        ],
+        "pdb_suffix": "benchmark.pdb"
+      }
+    ],
+    "remaining_differences": []
+  },
+  "arithmetic_domain": {
+    "max_abs_graph_edge": 4728,
+    "largest_n": 64,
+    "signed128": true,
+    "comment": "Actual geometry/width/delta tiny; even n^3*max_edge is far below 2^127. Precast int64 slot/span/quartet arithmetic and int hash payload also fit. uint64 rolling hash wraps deliberately."
+  },
+  "initial_failures": [
+    "Independent auditor initial compile command selected parent workdir but created a redundant nested outputs directory; output independent directory missing. Only empty auditor-created directories removed after absolute-path and emptiness checks; original evidence unchanged.",
+    "Independent auditor second command selected independent workdir while still using parent-relative source/output paths, causing census compile/copy failures and validation inputs missing. Corrected relative paths; no producer artifacts changed.",
+    "First independent checker run failed its byte-exact inputs.txt serialization check because it assumed LF. Producer Path.write_text on Windows generated CRLF. Independent reconstruction corrected to actual declared platform byte serialization; original files/hashes unchanged.",
+    "Second checker run failed incomplete PE normalization: two .buildid IMAGE_DEBUG_DIRECTORY TimeDateStamp copies were not yet normalized. Parsing proved these equal the corresponding COFF timestamp. Normalization now covers only that timestamp and its two .buildid copies plus RSDS GUID; all other PE bytes must match. FAILURE_PRESERVED.json retains this pre-correction result.",
+    "Census recompilation emits -Wsometimes-uninitialized for b after short-circuit require. On any false first operand require exits through noreturn fail, so the read is unreachable. All planted admissions execute both operands; no observed/semantic undefined read. Source preserved."
+  ],
+  "performance_rerun": false,
+  "limitations": [
+    "Deliberately favorable planted synthetic family; no independent application inputs or presence estimate.",
+    "A cheaper adjacent-reversal family flag could replace the general quartet recognizer; no necessity/optimality claim.",
+    "Q=192 and 768 repeat the same 48 immutable inputs; Q=1 uses only rectangle 0.",
+    "One original ordinary Windows run, normal apps/PDF reviews active, heavy RTL deferred by request; no idle/affinity/frequency control claim.",
+    "Steady-clock CPU process observations, no hardware/GPU/physical-time/outward-certificate-service claim.",
+    "R04 adverse plans and timing remain unchanged; source baseline files were read only."
+  ]
+}
