@@ -1,0 +1,21 @@
+{
+  "kind": "selected_retained_H20_summary_corpus_not_new_measurements",
+  "unique_cells": 89,
+  "arm_records": 623,
+  "five_repetition_cells": 49,
+  "three_repetition_cells": 40,
+  "not_individual_repetition_samples": true,
+  "raw_sha256": "c285d941cac57a2de38809b295380ab318835be8cdc796c6f44c7c97ff2904b1",
+  "kernel_sha256": "3ab7da5f26d2aa8b5ac63f686d627ea53a8f19a47949c4fa0c889af2db7e3f7a",
+  "sweep_script_sha256": "bd828c0efdb5c13cf3bd87436831ebf3f366d34240be84b2721d5c710f1ff0be",
+  "original_analysis_sha256": "6b1f233b72f1f843b0d634f3d62d9583a16c4f5c114fd747be89a2250223a487",
+  "files": {
+    "README.md": "4e86f7fb65e2b5422ee1868a1a229851800b5528457b2c6a946c48e066fefa52",
+    "reanalyze.py": "d8ddfd071f61f58eaaee0e3c9a474b2897a622f980efbfef117a666322d6acfc",
+    "recomputed-results.json": "e62e70ff19d420f2514bfc981cf57ed7f2ab68ce23e3716a1a439a0449b28239",
+    "selected-summary-matrix.csv": "e370649e04719239278552671534bc6d6374e66e729ba60b85c35ed671f90440",
+    "selected-summary-matrix.json": "41c45d805f285d4d1f02760464cf4117b9f541eb749f9a6b51ed03e0d01ea30b",
+    "test-comparator-decisions.csv": "5c32bc37b2bff5378098bf9fa072d7337851a10382933b37cf96b3cf4cd8be1e"
+  },
+  "primary_ns_definition": "Exact input to original primary fit: formatted-table values for floor/pull/flat/push/global and same bound raw minima for bulk/async. min_ns/mean_ns/max_ns are the raw summaries, with <=0.11 ns binding tolerance."
+}

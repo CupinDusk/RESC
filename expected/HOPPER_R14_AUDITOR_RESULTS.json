@@ -1,0 +1,244 @@
+{
+  "result": "PASS_ALL_PLANNED_AUDITOR_GATES_AGREE_WITH_INDEPENDENT_EXACT_CHECKS",
+  "protocol_sha256": "50013b4435a8f11ea30f0d3c16cdb878ec6220753b3909c8f4b5f44d05c84e20",
+  "script_sha256": "ffab436485179e07d4c94884c509cf206d969d94acc0f97490df548320398bf1",
+  "matrix_sha256": "e370649e04719239278552671534bc6d6374e66e729ba60b85c35ed671f90440",
+  "matching_results_sha256": "019dc9f5f6adf9fed69b434a6bfeb31cdb1fff132cf80b95490e514bdb4979b3",
+  "ranking_plans": 720,
+  "exact_for_all_rectangles_plans": 40,
+  "fallback_capable_plans": 680,
+  "complete_order_inputs": 64080,
+  "zero_beta_original_witnesses": 168,
+  "all_fixed_budget_queries": 384480,
+  "both_plans_gated_decisions_checked": 758883,
+  "unresolved_exact_decisions_preserved": 0,
+  "all_budget_outcomes": {
+    "0": {
+      "ranking_specific": {
+        "marginal_reject": 63912,
+        "factor_admit": 168
+      },
+      "universal4": {
+        "marginal_reject": 63912,
+        "factor_admit": 168
+      },
+      "exact_decisions": {
+        "reject": 63912,
+        "admit": 168
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 63912,
+        "exact_zero_bias_witness": 168
+      }
+    },
+    ".005": {
+      "ranking_specific": {
+        "marginal_reject": 63854,
+        "factor_admit": 196,
+        "graph_fallback": 30
+      },
+      "universal4": {
+        "marginal_reject": 63854,
+        "graph_fallback": 40,
+        "factor_admit": 186
+      },
+      "exact_decisions": {
+        "reject": 63856,
+        "admit": 224
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 63856,
+        "integer_potential": 56,
+        "exact_zero_bias_witness": 168
+      }
+    },
+    ".01": {
+      "ranking_specific": {
+        "marginal_reject": 63767,
+        "factor_admit": 207,
+        "graph_fallback": 106
+      },
+      "universal4": {
+        "marginal_reject": 63767,
+        "factor_admit": 199,
+        "graph_fallback": 114
+      },
+      "exact_decisions": {
+        "reject": 63778,
+        "admit": 302
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 63778,
+        "integer_potential": 134,
+        "exact_zero_bias_witness": 168
+      }
+    },
+    ".02": {
+      "ranking_specific": {
+        "marginal_reject": 63567,
+        "factor_admit": 256,
+        "graph_fallback": 257
+      },
+      "universal4": {
+        "marginal_reject": 63567,
+        "factor_admit": 224,
+        "graph_fallback": 289
+      },
+      "exact_decisions": {
+        "reject": 63594,
+        "admit": 486
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 63594,
+        "integer_potential": 318,
+        "exact_zero_bias_witness": 168
+      }
+    },
+    ".05": {
+      "ranking_specific": {
+        "marginal_reject": 62577,
+        "graph_fallback": 1032,
+        "factor_admit": 471
+      },
+      "universal4": {
+        "marginal_reject": 62577,
+        "graph_fallback": 1130,
+        "factor_admit": 373
+      },
+      "exact_decisions": {
+        "reject": 62765,
+        "admit": 1315
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 62765,
+        "integer_potential": 1147,
+        "exact_zero_bias_witness": 168
+      }
+    },
+    ".10": {
+      "ranking_specific": {
+        "marginal_reject": 59703,
+        "graph_fallback": 3278,
+        "factor_admit": 1099
+      },
+      "universal4": {
+        "marginal_reject": 59703,
+        "graph_fallback": 3801,
+        "factor_admit": 576
+      },
+      "exact_decisions": {
+        "reject": 60338,
+        "admit": 3742
+      },
+      "graph_certificates": {
+        "integer_negative_cycle": 60338,
+        "integer_potential": 3574,
+        "exact_zero_bias_witness": 168
+      }
+    }
+  },
+  "first_difference_per_fixed_budget": {
+    ".10": {
+      "cell": [
+        "1to1",
+        2,
+        1,
+        32
+      ],
+      "order": [
+        "PUSH_ST",
+        "PULL",
+        "GLOBAL",
+        "PUSH_BULK",
+        "PULL_FLAT",
+        "PUSH_STASYNC"
+      ],
+      "C_R": "1",
+      "ranking_specific_route": "factor_admit",
+      "universal4_route": "graph_fallback",
+      "exact_decision": "admit"
+    },
+    ".005": {
+      "cell": [
+        "1to1",
+        2,
+        1,
+        32
+      ],
+      "order": [
+        "PUSH_ST",
+        "PULL",
+        "PULL_FLAT",
+        "PUSH_BULK",
+        "PUSH_STASYNC",
+        "GLOBAL"
+      ],
+      "C_R": "5/3",
+      "ranking_specific_route": "factor_admit",
+      "universal4_route": "graph_fallback",
+      "exact_decision": "admit"
+    },
+    ".05": {
+      "cell": [
+        "1to1",
+        2,
+        1,
+        32
+      ],
+      "order": [
+        "PUSH_ST",
+        "PULL",
+        "PUSH_BULK",
+        "PULL_FLAT",
+        "GLOBAL",
+        "PUSH_STASYNC"
+      ],
+      "C_R": "1",
+      "ranking_specific_route": "factor_admit",
+      "universal4_route": "graph_fallback",
+      "exact_decision": "admit"
+    },
+    ".02": {
+      "cell": [
+        "1to1",
+        4,
+        1,
+        2048
+      ],
+      "order": [
+        "PUSH_ST",
+        "PULL",
+        "PULL_FLAT",
+        "GLOBAL",
+        "PUSH_BULK",
+        "PUSH_STASYNC"
+      ],
+      "C_R": "2",
+      "ranking_specific_route": "factor_admit",
+      "universal4_route": "graph_fallback",
+      "exact_decision": "admit"
+    },
+    ".01": {
+      "cell": [
+        "1to1",
+        4,
+        1,
+        32768
+      ],
+      "order": [
+        "PULL",
+        "PUSH_ST",
+        "PUSH_STASYNC",
+        "PUSH_BULK",
+        "PULL_FLAT",
+        "GLOBAL"
+      ],
+      "C_R": "5/3",
+      "ranking_specific_route": "factor_admit",
+      "universal4_route": "graph_fallback",
+      "exact_decision": "admit"
+    }
+  },
+  "full_route_csv_sha256": "25abecfb4a286399b67a001f7c31760edb0aa70d922d519343b357ff0b271067",
+  "scope": "Constructed conditional reference auditor. Slots/R determine the plan before loading endpoints; all gates independently checked. Dependent routing counts are not measured cost savings, deployed adoption, calibrated physical timing or improved choices."
+}

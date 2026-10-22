@@ -1,0 +1,7 @@
+{
+  "selection": "Use the already frozen R13 protocol's first complete-order discrepancy at f=.005, without maximizing an outcome.",
+  "input": "HOPPER_R13_MATCHING_RESULTS.json printed_example_selection and unchanged selected-summary-matrix.csv",
+  "planned_checks": ["print all six original decimal intervals, slots, order and beta bounds", "negative cycle at outward upper log(1.005)", "bracket the original minimum between .005134328557 and .005134328558 using relaxed/tightened integer graphs", "construct and check a rational original-variable witness at the upper bracket", "report the graph cycle with endpoint names and verify its sum"],
+  "failure_policy": "Keep failed records; do not substitute another example. Bracket chosen from the existing frozen LP estimate, before this certificate execution.",
+  "scope": "Conditional arithmetic on existing retained numbers, not a new measurement or physical-bias validation."
+}

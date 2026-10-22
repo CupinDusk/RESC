@@ -1,0 +1,1308 @@
+{
+  "result": "PASS_ALL_ANCHOR_PARTIAL_RANKING_RADIUS_AND_GENERAL_SHARP_SLOT_BOUND",
+  "protocol_sha256": "b34057f820eaf797789b6f2e77bc01dbeb08b1349cc2621da730f2c6216d0e04",
+  "argument_sha256": "b0097e65d0684452640968f62a263d1f0908bcdebddae34634a081e300f79695",
+  "script_sha256": "5dd514e353a1248bfb1a28c1d610c9d2782ccc31cfbefb4501d2ffa2ec838f1d",
+  "matrix_sha256": "e370649e04719239278552671534bc6d6374e66e729ba60b85c35ed671f90440",
+  "poset_counts": {
+    "2": 3,
+    "3": 19,
+    "4": 219
+  },
+  "independent_checks": {
+    "exhaustive_cases": 7336,
+    "random_cases": 256,
+    "path_minimum_LPs": 7592,
+    "box_minimum_LPs": 32576,
+    "maximum_box_radius_error": 3.469446951953614e-18,
+    "maximum_path_witness_ranking_violation": 1.3877787807814457e-17,
+    "maximum_factor_excess": 0.0,
+    "maximum_lower_bound_excess": 1.734723475976807e-18,
+    "zero_box_radius_cases": 3602,
+    "positive_windows_at_or_below_1e-10": 2,
+    "disagreements": 0
+  },
+  "mixed_direction_star_diagnostic": {
+    "origin": "R8 independent reviewer3 counterexample, not new device data",
+    "point_logs": {
+      "p": 0.0,
+      "q": 0.01,
+      "r": -0.02
+    },
+    "positions": {
+      "p": 1,
+      "q": 2,
+      "r": 3
+    },
+    "direct_claims": [
+      [
+        "q",
+        "p"
+      ],
+      [
+        "p",
+        "r"
+      ]
+    ],
+    "direct_pair_radius": 0.01,
+    "transitive_all_anchor_radius": 0.03,
+    "minimum_path_radius": 0.03,
+    "witness": {
+      "x": [
+        0.0,
+        0.01,
+        -0.02
+      ],
+      "bias": [
+        0.0,
+        0.03,
+        0.04,
+        0.009999999999999998
+      ],
+      "theta": {
+        "p": -0.03,
+        "q": -0.03,
+        "r": -0.03
+      },
+      "maximum_ranking_violation": 0.0
+    }
+  },
+  "first_H20_explicit_cycle_and_boundary": {
+    "intervals_ns": {
+      "F": [
+        2213.400000000001,
+        2226.4000000000005
+      ],
+      "P": [
+        2159.999999999999,
+        2173.0999999999995
+      ],
+      "B": [
+        2788.500000000001,
+        2793.099999999999
+      ],
+      "A": [
+        2792.6000000000004,
+        2796.8
+      ]
+    },
+    "positions": {
+      "F": 6,
+      "P": 1,
+      "B": 3,
+      "A": 5
+    },
+    "h1": 0.018375075304994937,
+    "h2": -0.002972089631607666,
+    "delta_joint": 0.005134328557795757,
+    "cycle": [
+      {
+        "inequality": "b1-b6 <= -h1",
+        "rhs": -0.018375075304994937
+      },
+      {
+        "inequality": "b5-b3 <= -h2",
+        "rhs": 0.002972089631607666
+      },
+      {
+        "inequality": "b6-b5 <= delta",
+        "rhs": 0.005134328557795757
+      },
+      {
+        "inequality": "b3-b1 <= 2delta",
+        "rhs": 0.010268657115591514
+      }
+    ],
+    "negative_cycle_at_half_percent_total": -0.00044036114027004927,
+    "attaining_original_LP_witness": {
+      "x": [
+        7.702285073830685,
+        7.6839099985256905,
+        7.933259095829609,
+        7.936231185461216
+      ],
+      "bias": [
+        0.0,
+        -0.005134328557795757,
+        -0.0,
+        0.005134328557795757,
+        0.002972089631607667,
+        0.008106418189403424,
+        0.013240746747199179
+      ],
+      "theta": {
+        "F": 7.6890443270834865,
+        "P": 7.6890443270834865,
+        "B": 7.928124767271813,
+        "A": 7.928124767271813
+      },
+      "maximum_ranking_violation": 0.0
+    }
+  },
+  "retained_total_orders": {
+    "queries": 64080,
+    "positive_width_windows": 7586,
+    "zero_all_anchor_radius": 168,
+    "small_positive_differences_at_or_below_1e-10": 15,
+    "positive_window_ratio_quantiles": {
+      "min": 1.000091791777114,
+      "q25": 1.1042323732675297,
+      "median": 1.2586617054322442,
+      "q75": 1.5407009334751367,
+      "max": 3.6151635208528576
+    },
+    "affected_old_budgets": [
+      {
+        "fraction": 0,
+        "queries": 0,
+        "distinct_cells": 0,
+        "cell_identities": []
+      },
+      {
+        "fraction": 0.005,
+        "queries": 2,
+        "distinct_cells": 2,
+        "cell_identities": [
+          [
+            "1toN",
+            8,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            32
+          ]
+        ]
+      },
+      {
+        "fraction": 0.01,
+        "queries": 11,
+        "distinct_cells": 6,
+        "cell_identities": [
+          [
+            "1toN",
+            4,
+            1,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            8192
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            4,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            4,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            8192
+          ]
+        ]
+      },
+      {
+        "fraction": 0.02,
+        "queries": 27,
+        "distinct_cells": 14,
+        "cell_identities": [
+          [
+            "1toN",
+            2,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            128
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            128
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            9,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            18,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            18,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            36,
+            4096
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            2048
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            4,
+            36,
+            512
+          ],
+          [
+            "Nto1",
+            8,
+            9,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            18,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            36,
+            4096
+          ]
+        ]
+      },
+      {
+        "fraction": 0.05,
+        "queries": 188,
+        "distinct_cells": 48,
+        "cell_identities": [
+          [
+            "1to1",
+            2,
+            1,
+            2048
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            32768
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            2048
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            128
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            512
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            2048
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            8192
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            2048
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            18,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            18,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            36,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            36,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            8,
+            4,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            9,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            9,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            36,
+            4096
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            512
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            32768
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            4,
+            4,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            9,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            18,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            18,
+            4096
+          ],
+          [
+            "Nto1",
+            4,
+            36,
+            512
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            2048
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            8,
+            4,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            18,
+            4096
+          ]
+        ]
+      },
+      {
+        "fraction": 0.1,
+        "queries": 635,
+        "distinct_cells": 78,
+        "cell_identities": [
+          [
+            "1to1",
+            2,
+            1,
+            32
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            128
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            512
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            2048
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            2,
+            1,
+            32768
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            32
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            128
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            512
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            2048
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            32
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            128
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            512
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            2048
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            8192
+          ],
+          [
+            "1to1",
+            8,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            128
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            512
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            2048
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            8192
+          ],
+          [
+            "1toN",
+            2,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            2048
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            8192
+          ],
+          [
+            "1toN",
+            4,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            4,
+            4,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            9,
+            4096
+          ],
+          [
+            "1toN",
+            4,
+            36,
+            512
+          ],
+          [
+            "1toN",
+            4,
+            36,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            32
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            128
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            2048
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            8192
+          ],
+          [
+            "1toN",
+            8,
+            1,
+            32768
+          ],
+          [
+            "1toN",
+            8,
+            4,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            4,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            9,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            9,
+            4096
+          ],
+          [
+            "1toN",
+            8,
+            18,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            36,
+            512
+          ],
+          [
+            "1toN",
+            8,
+            36,
+            4096
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            512
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            2048
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            2,
+            1,
+            32768
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            2048
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            4096
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            4,
+            1,
+            32768
+          ],
+          [
+            "Nto1",
+            4,
+            4,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            4,
+            4096
+          ],
+          [
+            "Nto1",
+            4,
+            9,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            9,
+            4096
+          ],
+          [
+            "Nto1",
+            4,
+            18,
+            512
+          ],
+          [
+            "Nto1",
+            4,
+            36,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            32
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            128
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            512
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            2048
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            1,
+            8192
+          ],
+          [
+            "Nto1",
+            8,
+            4,
+            512
+          ],
+          [
+            "Nto1",
+            8,
+            4,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            9,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            18,
+            512
+          ],
+          [
+            "Nto1",
+            8,
+            18,
+            4096
+          ],
+          [
+            "Nto1",
+            8,
+            36,
+            512
+          ]
+        ]
+      }
+    ],
+    "first_lexicographic_positive_window": {
+      "cell": [
+        "1to1",
+        2,
+        1,
+        32
+      ],
+      "order": [
+        "GLOBAL",
+        "PULL",
+        "PULL_FLAT",
+        "PUSH_ST",
+        "PUSH_BULK",
+        "PUSH_STASYNC"
+      ],
+      "all_anchor_radius": 0.20265339629249812,
+      "shared_path_radius": 0.20509229332914947,
+      "window_width": 0.002438897036651344,
+      "ratio": 1.0120348194566213,
+      "all_arm_intervals_ns": {
+        "SYNCONLY": [
+          463.2,
+          539.7
+        ],
+        "PULL": [
+          702.6,
+          707.4
+        ],
+        "PUSH_ST": [
+          624.3,
+          631.7
+        ],
+        "PUSH_BULK": [
+          924.8,
+          928.8
+        ],
+        "GLOBAL": [
+          947.4,
+          959.5
+        ],
+        "PUSH_STASYNC": [
+          916.8,
+          920.3
+        ],
+        "PULL_FLAT": [
+          803.0,
+          806.4
+        ]
+      },
+      "positions": {
+        "PULL": 1,
+        "PUSH_ST": 2,
+        "PUSH_BULK": 3,
+        "GLOBAL": 4,
+        "PUSH_STASYNC": 5,
+        "PULL_FLAT": 6
+      },
+      "attaining_witness": {
+        "x": [
+          6.554787739831727,
+          6.688354713946762,
+          6.448414597904655,
+          6.8537213904896515,
+          6.829577497918113,
+          6.824699703844811
+        ],
+        "bias": [
+          0.0,
+          -0.20509229332914947,
+          -0.31146543525622095,
+          -0.10637314192707148,
+          0.0938413573287753,
+          -0.11125093600037417,
+          -0.07152531921411454
+        ],
+        "theta": {
+          "PULL": 6.759880033160876,
+          "PULL_FLAT": 6.759880033160876,
+          "PUSH_ST": 6.759880033160876,
+          "GLOBAL": 6.759880033160876,
+          "PUSH_BULK": 6.935950639845185,
+          "PUSH_STASYNC": 6.935950639845185
+        },
+        "maximum_ranking_violation": 0.0
+      },
+      "midpoint_negative_cycle": {
+        "delta": 0.2038728448108238,
+        "edges": [
+          {
+            "from": "PULL",
+            "to": "GLOBAL",
+            "weight": 0.0,
+            "kind": "ranking"
+          },
+          {
+            "from": "GLOBAL",
+            "to": "PUSH_STASYNC",
+            "weight": 0.17485115816598307,
+            "kind": "observation"
+          },
+          {
+            "from": "PUSH_STASYNC",
+            "to": "PUSH_BULK",
+            "weight": 0.0,
+            "kind": "ranking"
+          },
+          {
+            "from": "PUSH_BULK",
+            "to": "PUSH_ST",
+            "weight": -0.1772900552026344,
+            "kind": "observation"
+          },
+          {
+            "from": "PUSH_ST",
+            "to": "PULL_FLAT",
+            "weight": 0.0,
+            "kind": "ranking"
+          },
+          {
+            "from": "PULL_FLAT",
+            "to": "PULL",
+            "weight": 0.0,
+            "kind": "ranking"
+          }
+        ],
+        "weight": -0.002438897036651344,
+        "edge_semantics": "theta_to - theta_from <= weight"
+      }
+    },
+    "maximum_ratio_case": {
+      "cell": [
+        "Nto1",
+        4,
+        1,
+        32
+      ],
+      "order": [
+        "PULL_FLAT",
+        "PUSH_ST",
+        "GLOBAL",
+        "PUSH_BULK",
+        "PULL",
+        "PUSH_STASYNC"
+      ],
+      "all_anchor_radius": 0.05639543184350737,
+      "shared_path_radius": 0.20387870794339147,
+      "window_width": 0.1474832760998841,
+      "ratio": 3.6151635208528576,
+      "all_arm_intervals_ns": {
+        "SYNCONLY": [
+          473.6,
+          550.4
+        ],
+        "PULL": [
+          1149.8,
+          1152.2
+        ],
+        "PUSH_ST": [
+          680.8,
+          685.6
+        ],
+        "PUSH_BULK": [
+          1002.4,
+          1005.8
+        ],
+        "GLOBAL": [
+          956.6,
+          957.8
+        ],
+        "PUSH_STASYNC": [
+          916.0,
+          917.6
+        ],
+        "PULL_FLAT": [
+          822.6,
+          823.2
+        ]
+      },
+      "positions": {
+        "PULL": 1,
+        "PUSH_ST": 2,
+        "PUSH_BULK": 3,
+        "GLOBAL": 4,
+        "PUSH_STASYNC": 5,
+        "PULL_FLAT": 6
+      },
+      "attaining_witness": {
+        "x": [
+          7.047343293189191,
+          6.712470055796324,
+          6.53029436728357,
+          6.863385331246197,
+          6.910152403581859,
+          6.821761565815161
+        ],
+        "bias": [
+          0.0,
+          0.13719088960733217,
+          -0.0666878183360593,
+          0.0,
+          0.0,
+          -0.08839083776669732,
+          0.11548787017669415
+        ],
+        "theta": {
+          "PULL": 6.910152403581859,
+          "PULL_FLAT": 6.59698218561963,
+          "PUSH_ST": 6.59698218561963,
+          "GLOBAL": 6.863385331246197,
+          "PUSH_BULK": 6.910152403581859,
+          "PUSH_STASYNC": 6.910152403581859
+        },
+        "maximum_ranking_violation": 0.0
+      }
+    },
+    "maximum_factor_excess": 0.0,
+    "maximum_lower_bound_excess": 8.881784197001252e-16,
+    "maximum_attaining_ranking_violation": 1.7763568394002505e-15,
+    "original_minimum_path_LPs": 64080,
+    "complete_csv_sha256": "d47de5b7c8195576c30b31677ac5d305f99f7aa209d1061725b1c7b7f2847c6b"
+  },
+  "solver": "SciPy1.16.3 linprog HiGHS; primal/dual tolerance1e-9; radius tolerance1e-8; window classification1e-10",
+  "scope": "Own controlled and retained conditional calculations, no new hardware or known-truth device validation. Standard isotonic/DBM/LP procedures are prior, not a new optimizer."
+}

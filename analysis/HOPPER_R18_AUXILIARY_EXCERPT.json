@@ -1,0 +1,58 @@
+{
+  "source_aggregate_sha256": "87ef5a558fbde1063593fffdf7d07f20a6ff4aa3f85a6e03824f676e5855cb8d",
+  "cases": {
+    "lexicographically_first_certified": {
+      "task": "LsMP",
+      "fixed_run_num": 10,
+      "ufs_command": "bash -i ufs.LsMP.sh",
+      "ext4nj_command": "bash -i ext4nj.LsMP.sh",
+      "ufs_throughput": 50602.16577269508,
+      "ext4nj_throughput": 1118.119233998875,
+      "ufs_original_slot": 4,
+      "ext4nj_original_slot": 14,
+      "slot_distance": 10,
+      "point_cost_ufs": -10.831749656191503,
+      "point_cost_ext4nj": -7.01940329740128,
+      "frozen_delta": 0.3122178823441839,
+      "worst_log_ufs_over_ext4nj_cost_ratio": -0.690167535348384,
+      "certificate": "ufs_strictly_better",
+      "observed_random_throughput_ranges": {
+        "bash -i ext4nj.LsMP.sh": [
+          1108.4938340030487,
+          1120.6515916614562
+        ],
+        "bash -i ufs.LsMP.sh": [
+          49887.75255674728,
+          52015.604681404395
+        ]
+      }
+    },
+    "lexicographically_first_abstained": {
+      "task": "ADPS",
+      "fixed_run_num": 10,
+      "ufs_command": "bash -i ufs.ADPS.sh",
+      "ext4nj_command": "bash -i ext4nj.ADPS.sh",
+      "ufs_throughput": 115008.62564692351,
+      "ext4nj_throughput": 42925.82417582421,
+      "ufs_original_slot": 2,
+      "ext4nj_original_slot": 12,
+      "slot_distance": 10,
+      "point_cost_ufs": -11.652762410158028,
+      "point_cost_ext4nj": -10.66722888595,
+      "frozen_delta": 0.3122178823441839,
+      "worst_log_ufs_over_ext4nj_cost_ratio": 2.1366452992338107,
+      "certificate": "abstain",
+      "observed_random_throughput_ranges": {
+        "bash -i ext4nj.ADPS.sh": [
+          29495.044832468153,
+          44004.40044004404
+        ],
+        "bash -i ufs.ADPS.sh": [
+          96739.86649898416,
+          116754.23234092229
+        ]
+      }
+    }
+  },
+  "scope": "Two already-public worked derived examples; no third-party raw CSV"
+}

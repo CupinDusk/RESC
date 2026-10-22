@@ -1,0 +1,311 @@
+{
+  "result": "PASS_JOINT_CONJUNCTION_AND_ALL_REAL_ANCHOR_CHARACTERIZATION",
+  "protocol_sha256": "e6af3176470a2d5a8e76c8dbde20810f2dcc48afb8188c7dba50be11907b95a7",
+  "argument_sha256": "a9cd143cb205495f1919a2c24596b03ede26f507f6b566dc93af0b14fd11e532",
+  "script_sha256": "6f41a2504f371858bac7317098b8f0fa92cad7acca7d3e459c9ad29f14e6d889",
+  "matrix_sha256": "e370649e04719239278552671534bc6d6374e66e729ba60b85c35ed671f90440",
+  "all_queries_csv_sha256": "99de3453999dac9a2ebc695e112114a44e96943ecc34d1bc3ad35481039f7dd4",
+  "all_queries": 96120,
+  "reports": [
+    {
+      "fraction": 0,
+      "delta": 0.0,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 11730,
+        "joint_feasible": 4290
+      }
+    },
+    {
+      "fraction": 0.005,
+      "delta": 0.004987541511039074,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 11481,
+        "joint_feasible": 4537,
+        "joint_infeasible_every_anchor_box_feasible": 2
+      }
+    },
+    {
+      "fraction": 0.01,
+      "delta": 0.009950330853168083,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 11191,
+        "joint_feasible": 4818,
+        "joint_infeasible_every_anchor_box_feasible": 11
+      }
+    },
+    {
+      "fraction": 0.02,
+      "delta": 0.019802627296179712,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 10688,
+        "joint_feasible": 5314,
+        "joint_infeasible_every_anchor_box_feasible": 18
+      }
+    },
+    {
+      "fraction": 0.05,
+      "delta": 0.048790164169432,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 9046,
+        "joint_feasible": 6872,
+        "joint_infeasible_every_anchor_box_feasible": 102
+      }
+    },
+    {
+      "fraction": 0.1,
+      "delta": 0.09531017980432487,
+      "queries": 16020,
+      "counts": {
+        "individual_infeasible": 6521,
+        "joint_feasible": 9213,
+        "joint_infeasible_every_anchor_box_feasible": 286
+      }
+    }
+  ],
+  "lexicographically_first_examples": {
+    "individual_infeasible": {
+      "query": {
+        "fraction": 0,
+        "pattern": "1to1",
+        "C": 2,
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "p": "GLOBAL",
+        "q": "PULL",
+        "r": "PULL_FLAT",
+        "s": "PUSH_BULK",
+        "individual_1": -0.29212511371827166,
+        "individual_2": 0.14553871643691974,
+        "path_cross": -0.14658639728135192,
+        "best_box_cross": -0.14658639728135192,
+        "median_anchor": 3.5,
+        "category": "individual_infeasible"
+      },
+      "all_arm_intervals_ns": {
+        "SYNCONLY": [
+          463.2,
+          539.7
+        ],
+        "PULL": [
+          702.6,
+          707.4
+        ],
+        "PUSH_ST": [
+          624.3,
+          631.7
+        ],
+        "PUSH_BULK": [
+          924.8,
+          928.8
+        ],
+        "GLOBAL": [
+          947.4,
+          959.5
+        ],
+        "PUSH_STASYNC": [
+          916.8,
+          920.3
+        ],
+        "PULL_FLAT": [
+          803.0,
+          806.4
+        ]
+      },
+      "positions": {
+        "PULL": 1,
+        "PUSH_ST": 2,
+        "PUSH_BULK": 3,
+        "GLOBAL": 4,
+        "PUSH_STASYNC": 5,
+        "PULL_FLAT": 6
+      },
+      "two_path_cross_edges": [
+        -0.0198279601059701,
+        -0.12675843717538182
+      ]
+    },
+    "joint_feasible": {
+      "query": {
+        "fraction": 0,
+        "pattern": "1to1",
+        "C": 2,
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "p": "PULL",
+        "q": "GLOBAL",
+        "r": "PULL_FLAT",
+        "s": "PUSH_BULK",
+        "individual_1": 0.31162457561602785,
+        "individual_2": 0.14553871643691974,
+        "path_cross": 0.4571632920529476,
+        "best_box_cross": 0.4571632920529476,
+        "median_anchor": 3.5,
+        "category": "joint_feasible"
+      },
+      "all_arm_intervals_ns": {
+        "SYNCONLY": [
+          463.2,
+          539.7
+        ],
+        "PULL": [
+          702.6,
+          707.4
+        ],
+        "PUSH_ST": [
+          624.3,
+          631.7
+        ],
+        "PUSH_BULK": [
+          924.8,
+          928.8
+        ],
+        "GLOBAL": [
+          947.4,
+          959.5
+        ],
+        "PUSH_STASYNC": [
+          916.8,
+          920.3
+        ],
+        "PULL_FLAT": [
+          803.0,
+          806.4
+        ]
+      },
+      "positions": {
+        "PULL": 1,
+        "PUSH_ST": 2,
+        "PUSH_BULK": 3,
+        "GLOBAL": 4,
+        "PUSH_STASYNC": 5,
+        "PULL_FLAT": 6
+      },
+      "two_path_cross_edges": [
+        0.27910569055195467,
+        0.17805760150099292
+      ]
+    },
+    "joint_infeasible_every_anchor_box_feasible": {
+      "query": {
+        "fraction": 0.005,
+        "pattern": "1toN",
+        "C": 8,
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "p": "PULL_FLAT",
+        "q": "PULL",
+        "r": "PUSH_BULK",
+        "s": "PUSH_STASYNC",
+        "individual_1": 0.006562632250200432,
+        "individual_2": 0.012947172653685814,
+        "path_cross": -0.0004403611402700458,
+        "best_box_cross": 0.019509804903886235,
+        "median_anchor": 4.0,
+        "category": "joint_infeasible_every_anchor_box_feasible"
+      },
+      "all_arm_intervals_ns": {
+        "SYNCONLY": [
+          473.1,
+          521.4
+        ],
+        "PULL": [
+          2160.0,
+          2173.1
+        ],
+        "PUSH_ST": [
+          2307.2,
+          2311.8
+        ],
+        "PUSH_BULK": [
+          2788.5,
+          2793.1
+        ],
+        "GLOBAL": [
+          1520.5,
+          1522.2
+        ],
+        "PUSH_STASYNC": [
+          2792.6,
+          2796.8
+        ],
+        "PULL_FLAT": [
+          2213.4,
+          2226.4
+        ]
+      },
+      "positions": {
+        "PULL": 1,
+        "PUSH_ST": 2,
+        "PUSH_BULK": 3,
+        "GLOBAL": 4,
+        "PUSH_STASYNC": 5,
+        "PULL_FLAT": 6
+      },
+      "two_path_cross_edges": [
+        0.2389336531415701,
+        -0.23937401428184016
+      ]
+    }
+  },
+  "known_truth_fixture": {
+    "positions": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "point_log_costs": {
+      "1": 0.015,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.015
+    },
+    "query": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "delta": 0.01,
+    "path_margins": [
+      0.005000000000000001,
+      0.005000000000000001,
+      -0.009999999999999998
+    ],
+    "best_box_margins": [
+      0.005000000000000001,
+      0.005000000000000001,
+      0.010000000000000002
+    ],
+    "median_anchor": 2.5,
+    "median_box_original_variable_witness": [
+      0.015,
+      0.0,
+      0.0,
+      0.015,
+      -0.025,
+      0.015,
+      -0.005,
+      -0.0,
+      0.009999999999999998
+    ],
+    "path_original_LP_infeasible": true,
+    "negative_cycle_sum": -0.01
+  },
+  "independent_checks": {
+    "original_path_LPs": 16020,
+    "original_median_box_LPs": 18,
+    "controlled_fixture_LPs": 2,
+    "disagreements": 0,
+    "maximum_feasible_ranking_violation": 0.0,
+    "analytic_tolerance": 1e-10,
+    "LP_primal_and_dual_tolerance": 1e-09,
+    "cases_with_any_margin_within_1e-9": 24
+  },
+  "boundary": "Dependent conditional grid; no newly acquired GPU data, physical bias budget or observed ranking ground truth. Standard difference-constraint closure is prior machinery."
+}

@@ -1,0 +1,2531 @@
+{
+  "result": "COMPLETED_PRESPECIFIED_SECONDARY_ASSESSMENT_ALL_CASES",
+  "protocol_sha256": "466ba0cb955ff4d0f108c473e50bed5ac64a9d42a113cde3d5a304d36ab78776",
+  "script_sha256": "d868f877a38b8590124041fb8dfa41254769a2a351b8250f0e918f8f3977f714",
+  "input_manifest_sha256": "7e440a5ef3b72ed810813a53acfc32e4494222c19284abf322fde1b7aad2f037",
+  "cases": {
+    "memcached": {
+      "commands": 3,
+      "rows": 300,
+      "calibration_episodes_per_type": {
+        "fixed": 25,
+        "random": 25
+      },
+      "assessment_episodes_per_type": {
+        "fixed": 25,
+        "random": 25
+      },
+      "effective_delta_cal": 0.095347181767103,
+      "exp_delta_minus1": 0.10004070291209512,
+      "assessment_with_frozen_calibration_centers": {
+        "fixed": {
+          "episodes": 25,
+          "covered_episodes": 23,
+          "adjacent_constraints": 50,
+          "violated_adjacent_constraints": 2,
+          "maximum_required_delta": 0.12639824481602346,
+          "maximum_to_calibration_ratio": 1.3256631446618574,
+          "episode_scores": [
+            {
+              "run_num": 25,
+              "required_delta": 0.042635710849321384,
+              "covered": true
+            },
+            {
+              "run_num": 26,
+              "required_delta": 0.0716519072119226,
+              "covered": true
+            },
+            {
+              "run_num": 27,
+              "required_delta": 0.038737297672890136,
+              "covered": true
+            },
+            {
+              "run_num": 28,
+              "required_delta": 0.0203372566141109,
+              "covered": true
+            },
+            {
+              "run_num": 29,
+              "required_delta": 0.12122435289649935,
+              "covered": false
+            },
+            {
+              "run_num": 30,
+              "required_delta": 0.054122178490151995,
+              "covered": true
+            },
+            {
+              "run_num": 31,
+              "required_delta": 0.032509826793445384,
+              "covered": true
+            },
+            {
+              "run_num": 32,
+              "required_delta": 0.026949593555606555,
+              "covered": true
+            },
+            {
+              "run_num": 33,
+              "required_delta": 0.035089949831620615,
+              "covered": true
+            },
+            {
+              "run_num": 34,
+              "required_delta": 0.05862770642292148,
+              "covered": true
+            },
+            {
+              "run_num": 35,
+              "required_delta": 0.02445913775045483,
+              "covered": true
+            },
+            {
+              "run_num": 36,
+              "required_delta": 0.05836326866302599,
+              "covered": true
+            },
+            {
+              "run_num": 37,
+              "required_delta": 0.08496339496868721,
+              "covered": true
+            },
+            {
+              "run_num": 38,
+              "required_delta": 0.031207300524796366,
+              "covered": true
+            },
+            {
+              "run_num": 39,
+              "required_delta": 0.05065112837675301,
+              "covered": true
+            },
+            {
+              "run_num": 40,
+              "required_delta": 0.023012361762456024,
+              "covered": true
+            },
+            {
+              "run_num": 41,
+              "required_delta": 0.12639824481602346,
+              "covered": false
+            },
+            {
+              "run_num": 42,
+              "required_delta": 0.07481139563405748,
+              "covered": true
+            },
+            {
+              "run_num": 43,
+              "required_delta": 0.08928951163544419,
+              "covered": true
+            },
+            {
+              "run_num": 44,
+              "required_delta": 0.04062270337345808,
+              "covered": true
+            },
+            {
+              "run_num": 45,
+              "required_delta": 0.016146628150579545,
+              "covered": true
+            },
+            {
+              "run_num": 46,
+              "required_delta": 0.0088808426689031,
+              "covered": true
+            },
+            {
+              "run_num": 47,
+              "required_delta": 0.08103776911243266,
+              "covered": true
+            },
+            {
+              "run_num": 48,
+              "required_delta": 0.07494030034202126,
+              "covered": true
+            },
+            {
+              "run_num": 49,
+              "required_delta": 0.07724894125026793,
+              "covered": true
+            }
+          ]
+        },
+        "random": {
+          "episodes": 25,
+          "covered_episodes": 23,
+          "adjacent_constraints": 50,
+          "violated_adjacent_constraints": 2,
+          "maximum_required_delta": 0.14884069719560955,
+          "maximum_to_calibration_ratio": 1.5610392927938963,
+          "episode_scores": [
+            {
+              "run_num": 25,
+              "required_delta": 0.020553455398228948,
+              "covered": true
+            },
+            {
+              "run_num": 26,
+              "required_delta": 0.012954106959458755,
+              "covered": true
+            },
+            {
+              "run_num": 27,
+              "required_delta": 0.03595511700503096,
+              "covered": true
+            },
+            {
+              "run_num": 28,
+              "required_delta": 0.0664551977468939,
+              "covered": true
+            },
+            {
+              "run_num": 29,
+              "required_delta": 0.001878425049770982,
+              "covered": true
+            },
+            {
+              "run_num": 30,
+              "required_delta": 0.04734451239839821,
+              "covered": true
+            },
+            {
+              "run_num": 31,
+              "required_delta": 0.026889123336097498,
+              "covered": true
+            },
+            {
+              "run_num": 32,
+              "required_delta": 0.04199556392808468,
+              "covered": true
+            },
+            {
+              "run_num": 33,
+              "required_delta": 0.020635690482640356,
+              "covered": true
+            },
+            {
+              "run_num": 34,
+              "required_delta": 0.09801472944037748,
+              "covered": false
+            },
+            {
+              "run_num": 35,
+              "required_delta": 0.05406014615846999,
+              "covered": true
+            },
+            {
+              "run_num": 36,
+              "required_delta": 0.03578697979805945,
+              "covered": true
+            },
+            {
+              "run_num": 37,
+              "required_delta": 0.028979700508784845,
+              "covered": true
+            },
+            {
+              "run_num": 38,
+              "required_delta": 0.015453842163124065,
+              "covered": true
+            },
+            {
+              "run_num": 39,
+              "required_delta": 0.05446038049304036,
+              "covered": true
+            },
+            {
+              "run_num": 40,
+              "required_delta": 0.14884069719560955,
+              "covered": false
+            },
+            {
+              "run_num": 41,
+              "required_delta": 0.058557566551064255,
+              "covered": true
+            },
+            {
+              "run_num": 42,
+              "required_delta": 0.05653817673779926,
+              "covered": true
+            },
+            {
+              "run_num": 43,
+              "required_delta": 0.04941371932368277,
+              "covered": true
+            },
+            {
+              "run_num": 44,
+              "required_delta": 0.05296681758257371,
+              "covered": true
+            },
+            {
+              "run_num": 45,
+              "required_delta": 0.08070804399362608,
+              "covered": true
+            },
+            {
+              "run_num": 46,
+              "required_delta": 0.04959529079022573,
+              "covered": true
+            },
+            {
+              "run_num": 47,
+              "required_delta": 0.01642656092497674,
+              "covered": true
+            },
+            {
+              "run_num": 48,
+              "required_delta": 0.08483997003791721,
+              "covered": true
+            },
+            {
+              "run_num": 49,
+              "required_delta": 0.04615160082701664,
+              "covered": true
+            }
+          ]
+        }
+      },
+      "descriptive_assessment_with_heldout_random_reference_centers": {
+        "fixed": {
+          "episodes": 25,
+          "covered_episodes": 17,
+          "adjacent_constraints": 50,
+          "violated_adjacent_constraints": 8,
+          "maximum_required_delta": 0.14886294335392236,
+          "maximum_to_calibration_ratio": 1.5612726102124137,
+          "episode_scores": [
+            {
+              "run_num": 25,
+              "required_delta": 0.029828673170831266,
+              "covered": true
+            },
+            {
+              "run_num": 26,
+              "required_delta": 0.0941166057498215,
+              "covered": true
+            },
+            {
+              "run_num": 27,
+              "required_delta": 0.061201996210789034,
+              "covered": true
+            },
+            {
+              "run_num": 28,
+              "required_delta": 0.042801955152009796,
+              "covered": true
+            },
+            {
+              "run_num": 29,
+              "required_delta": 0.14368905143439825,
+              "covered": false
+            },
+            {
+              "run_num": 30,
+              "required_delta": 0.06847532095836861,
+              "covered": true
+            },
+            {
+              "run_num": 31,
+              "required_delta": 0.0387858803697938,
+              "covered": true
+            },
+            {
+              "run_num": 32,
+              "required_delta": 0.008606194102540599,
+              "covered": true
+            },
+            {
+              "run_num": 33,
+              "required_delta": 0.018598116767245543,
+              "covered": true
+            },
+            {
+              "run_num": 34,
+              "required_delta": 0.06319015966817076,
+              "covered": true
+            },
+            {
+              "run_num": 35,
+              "required_delta": 0.006579176222354377,
+              "covered": true
+            },
+            {
+              "run_num": 36,
+              "required_delta": 0.06292572190827528,
+              "covered": true
+            },
+            {
+              "run_num": 37,
+              "required_delta": 0.10742809350658611,
+              "covered": false
+            },
+            {
+              "run_num": 38,
+              "required_delta": 0.035769753770045654,
+              "covered": true
+            },
+            {
+              "run_num": 39,
+              "required_delta": 0.02818642983885411,
+              "covered": true
+            },
+            {
+              "run_num": 40,
+              "required_delta": 0.018449908517206737,
+              "covered": true
+            },
+            {
+              "run_num": 41,
+              "required_delta": 0.14886294335392236,
+              "covered": false
+            },
+            {
+              "run_num": 42,
+              "required_delta": 0.09727609417195637,
+              "covered": false
+            },
+            {
+              "run_num": 43,
+              "required_delta": 0.11175421017334308,
+              "covered": false
+            },
+            {
+              "run_num": 44,
+              "required_delta": 0.03606025012820879,
+              "covered": true
+            },
+            {
+              "run_num": 45,
+              "required_delta": 0.03861132668847844,
+              "covered": true
+            },
+            {
+              "run_num": 46,
+              "required_delta": 0.031345541206802,
+              "covered": true
+            },
+            {
+              "run_num": 47,
+              "required_delta": 0.10350246765033155,
+              "covered": false
+            },
+            {
+              "run_num": 48,
+              "required_delta": 0.09740499887992016,
+              "covered": false
+            },
+            {
+              "run_num": 49,
+              "required_delta": 0.09971363978816683,
+              "covered": false
+            }
+          ]
+        },
+        "random": {
+          "episodes": 25,
+          "covered_episodes": 23,
+          "adjacent_constraints": 50,
+          "violated_adjacent_constraints": 3,
+          "maximum_required_delta": 0.13093845190295994,
+          "maximum_to_calibration_ratio": 1.3732807774307678,
+          "episode_scores": [
+            {
+              "run_num": 25,
+              "required_delta": 0.01599100215297966,
+              "covered": true
+            },
+            {
+              "run_num": 26,
+              "required_delta": 0.030856352252108366,
+              "covered": true
+            },
+            {
+              "run_num": 27,
+              "required_delta": 0.03139266375978167,
+              "covered": true
+            },
+            {
+              "run_num": 28,
+              "required_delta": 0.04855295245424429,
+              "covered": true
+            },
+            {
+              "run_num": 29,
+              "required_delta": 0.019780670342420592,
+              "covered": true
+            },
+            {
+              "run_num": 30,
+              "required_delta": 0.0294422671057486,
+              "covered": true
+            },
+            {
+              "run_num": 31,
+              "required_delta": 0.049353821873996395,
+              "covered": true
+            },
+            {
+              "run_num": 32,
+              "required_delta": 0.023431779922557183,
+              "covered": true
+            },
+            {
+              "run_num": 33,
+              "required_delta": 0.013221403802852194,
+              "covered": true
+            },
+            {
+              "run_num": 34,
+              "required_delta": 0.07555003090247858,
+              "covered": true
+            },
+            {
+              "run_num": 35,
+              "required_delta": 0.0494976929132207,
+              "covered": true
+            },
+            {
+              "run_num": 36,
+              "required_delta": 0.03122452655281016,
+              "covered": true
+            },
+            {
+              "run_num": 37,
+              "required_delta": 0.0065150019708859475,
+              "covered": true
+            },
+            {
+              "run_num": 38,
+              "required_delta": 0.01172214839180441,
+              "covered": true
+            },
+            {
+              "run_num": 39,
+              "required_delta": 0.07236262578568997,
+              "covered": true
+            },
+            {
+              "run_num": 40,
+              "required_delta": 0.13093845190295994,
+              "covered": false
+            },
+            {
+              "run_num": 41,
+              "required_delta": 0.040655321258414645,
+              "covered": true
+            },
+            {
+              "run_num": 42,
+              "required_delta": 0.06110062998304855,
+              "covered": true
+            },
+            {
+              "run_num": 43,
+              "required_delta": 0.04959558869780345,
+              "covered": true
+            },
+            {
+              "run_num": 44,
+              "required_delta": 0.07086906287522332,
+              "covered": true
+            },
+            {
+              "run_num": 45,
+              "required_delta": 0.06280579870097647,
+              "covered": true
+            },
+            {
+              "run_num": 46,
+              "required_delta": 0.07205998932812463,
+              "covered": true
+            },
+            {
+              "run_num": 47,
+              "required_delta": 0.037382505264998755,
+              "covered": true
+            },
+            {
+              "run_num": 48,
+              "required_delta": 0.10274221533056682,
+              "covered": false
+            },
+            {
+              "run_num": 49,
+              "required_delta": 0.02368690228911774,
+              "covered": true
+            }
+          ]
+        }
+      }
+    },
+    "npbench": {
+      "commands": 3,
+      "rows": 600,
+      "calibration_episodes_per_type": {
+        "fixed": 50,
+        "random": 50
+      },
+      "assessment_episodes_per_type": {
+        "fixed": 50,
+        "random": 50
+      },
+      "effective_delta_cal": 0.1910078723594455,
+      "exp_delta_minus1": 0.21046898129070915,
+      "assessment_with_frozen_calibration_centers": {
+        "fixed": {
+          "episodes": 50,
+          "covered_episodes": 50,
+          "adjacent_constraints": 100,
+          "violated_adjacent_constraints": 0,
+          "maximum_required_delta": 0.1697002218650825,
+          "maximum_to_calibration_ratio": 0.8884462183094448,
+          "episode_scores": [
+            {
+              "run_num": 100,
+              "required_delta": 0.10422826815398345,
+              "covered": true
+            },
+            {
+              "run_num": 102,
+              "required_delta": 0.059954641688846344,
+              "covered": true
+            },
+            {
+              "run_num": 104,
+              "required_delta": 0.05945258289129196,
+              "covered": true
+            },
+            {
+              "run_num": 106,
+              "required_delta": 0.044051411609955515,
+              "covered": true
+            },
+            {
+              "run_num": 108,
+              "required_delta": 0.01849273680792951,
+              "covered": true
+            },
+            {
+              "run_num": 110,
+              "required_delta": 0.021181571913193586,
+              "covered": true
+            },
+            {
+              "run_num": 112,
+              "required_delta": 0.10875261837642203,
+              "covered": true
+            },
+            {
+              "run_num": 114,
+              "required_delta": 0.049992757556250655,
+              "covered": true
+            },
+            {
+              "run_num": 116,
+              "required_delta": 0.05498514002120025,
+              "covered": true
+            },
+            {
+              "run_num": 118,
+              "required_delta": 0.02096574930344408,
+              "covered": true
+            },
+            {
+              "run_num": 120,
+              "required_delta": 0.04886599137669201,
+              "covered": true
+            },
+            {
+              "run_num": 122,
+              "required_delta": 0.14637319267136206,
+              "covered": true
+            },
+            {
+              "run_num": 124,
+              "required_delta": 0.15718202662232672,
+              "covered": true
+            },
+            {
+              "run_num": 126,
+              "required_delta": 0.1270075725801325,
+              "covered": true
+            },
+            {
+              "run_num": 128,
+              "required_delta": 0.08097503210239543,
+              "covered": true
+            },
+            {
+              "run_num": 130,
+              "required_delta": 0.09542051227074344,
+              "covered": true
+            },
+            {
+              "run_num": 132,
+              "required_delta": 0.05410032979661139,
+              "covered": true
+            },
+            {
+              "run_num": 134,
+              "required_delta": 0.12492842063326837,
+              "covered": true
+            },
+            {
+              "run_num": 136,
+              "required_delta": 0.025003604272366253,
+              "covered": true
+            },
+            {
+              "run_num": 138,
+              "required_delta": 0.14500930496412323,
+              "covered": true
+            },
+            {
+              "run_num": 140,
+              "required_delta": 0.06712517884826719,
+              "covered": true
+            },
+            {
+              "run_num": 142,
+              "required_delta": 0.14352087303931738,
+              "covered": true
+            },
+            {
+              "run_num": 144,
+              "required_delta": 0.016106971398192726,
+              "covered": true
+            },
+            {
+              "run_num": 146,
+              "required_delta": 0.13987996425292337,
+              "covered": true
+            },
+            {
+              "run_num": 148,
+              "required_delta": 0.02569162632293409,
+              "covered": true
+            },
+            {
+              "run_num": 150,
+              "required_delta": 0.09833207575179781,
+              "covered": true
+            },
+            {
+              "run_num": 152,
+              "required_delta": 0.13252067046904203,
+              "covered": true
+            },
+            {
+              "run_num": 154,
+              "required_delta": 0.048953306015047104,
+              "covered": true
+            },
+            {
+              "run_num": 156,
+              "required_delta": 0.033880618118977246,
+              "covered": true
+            },
+            {
+              "run_num": 158,
+              "required_delta": 0.11513222465184869,
+              "covered": true
+            },
+            {
+              "run_num": 160,
+              "required_delta": 0.14423151548487034,
+              "covered": true
+            },
+            {
+              "run_num": 162,
+              "required_delta": 0.06327717128125387,
+              "covered": true
+            },
+            {
+              "run_num": 164,
+              "required_delta": 0.13254346311296406,
+              "covered": true
+            },
+            {
+              "run_num": 166,
+              "required_delta": 0.05199717021509942,
+              "covered": true
+            },
+            {
+              "run_num": 168,
+              "required_delta": 0.015717888433960603,
+              "covered": true
+            },
+            {
+              "run_num": 170,
+              "required_delta": 0.05867782191423654,
+              "covered": true
+            },
+            {
+              "run_num": 172,
+              "required_delta": 0.03124998370249621,
+              "covered": true
+            },
+            {
+              "run_num": 174,
+              "required_delta": 0.16783673854367276,
+              "covered": true
+            },
+            {
+              "run_num": 176,
+              "required_delta": 0.10431612726157713,
+              "covered": true
+            },
+            {
+              "run_num": 178,
+              "required_delta": 0.1462594175865326,
+              "covered": true
+            },
+            {
+              "run_num": 180,
+              "required_delta": 0.05928141814546439,
+              "covered": true
+            },
+            {
+              "run_num": 182,
+              "required_delta": 0.05217620699950842,
+              "covered": true
+            },
+            {
+              "run_num": 184,
+              "required_delta": 0.1697002218650825,
+              "covered": true
+            },
+            {
+              "run_num": 186,
+              "required_delta": 0.01246592981479644,
+              "covered": true
+            },
+            {
+              "run_num": 188,
+              "required_delta": 0.019829523816537797,
+              "covered": true
+            },
+            {
+              "run_num": 190,
+              "required_delta": 0.07188579724872257,
+              "covered": true
+            },
+            {
+              "run_num": 192,
+              "required_delta": 0.14453538615582406,
+              "covered": true
+            },
+            {
+              "run_num": 194,
+              "required_delta": 0.10021749719384809,
+              "covered": true
+            },
+            {
+              "run_num": 196,
+              "required_delta": 0.1559445667567303,
+              "covered": true
+            },
+            {
+              "run_num": 198,
+              "required_delta": 0.15166788746789628,
+              "covered": true
+            }
+          ]
+        },
+        "random": {
+          "episodes": 50,
+          "covered_episodes": 48,
+          "adjacent_constraints": 100,
+          "violated_adjacent_constraints": 2,
+          "maximum_required_delta": 0.21477848601018978,
+          "maximum_to_calibration_ratio": 1.1244483452808265,
+          "episode_scores": [
+            {
+              "run_num": 101,
+              "required_delta": 0.14479210811955312,
+              "covered": true
+            },
+            {
+              "run_num": 103,
+              "required_delta": 0.028506624766560407,
+              "covered": true
+            },
+            {
+              "run_num": 105,
+              "required_delta": 0.026847828051966616,
+              "covered": true
+            },
+            {
+              "run_num": 107,
+              "required_delta": 0.04208827872350707,
+              "covered": true
+            },
+            {
+              "run_num": 109,
+              "required_delta": 0.10733923024456438,
+              "covered": true
+            },
+            {
+              "run_num": 111,
+              "required_delta": 0.030071208496031954,
+              "covered": true
+            },
+            {
+              "run_num": 113,
+              "required_delta": 0.04348926157347499,
+              "covered": true
+            },
+            {
+              "run_num": 115,
+              "required_delta": 0.21477848601018978,
+              "covered": false
+            },
+            {
+              "run_num": 117,
+              "required_delta": 0.05844249934657775,
+              "covered": true
+            },
+            {
+              "run_num": 119,
+              "required_delta": 0.022445160836682465,
+              "covered": true
+            },
+            {
+              "run_num": 121,
+              "required_delta": 0.06751761580087967,
+              "covered": true
+            },
+            {
+              "run_num": 123,
+              "required_delta": 0.04239672038992115,
+              "covered": true
+            },
+            {
+              "run_num": 125,
+              "required_delta": 0.07512745985397107,
+              "covered": true
+            },
+            {
+              "run_num": 127,
+              "required_delta": 0.05106891781702405,
+              "covered": true
+            },
+            {
+              "run_num": 129,
+              "required_delta": 0.01837049040639238,
+              "covered": true
+            },
+            {
+              "run_num": 131,
+              "required_delta": 0.20855763808285444,
+              "covered": false
+            },
+            {
+              "run_num": 133,
+              "required_delta": 0.09519184801374259,
+              "covered": true
+            },
+            {
+              "run_num": 135,
+              "required_delta": 0.0705374378360033,
+              "covered": true
+            },
+            {
+              "run_num": 137,
+              "required_delta": 0.0788754911820937,
+              "covered": true
+            },
+            {
+              "run_num": 139,
+              "required_delta": 0.13417405913928881,
+              "covered": true
+            },
+            {
+              "run_num": 141,
+              "required_delta": 0.05607077378391079,
+              "covered": true
+            },
+            {
+              "run_num": 143,
+              "required_delta": 0.00858081549505929,
+              "covered": true
+            },
+            {
+              "run_num": 145,
+              "required_delta": 0.058169609131266675,
+              "covered": true
+            },
+            {
+              "run_num": 147,
+              "required_delta": 0.06440366024658939,
+              "covered": true
+            },
+            {
+              "run_num": 149,
+              "required_delta": 0.08393885714233029,
+              "covered": true
+            },
+            {
+              "run_num": 151,
+              "required_delta": 0.16018734496305642,
+              "covered": true
+            },
+            {
+              "run_num": 153,
+              "required_delta": 0.063258840430656,
+              "covered": true
+            },
+            {
+              "run_num": 155,
+              "required_delta": 0.10815545901106027,
+              "covered": true
+            },
+            {
+              "run_num": 157,
+              "required_delta": 0.02257259272145351,
+              "covered": true
+            },
+            {
+              "run_num": 159,
+              "required_delta": 0.018970274757240446,
+              "covered": true
+            },
+            {
+              "run_num": 161,
+              "required_delta": 0.12726265332191122,
+              "covered": true
+            },
+            {
+              "run_num": 163,
+              "required_delta": 0.11850419545794111,
+              "covered": true
+            },
+            {
+              "run_num": 165,
+              "required_delta": 0.01925952896549621,
+              "covered": true
+            },
+            {
+              "run_num": 167,
+              "required_delta": 0.04002239855654954,
+              "covered": true
+            },
+            {
+              "run_num": 169,
+              "required_delta": 0.17126865210388775,
+              "covered": true
+            },
+            {
+              "run_num": 171,
+              "required_delta": 0.11754358336825987,
+              "covered": true
+            },
+            {
+              "run_num": 173,
+              "required_delta": 0.1204122737762332,
+              "covered": true
+            },
+            {
+              "run_num": 175,
+              "required_delta": 0.1103770013261034,
+              "covered": true
+            },
+            {
+              "run_num": 177,
+              "required_delta": 0.037658285839458294,
+              "covered": true
+            },
+            {
+              "run_num": 179,
+              "required_delta": 0.1479445240896542,
+              "covered": true
+            },
+            {
+              "run_num": 181,
+              "required_delta": 0.14497489606665148,
+              "covered": true
+            },
+            {
+              "run_num": 183,
+              "required_delta": 0.07381519613370591,
+              "covered": true
+            },
+            {
+              "run_num": 185,
+              "required_delta": 0.07586895676884042,
+              "covered": true
+            },
+            {
+              "run_num": 187,
+              "required_delta": 0.020861611433704574,
+              "covered": true
+            },
+            {
+              "run_num": 189,
+              "required_delta": 0.03936174582621632,
+              "covered": true
+            },
+            {
+              "run_num": 191,
+              "required_delta": 0.022862798029658737,
+              "covered": true
+            },
+            {
+              "run_num": 193,
+              "required_delta": 0.029259516333253188,
+              "covered": true
+            },
+            {
+              "run_num": 195,
+              "required_delta": 0.021299212785862665,
+              "covered": true
+            },
+            {
+              "run_num": 197,
+              "required_delta": 0.034033551541881035,
+              "covered": true
+            },
+            {
+              "run_num": 199,
+              "required_delta": 0.14587266273581578,
+              "covered": true
+            }
+          ]
+        }
+      },
+      "descriptive_assessment_with_heldout_random_reference_centers": {
+        "fixed": {
+          "episodes": 50,
+          "covered_episodes": 50,
+          "adjacent_constraints": 100,
+          "violated_adjacent_constraints": 0,
+          "maximum_required_delta": 0.18298465536474495,
+          "maximum_to_calibration_ratio": 0.9579953595860061,
+          "episode_scores": [
+            {
+              "run_num": 100,
+              "required_delta": 0.11417564599799235,
+              "covered": true
+            },
+            {
+              "run_num": 102,
+              "required_delta": 0.050007263844837446,
+              "covered": true
+            },
+            {
+              "run_num": 104,
+              "required_delta": 0.04950520504728306,
+              "covered": true
+            },
+            {
+              "run_num": 106,
+              "required_delta": 0.030766978110293053,
+              "covered": true
+            },
+            {
+              "run_num": 108,
+              "required_delta": 0.020526747265482648,
+              "covered": true
+            },
+            {
+              "run_num": 110,
+              "required_delta": 0.031128949757202484,
+              "covered": true
+            },
+            {
+              "run_num": 112,
+              "required_delta": 0.09546818487675957,
+              "covered": true
+            },
+            {
+              "run_num": 114,
+              "required_delta": 0.06327719105591312,
+              "covered": true
+            },
+            {
+              "run_num": 116,
+              "required_delta": 0.04170070652153779,
+              "covered": true
+            },
+            {
+              "run_num": 118,
+              "required_delta": 0.034250182803106544,
+              "covered": true
+            },
+            {
+              "run_num": 120,
+              "required_delta": 0.057552723174562725,
+              "covered": true
+            },
+            {
+              "run_num": 122,
+              "required_delta": 0.15965762617102452,
+              "covered": true
+            },
+            {
+              "run_num": 124,
+              "required_delta": 0.14389759312266426,
+              "covered": true
+            },
+            {
+              "run_num": 126,
+              "required_delta": 0.11372313908047005,
+              "covered": true
+            },
+            {
+              "run_num": 128,
+              "required_delta": 0.06769059860273297,
+              "covered": true
+            },
+            {
+              "run_num": 130,
+              "required_delta": 0.08213607877108098,
+              "covered": true
+            },
+            {
+              "run_num": 132,
+              "required_delta": 0.04415295195260249,
+              "covered": true
+            },
+            {
+              "run_num": 134,
+              "required_delta": 0.1195735527316959,
+              "covered": true
+            },
+            {
+              "run_num": 136,
+              "required_delta": 0.015056226428357355,
+              "covered": true
+            },
+            {
+              "run_num": 138,
+              "required_delta": 0.13506192712011433,
+              "covered": true
+            },
+            {
+              "run_num": 140,
+              "required_delta": 0.053840745348604724,
+              "covered": true
+            },
+            {
+              "run_num": 142,
+              "required_delta": 0.1302364395396549,
+              "covered": true
+            },
+            {
+              "run_num": 144,
+              "required_delta": 0.02939140489785519,
+              "covered": true
+            },
+            {
+              "run_num": 146,
+              "required_delta": 0.12993258640891447,
+              "covered": true
+            },
+            {
+              "run_num": 148,
+              "required_delta": 0.038976059822596554,
+              "covered": true
+            },
+            {
+              "run_num": 150,
+              "required_delta": 0.08504764225213535,
+              "covered": true
+            },
+            {
+              "run_num": 152,
+              "required_delta": 0.11923623696937957,
+              "covered": true
+            },
+            {
+              "run_num": 154,
+              "required_delta": 0.03900592817103821,
+              "covered": true
+            },
+            {
+              "run_num": 156,
+              "required_delta": 0.04716505161863971,
+              "covered": true
+            },
+            {
+              "run_num": 158,
+              "required_delta": 0.12841665815151115,
+              "covered": true
+            },
+            {
+              "run_num": 160,
+              "required_delta": 0.13094708198520788,
+              "covered": true
+            },
+            {
+              "run_num": 162,
+              "required_delta": 0.04999273778159141,
+              "covered": true
+            },
+            {
+              "run_num": 164,
+              "required_delta": 0.11925902961330159,
+              "covered": true
+            },
+            {
+              "run_num": 166,
+              "required_delta": 0.06528160371476188,
+              "covered": true
+            },
+            {
+              "run_num": 168,
+              "required_delta": 0.005770510589951705,
+              "covered": true
+            },
+            {
+              "run_num": 170,
+              "required_delta": 0.071962255413899,
+              "covered": true
+            },
+            {
+              "run_num": 172,
+              "required_delta": 0.02130260585848731,
+              "covered": true
+            },
+            {
+              "run_num": 174,
+              "required_delta": 0.18112117204333522,
+              "covered": true
+            },
+            {
+              "run_num": 176,
+              "required_delta": 0.113707033757251,
+              "covered": true
+            },
+            {
+              "run_num": 178,
+              "required_delta": 0.15954385108619507,
+              "covered": true
+            },
+            {
+              "run_num": 180,
+              "required_delta": 0.06922879598947329,
+              "covered": true
+            },
+            {
+              "run_num": 182,
+              "required_delta": 0.042228829155499525,
+              "covered": true
+            },
+            {
+              "run_num": 184,
+              "required_delta": 0.18298465536474495,
+              "covered": true
+            },
+            {
+              "run_num": 186,
+              "required_delta": 0.0257503633144589,
+              "covered": true
+            },
+            {
+              "run_num": 188,
+              "required_delta": 0.0071991622559890445,
+              "covered": true
+            },
+            {
+              "run_num": 190,
+              "required_delta": 0.05860136374906011,
+              "covered": true
+            },
+            {
+              "run_num": 192,
+              "required_delta": 0.15781981965548653,
+              "covered": true
+            },
+            {
+              "run_num": 194,
+              "required_delta": 0.08693306369418563,
+              "covered": true
+            },
+            {
+              "run_num": 196,
+              "required_delta": 0.1459971889127214,
+              "covered": true
+            },
+            {
+              "run_num": 198,
+              "required_delta": 0.13838345396823382,
+              "covered": true
+            }
+          ]
+        },
+        "random": {
+          "episodes": 50,
+          "covered_episodes": 48,
+          "adjacent_constraints": 100,
+          "violated_adjacent_constraints": 2,
+          "maximum_required_delta": 0.22806291950985225,
+          "maximum_to_calibration_ratio": 1.1939974865573877,
+          "episode_scores": [
+            {
+              "run_num": 101,
+              "required_delta": 0.14812916377520668,
+              "covered": true
+            },
+            {
+              "run_num": 103,
+              "required_delta": 0.03184368042221397,
+              "covered": true
+            },
+            {
+              "run_num": 105,
+              "required_delta": 0.036795205895975513,
+              "covered": true
+            },
+            {
+              "run_num": 107,
+              "required_delta": 0.028803845223844604,
+              "covered": true
+            },
+            {
+              "run_num": 109,
+              "required_delta": 0.10400217458891081,
+              "covered": true
+            },
+            {
+              "run_num": 111,
+              "required_delta": 0.02673415284037839,
+              "covered": true
+            },
+            {
+              "run_num": 113,
+              "required_delta": 0.05343663941748389,
+              "covered": true
+            },
+            {
+              "run_num": 115,
+              "required_delta": 0.22806291950985225,
+              "covered": false
+            },
+            {
+              "run_num": 117,
+              "required_delta": 0.06769129324651235,
+              "covered": true
+            },
+            {
+              "run_num": 119,
+              "required_delta": 0.0191081051810289,
+              "covered": true
+            },
+            {
+              "run_num": 121,
+              "required_delta": 0.0737853633997525,
+              "covered": true
+            },
+            {
+              "run_num": 123,
+              "required_delta": 0.029112286890258687,
+              "covered": true
+            },
+            {
+              "run_num": 125,
+              "required_delta": 0.061843026354308606,
+              "covered": true
+            },
+            {
+              "run_num": 127,
+              "required_delta": 0.047731862161370486,
+              "covered": true
+            },
+            {
+              "run_num": 129,
+              "required_delta": 0.015033434750738817,
+              "covered": true
+            },
+            {
+              "run_num": 131,
+              "required_delta": 0.211894693738508,
+              "covered": false
+            },
+            {
+              "run_num": 133,
+              "required_delta": 0.09852890366939615,
+              "covered": true
+            },
+            {
+              "run_num": 135,
+              "required_delta": 0.05725300433634084,
+              "covered": true
+            },
+            {
+              "run_num": 137,
+              "required_delta": 0.06559105768243123,
+              "covered": true
+            },
+            {
+              "run_num": 139,
+              "required_delta": 0.13083700348363525,
+              "covered": true
+            },
+            {
+              "run_num": 141,
+              "required_delta": 0.04612339593990189,
+              "covered": true
+            },
+            {
+              "run_num": 143,
+              "required_delta": 0.005243759839405726,
+              "covered": true
+            },
+            {
+              "run_num": 145,
+              "required_delta": 0.04488517563160421,
+              "covered": true
+            },
+            {
+              "run_num": 147,
+              "required_delta": 0.061066604590935825,
+              "covered": true
+            },
+            {
+              "run_num": 149,
+              "required_delta": 0.0739914792983214,
+              "covered": true
+            },
+            {
+              "run_num": 151,
+              "required_delta": 0.17347177846271888,
+              "covered": true
+            },
+            {
+              "run_num": 153,
+              "required_delta": 0.05992178477500243,
+              "covered": true
+            },
+            {
+              "run_num": 155,
+              "required_delta": 0.10376575657438103,
+              "covered": true
+            },
+            {
+              "run_num": 157,
+              "required_delta": 0.020876180438178515,
+              "covered": true
+            },
+            {
+              "run_num": 159,
+              "required_delta": 0.01563321910158688,
+              "covered": true
+            },
+            {
+              "run_num": 161,
+              "required_delta": 0.11397821982224876,
+              "covered": true
+            },
+            {
+              "run_num": 163,
+              "required_delta": 0.12845157330195,
+              "covered": true
+            },
+            {
+              "run_num": 165,
+              "required_delta": 0.016790429470668222,
+              "covered": true
+            },
+            {
+              "run_num": 167,
+              "required_delta": 0.053306832056212006,
+              "covered": true
+            },
+            {
+              "run_num": 169,
+              "required_delta": 0.18455308560355022,
+              "covered": true
+            },
+            {
+              "run_num": 171,
+              "required_delta": 0.11420652771260631,
+              "covered": true
+            },
+            {
+              "run_num": 173,
+              "required_delta": 0.10740059795369161,
+              "covered": true
+            },
+            {
+              "run_num": 175,
+              "required_delta": 0.10703994567044983,
+              "covered": true
+            },
+            {
+              "run_num": 177,
+              "required_delta": 0.03676729778593435,
+              "covered": true
+            },
+            {
+              "run_num": 179,
+              "required_delta": 0.1379971462456453,
+              "covered": true
+            },
+            {
+              "run_num": 181,
+              "required_delta": 0.15492227391066038,
+              "covered": true
+            },
+            {
+              "run_num": 183,
+              "required_delta": 0.060530762634043445,
+              "covered": true
+            },
+            {
+              "run_num": 185,
+              "required_delta": 0.07253190111318686,
+              "covered": true
+            },
+            {
+              "run_num": 187,
+              "required_delta": 0.028334052002364274,
+              "covered": true
+            },
+            {
+              "run_num": 189,
+              "required_delta": 0.036024690170562756,
+              "covered": true
+            },
+            {
+              "run_num": 191,
+              "required_delta": 0.019525742374005173,
+              "covered": true
+            },
+            {
+              "run_num": 193,
+              "required_delta": 0.01931213848924429,
+              "covered": true
+            },
+            {
+              "run_num": 195,
+              "required_delta": 0.01188996626045169,
+              "covered": true
+            },
+            {
+              "run_num": 197,
+              "required_delta": 0.0473179850415435,
+              "covered": true
+            },
+            {
+              "run_num": 199,
+              "required_delta": 0.15915709623547825,
+              "covered": true
+            }
+          ]
+        }
+      }
+    },
+    "ufs": {
+      "commands": 20,
+      "rows": 400,
+      "calibration_episodes_per_type": {
+        "fixed": 5,
+        "random": 5
+      },
+      "assessment_episodes_per_type": {
+        "fixed": 5,
+        "random": 5
+      },
+      "effective_delta_cal": 0.3122178823441839,
+      "exp_delta_minus1": 0.36645238644640704,
+      "assessment_with_frozen_calibration_centers": {
+        "fixed": {
+          "episodes": 5,
+          "covered_episodes": 5,
+          "adjacent_constraints": 95,
+          "violated_adjacent_constraints": 0,
+          "maximum_required_delta": 0.15346318394396086,
+          "maximum_to_calibration_ratio": 0.49152592667573586,
+          "episode_scores": [
+            {
+              "run_num": 10,
+              "required_delta": 0.140415576439624,
+              "covered": true
+            },
+            {
+              "run_num": 12,
+              "required_delta": 0.12807135328079156,
+              "covered": true
+            },
+            {
+              "run_num": 14,
+              "required_delta": 0.15346318394396086,
+              "covered": true
+            },
+            {
+              "run_num": 16,
+              "required_delta": 0.14395696745782693,
+              "covered": true
+            },
+            {
+              "run_num": 18,
+              "required_delta": 0.13260053531544358,
+              "covered": true
+            }
+          ]
+        },
+        "random": {
+          "episodes": 5,
+          "covered_episodes": 3,
+          "adjacent_constraints": 95,
+          "violated_adjacent_constraints": 3,
+          "maximum_required_delta": 0.42502853793307693,
+          "maximum_to_calibration_ratio": 1.3613202893501546,
+          "episode_scores": [
+            {
+              "run_num": 11,
+              "required_delta": 0.25944470489826266,
+              "covered": true
+            },
+            {
+              "run_num": 13,
+              "required_delta": 0.42502853793307693,
+              "covered": false
+            },
+            {
+              "run_num": 15,
+              "required_delta": 0.12461370837594998,
+              "covered": true
+            },
+            {
+              "run_num": 17,
+              "required_delta": 0.31264638342269535,
+              "covered": false
+            },
+            {
+              "run_num": 19,
+              "required_delta": 0.06361836208981497,
+              "covered": true
+            }
+          ]
+        }
+      },
+      "descriptive_assessment_with_heldout_random_reference_centers": {
+        "fixed": {
+          "episodes": 5,
+          "covered_episodes": 5,
+          "adjacent_constraints": 95,
+          "violated_adjacent_constraints": 0,
+          "maximum_required_delta": 0.2719114929762547,
+          "maximum_to_calibration_ratio": 0.8709030082924716,
+          "episode_scores": [
+            {
+              "run_num": 10,
+              "required_delta": 0.25886388547191785,
+              "covered": true
+            },
+            {
+              "run_num": 12,
+              "required_delta": 0.18853308512461986,
+              "covered": true
+            },
+            {
+              "run_num": 14,
+              "required_delta": 0.2719114929762547,
+              "covered": true
+            },
+            {
+              "run_num": 16,
+              "required_delta": 0.19089625757532502,
+              "covered": true
+            },
+            {
+              "run_num": 18,
+              "required_delta": 0.25104884434773744,
+              "covered": true
+            }
+          ]
+        },
+        "random": {
+          "episodes": 5,
+          "covered_episodes": 5,
+          "adjacent_constraints": 95,
+          "violated_adjacent_constraints": 0,
+          "maximum_required_delta": 0.31094741650189484,
+          "maximum_to_calibration_ratio": 0.995930835758829,
+          "episode_scores": [
+            {
+              "run_num": 11,
+              "required_delta": 0.1586042750098855,
+              "covered": true
+            },
+            {
+              "run_num": 13,
+              "required_delta": 0.31094741650189484,
+              "covered": true
+            },
+            {
+              "run_num": 15,
+              "required_delta": 0.24317111189195906,
+              "covered": true
+            },
+            {
+              "run_num": 17,
+              "required_delta": 0.20916567695122623,
+              "covered": true
+            },
+            {
+              "run_num": 19,
+              "required_delta": 0.12686615458091488,
+              "covered": true
+            }
+          ]
+        }
+      },
+      "matched_pair_assessment": {
+        "tasks": 10,
+        "fixed_assessment_episodes": 5,
+        "queries": 50,
+        "random_reference_episodes": 5,
+        "reference_separated_tasks": 10,
+        "cross_tabs": {
+          "naive": {
+            "abstain": 0,
+            "unique_reference_ambiguous": 0,
+            "unique_agrees": 50,
+            "unique_contradicts": 0
+          },
+          "path": {
+            "abstain": 40,
+            "unique_reference_ambiguous": 0,
+            "unique_agrees": 10,
+            "unique_contradicts": 0
+          },
+          "floor0_box": {
+            "abstain": 50,
+            "unique_reference_ambiguous": 0,
+            "unique_agrees": 0,
+            "unique_contradicts": 0
+          },
+          "candidate_centered_box": {
+            "abstain": 40,
+            "unique_reference_ambiguous": 0,
+            "unique_agrees": 10,
+            "unique_contradicts": 0
+          }
+        },
+        "details": [
+          {
+            "task": "ADPS",
+            "arms": [
+              "bash -i ext4nj.ADPS.sh",
+              "bash -i ufs.ADPS.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.ADPS.sh": [
+                -10.692044917900732,
+                -10.291977556438331
+              ],
+              "bash -i ufs.ADPS.sh": [
+                -11.66782642618819,
+                -11.479780866377926
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.ADPS.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.ADPS.sh",
+              "bash -i ufs.ADPS.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.9776886289390554,
+            "heldout_random_mean_cost_gap": 1.0320037436160288,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.ADPS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.ADPS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.ADPS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.ADPS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.ADPS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "ADSS",
+            "arms": [
+              "bash -i ext4nj.ADSS.sh",
+              "bash -i ufs.ADSS.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.ADSS.sh": [
+                -10.689539807486554,
+                -10.553421998673254
+              ],
+              "bash -i ufs.ADSS.sh": [
+                -11.672390239621256,
+                -11.230758573206558
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.ADSS.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.ADSS.sh",
+              "bash -i ufs.ADSS.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 1.1091665600189635,
+            "heldout_random_mean_cost_gap": 0.8110001599078188,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.ADSS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.ADSS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.ADSS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.ADSS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.ADSS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "CMP",
+            "arms": [
+              "bash -i ext4nj.CMP.sh",
+              "bash -i ufs.CMP.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.CMP.sh": [
+                -11.664795414308355,
+                -11.654143466885765
+              ],
+              "bash -i ufs.CMP.sh": [
+                -12.037343042255687,
+                -12.008698286109926
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.CMP.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.CMP.sh",
+              "bash -i ufs.CMP.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.3565943172832366,
+            "heldout_random_mean_cost_gap": 0.3574632995504565,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.CMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.CMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.CMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.CMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.CMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "CMS",
+            "arms": [
+              "bash -i ext4nj.CMS.sh",
+              "bash -i ufs.CMS.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.CMS.sh": [
+                -11.676974976976734,
+                -11.658645119319635
+              ],
+              "bash -i ufs.CMS.sh": [
+                -12.037680994269717,
+                -12.027759110133758
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.CMS.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.CMS.sh",
+              "bash -i ufs.CMS.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.3315962307639513,
+            "heldout_random_mean_cost_gap": 0.3624736378427745,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.CMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.CMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.CMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.CMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.CMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "LsMP",
+            "arms": [
+              "bash -i ext4nj.LsMP.sh",
+              "bash -i ufs.LsMP.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.LsMP.sh": [
+                -7.021665573390929,
+                -7.010757466571837
+              ],
+              "bash -i ufs.LsMP.sh": [
+                -10.859299042572566,
+                -10.817530811869803
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.LsMP.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.LsMP.sh",
+              "bash -i ufs.LsMP.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 3.877178156622784,
+            "heldout_random_mean_cost_gap": 3.822888452389839,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.LsMP.sh",
+                  "path": "bash -i ufs.LsMP.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMP.sh"
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.LsMP.sh",
+                  "path": "bash -i ufs.LsMP.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMP.sh"
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.LsMP.sh",
+                  "path": "bash -i ufs.LsMP.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMP.sh"
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.LsMP.sh",
+                  "path": "bash -i ufs.LsMP.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMP.sh"
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.LsMP.sh",
+                  "path": "bash -i ufs.LsMP.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMP.sh"
+                }
+              }
+            ]
+          },
+          {
+            "task": "LsMS",
+            "arms": [
+              "bash -i ext4nj.LsMS.sh",
+              "bash -i ufs.LsMS.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.LsMS.sh": [
+                -7.013713751158112,
+                -7.005272191831806
+              ],
+              "bash -i ufs.LsMS.sh": [
+                -10.847406451527757,
+                -10.793477209990913
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.LsMS.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.LsMS.sh",
+              "bash -i ufs.LsMS.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 3.80796021318012,
+            "heldout_random_mean_cost_gap": 3.8053655514364,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.LsMS.sh",
+                  "path": "bash -i ufs.LsMS.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMS.sh"
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.LsMS.sh",
+                  "path": "bash -i ufs.LsMS.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMS.sh"
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.LsMS.sh",
+                  "path": "bash -i ufs.LsMS.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMS.sh"
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.LsMS.sh",
+                  "path": "bash -i ufs.LsMS.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMS.sh"
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.LsMS.sh",
+                  "path": "bash -i ufs.LsMS.sh",
+                  "floor0_box": null,
+                  "candidate_centered_box": "bash -i ufs.LsMS.sh"
+                }
+              }
+            ]
+          },
+          {
+            "task": "RDPR",
+            "arms": [
+              "bash -i ext4nj.RDPR.sh",
+              "bash -i ufs.RDPR.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.RDPR.sh": [
+                -9.422482165182616,
+                -9.41204048599674
+              ],
+              "bash -i ufs.RDPR.sh": [
+                -9.597813314214267,
+                -9.594533344808807
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.RDPR.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.RDPR.sh",
+              "bash -i ufs.RDPR.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.14970979141506788,
+            "heldout_random_mean_cost_gap": 0.1798187880411845,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.RDPR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.RDPR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.RDPR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.RDPR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.RDPR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "RDSR",
+            "arms": [
+              "bash -i ext4nj.RDSR.sh",
+              "bash -i ufs.RDSR.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.RDSR.sh": [
+                -9.458301856233032,
+                -9.407718715404366
+              ],
+              "bash -i ufs.RDSR.sh": [
+                -9.597813314214267,
+                -9.592098719139715
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.RDSR.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.RDSR.sh",
+              "bash -i ufs.RDSR.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.1897134225772131,
+            "heldout_random_mean_cost_gap": 0.17421638399018385,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.RDSR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.RDSR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.RDSR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.RDSR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.RDSR.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "RMP",
+            "arms": [
+              "bash -i ext4nj.RMP.sh",
+              "bash -i ufs.RMP.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.RMP.sh": [
+                -11.48803774946245,
+                -11.477268787762194
+              ],
+              "bash -i ufs.RMP.sh": [
+                -12.259684414978823,
+                -12.24190709853939
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.RMP.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.RMP.sh",
+              "bash -i ufs.RMP.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.7720393913054184,
+            "heldout_random_mean_cost_gap": 0.7670805129926478,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.RMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.RMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.RMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.RMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.RMP.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          },
+          {
+            "task": "RMS",
+            "arms": [
+              "bash -i ext4nj.RMS.sh",
+              "bash -i ufs.RMS.sh"
+            ],
+            "heldout_random_observed_cost_ranges": {
+              "bash -i ext4nj.RMS.sh": [
+                -11.51322550997923,
+                -11.50070049534766
+              ],
+              "bash -i ufs.RMS.sh": [
+                -12.26433755366215,
+                -12.195924314478358
+              ]
+            },
+            "reference_separated_winner": "bash -i ufs.RMS.sh",
+            "gap_arm_order": [
+              "bash -i ext4nj.RMS.sh",
+              "bash -i ufs.RMS.sh"
+            ],
+            "heldout_fixed_mean_cost_gap": 0.7500657157451005,
+            "heldout_random_mean_cost_gap": 0.7257182958462792,
+            "decisions": [
+              {
+                "run_num": 10,
+                "choices": {
+                  "naive": "bash -i ufs.RMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 12,
+                "choices": {
+                  "naive": "bash -i ufs.RMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 14,
+                "choices": {
+                  "naive": "bash -i ufs.RMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 16,
+                "choices": {
+                  "naive": "bash -i ufs.RMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              },
+              {
+                "run_num": 18,
+                "choices": {
+                  "naive": "bash -i ufs.RMS.sh",
+                  "path": null,
+                  "floor0_box": null,
+                  "candidate_centered_box": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "new_acquisitions": 0,
+  "hopper_calibration": false,
+  "source_of_measurements": "independent published OrderSage corpus",
+  "scientific_boundary": "No known-truth misspecification-detection, prospective deployment, hardware ranking correctness, GPU bias budget, distribution-free coverage, exchangeability or statistical significance claim is supported by this split alone. Failures may arise from arm-specific state, temporal change, fitting error or noise and do not identify a causal mechanism. All negative findings stay in the report. These published data cannot replace counterbalanced native Hopper acquisition."
+}

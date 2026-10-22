@@ -1,0 +1,1 @@
+{"stage":"input selection","error":"assert len(raw)==6","cause":"Retained matrix also has the explicitly unselectable floor arm. The six selectable arms were not filtered.","change":"Filter by the pre-existing ec.ARMS allowlist; keep the same selected cell and order.","scientific_outcome":null}

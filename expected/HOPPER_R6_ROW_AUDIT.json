@@ -1,0 +1,51 @@
+{
+  "raw_sha256": "c285d941cac57a2de38809b295380ab318835be8cdc796c6f44c7c97ff2904b1",
+  "raw_blocks": 93,
+  "raw_rows": 651,
+  "selected_blocks": 89,
+  "selected_rows": 623,
+  "unselected_repeated_configurations": [
+    {
+      "key": [
+        "Nto1",
+        "4",
+        "512",
+        "1"
+      ],
+      "rows": 7,
+      "start_line": 68
+    },
+    {
+      "key": [
+        "Nto1",
+        "8",
+        "512",
+        "1"
+      ],
+      "rows": 7,
+      "start_line": 116
+    },
+    {
+      "key": [
+        "1toN",
+        "4",
+        "512",
+        "1"
+      ],
+      "rows": 7,
+      "start_line": 206
+    },
+    {
+      "key": [
+        "1toN",
+        "8",
+        "512",
+        "1"
+      ],
+      "rows": 7,
+      "start_line": 254
+    }
+  ],
+  "all_primary_equal_selected_raw_min": true,
+  "scope": "original raw provenance inspected locally; raw data not republished"
+}

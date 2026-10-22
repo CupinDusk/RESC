@@ -1,0 +1,2509 @@
+{
+  "primary": {
+    "model_or_flat": {
+      "all": {
+        "cells": 35,
+        "geometric_regret": 1.082678792437052,
+        "maximum_regret": 2.2030633909614803,
+        "winners": 21
+      },
+      "admitted": {
+        "cells": 19,
+        "geometric_regret": 1.0043178222330102,
+        "maximum_regret": 1.080191502094554,
+        "winners": 17
+      },
+      "unsupported": {
+        "cells": 16,
+        "geometric_regret": 1.1837116624340205,
+        "maximum_regret": 2.2030633909614803,
+        "winners": 4
+      }
+    },
+    "baselines": {
+      "constant": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1615982769618514,
+          "maximum_regret": 2.142086059765401,
+          "winners": 15
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.176816402754542,
+          "maximum_regret": 2.142086059765401,
+          "winners": 10
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.143782148078842,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      },
+      "majority": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0941601454838759,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0649304758232947,
+          "maximum_regret": 1.9087235774809272,
+          "winners": 13
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1299141811493643,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 6
+        }
+      },
+      "nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1033884996718915,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0717541430413777,
+          "maximum_regret": 1.9087235774809272,
+          "winners": 14
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1421692812235982,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      },
+      "model_or_nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0651403873817396,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 22
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0043178222330102,
+          "maximum_regret": 1.080191502094554,
+          "winners": 17
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1421692812235982,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      }
+    },
+    "fits": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "train_cells": 12,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            690.6072816354116,
+            4.147119445852368,
+            922.0548436864711,
+            -2.9502577841150153
+          ],
+          "PULL_FLAT": [
+            786.3279439094443,
+            2.4531339753337136,
+            1214.1206685863558,
+            20.01578377695924
+          ],
+          "PUSH_ST": [
+            619.1674184828522,
+            3.1005828687278125,
+            1079.360132484512,
+            -6.904308531475509
+          ],
+          "GLOBAL": [
+            919.0745734076714,
+            -3.033671228248238,
+            2321.9312974236454,
+            -0.3735706766636113
+          ],
+          "PUSH_BULK": [
+            928.031880385201,
+            -3.117942219969777,
+            1172.992913489619,
+            6.982444688273045
+          ],
+          "PUSH_STASYNC": [
+            893.3411387058632,
+            3.8258151714815654,
+            1045.9452335466528,
+            -6.342716786508346
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            745.1966028049819,
+            15.588377766060802,
+            150.84776760264083,
+            767.7440854167845
+          ],
+          "PULL_FLAT": [
+            774.0504021044159,
+            21.542045944241778,
+            625.8020026069224,
+            618.9358722568517
+          ],
+          "PUSH_ST": [
+            584.6321550856069,
+            85.42358068057041,
+            256.4738863926626,
+            796.2323110085165
+          ],
+          "GLOBAL": [
+            889.6785687214995,
+            32.79113899940046,
+            2325.9834309116636,
+            -4.930452330860554
+          ],
+          "PUSH_BULK": [
+            940.7318508615842,
+            84.89514694209981,
+            474.140744400848,
+            786.5705563274817
+          ],
+          "PUSH_STASYNC": [
+            905.962688970303,
+            106.58385605419545,
+            298.29575207829333,
+            811.7658064341514
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            623.735138866836,
+            173.9369172237208,
+            251.246549313666,
+            622.392489059685
+          ],
+          "PULL_FLAT": [
+            823.655090213051,
+            13.811018927006984,
+            60.981254586950705,
+            1105.4060168002184
+          ],
+          "PUSH_ST": [
+            633.8028660527034,
+            29.06043855956335,
+            457.7851501616751,
+            601.0384809461924
+          ],
+          "GLOBAL": [
+            943.0461681370658,
+            17.309246628942788,
+            631.4558572828325,
+            1648.851491931561
+          ],
+          "PUSH_BULK": [
+            990.0366939172329,
+            16.774439720206544,
+            602.415942151631,
+            561.1430284942118
+          ],
+          "PUSH_STASYNC": [
+            983.2669128887085,
+            -5.257502515333869,
+            332.36325539789345,
+            632.9300652365317
+          ]
+        }
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      }
+    ],
+    "cases": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "GLOBAL",
+        "regret": 1.080191502094554
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0415750340349776
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1059552495697074
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.042028692665185
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.2975746268656716
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.013838436256703
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.6793198213672278
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0861171857325993
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 2.2030633909614803
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0047348484848484
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_ST",
+        "regret": 1.2653772986683576
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.4203027604630454
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.1912692980454787
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.0936489017537885
+      }
+    ]
+  },
+  "raw_minimum": {
+    "model_or_flat": {
+      "all": {
+        "cells": 35,
+        "geometric_regret": 1.082678792437052,
+        "maximum_regret": 2.2030633909614803,
+        "winners": 21
+      },
+      "admitted": {
+        "cells": 19,
+        "geometric_regret": 1.0043178222330102,
+        "maximum_regret": 1.080191502094554,
+        "winners": 17
+      },
+      "unsupported": {
+        "cells": 16,
+        "geometric_regret": 1.1837116624340205,
+        "maximum_regret": 2.2030633909614803,
+        "winners": 4
+      }
+    },
+    "baselines": {
+      "constant": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1615982769618514,
+          "maximum_regret": 2.142086059765401,
+          "winners": 15
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.176816402754542,
+          "maximum_regret": 2.142086059765401,
+          "winners": 10
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.143782148078842,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      },
+      "majority": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0941601454838759,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0649304758232947,
+          "maximum_regret": 1.9087235774809272,
+          "winners": 13
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1299141811493643,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 6
+        }
+      },
+      "nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1033884996718915,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0717541430413777,
+          "maximum_regret": 1.9087235774809272,
+          "winners": 14
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1421692812235982,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      },
+      "model_or_nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0651403873817396,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 22
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0043178222330102,
+          "maximum_regret": 1.080191502094554,
+          "winners": 17
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1421692812235982,
+          "maximum_regret": 2.1325447376402793,
+          "winners": 5
+        }
+      }
+    },
+    "fits": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "train_cells": 12,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            690.6072816354116,
+            4.147119445852368,
+            922.0548436864711,
+            -2.9502577841150153
+          ],
+          "PULL_FLAT": [
+            786.3279439094443,
+            2.4531339753337136,
+            1214.1206685863558,
+            20.01578377695924
+          ],
+          "PUSH_ST": [
+            619.1674184828522,
+            3.1005828687278125,
+            1079.360132484512,
+            -6.904308531475509
+          ],
+          "GLOBAL": [
+            919.0745734076714,
+            -3.033671228248238,
+            2321.9312974236454,
+            -0.3735706766636113
+          ],
+          "PUSH_BULK": [
+            928.031880385201,
+            -3.117942219969777,
+            1172.992913489619,
+            6.982444688273045
+          ],
+          "PUSH_STASYNC": [
+            893.3411387058632,
+            3.8258151714815654,
+            1045.9452335466528,
+            -6.342716786508346
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            745.1966028049819,
+            15.588377766060802,
+            150.84776760264083,
+            767.7440854167845
+          ],
+          "PULL_FLAT": [
+            774.0504021044159,
+            21.542045944241778,
+            625.8020026069224,
+            618.9358722568517
+          ],
+          "PUSH_ST": [
+            584.6321550856069,
+            85.42358068057041,
+            256.4738863926626,
+            796.2323110085165
+          ],
+          "GLOBAL": [
+            889.6785687214995,
+            32.79113899940046,
+            2325.9834309116636,
+            -4.930452330860554
+          ],
+          "PUSH_BULK": [
+            940.7318508615842,
+            84.89514694209981,
+            474.140744400848,
+            786.5705563274817
+          ],
+          "PUSH_STASYNC": [
+            905.962688970303,
+            106.58385605419545,
+            298.29575207829333,
+            811.7658064341514
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            623.735138866836,
+            173.9369172237208,
+            251.246549313666,
+            622.392489059685
+          ],
+          "PULL_FLAT": [
+            823.655090213051,
+            13.811018927006984,
+            60.981254586950705,
+            1105.4060168002184
+          ],
+          "PUSH_ST": [
+            633.8028660527034,
+            29.06043855956335,
+            457.7851501616751,
+            601.0384809461924
+          ],
+          "GLOBAL": [
+            943.0461681370658,
+            17.309246628942788,
+            631.4558572828325,
+            1648.851491931561
+          ],
+          "PUSH_BULK": [
+            990.0366939172329,
+            16.774439720206544,
+            602.415942151631,
+            561.1430284942118
+          ],
+          "PUSH_STASYNC": [
+            983.2669128887085,
+            -5.257502515333869,
+            332.36325539789345,
+            632.9300652365317
+          ]
+        }
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      }
+    ],
+    "cases": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "GLOBAL",
+        "regret": 1.080191502094554
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0415750340349776
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1059552495697074
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.042028692665185
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.2975746268656716
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.013838436256703
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.6793198213672278
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0861171857325993
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 2.2030633909614803
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0047348484848484
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_ST",
+        "regret": 1.2653772986683576
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.4203027604630454
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.1912692980454787
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.0936489017537885
+      }
+    ]
+  },
+  "raw_mean": {
+    "model_or_flat": {
+      "all": {
+        "cells": 35,
+        "geometric_regret": 1.0820982954377834,
+        "maximum_regret": 2.192466097438473,
+        "winners": 21
+      },
+      "admitted": {
+        "cells": 19,
+        "geometric_regret": 1.0036819054235182,
+        "maximum_regret": 1.068184057542615,
+        "winners": 17
+      },
+      "unsupported": {
+        "cells": 16,
+        "geometric_regret": 1.1832133799744564,
+        "maximum_regret": 2.192466097438473,
+        "winners": 4
+      }
+    },
+    "baselines": {
+      "constant": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1620128486440302,
+          "maximum_regret": 2.1440537527494046,
+          "winners": 15
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.1759034017541334,
+          "maximum_regret": 2.1440537527494046,
+          "winners": 10
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1457307766053657,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 5
+        }
+      },
+      "majority": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1008215007644893,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 18
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.064371350979566,
+          "maximum_regret": 1.9080116906203861,
+          "winners": 13
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1457307766053657,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 5
+        }
+      },
+      "nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1046400292080643,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.071319735302301,
+          "maximum_regret": 1.9080116906203861,
+          "winners": 14
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1455564943814527,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 5
+        }
+      },
+      "model_or_nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0662165715174365,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 22
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0036819054235182,
+          "maximum_regret": 1.068184057542615,
+          "winners": 17
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1455564943814527,
+          "maximum_regret": 2.1290306378704167,
+          "winners": 5
+        }
+      }
+    },
+    "fits": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "train_cells": 12,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            692.06673424565,
+            4.4797431998648705,
+            927.4886335492521,
+            -4.672485142835296
+          ],
+          "PULL_FLAT": [
+            788.3583966886306,
+            2.2642084811621714,
+            1209.8575902894197,
+            23.866888711895996
+          ],
+          "PUSH_ST": [
+            621.4715830376757,
+            3.780114884270972,
+            1080.3541346641196,
+            -6.6996526366017815
+          ],
+          "GLOBAL": [
+            923.5657965872614,
+            -3.32592498732879,
+            2318.9325610021015,
+            -0.29590980062405947
+          ],
+          "PUSH_BULK": [
+            929.1287379624945,
+            -2.680621726643153,
+            1174.019805097757,
+            6.326842409153365
+          ],
+          "PUSH_STASYNC": [
+            893.6235343808086,
+            5.1599763473558795,
+            1046.7371463474858,
+            -7.5842451854617
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            745.336328774408,
+            16.493422872830394,
+            151.22587943663524,
+            767.1644545409258
+          ],
+          "PULL_FLAT": [
+            774.3315194835287,
+            22.03502891991829,
+            622.226613790115,
+            622.4778013082171
+          ],
+          "PUSH_ST": [
+            584.2217332445958,
+            86.45635427018726,
+            257.6849556816266,
+            795.0706709185008
+          ],
+          "GLOBAL": [
+            892.801093507177,
+            32.86604621237092,
+            2322.7983562665154,
+            -4.584514828347295
+          ],
+          "PUSH_BULK": [
+            940.7147615012301,
+            85.43115841767582,
+            474.43706603788024,
+            786.1890643784172
+          ],
+          "PUSH_STASYNC": [
+            907.1556436494251,
+            106.7063431726744,
+            298.53798946882085,
+            811.1539907253376
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            621.7104960328219,
+            178.41957661458565,
+            253.1420385894809,
+            619.185605113327
+          ],
+          "PULL_FLAT": [
+            823.1632136580926,
+            15.18961621181856,
+            57.96240247353386,
+            1108.5596585369196
+          ],
+          "PUSH_ST": [
+            638.2445743553095,
+            28.060967121292208,
+            443.6732656345381,
+            613.8349784444099
+          ],
+          "GLOBAL": [
+            943.8139525376084,
+            18.155349709394045,
+            631.9200645323211,
+            1648.5498307016885
+          ],
+          "PUSH_BULK": [
+            989.8980997887767,
+            17.619808641702576,
+            603.9803145630369,
+            559.8482353293741
+          ],
+          "PUSH_STASYNC": [
+            983.4478148875058,
+            -4.507487129438005,
+            332.0294504863528,
+            632.374524791621
+          ]
+        }
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      }
+    ],
+    "cases": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "GLOBAL",
+        "regret": 1.068184057542615
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0412016272035047
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1052161363480175
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0325381774628206
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.2939843068875327
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0168921830561064
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.6786265211677998
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0807698023480459
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 2.192466097438473
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0038751571009636
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_ST",
+        "regret": 1.2706439393939395
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.4009346704313117
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.206186735156368
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1051992774077
+      }
+    ]
+  },
+  "raw_maximum": {
+    "model_or_flat": {
+      "all": {
+        "cells": 35,
+        "geometric_regret": 1.0820394056447298,
+        "maximum_regret": 2.1876501200960767,
+        "winners": 21
+      },
+      "admitted": {
+        "cells": 19,
+        "geometric_regret": 1.0028261337691675,
+        "maximum_regret": 1.0536580632641181,
+        "winners": 17
+      },
+      "unsupported": {
+        "cells": 16,
+        "geometric_regret": 1.1842715056794366,
+        "maximum_regret": 2.1876501200960767,
+        "winners": 4
+      }
+    },
+    "baselines": {
+      "constant": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1640081751024407,
+          "maximum_regret": 2.1465221318879855,
+          "winners": 15
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.1742368530112859,
+          "maximum_regret": 2.1465221318879855,
+          "winners": 10
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1519772840454447,
+          "maximum_regret": 2.133406725380304,
+          "winners": 5
+        }
+      },
+      "majority": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.103149990036553,
+          "maximum_regret": 2.133406725380304,
+          "winners": 18
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0636411058368476,
+          "maximum_regret": 1.9077085215296596,
+          "winners": 13
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1519772840454447,
+          "maximum_regret": 2.133406725380304,
+          "winners": 5
+        }
+      },
+      "nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.1069931377171953,
+          "maximum_regret": 2.133406725380304,
+          "winners": 19
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.070618352666213,
+          "maximum_regret": 1.9077085215296596,
+          "winners": 14
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1517967385410766,
+          "maximum_regret": 2.133406725380304,
+          "winners": 5
+        }
+      },
+      "model_or_nearest_c4": {
+        "all": {
+          "cells": 35,
+          "geometric_regret": 1.0683729362464494,
+          "maximum_regret": 2.133406725380304,
+          "winners": 22
+        },
+        "admitted": {
+          "cells": 19,
+          "geometric_regret": 1.0028261337691675,
+          "maximum_regret": 1.0536580632641181,
+          "winners": 17
+        },
+        "unsupported": {
+          "cells": 16,
+          "geometric_regret": 1.1517967385410766,
+          "maximum_regret": 2.133406725380304,
+          "winners": 5
+        }
+      }
+    },
+    "fits": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "train_cells": 12,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            694.1490876837307,
+            4.7319057273187894,
+            949.4734104550629,
+            -12.409105339667954
+          ],
+          "PULL_FLAT": [
+            792.0869150194295,
+            2.1023568170299143,
+            1205.1906184033912,
+            27.033494297558672
+          ],
+          "PUSH_ST": [
+            624.0379709410378,
+            4.893588443993934,
+            1078.7800047899395,
+            -6.760298461464696
+          ],
+          "GLOBAL": [
+            931.6294306470694,
+            -3.814445007602785,
+            2311.2193246186157,
+            0.6276557704832335
+          ],
+          "PUSH_BULK": [
+            931.5749704341955,
+            -2.520907247845969,
+            1174.074272272752,
+            5.7204792166776475
+          ],
+          "PUSH_STASYNC": [
+            895.1005152897452,
+            5.486965703666172,
+            1046.465665977882,
+            -7.705726947491524
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            746.8002239137999,
+            17.44948042815065,
+            150.90450136763897,
+            766.94591366757
+          ],
+          "PULL_FLAT": [
+            774.8347519267434,
+            22.488714875082394,
+            621.5883724524832,
+            623.6850487706587
+          ],
+          "PUSH_ST": [
+            583.387115315729,
+            87.70359257411775,
+            259.15463424348536,
+            793.7692417453676
+          ],
+          "GLOBAL": [
+            899.399825927344,
+            32.41443323805669,
+            2315.5820552189457,
+            -3.5067499531708357
+          ],
+          "PUSH_BULK": [
+            940.3900099670645,
+            86.38800996873698,
+            474.79645374925826,
+            785.3100997411761
+          ],
+          "PUSH_STASYNC": [
+            907.8685500914285,
+            107.03068964501455,
+            299.6384116420437,
+            810.260981075392
+          ]
+        }
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "train_cells": 13,
+        "admitted": true,
+        "coefficients": {
+          "PULL": [
+            626.4739018389254,
+            179.89947204179867,
+            247.0152499802528,
+            618.890970442338
+          ],
+          "PULL_FLAT": [
+            823.3006627022743,
+            16.072457757263862,
+            53.235014872985126,
+            1113.495789446871
+          ],
+          "PUSH_ST": [
+            639.988755144976,
+            29.146740715812257,
+            449.20282729921195,
+            612.4466330900348
+          ],
+          "GLOBAL": [
+            943.7093537468671,
+            19.87841445722262,
+            635.0915744480153,
+            1647.3206981923338
+          ],
+          "PUSH_BULK": [
+            990.2526013179918,
+            18.323357458829975,
+            607.3370560358765,
+            558.0306430668447
+          ],
+          "PUSH_STASYNC": [
+            984.2337716839293,
+            -3.6813641826615253,
+            331.4292538301609,
+            631.419983028604
+          ]
+        }
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "train_cells": 2,
+        "admitted": false,
+        "coefficients": {}
+      }
+    ],
+    "cases": [
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1to1",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "PULL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PULL",
+        "oracle": "GLOBAL",
+        "regret": 1.0536580632641181
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 1,
+        "payload_B": 32768,
+        "admitted": true,
+        "selected": "GLOBAL",
+        "oracle": "GLOBAL",
+        "regret": 1.0
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0405700613752211
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1032545392257622
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0201771653543308
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.2906572389011244
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.022279348757498
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.6762225008548957
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL",
+        "regret": 1.0735736838240693
+      },
+      {
+        "pattern": "1toN",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 2.1876501200960767
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 32,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 128,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 512,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PULL_FLAT",
+        "regret": 1.001353743621785
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 2048,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 4096,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 1,
+        "payload_B": 8192,
+        "admitted": true,
+        "selected": "PUSH_ST",
+        "oracle": "PUSH_ST",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 4,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_ST",
+        "regret": 1.2760894135376115
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 9,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.3893148174936112
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 18,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PUSH_STASYNC",
+        "regret": 1.243733534060971
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 512,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "PULL_FLAT",
+        "regret": 1.0
+      },
+      {
+        "pattern": "Nto1",
+        "launched_clusters": 36,
+        "payload_B": 4096,
+        "admitted": false,
+        "selected": "PULL_FLAT",
+        "oracle": "GLOBAL",
+        "regret": 1.1160067396798652
+      }
+    ]
+  },
+  "corpus_audit": {
+    "repetition_count_to_cells": {
+      "5": 49,
+      "3": 40
+    },
+    "fan_in_triplets": [
+      {
+        "payload_B": 32,
+        "nominal_C8_over_C2": {
+          "PULL": 2.324081929463095,
+          "PULL_FLAT": 0.9513228725231933
+        },
+        "actual_round_C8_over_C2": {
+          "PULL": 2.3240819294630954,
+          "PULL_FLAT": 0.9513228725231934
+        }
+      },
+      {
+        "payload_B": 128,
+        "nominal_C8_over_C2": {
+          "PULL": 2.356881851400731,
+          "PULL_FLAT": 0.9418219225054292
+        },
+        "actual_round_C8_over_C2": {
+          "PULL": 2.356881851400731,
+          "PULL_FLAT": 0.9418219225054292
+        }
+      },
+      {
+        "payload_B": 512,
+        "nominal_C8_over_C2": {
+          "PULL": 2.5095564812545947,
+          "PULL_FLAT": 1.0949308755760367
+        },
+        "actual_round_C8_over_C2": {
+          "PULL": 2.2053678168600985,
+          "PULL_FLAT": 0.9622119815668202
+        }
+      },
+      {
+        "payload_B": 2048,
+        "nominal_C8_over_C2": {
+          "PULL": 2.513015873015873,
+          "PULL_FLAT": 1.4763038818766374
+        },
+        "actual_round_C8_over_C2": {
+          "PULL": 2.513015873015873,
+          "PULL_FLAT": 1.4763038818766374
+        }
+      },
+      {
+        "payload_B": 8192,
+        "nominal_C8_over_C2": {
+          "PULL": 2.9500388802488335,
+          "PULL_FLAT": 2.620782726045884
+        },
+        "actual_round_C8_over_C2": {
+          "PULL": 2.9500388802488335,
+          "PULL_FLAT": 2.6207827260458845
+        }
+      }
+    ]
+  }
+}

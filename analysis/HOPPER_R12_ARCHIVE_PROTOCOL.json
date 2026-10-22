@@ -1,0 +1,13 @@
+{
+  "purpose": "Prospective exact information-retention corollary and independent witness checks after R11 reviews 1-3, before new computation",
+  "input_evidence": "Existing R11 mathematical model and already specified positive-width full-order tight family; no new hardware or external measurements",
+  "candidate_statement": "For every N>=4, beta>0 and common epsilon>=0, two rectangles with the same N, complete ranking R=(1,N-1,N-2,...,3,N,2), beta_R=beta and all interval half-widths epsilon can have shared minima beta and (N-2)*beta. Hence the archive (N,R,beta_R,epsilon) cannot resolve feasibility for delta in [beta,(N-2)*beta), whereas delta<beta rejects and delta>=(N-2)*beta admits under the declared model.",
+  "lower_family": "b_j=-beta*j, x_j=b_j, theta_j=0 for j=1..N. Centers c_1=b_1+epsilon, c_(N-1)=b_(N-1)-epsilon, c_j=b_j otherwise. All intervals [c_j-epsilon,c_j+epsilon]. The full ranking holds with ties; h_(1,N-1)=beta*(N-2) forces beta_R>=beta and the path witness forces delta_R<=beta.",
+  "upper_family": "Previously specified full-arm tight family with t=beta*(N-2)+2*epsilon, v=beta*(N-2); existing rational construction and four-edge core-cycle lower bound",
+  "predeclared_grid": {"N":[4,5,6,8,16,32,64],"t":"1/100","epsilon":["0","1/1000","1/250"],"beta":"(t-2*epsilon)/(N-2)","total_pairs":21},
+  "exact_checks": ["Complete R transitive pairs and equal positive beta from endpoint deficits for both inputs", "Equal common half-widths and archive records", "Lower-family original x,b,theta witness and b0=0", "Upper-family original-variable witness and exact negative core cycle below v", "Exact midpoint lower admission versus upper rejection"],
+  "independent_numerical_check": "For all 42 rectangles minimize delta using original x,b,theta LP and all consecutive full-ranking constraints; compare with beta or (N-2)*beta. HiGHS primal/dual tolerances 1e-9 are not objective gap bounds; exact rational witnesses/cycles are the proof checks.",
+  "count_and_scope": "21 paired constructions/42 LPs, deterministic related mathematical cases, not independent applications. The archive result concerns only the stated scalar summary and metadata, not all box outputs. Original l/u/slots plus the path contract suffice to reconstruct the exact graph; no intrinsic storage/runtime saving or deployed archive is claimed.",
+  "failure_handling": "Preserve failed cases and logs; correct candidate before publication if any exact witness, beta or LP comparison fails; do not filter cases",
+  "publication": "Own new proof/model/checks/expected aggregate only, under standing authorization; no manuscript/private kernel/upstream raw CSV/server material"
+}

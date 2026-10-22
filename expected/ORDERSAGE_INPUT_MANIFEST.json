@@ -1,0 +1,56 @@
+{
+  "repository": "ordersage/paper-artifact",
+  "commit": "aed526a5a86432834b881bf0166a34f6ffe57623",
+  "license_status": "not located; raw files are not authorized for redistribution by us",
+  "scope": "published data read locally only; all three paper case studies selected before numeric inspection",
+  "files": [
+    {
+      "alias": "memcached_tests.csv",
+      "original_path": "20211012_21:02:01_results/20211012_21:02:01_all_exp_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20211012_21%3A02%3A01_results/20211012_21%3A02%3A01_all_exp_results.csv",
+      "git_blob_sha": "5b34f027b43cc1b93b8d30b16aa9ee6bb969e31d",
+      "sha256": "07ea462409fa8b2d2da122397014225c360d7dd28190a063713ba2b294e20ab7",
+      "bytes": 43528
+    },
+    {
+      "alias": "memcached_runs.csv",
+      "original_path": "20211012_21:02:01_results/20211012_21:02:01_all_run_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20211012_21%3A02%3A01_results/20211012_21%3A02%3A01_all_run_results.csv",
+      "git_blob_sha": "e9680d9fdc3f42d356cf9f3dd8da5fc5b6148026",
+      "sha256": "c23a41ea1349cf96960e35d1e3185fbb38c48661fbb2f89daf17f4fd28de3a16",
+      "bytes": 12388
+    },
+    {
+      "alias": "npbench_tests.csv",
+      "original_path": "20221005_12:13:03_results/20221005_12:13:03_all_test_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20221005_12%3A13%3A03_results/20221005_12%3A13%3A03_all_test_results.csv",
+      "git_blob_sha": "ae5f843c57f661663b45a41eea05ce628e1e80de",
+      "sha256": "f1c4f4a503232d46be8b39e24ac416b763486b666f8baab24977bdbd33aa1ba9",
+      "bytes": 85180
+    },
+    {
+      "alias": "npbench_runs.csv",
+      "original_path": "20221005_12:13:03_results/20221005_12:13:03_all_run_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20221005_12%3A13%3A03_results/20221005_12%3A13%3A03_all_run_results.csv",
+      "git_blob_sha": "48458063026d239b6c076869cee8a915bf373fdf",
+      "sha256": "fa8b31a1eaf5b356a59ee4e2dc657732a28555893e83e4077f0088e9f1b5fd3b",
+      "bytes": 27488
+    },
+    {
+      "alias": "ufs_tests.csv",
+      "original_path": "20221012_19:59:50_results/20221012_19:59:50_all_test_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20221012_19%3A59%3A50_results/20221012_19%3A59%3A50_all_test_results.csv",
+      "git_blob_sha": "e4a4b497872c19341fd8d2f452aa7870f3b85c18",
+      "sha256": "49ec3292931a28df71e7762eb274ce0b3b5c6ee496396e9492ac5c042a43f3ed",
+      "bytes": 68628
+    },
+    {
+      "alias": "ufs_runs.csv",
+      "original_path": "20221012_19:59:50_results/20221012_19:59:50_all_run_results.csv",
+      "url": "https://raw.githubusercontent.com/ordersage/paper-artifact/aed526a5a86432834b881bf0166a34f6ffe57623/20221012_19%3A59%3A50_results/20221012_19%3A59%3A50_all_run_results.csv",
+      "git_blob_sha": "3b43f5b969955d590ffe42dacdb3ebca8d2582e4",
+      "sha256": "a8d1dc281d9829d97221578cfbb36a420efbfa2cb824844f5ffdf36ece166aba",
+      "bytes": 2958
+    }
+  ]
+}

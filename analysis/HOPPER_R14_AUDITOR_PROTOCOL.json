@@ -1,0 +1,11 @@
+{
+ "question":"Make the endpoint-independent factor operational in a conditional reference auditor, without requiring scalar archive adoption or asserting timing validity/speedup.",
+ "plan_before_observations":"Given fixed slots and R only, precompute C_R. C_R=1 authorizes marginal-only answers for every rectangle. Otherwise retain a graph-fallback plan.",
+ "audit_after_observations":"At requested delta, reject if delta<beta_R, admit if delta>=C_R*beta_R, otherwise run the standard exact difference graph. R is transitively closed. Every gate is model-conditional.",
+ "all_cases":"89 retained cells x720 complete rankings x six already fixed fractions 0,.005,.01,.02,.05,.10 =384480. No selection of a favorable cell, budget or split.",
+ "comparison":"Count routing using ranking-specific C_R versus the universal factor4; preserve every output, fallback and rounding ambiguity. These are dependent algorithm-path counts, not measured runtime or hardware benefit.",
+ "independent_check":"For every nonzero-beta query/budget, use outward endpoint/budget logs and exact integer graph potential or negative cycle. At beta=0 establish an exact original-variable zero-bias witness via decimal isotonic selection. Verify all gated decisions against that independent result.",
+ "rounding":"80-digit logs/outward 1e-60 grid reused from the existing exact-certifier. Gates use safe lower/upper budget and beta enclosures. Any unresolved graph or gate boundary stays unknown/fallback and is counted.",
+ "output":"Full generated route CSV hash and aggregate counts for every fixed budget; expected results contain all conditions, no filtered cases.",
+ "scope":"Own reference auditor and numerical/arithmetic validation under the declared model. No new optimizer, actual adoption, physical calibration, command-granularity validation, measured cost saving or new GPU acquisition."
+}

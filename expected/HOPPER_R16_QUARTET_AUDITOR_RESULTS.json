@@ -1,0 +1,71 @@
+{
+  "result": "PASS_QUARTET_ONLY_PLANS_AND_ALL_CERTIFIED_DECISIONS",
+  "protocol_sha256": "2a6c7888c5faedb75f77d45171bcf0614dd780218cac20bfb1461703d5dbb194",
+  "script_sha256": "abe5378dab9d116cd2df5d477de903ab482cfa5f2375f46b2cdfac5134322bde",
+  "matrix_sha256": "e370649e04719239278552671534bc6d6374e66e729ba60b85c35ed671f90440",
+  "previous_auditor_result_sha256": "26f40e0abe91284f388db16a3aa478c79a62642318aea164eb632a3cc36004f6",
+  "previous_certified_route_csv_sha256": "25abecfb4a286399b67a001f7c31760edb0aa70d922d519343b357ff0b271067",
+  "plans": 720,
+  "exact_plans": 40,
+  "nonexact_plans": 680,
+  "planning_quartets_visited": 15076,
+  "full_factors_used_by_quartet_route": false,
+  "fixed_budget_outputs": 384480,
+  "unresolved_decisions_retained": 0,
+  "budgets": {
+    "0": {
+      "marginal_reject": 63912,
+      "output_reject": 63912,
+      "graph_fallback": 168,
+      "output_admit": 168
+    },
+    ".005": {
+      "marginal_reject": 63854,
+      "output_reject": 63856,
+      "graph_fallback": 226,
+      "output_admit": 224
+    },
+    ".01": {
+      "marginal_reject": 63767,
+      "output_reject": 63778,
+      "graph_fallback": 313,
+      "output_admit": 302
+    },
+    ".02": {
+      "marginal_reject": 63567,
+      "output_reject": 63594,
+      "graph_fallback": 513,
+      "output_admit": 486
+    },
+    ".05": {
+      "marginal_reject": 62577,
+      "output_reject": 62765,
+      "graph_fallback": 1491,
+      "output_admit": 1315,
+      "exact_marginal_admit": 12
+    },
+    ".10": {
+      "marginal_reject": 59703,
+      "output_reject": 60338,
+      "graph_fallback": 4202,
+      "output_admit": 3742,
+      "exact_marginal_admit": 175
+    }
+  },
+  "all_routes_sha256": "55b63ee846db0d31883f3fb1f0926dc85498ffa864489d4b4c5334d80fc8dbb0",
+  "existing_case397": {
+    "order_slots": [
+      1,
+      3,
+      5,
+      2,
+      4,
+      6
+    ],
+    "full_factor": "7/3",
+    "max_quartet": "5/3",
+    "full_restricted_cost": 7,
+    "full_free_cost": 3
+  },
+  "scope": "Conditional prototype, no full-factor preprocessing required. All outputs checked against prior independently certified decisions. Shared endpoint/model premises remain; not physical validity, adoption or measured runtime/storage/policy benefit."
+}

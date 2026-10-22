@@ -1,0 +1,63 @@
+{
+  "result": "PASS_EXPLICIT_H20_CYCLE_AND_TIE_ATTAINING_PATH",
+  "script_sha256": "d24e08a99b72113b6a445e189bec560af877576f2295d602ef5b6f402ea6e0de",
+  "intervals_ns": {
+    "F": [
+      2213.4,
+      2226.4
+    ],
+    "P": [
+      2160.0,
+      2173.1
+    ],
+    "B": [
+      2788.5,
+      2793.1
+    ],
+    "A": [
+      2792.6,
+      2796.8
+    ]
+  },
+  "positions": {
+    "F": 6,
+    "P": 1,
+    "B": 3,
+    "A": 5
+  },
+  "h1": 0.018375075304994333,
+  "h2": -0.0029720896316079905,
+  "minimum_shared_budget": 0.0051343285577954475,
+  "assumed_fraction": 0.005,
+  "assumed_delta": 0.004987541511039074,
+  "negative_cycle_sum": -0.0004403611402691212,
+  "cycle": [
+    "b1-b6 <= -h1",
+    "b5-b3 <= -h2",
+    "b6-b5 <= delta",
+    "b3-b1 <= 2delta"
+  ],
+  "attaining_x_logs": {
+    "F": 7.702285073830685,
+    "P": 7.6839099985256905,
+    "B": 7.933259095829609,
+    "A": 7.936231185461216
+  },
+  "attaining_bias_b0_to_b6": [
+    0.0,
+    0.0,
+    0.0051343285577954475,
+    0.010268657115590895,
+    0.010268657115590895,
+    0.013240746747198886,
+    0.018375075304994333
+  ],
+  "attaining_theta": {
+    "F": 7.683909998525691,
+    "P": 7.6839099985256905,
+    "B": 7.9229904387140175,
+    "A": 7.9229904387140175
+  },
+  "maximum_adjacent_increment": 0.0051343285577954475,
+  "admission_at_threshold": "Both requested comparisons hold with ties; this is one hypothetical explanation, not device state."
+}

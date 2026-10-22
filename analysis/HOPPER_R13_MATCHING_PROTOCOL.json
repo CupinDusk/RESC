@@ -1,0 +1,26 @@
+{
+  "purpose": "Prospective ranking-specific sharp loss characterization after R12 reviewers 1-3, before matching-factor computation or examination of retained per-order results",
+  "scope": "Existing conditional interval/Lipschitz path model. No new hardware, raw inputs, physical calibration or actual archive adoption claim.",
+  "candidate": "For fixed acyclic transitively closed R and distinct slots, C_R=max(1,max_{disjoint P,Q,|P|=|Q|,R-perfect-matching exists} M_R(P,Q)/M_all(P,Q)), where M_R is minimum total slot distance over R-allowed bijections and M_all allows every bijection. For every rectangle beta_R<=delta_R<=C_R beta_R. C_R is attained by a positive-width rectangle and is the exact fixed-ranking worst-case factor. On integer slots1..N, C_R<=N-2 for N>=4. Slot-aligned orders have C_R=1.",
+  "proof_before_execution": "HOPPER_R13_MATCHING_ARGUMENT.md",
+  "construction": "Use an optimal assignment dual on maximizing disjoint sets to choose l_p and u_q with objective M_R and each ranking deficit<=distance. Choose all other lower endpoints -M and upper endpoints M, ensuring positive widths. beta_R=1 by complementary tight assignment edges. Unrestricted matching plus R matching yields a negative closed walk below C_R. General upper bound and exact rational feasible potential/cone at C_R establish equality. Pair a beta=1 lower input with the SAME width vector using a unit-Lipschitz cone and all theta=0; this is fixed-R indistinguishability for the constructed width vector, not for every arbitrary preset uniform width.",
+  "predeclared_grids": {
+    "all_labeled_partial_orders": "n=2,3,4, respectively3/19/219, consecutive slots",
+    "all_complete_orders": "n=5 and6, respectively120/720, consecutive slots",
+    "seeded_partial_orders": "64 per n=5,6,7,8; seed20261022; slot ranges n,2n,4n cycling; edge probabilities .2/.5/.8 with random topological order then transitive closure",
+    "controlled_total": 1337,
+    "independent_cycle_factor_check": "On every case with n<=6 compare subset-assignment C_R to a separate enumeration of simple alternating ranking/data cycles",
+    "retained_cases": "Use the existing 64080 complete-order CSV without refitting or filtering, map all720 six-arm rank patterns to C_R, verify every path minimum<=C_R*beta_R within declared numerical tolerance and count strictly tighter-than4 pattern bounds. Preserve old exact certificate partition and all negative cases. No proof-level count based solely on LP tolerances.",
+    "printed_retained_example": "Choose the lexicographically first existing complete-order query admitted by every box and rejected by the path at original f=.005; print all six arm endpoints/slots, order, beta, shared minimum and exact outward certificate/critical cycle. Selection is not based on largest ratio."
+  },
+  "checks": [
+    "Brute enumerate all bijections to obtain exact integer M_R and M_all for every candidate disjoint-set pair; report exponential enumeration complexity honestly",
+    "Use assignment-dual LP only to find a witness, round proposed potentials to integers and verify every dual inequality and exact objective equals brute primal cost; preserve any failure",
+    "For every C_R>1 case, exact rational upper/lower construction with same width metadata, beta=1, negative closed walk and exact feasible original x/b/theta witness at C_R or1",
+    "Original-variable minimum LP cross-checks for both constructed rectangles, with HiGHS tolerances1e-9 and comparison1e-8; tolerances not objective-gap proofs",
+    "C_R=1 cases: exact cycle-factor comparison where n<=6 plus theorem; no invented positive-window construction"
+  ],
+  "failure_handling": "No cases discarded. Save partial logs/failures. Correct or abandon the candidate theorem if a counterexample occurs; do not silently modify a claim to fit data.",
+  "publication": "If proof and checks agree, publish only own argument/protocol/checks/aggregates under standing same-scope authorization. Never bundle manuscript, private acquisition/kernel/server or upstream raw CSV.",
+  "novelty_boundary": "Assignment duality, matching integrality, difference constraints and Lipschitz-selection are prior machinery. Proposed new result is their exact fixed-ranking marginal-versus-shared worst-case factor and matching obstruction, not a new assignment or generic minimax solver. Literature search is targeted, not exhaustive."
+}
