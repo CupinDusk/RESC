@@ -1,0 +1,18 @@
+{
+  "CORE_CYCLES.csv": {
+    "expanded_bytes": 99568427,
+    "expanded_sha256": "fea639ee51c3693d58ad8b492a6ec765ae8d836c19d6526e100ad8fd8fcc5d1b",
+    "gzip_bytes": 9199587,
+    "gzip_sha256": "70094638d171260406d0fab7a7d39a008c086ceb81911cd65e0b809c6c6f24da",
+    "lossless_readback_verified": true,
+    "raw_retained_locally": true
+  },
+  "REFERENCE_RLE.csv": {
+    "expanded_bytes": 301042780,
+    "expanded_sha256": "3ffeda204aecd4a615c434f190b8ceb5ba6e74d2b2d370b19faed571eeb83f4f",
+    "gzip_bytes": 17878046,
+    "gzip_sha256": "becd77f2aa4710e2803ffaa031c6cd8939534e8ec5dac607184f80c66990116a",
+    "lossless_readback_verified": true,
+    "raw_retained_locally": true
+  }
+}

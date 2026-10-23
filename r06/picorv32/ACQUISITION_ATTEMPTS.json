@@ -1,0 +1,11 @@
+{
+  "scope": "Public source retrieval only; before firmware/RTL generation or execution",
+  "earlier_failures_transcribed_from_tool_diagnostics": [
+    {"attempt":1,"url":"https://api.github.com/repos/YosysHQ/picorv32/commits/main","error":"HTTP Error 403: rate limit exceeded","bytes_saved":false},
+    {"attempt":2,"stage":"fixed-commit raw source download after successful GitHub-page currentOid parse","error":"SSL: UNEXPECTED_EOF_WHILE_READING; EOF occurred in violation of protocol","binding_complete":false}
+  ],
+  "successful_attempt":3,
+  "adaptation":"Read enabled Windows proxy inside the acquisition subprocess; correctly support per-scheme ProxyServer format. No endpoint or account is persisted; no global setting changed.",
+  "successful_binding":"UPSTREAM_BINDING.json",
+  "note":"Earlier full Python local-path tracebacks remain in the tool session, not serialized here. This is a transparent diagnostic transcription, not a claim of original-byte traceback storage. No upstream bytes were modified."
+}

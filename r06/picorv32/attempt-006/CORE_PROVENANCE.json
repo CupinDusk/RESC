@@ -1,0 +1,10 @@
+{
+  "audit_core.py": {
+    "source": "r05-analysis/hopper-reference-rtl/audit_core.py",
+    "sha256": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9"
+  },
+  "exact_logs.py": {
+    "source": "r05-analysis/hopper-reference-rtl/exact_logs.py",
+    "sha256": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4"
+  }
+}

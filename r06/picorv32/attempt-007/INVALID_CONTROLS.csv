@@ -1,0 +1,9 @@
+id,expected_reason,actual_reason,valid,busy,graph_audit_licensed
+0,1,1,0,0,0
+1,2,2,0,0,0
+2,2,2,0,0,0
+3,3,3,0,0,0
+4,4,4,0,0,0
+5,6,6,0,0,0
+6,5,5,0,0,0
+7,8,8,0,0,0

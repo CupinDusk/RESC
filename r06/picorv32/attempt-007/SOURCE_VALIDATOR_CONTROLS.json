@@ -1,0 +1,46 @@
+[
+  {
+    "id": 8,
+    "kind": "validator_input_mutation_not_new_DUT_execution",
+    "name": "missing_result",
+    "valid": false,
+    "status": "contract-unknown",
+    "failed_obligations": [
+      "exactly_one_result"
+    ],
+    "graph_audit_licensed": false
+  },
+  {
+    "id": 9,
+    "kind": "validator_input_mutation_not_new_DUT_execution",
+    "name": "wrong_result",
+    "valid": false,
+    "status": "contract-unknown",
+    "failed_obligations": [
+      "functional_result"
+    ],
+    "graph_audit_licensed": false
+  },
+  {
+    "id": 10,
+    "kind": "validator_input_mutation_not_new_DUT_execution",
+    "name": "early_stop_without_trap",
+    "valid": false,
+    "status": "contract-unknown",
+    "failed_obligations": [
+      "known_ebreak_and_prefetch_terminal"
+    ],
+    "graph_audit_licensed": false
+  },
+  {
+    "id": 11,
+    "kind": "validator_input_mutation_not_new_DUT_execution",
+    "name": "memory_contract_false",
+    "valid": false,
+    "status": "contract-unknown",
+    "failed_obligations": [
+      "memory_or_source_obligation"
+    ],
+    "graph_audit_licensed": false
+  }
+]

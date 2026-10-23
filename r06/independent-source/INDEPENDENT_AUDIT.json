@@ -1,0 +1,356 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_SCIENTIFIC_AUDIT",
+  "scope_gate": {
+    "status": "PASS",
+    "scope": "Bounded local logical source, fixed census and exact feasibility audit only",
+    "mandatory_gates": {
+      "portable_complete_whitelist_and_before_after_hashes": true,
+      "unchanged_pinned_source_firmware_and_fixed_population": true,
+      "fresh_36_firmware_and_both_RTL_synthesis_compilation": true,
+      "actual_576_jobs_96_reports_and_8_invalid_controller_executions": true,
+      "independent_72_ISA_algorithm_register_RAM_and_bus_checks": true,
+      "all1888264_core_rows_match_separate_actual_harness": true,
+      "all1903944322_reference_edges_individually_checked_and_hashed": true,
+      "pulse_core_memory_reset_start_stop_trap_and_T_ND_c0": true,
+      "all69888_original_variable_queries_boxes_and_certificates": true,
+      "12_original_source_controls_unknown_no_graph": true,
+      "all_full_generated_semantic_streams_match_without_normalization": true,
+      "failed_adaptations_and_prefetch_boundary_preserved": true,
+      "negative_results_and_scope_limits_preserved": true
+    },
+    "optional_independent_network_reacquisition": "FAILED; supplied original source binding and exact source bytes checked; see explicit provenance limit",
+    "evidence": {
+      "AUDIT_PROTOCOL.json": "f961700ae0b523f71c172d3171117b0aaab152e9a062635ff7aa695cfafdd5b3",
+      "SOURCE_PRECHECK.json": "595539757da63639f3984cf06215a77bc7ea76c0bd5e646c3cdfd8822778071a",
+      "INDEPENDENT_ISA_BUS_RESULTS.json": "d69cbf03521b01e30975d35aafece4d052527de1f6790c189408a230acaf321a",
+      "INDEPENDENT_REFERENCE_RESULT.json": "5cee5c4f219e957833f9f57ea45ff4f9cd0a63f51342d0c321a1a5e6c947bd23",
+      "INDEPENDENT_REFERENCE_HASHES.csv": "b53d54741a1f650187d4619749962fbb8a89d2b98e9494b5871366984150d382",
+      "INDEPENDENT_GRAPH_RESULTS.json": "dbaf9f13ec692290785c7d0ba35e6cd81392362b264e8d0bc3fce549ec96e20a",
+      "INDEPENDENT_BINDINGS_RESULTS.json": "2b66bb01f8e5390259b2505d17e0bb30ae8ae9137b92cdfa29a9fbc97c662650",
+      "INDEPENDENT_NEGATIVE_CYCLE_EXAMPLE.json": "385ebe50242eebbc49b9964058c9a658be4455b4f92b2f6baaa0fdf1895e0374",
+      "INDEPENDENT_COMMAND_SOURCE_BINDINGS.json": "4535c2d30bd8381d8e43470b2d10048aebbe996921642bc40170a4d0dcfd2f32",
+      "PAPER_READY_FACTS.json": "6e828cdfd38078f6eb7854d7f2eeb9a57b289be53fc9f2e7fc22c7f7c166aa36",
+      "ATTEMPT006_REFERENCE_PREFIX.json": "e145e6073b6163193217ed78045ff224c46e72d6acb922d2624d192b9243edbf"
+    },
+    "not_a_publication_or_physical_hardware_gate": true
+  },
+  "method": {
+    "fresh_build": "Literal source snapshot, all36 firmware ELF/RAM images rebuilt; real Yosys CPU/controller translated to CXXRTL and Zig compiled. Producer replay used only as build/execution mechanism.",
+    "independent_CPU": "Separately written actual CXXRTL core harness,72 combinations; independent RV32I/algorithm interpreter checks all32 final registers, complete65536-byte RAM and all architectural data transactions; every576-job core-cycle row compared.",
+    "reference": "Independent transition model on all18 sampled fields of every actual reference edge, and Windows BCrypt SHA256 of every20-byte expanded sample. Every actual pulse linked to core-row index and actual final trap, immediate excluded stop verified.",
+    "graphs": "Independent128-term exact rational atanh enclosures at workscale1e100 outward to1e60; all queries independently solved in original13 theta/-bias variables. Every provided admission/negative-cycle certificate and every-anchor box independently validated.",
+    "source_provenance": "749 whitelist payload files plus manifest; before/after original and portable hashes; metadata-only path transformations reproduced; all source snapshots/protocol/failure bindings checked. R05 sources checked byte-exact against actual prior files."
+  },
+  "counts": {
+    "firmware_binaries": 36,
+    "ISA_and_separate_core_combinations": 72,
+    "jobs": 576,
+    "reports": 96,
+    "queries": 69888,
+    "actual_core_cycles": 1888264,
+    "actual_reference_edges": 1903944322
+  },
+  "timer_proof": "Fresh state and synchronous memory transition depend on binary/input and CPU-edge index only. Full separate-core streams equal every guard/path run. Independent reference transition gives timer=k, pulses=floor(k/D), phase=k mod D from start through first trap. Actual pulseN links to actual trap row and occurs at observed T=N*D; following stop preserves timer; reset/start/stop are excluded and c=0.",
+  "prefetch": "Attempt006 and fresh job0 have identical729 core rows and identical complete729005-edge18-field reference prefix through the actual trap. ebreak24 is followed only by initialized RAM prefetch28; separate core final architectural PC=24 matches ISA. The failed old attempt aborted before stop and has no old stop observation. The fresh run stops on the normal following actual reference edge729006, preserves timer, and executes no extra CPU edge. Address bounds and architectural side effects are unchanged.",
+  "R05_source_binding": {
+    "audit_core.py": {
+      "source": "r05-analysis/hopper-reference-rtl/audit_core.py",
+      "sha256": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9"
+    },
+    "exact_logs.py": {
+      "source": "r05-analysis/hopper-reference-rtl/exact_logs.py",
+      "sha256": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4"
+    },
+    "r05_certificate_checker.py": {
+      "source": "r05-analysis/hopper-reference-rtl/audit_reports.py",
+      "sha256": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520"
+    }
+  },
+  "zig_generic_rv32_definition": "pub const generic_rv32: CpuModel = .{\n        .name = \"generic_rv32\",\n        .llvm_name = \"generic-rv32\",\n        .features = featureSet(&[_]Feature{\n            .@\"32bit\",\n            .i,\n        }),\n    };",
+  "finite_width": "Actual paths D748..1337; D<=2000, N<=1e6 and T<=2e9<2^31, controller timer64 and products64, budget inputs<=1000. Every decoded state respected phase<D, settled<=2 and pulse/timer bounds; source address/byte-strobe accesses checked. Overflow branches not forced.",
+  "results": {
+    "total_orders": {
+      "queries": 69120,
+      "false": 67968,
+      "reject": 66162,
+      "false_reject": 66162,
+      "box_reject": 66099,
+      "additional_joint_rejections": 63,
+      "true": 1152,
+      "admit": 2958,
+      "true_admit": 1152,
+      "box_admit": 3021,
+      "box_admitted_true": 1152,
+      "box_admitted_false": 1869,
+      "false_admit": 1806
+    },
+    "fixed_partials": {
+      "queries": 768,
+      "false": 480,
+      "reject": 435,
+      "false_reject": 435,
+      "box_reject": 435,
+      "additional_joint_rejections": 0,
+      "true": 288,
+      "admit": 333,
+      "true_admit": 288,
+      "box_admit": 333,
+      "box_admitted_true": 288,
+      "false_admit": 45,
+      "box_admitted_false": 45
+    },
+    "groups": {
+      "tight201_200_total": {
+        "queries": 34560,
+        "false": 33984,
+        "reject": 33648,
+        "false_reject": 33648,
+        "box_reject": 33643,
+        "additional_joint_rejections": 5,
+        "true": 576,
+        "admit": 912,
+        "true_admit": 576,
+        "box_admit": 917,
+        "box_admitted_true": 576,
+        "false_admit": 336,
+        "box_admitted_false": 341
+      },
+      "tight201_200_partial": {
+        "queries": 384,
+        "false": 240,
+        "reject": 233,
+        "false_reject": 233,
+        "box_reject": 233,
+        "additional_joint_rejections": 0,
+        "true": 144,
+        "admit": 151,
+        "true_admit": 144,
+        "box_admit": 151,
+        "box_admitted_true": 144,
+        "false_admit": 7,
+        "box_admitted_false": 7
+      },
+      "contains_ties_total": {
+        "queries": 69120,
+        "false": 67968,
+        "reject": 66162,
+        "false_reject": 66162,
+        "box_reject": 66099,
+        "additional_joint_rejections": 63,
+        "true": 1152,
+        "admit": 2958,
+        "true_admit": 1152,
+        "box_admit": 3021,
+        "box_admitted_true": 1152,
+        "box_admitted_false": 1869,
+        "false_admit": 1806
+      },
+      "contains_ties_partial": {
+        "queries": 768,
+        "false": 480,
+        "reject": 435,
+        "false_reject": 435,
+        "box_reject": 435,
+        "additional_joint_rejections": 0,
+        "true": 288,
+        "admit": 333,
+        "true_admit": 288,
+        "box_admit": 333,
+        "box_admitted_true": 288,
+        "false_admit": 45,
+        "box_admitted_false": 45
+      },
+      "wide21_20_total": {
+        "queries": 34560,
+        "false": 33984,
+        "reject": 32514,
+        "false_reject": 32514,
+        "box_reject": 32456,
+        "additional_joint_rejections": 58,
+        "true": 576,
+        "admit": 2046,
+        "true_admit": 576,
+        "box_admit": 2104,
+        "box_admitted_true": 576,
+        "box_admitted_false": 1528,
+        "false_admit": 1470
+      },
+      "wide21_20_partial": {
+        "queries": 384,
+        "false": 240,
+        "reject": 202,
+        "false_reject": 202,
+        "box_reject": 202,
+        "additional_joint_rejections": 0,
+        "true": 144,
+        "admit": 182,
+        "true_admit": 144,
+        "box_admit": 182,
+        "box_admitted_true": 144,
+        "false_admit": 38,
+        "box_admitted_false": 38
+      }
+    }
+  },
+  "reproducibility": {
+    "whole_streams": [
+      {
+        "path": "core.cpp",
+        "expanded_bytes": 179801,
+        "expanded_sha256": "426fcbb29ce42f2a22e7e71e031ffe6c05fe06cf49fb1d5267e5e70c01c47836",
+        "full_stream_equal": true
+      },
+      {
+        "path": "controller.cpp",
+        "expanded_bytes": 17515,
+        "expanded_sha256": "2edb8b7582c7e8c856f7cf238396c3612b07f38bf87d6cda43e1a7b486cb6820",
+        "full_stream_equal": true
+      },
+      {
+        "path": "SCENARIOS.csv",
+        "expanded_bytes": 4915,
+        "expanded_sha256": "c2d1d7b7e1d5408d5a1c37feb87eee9889379e33a13061a464bed636ec689035",
+        "full_stream_equal": true
+      },
+      {
+        "path": "REFERENCE_EXPANDED_HASHES.csv",
+        "expanded_bytes": 8988,
+        "expanded_sha256": "e07249c4a153d8f5d2380d1aab0222ed6b49f05859117f1ff8c3bf995ea2652c",
+        "full_stream_equal": true
+      },
+      {
+        "path": "JOBS.csv",
+        "expanded_bytes": 54927,
+        "expanded_sha256": "90320265264fe10506d4bf69692df8aedca9308ecf0d281a48ff2238f8e4e720",
+        "full_stream_equal": true
+      },
+      {
+        "path": "INVALID_CONTROLS.csv",
+        "expanded_bytes": 170,
+        "expanded_sha256": "77ab35e47ded943f11044bdc8fe7acb47413f869dd00ced878a043695bba2a97",
+        "full_stream_equal": true
+      },
+      {
+        "path": "CORE_CYCLES.csv",
+        "expanded_bytes": 99568427,
+        "expanded_sha256": "fea639ee51c3693d58ad8b492a6ec765ae8d836c19d6526e100ad8fd8fcc5d1b",
+        "full_stream_equal": true,
+        "producer_gzip_sha256": "70094638d171260406d0fab7a7d39a008c086ceb81911cd65e0b809c6c6f24da",
+        "fresh_gzip_sha256": "70094638d171260406d0fab7a7d39a008c086ceb81911cd65e0b809c6c6f24da",
+        "gzip_bytes_identical": true,
+        "producer_gzip_mtime": 0,
+        "fresh_gzip_mtime": 0
+      },
+      {
+        "path": "REFERENCE_RLE.csv",
+        "expanded_bytes": 301042780,
+        "expanded_sha256": "3ffeda204aecd4a615c434f190b8ceb5ba6e74d2b2d370b19faed571eeb83f4f",
+        "full_stream_equal": true,
+        "producer_gzip_sha256": "becd77f2aa4710e2803ffaa031c6cd8939534e8ec5dac607184f80c66990116a",
+        "fresh_gzip_sha256": "becd77f2aa4710e2803ffaa031c6cd8939534e8ec5dac607184f80c66990116a",
+        "gzip_bytes_identical": true,
+        "producer_gzip_mtime": 0,
+        "fresh_gzip_mtime": 0
+      },
+      {
+        "path": "ALL_REPORTS.jsonl.gz",
+        "expanded_bytes": 39909076,
+        "expanded_sha256": "34b511e2edf889af5dc7a4feacfb9b012218b0f270108e4613b1ef2bdbe44a6c",
+        "full_stream_equal": true,
+        "producer_gzip_sha256": "02b19140d99c687c1ae997f0d6da631a91a6583f89a8c120940efeff86692d40",
+        "fresh_gzip_sha256": "02b19140d99c687c1ae997f0d6da631a91a6583f89a8c120940efeff86692d40",
+        "gzip_bytes_identical": true,
+        "producer_gzip_mtime": 0,
+        "fresh_gzip_mtime": 0
+      }
+    ],
+    "PE_bytes_identical": false,
+    "PE_different_bytes": 20,
+    "PE_difference_ranges": [
+      [
+        128,
+        132
+      ],
+      [
+        888836,
+        888840
+      ],
+      [
+        888864,
+        888868
+      ],
+      [
+        888892,
+        888900
+      ]
+    ],
+    "PE_non_buildid_sections_identical": true,
+    "interpretation": "No silent normalization: gzip headers/mtime, COFF timestamps and RSDS identities recorded independently. No all-ZIP or executable byte-identity claim."
+  },
+  "failures_and_adaptations": [
+    {
+      "attempt": 1,
+      "original_status": "FAILED_firmware_array_sum_O0",
+      "effective_status": "FAILED_firmware_array_sum_O0",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "a55cbc52d29b51eb7c1e83879863a2b643f0f7a044beb2c1bfdb6d8dca73072d"
+    },
+    {
+      "attempt": 2,
+      "original_status": "FAILED_firmware_array_sum_O0",
+      "effective_status": "FAILED_firmware_array_sum_O0",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "35d59e7da17a8f6dbee12dbbd5ce6f0943c648f166b8e0183a96934c9b1bd61e"
+    },
+    {
+      "attempt": 3,
+      "original_status": "IN_PROGRESS",
+      "effective_status": "FAILED_ELF_IMAGE_DOMAIN_ASSERTION_BEFORE_DUT",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "aa72c648d7c6a9f2f2b04d0a5b04a294ae27e79b54e5697d9e3664b9303f5ad5"
+    },
+    {
+      "attempt": 4,
+      "original_status": "FAILED_firmware_array_sum_O0",
+      "effective_status": "FAILED_firmware_array_sum_O0",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "bff1df6484c9dbe357ae4943a1aae592dbb2cd50571f08a74b79ea0aef606d17"
+    },
+    {
+      "attempt": 5,
+      "original_status": "FAILED_compile_cxxrtl",
+      "effective_status": "FAILED_compile_cxxrtl",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "2e01ad2eb7f4c8d038a246fbdba76cbfcda07c7267c366cf92f120be17fb879a"
+    },
+    {
+      "attempt": 6,
+      "original_status": "FAILED_simulation",
+      "effective_status": "FAILED_simulation",
+      "graph": "contract-unknown/not-audited",
+      "original_ledger_sha256": "2644f8d5b576a226027a312664f82b8f042e974b939f14a84ca4aec110502815"
+    }
+  ],
+  "independent_failures": "Initial TLS failure transcribed; second TLS traceback and curl timeout raw logs retained. No workload/tool semantics changed to get a positive result. Network-only continuation uses supplied exact local source.",
+  "limitations": [
+    "The scope is a deterministic finite logical reference-design census, not a representative workload distribution or a general ISA/compiler/whole-RTL formal proof.",
+    "The host scheduler and synchronous host RAM couple the synthesized divider pulse to a CPU edge. This is not an autonomous synthesized physical source, RAM or CDC implementation.",
+    "No physical frequency calibration, analog settling, silicon, FPGA, native Hopper/H20/GPU, PPA, latency, throughput or performance result is established.",
+    "Original timer ranges and guard/obligation bits are producer claims. Hashes bind bytes but do not establish cryptographic trust, absolute protocol chronology, confidentiality or inference resistance.",
+    "Independent live upstream re-download failed (TLS EOF twice, curl timeout). The original unmodified RTL/README/ISC-license bytes were verified against the supplied pinned acquisition binding, all snapshots and unchanged portable/original hashes. No new network-authenticity proof is claimed.",
+    "All report decisions concern real-log feasibility. Admission neither identifies original N/D nor proves alternate integer realizability, truth or method necessity when full cycle counts are disclosed.",
+    "All96 reports contain compiler ties. All duplicate binaries, false admissions, zero-gain cells, six failed producer attempts and source-invalid controls remain visible.",
+    "The declared finite-width domain and actual edges were checked; overflow rejection branches at maximum machine integers were reviewed but not forced in simulation.",
+    "The four additional independent checks mutate actual bus records for the same predeclared failure modes; they are source-validator tests, not new RTL executions or a claim of semantic mutant coverage.",
+    "This independent directory contains local host binaries/PDBs and raw logs with local paths. It is not a public portable package and must not be recursively published."
+  ],
+  "attempt006_reference_prefix": {
+    "status": "PASS",
+    "actual_old_reference_edges": 729005,
+    "entire18_field_sample_stream_equals_fresh_prefix": true,
+    "old_attempt_aborted_before_stop": true,
+    "fresh_actual_trap_ref": 729005,
+    "fresh_actual_stop_ref": 729006,
+    "interpretation": "Old actual trap and memory/core/ref prefix identical; failed old attempt has no stop observation. Fresh normal following stop independently checked and preserves timer."
+  }
+}

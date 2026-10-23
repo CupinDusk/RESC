@@ -1,0 +1,1086 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_DIFFERENT_AGENT_FRESH_GATE",
+  "upstream_commit": "ef203c2b0a3fb793280f5114941416c425c5b461",
+  "unmodified_upstream_RTL": true,
+  "reports": 96,
+  "jobs": 576,
+  "firmware_binaries": 36,
+  "independent_ISA_functional_combinations": 72,
+  "queries": 69888,
+  "actual_processor_core_cycles": 1888264,
+  "actual_reference_edges": 1903944322,
+  "invalid_controller_controls": 8,
+  "source_validator_input_mutations": 4,
+  "all_invalid_contract_unknown": 12,
+  "source_licensed_jobs": 576,
+  "timer_model": "T=N*D, c=0; actual reference edges, no driver assigned timer",
+  "total_orders": {
+    "queries": 69120,
+    "false": 67968,
+    "reject": 66162,
+    "false_reject": 66162,
+    "box_reject": 66099,
+    "additional_joint_rejections": 63,
+    "true": 1152,
+    "admit": 2958,
+    "true_admit": 1152,
+    "box_admit": 3021,
+    "box_admitted_true": 1152,
+    "box_admitted_false": 1869,
+    "false_admit": 1806
+  },
+  "fixed_partials": {
+    "queries": 768,
+    "false": 480,
+    "reject": 435,
+    "false_reject": 435,
+    "box_reject": 435,
+    "additional_joint_rejections": 0,
+    "true": 288,
+    "admit": 333,
+    "true_admit": 288,
+    "box_admit": 333,
+    "box_admitted_true": 288,
+    "false_admit": 45,
+    "box_admitted_false": 45
+  },
+  "groups": {
+    "tight201_200_total": {
+      "queries": 34560,
+      "false": 33984,
+      "reject": 33648,
+      "false_reject": 33648,
+      "box_reject": 33643,
+      "additional_joint_rejections": 5,
+      "true": 576,
+      "admit": 912,
+      "true_admit": 576,
+      "box_admit": 917,
+      "box_admitted_true": 576,
+      "false_admit": 336,
+      "box_admitted_false": 341
+    },
+    "tight201_200_partial": {
+      "queries": 384,
+      "false": 240,
+      "reject": 233,
+      "false_reject": 233,
+      "box_reject": 233,
+      "additional_joint_rejections": 0,
+      "true": 144,
+      "admit": 151,
+      "true_admit": 144,
+      "box_admit": 151,
+      "box_admitted_true": 144,
+      "false_admit": 7,
+      "box_admitted_false": 7
+    },
+    "contains_ties_total": {
+      "queries": 69120,
+      "false": 67968,
+      "reject": 66162,
+      "false_reject": 66162,
+      "box_reject": 66099,
+      "additional_joint_rejections": 63,
+      "true": 1152,
+      "admit": 2958,
+      "true_admit": 1152,
+      "box_admit": 3021,
+      "box_admitted_true": 1152,
+      "box_admitted_false": 1869,
+      "false_admit": 1806
+    },
+    "contains_ties_partial": {
+      "queries": 768,
+      "false": 480,
+      "reject": 435,
+      "false_reject": 435,
+      "box_reject": 435,
+      "additional_joint_rejections": 0,
+      "true": 288,
+      "admit": 333,
+      "true_admit": 288,
+      "box_admit": 333,
+      "box_admitted_true": 288,
+      "false_admit": 45,
+      "box_admitted_false": 45
+    },
+    "wide21_20_total": {
+      "queries": 34560,
+      "false": 33984,
+      "reject": 32514,
+      "false_reject": 32514,
+      "box_reject": 32456,
+      "additional_joint_rejections": 58,
+      "true": 576,
+      "admit": 2046,
+      "true_admit": 576,
+      "box_admit": 2104,
+      "box_admitted_true": 576,
+      "box_admitted_false": 1528,
+      "false_admit": 1470
+    },
+    "wide21_20_partial": {
+      "queries": 384,
+      "false": 240,
+      "reject": 202,
+      "false_reject": 202,
+      "box_reject": 202,
+      "additional_joint_rejections": 0,
+      "true": 144,
+      "admit": 182,
+      "true_admit": 144,
+      "box_admit": 182,
+      "box_admitted_true": 144,
+      "false_admit": 38,
+      "box_admitted_false": 38
+    }
+  },
+  "duplicate_ram_binary_groups": [
+    [
+      "array_sum_O1",
+      "array_sum_O2",
+      "array_sum_O3"
+    ],
+    [
+      "array_sum_Os",
+      "array_sum_Oz"
+    ],
+    [
+      "shifted_xor_O1",
+      "shifted_xor_O2",
+      "shifted_xor_O3"
+    ],
+    [
+      "shifted_xor_Os",
+      "shifted_xor_Oz"
+    ],
+    [
+      "xorshift_O1",
+      "xorshift_O2",
+      "xorshift_O3"
+    ],
+    [
+      "xorshift_Os",
+      "xorshift_Oz"
+    ],
+    [
+      "crc32_O1",
+      "crc32_O2",
+      "crc32_O3"
+    ],
+    [
+      "crc32_Os",
+      "crc32_Oz"
+    ],
+    [
+      "popcount_O1",
+      "popcount_O2",
+      "popcount_O3"
+    ],
+    [
+      "popcount_Os",
+      "popcount_Oz"
+    ],
+    [
+      "subtractive_gcd_O1",
+      "subtractive_gcd_O2",
+      "subtractive_gcd_O3"
+    ],
+    [
+      "subtractive_gcd_Os",
+      "subtractive_gcd_Oz"
+    ]
+  ],
+  "zero_additional_cells_retained": [
+    {
+      "report": 0,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 1,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 2,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 3,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 4,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 5,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 6,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 7,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 8,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 9,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 10,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 11,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 12,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 13,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 14,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 15,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 16,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 17,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 18,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 19,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 20,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 3,
+      "partial_additional": 0
+    },
+    {
+      "report": 21,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 22,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 23,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 24,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 25,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 26,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 27,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 28,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 3,
+      "partial_additional": 0
+    },
+    {
+      "report": 29,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 30,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 31,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 32,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 33,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 34,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 35,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 36,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 37,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 38,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 39,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 40,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 41,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 42,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 43,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 44,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 45,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 46,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 47,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 48,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 49,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 50,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 51,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 52,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 53,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 54,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 4,
+      "partial_additional": 0
+    },
+    {
+      "report": 55,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 56,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 57,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 58,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 59,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 60,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 61,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 62,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 4,
+      "partial_additional": 0
+    },
+    {
+      "report": 63,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 64,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 65,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 66,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 67,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 68,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 3,
+      "partial_additional": 0
+    },
+    {
+      "report": 69,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 70,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 71,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 1,
+      "partial_additional": 0
+    },
+    {
+      "report": 72,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 73,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 74,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 75,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 76,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 77,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 78,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 79,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 5,
+      "partial_additional": 0
+    },
+    {
+      "report": 80,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 81,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 82,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 83,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 84,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 85,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 4,
+      "partial_additional": 0
+    },
+    {
+      "report": 86,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 87,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 88,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 89,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 90,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "total_additional": 3,
+      "partial_additional": 0
+    },
+    {
+      "report": 91,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 92,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 93,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 94,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "total_additional": 0,
+      "partial_additional": 0
+    },
+    {
+      "report": 95,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "total_additional": 0,
+      "partial_additional": 0
+    }
+  ],
+  "failed_attempts": 6,
+  "independent_fresh_gate_complete": false,
+  "scope": "Actual upstream processor RTL translated by Yosys to CXXRTL and executed, with author-owned reference divider RTL, deterministic host memory, C firmware, and functional oracle. Digital discrete-event reference-design boundary only: no native Hopper/H20, physical clock, silicon, FPGA, PPA, latency/performance evidence, confidentiality, cryptography, necessity or inference resistance. Full debug intentionally reveals N/D. No remote experiment, publication, paper edit or scoring.",
+  "limitations": [
+    "Fixed deterministic finite census, not representative firmware workload frequencies.",
+    "N is actual processor cycles under declared synchronous memory and CXXRTL scheduler boundary; all startup/result/trap cycles remain included.",
+    "Functional interpreter/algorithm check never supplies DUT cycle counts.",
+    "Admission concerns a real-log abstraction, not alternate integer N/D realizability or recovery of original N.",
+    "Every-anchor-box comparator permits separate witnesses per anchor/comparison; graph admission needs one joint original-variable witness.",
+    "Source validity and trusted guard bits are obligations supplied by producer; failure returns unknown.",
+    "Overflow guards reviewed under the bounded run domain; overflow event was not forced by simulation.",
+    "No claims of physical clock, native Hopper, silicon, FPGA, PPA, privacy or method necessity.",
+    "The fresh independent run, independent trace decode and all certificate checks remain a mandatory later gate."
+  ],
+  "bindings": {
+    "PROTOCOL.json": "e38d970da13e59a7da9803edf67e3119a80189f03ce18e81301cb5b672acccbc",
+    "UPSTREAM_BINDING.json": "e315b7a7183b901b6b536b331843bcdf98eb6dcb0e67946d042d0707bf2d7be5",
+    "driver.cpp": "d4bea5d569e476f58405f0bfac628cd60af74ed20ee28bf00857fa76220b6b95",
+    "core_wrapper.v": "fbbc85018d258b7b49bec31d3f46210aff61b2474ddf3b065516ef4fbfedb16b",
+    "controller.v": "649b78ae0964d42ecf3e6e62f8fb071d94154c4b48ec30aac53fc5dfe8e99781",
+    "functional_oracle.py": "44448b1b2d02125d5c02d51058d4d320ab0c47a8f6a2cd3306017b405899165a",
+    "audit_reports.py": "dc25b42944f049dcc80d0600c10bcf1890b063788e11c6781fea4f454039b3ff",
+    "replay_portable.py": "d313e609637162847289e751a4548bbe5a07d4e00ece937077764d424c7eb5c3",
+    "CORE_PROVENANCE.json": "69a9e5c18c67e2be81bcee22328a87277a9b861b905c5c96510c9d74dd59094f"
+  }
+}

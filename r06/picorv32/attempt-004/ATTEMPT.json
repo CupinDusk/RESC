@@ -1,0 +1,78 @@
+{
+  "status": "FAILED_firmware_array_sum_O0",
+  "sources": {
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "controller.v": "649b78ae0964d42ecf3e6e62f8fb071d94154c4b48ec30aac53fc5dfe8e99781",
+    "CORE_PROVENANCE.json": "c2e6112381c5ce6405a1d90f28ac5e5cbcba0db0cf91b7e8040b8cfabdd417e3",
+    "core_wrapper.v": "fbbc85018d258b7b49bec31d3f46210aff61b2474ddf3b065516ef4fbfedb16b",
+    "driver.cpp": "d3d8b0ef3a0f467ff079482707596261be2a20144e86842164056678b2dd424d",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "generate_sources.py": "5047d36225163603679b6669573ba23c8eb1e27939d09f55d78b6d3afe1c8f30",
+    "jobs.txt": "bf08ce2716bf747978c27fe77a5b9fe6f02e3e9e327abe0af1c00c036b5fc806",
+    "JOBS_CONFIG.json": "26ec87b8f02ad1897dab1b8a4675318370093e9cc6a7a99af5d48ea502ad44d7",
+    "PROSPECTIVE_BINDING.json": "6674ebcf4834bbbf0fcb730f73dcdea95c170c96eda87291fa08a1dbf07ae9e9",
+    "PROTOCOL.json": "e38d970da13e59a7da9803edf67e3119a80189f03ce18e81301cb5b672acccbc",
+    "replay_portable.py": "91944d77d540435acae031cc91f718a077cf28e5926eab38e71d8ba919ac9fb3",
+    "sha256.hpp": "017e092ec3f47f2f3e5f02f9dc7d6e573c59cc3d6e08f85733dedbdf93e76684",
+    "UPSTREAM_BINDING.json": "e315b7a7183b901b6b536b331843bcdf98eb6dcb0e67946d042d0707bf2d7be5",
+    "firmware/array_sum.c": "2c9fc33204c588aeaea762a7ef047ca1d3dac0fe3d463801893578d70ccd0acb",
+    "firmware/crc32.c": "c8c3567b3df5d3a91df393d22075f92bde40a85822263f591e7276a02822972e",
+    "firmware/link.ld": "3e1b27523829dcc148cbf7f62d9dcc7b969f2e45f023dec07e4e335415cf39e1",
+    "firmware/popcount.c": "b78db4b4a406f6b9b9f896d131fa3c14cef3de566eccba146b9f0e5054176b6a",
+    "firmware/shifted_xor.c": "19511928381a2a6b9925a1b4341e2986a4aa3c767fc032ff9640f8d5b1e939a1",
+    "firmware/startup.S": "4aa44346824b28f3625254a94d0ecac234fecc0a4bcfc78b14722bf153a4734f",
+    "firmware/subtractive_gcd.c": "841b02adc734be24897a71d3a09826b570cedb3f21aedc61ea6e048c255cc709",
+    "firmware/xorshift.c": "a4a6638e60748e0db189dcacccf4ab271bb647e88c7d61639e9b2a15326cfba6",
+    "upstream/COPYING": "041ebc727233e5bf096dd41260cbb81014d3d29ca007a15f3b1807d4e9ff288e",
+    "upstream/picorv32.v": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+    "upstream/README.md": "399c2d2e00e4581ee4ef33034089992401e10c4e917a33cd363b80dfb283e964"
+  },
+  "commands": [
+    {
+      "name": "zig_version",
+      "argv": [
+        "[ZIG]",
+        "version"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "yosys_version",
+      "argv": [
+        "[PYTHON]",
+        "-B",
+        "-X",
+        "utf8",
+        "[YOSYS_WRAPPER]",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "firmware_array_sum_O0",
+      "argv": [
+        "[ZIG]",
+        "cc",
+        "-target",
+        "riscv32-freestanding",
+        "-mcpu=generic_rv32",
+        "-mabi=ilp32",
+        "-mno-relax",
+        "-O0",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-fno-stack-protector",
+        "-nostdlib",
+        "-rtlib=none",
+        "-g0",
+        "-Wl,--gc-sections",
+        "-Wl,-T,firmware/link.ld",
+        "firmware/startup.S",
+        "firmware/array_sum.c",
+        "-o",
+        "images/array_sum_O0.elf"
+      ],
+      "returncode": 1
+    }
+  ]
+}

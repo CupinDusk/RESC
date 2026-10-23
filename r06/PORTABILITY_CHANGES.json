@@ -1,0 +1,44 @@
+[
+  {
+    "source": "INDEPENDENT_AUDIT.json",
+    "source_sha256": "68d227e403e7af9c7b0d40af979952a77009e520880faecaffcf5ba56b9ca33a",
+    "package_path": "r06/independent-source/INDEPENDENT_AUDIT.json",
+    "package_sha256": "68d227e403e7af9c7b0d40af979952a77009e520880faecaffcf5ba56b9ca33a",
+    "change": "Only local path metadata placeholders; scientific fields retained."
+  },
+  {
+    "source": "INDEPENDENT_NEGATIVE_CYCLE_EXAMPLE.json",
+    "source_sha256": "385ebe50242eebbc49b9964058c9a658be4455b4f92b2f6baaa0fdf1895e0374",
+    "package_path": "r06/independent-source/INDEPENDENT_NEGATIVE_CYCLE_EXAMPLE.json",
+    "package_sha256": "385ebe50242eebbc49b9964058c9a658be4455b4f92b2f6baaa0fdf1895e0374",
+    "change": "Only local path metadata placeholders; scientific fields retained."
+  },
+  {
+    "source": "PAPER_READY_FACTS.json",
+    "source_sha256": "6e828cdfd38078f6eb7854d7f2eeb9a57b289be53fc9f2e7fc22c7f7c166aa36",
+    "package_path": "r06/independent-source/PAPER_READY_FACTS.json",
+    "package_sha256": "6e828cdfd38078f6eb7854d7f2eeb9a57b289be53fc9f2e7fc22c7f7c166aa36",
+    "change": "Only local path metadata placeholders; scientific fields retained."
+  },
+  {
+    "source": "SCOPE_GATE.json",
+    "source_sha256": "8e2108bab950074a02aed6639bc0a8edf3f6ad4aaf3a22ada2da0dd291350670",
+    "package_path": "r06/independent-source/SCOPE_GATE.json",
+    "package_sha256": "8e2108bab950074a02aed6639bc0a8edf3f6ad4aaf3a22ada2da0dd291350670",
+    "change": "Only local path metadata placeholders; scientific fields retained."
+  },
+  {
+    "source": "specialized/RUN_METADATA.json",
+    "source_sha256": "cfc7d0f57985072e6e0c2a564ba680f2bf3728b2b724083134f8c929a4792360",
+    "package_path": "r06/specialized/RUN_METADATA.json",
+    "package_sha256": "3c32c8e02d13964a1fa38429d3b9f9ab479d02133d39ca72eaa75fc92b17099b",
+    "change": "Only local host/tool path metadata placeholders. Original timing rows unchanged."
+  },
+  {
+    "source": "specialized/ROOT_TIMING_GATE.json",
+    "source_sha256": "6b37291574bc5bf1971733410415b645ac1aad3108abae1d1410a3fe5a14fac7",
+    "package_path": "r06/specialized/ROOT_TIMING_GATE.json",
+    "package_sha256": "6b37291574bc5bf1971733410415b645ac1aad3108abae1d1410a3fe5a14fac7",
+    "change": "Only local host/tool path metadata placeholders. Original timing rows unchanged."
+  }
+]

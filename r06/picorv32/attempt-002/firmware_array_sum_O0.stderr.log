@@ -1,0 +1,34 @@
+info: available CPUs for architecture 'riscv32':
+ baseline_rv32
+ baseline_rv64
+ generic
+ generic_rv32
+ generic_rv64
+ rocket
+ rocket_rv32
+ rocket_rv64
+ sifive_7_series
+ sifive_e20
+ sifive_e21
+ sifive_e24
+ sifive_e31
+ sifive_e34
+ sifive_e76
+ sifive_p450
+ sifive_p670
+ sifive_s21
+ sifive_s51
+ sifive_s54
+ sifive_s76
+ sifive_u54
+ sifive_u74
+ sifive_x280
+ spacemit_x60
+ syntacore_scr1_base
+ syntacore_scr1_max
+ syntacore_scr3_rv32
+ syntacore_scr3_rv64
+ veyron_v1
+ xiangshan_nanhu
+
+error: unknown CPU: 'rv32i'

@@ -1,0 +1,78 @@
+{
+  "failures": [
+    {
+      "attempt": "attempt-001",
+      "status": "FAILED_firmware_array_sum_O0",
+      "ledger_sha256": "a55cbc52d29b51eb7c1e83879863a2b643f0f7a044beb2c1bfdb6d8dca73072d",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations."
+    },
+    {
+      "attempt": "attempt-002",
+      "status": "FAILED_firmware_array_sum_O0",
+      "ledger_sha256": "35d59e7da17a8f6dbee12dbbd5ce6f0943c648f166b8e0183a96934c9b1bd61e",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations."
+    },
+    {
+      "attempt": "attempt-003",
+      "status": "IN_PROGRESS",
+      "ledger_sha256": "aa72c648d7c6a9f2f2b04d0a5b04a294ae27e79b54e5697d9e3664b9303f5ad5",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations.",
+      "original_ledger_status": "IN_PROGRESS",
+      "effective_status": "FAILED_ELF_IMAGE_DOMAIN_ASSERTION_BEFORE_DUT",
+      "explanation": "The preserved ledger remained IN_PROGRESS because ELF extraction assertion is outside the subprocess wrapper. It is an observed failure, not a running or successful attempt. Original ledger unchanged.",
+      "failed_elf_sha256": "e9e9c24819cfcadf7ded2ed8a361395b631365a8db5cfa5d25b5267024caac8e",
+      "load_segments": [
+        {
+          "address": 0,
+          "file_size": 325936,
+          "memory_size": 325936,
+          "flags": 5
+        },
+        {
+          "address": 325936,
+          "file_size": 18288,
+          "memory_size": 18288,
+          "flags": 4
+        },
+        {
+          "address": 344224,
+          "file_size": 16,
+          "memory_size": 4128,
+          "flags": 6
+        }
+      ]
+    },
+    {
+      "attempt": "attempt-004",
+      "status": "FAILED_firmware_array_sum_O0",
+      "ledger_sha256": "bff1df6484c9dbe357ae4943a1aae592dbb2cd50571f08a74b79ea0aef606d17",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations."
+    },
+    {
+      "attempt": "attempt-005",
+      "status": "FAILED_compile_cxxrtl",
+      "ledger_sha256": "2e01ad2eb7f4c8d038a246fbdba76cbfcda07c7267c366cf92f120be17fb879a",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations."
+    },
+    {
+      "attempt": "attempt-006",
+      "status": "FAILED_simulation",
+      "ledger_sha256": "2644f8d5b576a226027a312664f82b8f042e974b939f14a84ca4aec110502815",
+      "graph_status": "contract-unknown/not-audited",
+      "note": "No failure is counted as a known graph result; unexecuted cases are not successful observations."
+    }
+  ],
+  "original_failure_logs_and_ELF_preserved_byte_exact": true,
+  "original_protocol_sha256": "e38d970da13e59a7da9803edf67e3119a80189f03ce18e81301cb5b672acccbc",
+  "failed_actual_job": {
+    "attempt": "attempt-006",
+    "job": 0,
+    "status": "contract-unknown",
+    "reason": "Overly strict terminal-fetch validator; actual trace retained; amendment6"
+  }
+}

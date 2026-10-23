@@ -1,0 +1,470 @@
+{
+  "array_sum_O0": {
+    "elf_sha256": "341b63918bc246c41da22ecb8ceec1c08e5e6ee05820d9df50f9f1f1395d9482",
+    "ram_sha256": "71ce989474a22f832c8bb386e5b228e7685e523e309a4a089527e04895c3a9a7",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 220,
+        "memory_size": 220,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4804
+  },
+  "array_sum_O1": {
+    "elf_sha256": "be0e054a3ed9c00320f1543c1a022649be4183287ad265309455f9d4601f1e74",
+    "ram_sha256": "f011dcb9acf29c8de2f70596a63afb4ced55175878900f962455b222a3887e49",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 180,
+        "memory_size": 180,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4764
+  },
+  "array_sum_O2": {
+    "elf_sha256": "be0e054a3ed9c00320f1543c1a022649be4183287ad265309455f9d4601f1e74",
+    "ram_sha256": "f011dcb9acf29c8de2f70596a63afb4ced55175878900f962455b222a3887e49",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 180,
+        "memory_size": 180,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4764
+  },
+  "array_sum_O3": {
+    "elf_sha256": "be0e054a3ed9c00320f1543c1a022649be4183287ad265309455f9d4601f1e74",
+    "ram_sha256": "f011dcb9acf29c8de2f70596a63afb4ced55175878900f962455b222a3887e49",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 180,
+        "memory_size": 180,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4764
+  },
+  "array_sum_Os": {
+    "elf_sha256": "ade4f9883c20efc48b75c96b2583e5b96fc6cb3ac701482d1a02253d6a0b5571",
+    "ram_sha256": "15ccfd141cd4bf1b0accd1d648f51a0555023963a9a323fbede000d0ebd09238",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 108,
+        "memory_size": 108,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4344
+  },
+  "array_sum_Oz": {
+    "elf_sha256": "ade4f9883c20efc48b75c96b2583e5b96fc6cb3ac701482d1a02253d6a0b5571",
+    "ram_sha256": "15ccfd141cd4bf1b0accd1d648f51a0555023963a9a323fbede000d0ebd09238",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 108,
+        "memory_size": 108,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4344
+  },
+  "shifted_xor_O0": {
+    "elf_sha256": "3dddb9b4a4212ef0ef6368f2cf8ce6b5f2f0ed863557a0f2b1275bf9c7ed29d1",
+    "ram_sha256": "e8cb017c59962e9f33d413ba1b95829bb6557e9c9693fd1fd366876b4419dd2f",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 240,
+        "memory_size": 240,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4824
+  },
+  "shifted_xor_O1": {
+    "elf_sha256": "47f771a5413a0b548992d2c33acd733d7b0b744a8cbca69cca57949b5bcd155a",
+    "ram_sha256": "9350a5003d8148d660f9bfbe4e9b34d9b0acdd4fa5aa6e05dd9677c74194ebd3",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 276,
+        "memory_size": 276,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4860
+  },
+  "shifted_xor_O2": {
+    "elf_sha256": "47f771a5413a0b548992d2c33acd733d7b0b744a8cbca69cca57949b5bcd155a",
+    "ram_sha256": "9350a5003d8148d660f9bfbe4e9b34d9b0acdd4fa5aa6e05dd9677c74194ebd3",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 276,
+        "memory_size": 276,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4860
+  },
+  "shifted_xor_O3": {
+    "elf_sha256": "47f771a5413a0b548992d2c33acd733d7b0b744a8cbca69cca57949b5bcd155a",
+    "ram_sha256": "9350a5003d8148d660f9bfbe4e9b34d9b0acdd4fa5aa6e05dd9677c74194ebd3",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 276,
+        "memory_size": 276,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4860
+  },
+  "shifted_xor_Os": {
+    "elf_sha256": "d0b5e4aa92f72943610e1b2ffff8e7d0ebaea1437213a74d203d7101903fb559",
+    "ram_sha256": "a54e686a0da7a4dc9084b486c3d762e873e76359840a01f0c5a49edee3973a7c",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 124,
+        "memory_size": 124,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4360
+  },
+  "shifted_xor_Oz": {
+    "elf_sha256": "d0b5e4aa92f72943610e1b2ffff8e7d0ebaea1437213a74d203d7101903fb559",
+    "ram_sha256": "a54e686a0da7a4dc9084b486c3d762e873e76359840a01f0c5a49edee3973a7c",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 124,
+        "memory_size": 124,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4360
+  },
+  "xorshift_O0": {
+    "elf_sha256": "cf8b4a48e9ecc0f2660157b5eba62b4a86fd0dff19c9b6274d0af1f0183378f2",
+    "ram_sha256": "32b1666f8cab23014b2c1a72ee0645496586d170344e4a7069e3cf147a0262b3",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 268,
+        "memory_size": 268,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4848
+  },
+  "xorshift_O1": {
+    "elf_sha256": "3d9b3238bce9982777b8c222f81783d28dc4b482ef142fb8bfdb3a59c2dd7a35",
+    "ram_sha256": "7f67d4c300d4f0252fc8943dec09b108d2030e7637d5870b0e23b4b28b8fb073",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 168,
+        "memory_size": 168,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4748
+  },
+  "xorshift_O2": {
+    "elf_sha256": "3d9b3238bce9982777b8c222f81783d28dc4b482ef142fb8bfdb3a59c2dd7a35",
+    "ram_sha256": "7f67d4c300d4f0252fc8943dec09b108d2030e7637d5870b0e23b4b28b8fb073",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 168,
+        "memory_size": 168,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4748
+  },
+  "xorshift_O3": {
+    "elf_sha256": "3d9b3238bce9982777b8c222f81783d28dc4b482ef142fb8bfdb3a59c2dd7a35",
+    "ram_sha256": "7f67d4c300d4f0252fc8943dec09b108d2030e7637d5870b0e23b4b28b8fb073",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 168,
+        "memory_size": 168,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4748
+  },
+  "xorshift_Os": {
+    "elf_sha256": "d95f6124f32ff4a9044254a1dd67a829fd1bd6d5bc9a53bcf1bed318f3e450bc",
+    "ram_sha256": "d15bdc1835ca74c5aa66ef7241c2e1ac6471df35d7972dcaf90983cf42bb3a3a",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 128,
+        "memory_size": 128,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4364
+  },
+  "xorshift_Oz": {
+    "elf_sha256": "d95f6124f32ff4a9044254a1dd67a829fd1bd6d5bc9a53bcf1bed318f3e450bc",
+    "ram_sha256": "d15bdc1835ca74c5aa66ef7241c2e1ac6471df35d7972dcaf90983cf42bb3a3a",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 128,
+        "memory_size": 128,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4364
+  },
+  "crc32_O0": {
+    "elf_sha256": "90c0d0863ca88b090e277302654c38f8bc108a819e6c975116b1958954440577",
+    "ram_sha256": "d46433d56f4567438446134c13d88f72666af9e64375e8744fd5be85664a2b0a",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 316,
+        "memory_size": 316,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4896
+  },
+  "crc32_O1": {
+    "elf_sha256": "67d58cb40926ebf84dd1343d1696d834e947bb932d94a579afcaab5a4a3abc95",
+    "ram_sha256": "5569031996a13f49386f3fbe2355a331e56f088fc5669956d58b6ae88a1c0923",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 340,
+        "memory_size": 340,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4920
+  },
+  "crc32_O2": {
+    "elf_sha256": "67d58cb40926ebf84dd1343d1696d834e947bb932d94a579afcaab5a4a3abc95",
+    "ram_sha256": "5569031996a13f49386f3fbe2355a331e56f088fc5669956d58b6ae88a1c0923",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 340,
+        "memory_size": 340,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4920
+  },
+  "crc32_O3": {
+    "elf_sha256": "67d58cb40926ebf84dd1343d1696d834e947bb932d94a579afcaab5a4a3abc95",
+    "ram_sha256": "5569031996a13f49386f3fbe2355a331e56f088fc5669956d58b6ae88a1c0923",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 340,
+        "memory_size": 340,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4920
+  },
+  "crc32_Os": {
+    "elf_sha256": "f98b0b4637a256500e0f73ae19b8fae42c2d62f733f2fc51bbfd71ec622878a8",
+    "ram_sha256": "25a1ee35e29dfe5a7edcc3fa09a3ab98dd9af0a6e2c15d47521a1923d11f1a27",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 164,
+        "memory_size": 164,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4400
+  },
+  "crc32_Oz": {
+    "elf_sha256": "f98b0b4637a256500e0f73ae19b8fae42c2d62f733f2fc51bbfd71ec622878a8",
+    "ram_sha256": "25a1ee35e29dfe5a7edcc3fa09a3ab98dd9af0a6e2c15d47521a1923d11f1a27",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 164,
+        "memory_size": 164,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4400
+  },
+  "popcount_O0": {
+    "elf_sha256": "6bd2492125fe02732fc529e8c67b6b37c0d1986f866dc73e2e3b6c59dcfac9b2",
+    "ram_sha256": "657216dd25fc1c9cba53c0a9f9226e62b9e0d6d62ed1c749ac4268a7775e3aa3",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 260,
+        "memory_size": 260,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4840
+  },
+  "popcount_O1": {
+    "elf_sha256": "9635a617ed29a0398008d319f98a3fa7e03ee91711c179718aa572fad4c00c78",
+    "ram_sha256": "e809b9586a6375a74f2337caafd6186bd4d2640e2932a0e5ef042c33401e51b6",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 336,
+        "memory_size": 336,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4916
+  },
+  "popcount_O2": {
+    "elf_sha256": "9635a617ed29a0398008d319f98a3fa7e03ee91711c179718aa572fad4c00c78",
+    "ram_sha256": "e809b9586a6375a74f2337caafd6186bd4d2640e2932a0e5ef042c33401e51b6",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 336,
+        "memory_size": 336,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4916
+  },
+  "popcount_O3": {
+    "elf_sha256": "9635a617ed29a0398008d319f98a3fa7e03ee91711c179718aa572fad4c00c78",
+    "ram_sha256": "e809b9586a6375a74f2337caafd6186bd4d2640e2932a0e5ef042c33401e51b6",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 336,
+        "memory_size": 336,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4916
+  },
+  "popcount_Os": {
+    "elf_sha256": "f7e3dd6a6adab2f79875841c465c6af40e8d123504049e40cb88dee2f8a9dd34",
+    "ram_sha256": "b9aa7a3be37e9484e6fa246cecdde01255557caaef7c344311f0bff87c3be39b",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 136,
+        "memory_size": 136,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4372
+  },
+  "popcount_Oz": {
+    "elf_sha256": "f7e3dd6a6adab2f79875841c465c6af40e8d123504049e40cb88dee2f8a9dd34",
+    "ram_sha256": "b9aa7a3be37e9484e6fa246cecdde01255557caaef7c344311f0bff87c3be39b",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 136,
+        "memory_size": 136,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4372
+  },
+  "subtractive_gcd_O0": {
+    "elf_sha256": "56c0e5552631f9a5f189ec4af7a5335b8a205a4a9849c225de12b9cf108e9b1f",
+    "ram_sha256": "e1a205793b8002cf9755bedf4b004594df7b89ea1161058cd11d06b71ba89493",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 256,
+        "memory_size": 256,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4844
+  },
+  "subtractive_gcd_O1": {
+    "elf_sha256": "464fc9bbafb7ed87ba545d84604e8f19c718960179575edf565c35b38e1cf8e0",
+    "ram_sha256": "5d663ed0ebf27e82c9af4c67f1f2baeb5d55cab6d7943f53a89d691d64e0d0d9",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 192,
+        "memory_size": 192,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4780
+  },
+  "subtractive_gcd_O2": {
+    "elf_sha256": "464fc9bbafb7ed87ba545d84604e8f19c718960179575edf565c35b38e1cf8e0",
+    "ram_sha256": "5d663ed0ebf27e82c9af4c67f1f2baeb5d55cab6d7943f53a89d691d64e0d0d9",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 192,
+        "memory_size": 192,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4780
+  },
+  "subtractive_gcd_O3": {
+    "elf_sha256": "464fc9bbafb7ed87ba545d84604e8f19c718960179575edf565c35b38e1cf8e0",
+    "ram_sha256": "5d663ed0ebf27e82c9af4c67f1f2baeb5d55cab6d7943f53a89d691d64e0d0d9",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 192,
+        "memory_size": 192,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4780
+  },
+  "subtractive_gcd_Os": {
+    "elf_sha256": "2aca9985f8910f74f995ebc40eee26a19f4fe98255a63f450adaeb474c9a1c0a",
+    "ram_sha256": "d23d0320bf593ee243d37fdaea3d667adb2c96758fcb9a147388b9dfa8f17a94",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 152,
+        "memory_size": 152,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4388
+  },
+  "subtractive_gcd_Oz": {
+    "elf_sha256": "2aca9985f8910f74f995ebc40eee26a19f4fe98255a63f450adaeb474c9a1c0a",
+    "ram_sha256": "d23d0320bf593ee243d37fdaea3d667adb2c96758fcb9a147388b9dfa8f17a94",
+    "segments": [
+      {
+        "address": 0,
+        "file_size": 152,
+        "memory_size": 152,
+        "flags": 5
+      }
+    ],
+    "elf_bytes": 4388
+  }
+}

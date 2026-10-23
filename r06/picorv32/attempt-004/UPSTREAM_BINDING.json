@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/YosysHQ/picorv32",
+  "commit": "ef203c2b0a3fb793280f5114941416c425c5b461",
+  "github_page_sha256": "b16103584337e04726dc030afbbac33c7a69489c3d16d1b13d1a528a796f3109",
+  "pin_method": "GitHub repository page currentOid; API attempt returned HTTP403 rate limit and no bytes downloaded",
+  "files": {
+    "picorv32.v": {
+      "bytes": 94657,
+      "sha256": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+      "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/picorv32.v"
+    },
+    "README.md": {
+      "bytes": 30622,
+      "sha256": "399c2d2e00e4581ee4ef33034089992401e10c4e917a33cd363b80dfb283e964",
+      "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/README.md"
+    },
+    "COPYING": {
+      "bytes": 777,
+      "sha256": "041ebc727233e5bf096dd41260cbb81014d3d29ca007a15f3b1807d4e9ff288e",
+      "url": "https://raw.githubusercontent.com/YosysHQ/picorv32/ef203c2b0a3fb793280f5114941416c425c5b461/COPYING"
+    }
+  }
+}

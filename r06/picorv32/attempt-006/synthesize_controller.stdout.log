@@ -1,0 +1,347 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Running command `read_verilog controller.v; hierarchy -check -top controller; prep -top controller; check -assert; write_cxxrtl controller.cpp' --
+
+1. Executing Verilog-2005 frontend: controller.v
+Parsing Verilog input from `controller.v' to AST representation.
+Generating RTLIL representation for module `\controller'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \controller
+
+2.2. Analyzing design hierarchy..
+Top module:  \controller
+Removed 0 unused modules.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1.1. Analyzing design hierarchy..
+Top module:  \controller
+
+3.1.2. Analyzing design hierarchy..
+Top module:  \controller
+Removed 0 unused modules.
+
+3.2. Executing PROC pass (convert processes to netlists).
+
+3.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 15 switch rules as full_case in process $proc$controller.v:9$14 in module controller.
+Removed a total of 0 dead cases.
+
+3.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 1 assignment to connection.
+
+3.2.4. Executing PROC_INIT pass (extract init attributes).
+
+3.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~18 debug messages>
+
+3.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\controller.$proc$controller.v:9$14'.
+     1/16: $5\fail$func$controller.v:21$5.why[3:0]$35
+     2/16: $4\fail$func$controller.v:21$5.why[3:0]$33
+     3/16: $3\fail$func$controller.v:21$5.why[3:0]$32
+     4/16: $2\fail$func$controller.v:21$5.why[3:0]$17
+     5/16: $1\fail$func$controller.v:21$5.why[3:0]$16
+     6/16: $0\pulse[0:0]
+     7/16: $0\timer[63:0]
+     8/16: $0\pulses[31:0]
+     9/16: $0\phase[31:0]
+    10/16: $0\previousd[31:0]
+    11/16: $0\heldd[31:0]
+    12/16: $0\reason[3:0]
+    13/16: $0\valid[0:0]
+    14/16: $0\busy[0:0]
+    15/16: $0\settled[1:0]
+    16/16: $0\licensed[0:0]
+
+3.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\controller.\licensed' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$455' with positive edge clock.
+Creating register for signal `\controller.\settled' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$456' with positive edge clock.
+Creating register for signal `\controller.\busy' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$457' with positive edge clock.
+Creating register for signal `\controller.\valid' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$458' with positive edge clock.
+Creating register for signal `\controller.\reason' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$459' with positive edge clock.
+Creating register for signal `\controller.\heldd' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$460' with positive edge clock.
+Creating register for signal `\controller.\previousd' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$461' with positive edge clock.
+Creating register for signal `\controller.\phase' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$462' with positive edge clock.
+Creating register for signal `\controller.\pulses' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$463' with positive edge clock.
+Creating register for signal `\controller.\timer' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$464' with positive edge clock.
+Creating register for signal `\controller.\pulse' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$465' with positive edge clock.
+Creating register for signal `\controller.\fail$func$controller.v:21$5.why' using process `\controller.$proc$controller.v:9$14'.
+  created $dff cell `$procdff$466' with positive edge clock.
+
+3.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 18 empty switches in `\controller.$proc$controller.v:9$14'.
+Removing empty process `controller.$proc$controller.v:9$14'.
+Cleaned up 18 empty switches.
+
+3.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+<suppressed ~11 debug messages>
+
+3.3. Executing FUTURE pass.
+
+3.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+3.5. Executing CHECK pass (checking for obvious problems).
+Checking module controller...
+Found and reported 0 problems.
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \controller..
+Removed 17 unused cells and 166 unused wires.
+<suppressed ~19 debug messages>
+
+3.7. Executing OPT pass (performing simple optimizations).
+
+3.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+3.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\controller'.
+Computing hashes of 156 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Computing hashes of 154 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+3.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \controller..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+      Replacing known input bits on port A of cell $procmux$383: \busy -> 1'0
+      Replacing known input bits on port A of cell $procmux$365: \busy -> 1'0
+      Replacing known input bits on port A of cell $procmux$357: \busy -> 1'1
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~124 debug messages>
+
+3.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \controller.
+  Optimizing cells in module \controller.
+Performed a total of 3 changes.
+
+3.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\controller'.
+Computing hashes of 151 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Computing hashes of 150 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Computing hashes of 149 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Computing hashes of 148 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Computing hashes of 147 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+<suppressed ~12 debug messages>
+Removed a total of 4 cells.
+
+3.7.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \controller..
+Removed 0 unused cells and 9 unused wires.
+<suppressed ~1 debug messages>
+
+3.7.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+3.7.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.7.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \controller..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~126 debug messages>
+
+3.7.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \controller.
+Performed a total of 0 changes.
+
+3.7.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\controller'.
+Computing hashes of 147 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Removed a total of 0 cells.
+
+3.7.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \controller..
+
+3.7.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+3.7.14. Finished fast OPT passes. (There is nothing left to do.)
+
+3.8. Executing WREDUCE pass (reducing word size of cells).
+Removed top 32 bits (of 64) from port A of cell controller.$mul$controller.v:4$10 ($mul).
+Removed top 32 bits (of 64) from port B of cell controller.$mul$controller.v:4$10 ($mul).
+Removed top 32 bits (of 64) from port A of cell controller.$mul$controller.v:5$11 ($mul).
+Removed top 32 bits (of 64) from port B of cell controller.$mul$controller.v:5$11 ($mul).
+Removed top 32 bits (of 64) from port A of cell controller.$mul$controller.v:6$12 ($mul).
+Removed top 32 bits (of 64) from port B of cell controller.$mul$controller.v:6$12 ($mul).
+Removed top 32 bits (of 64) from port A of cell controller.$mul$controller.v:7$13 ($mul).
+Removed top 32 bits (of 64) from port B of cell controller.$mul$controller.v:7$13 ($mul).
+Removed top 21 bits (of 32) from port B of cell controller.$gt$controller.v:16$19 ($gt).
+Removed top 22 bits (of 32) from port B of cell controller.$gt$controller.v:16$23 ($gt).
+Removed top 22 bits (of 32) from port B of cell controller.$gt$controller.v:16$27 ($gt).
+Removed top 31 bits (of 32) from port B of cell controller.$add$controller.v:29$42 ($add).
+Removed top 31 bits (of 32) from port B of cell controller.$sub$controller.v:29$43 ($sub).
+Removed top 31 bits (of 32) from port B of cell controller.$add$controller.v:29$45 ($add).
+Removed top 31 bits (of 32) from port B of cell controller.$add$controller.v:29$46 ($add).
+Removed top 30 bits (of 32) from port B of cell controller.$lt$controller.v:31$48 ($lt).
+Removed top 31 bits (of 32) from port B of cell controller.$add$controller.v:31$49 ($add).
+Removed top 30 bits (of 32) from port Y of cell controller.$add$controller.v:31$49 ($add).
+Removed top 2 bits (of 4) from mux cell controller.$procmux$304 ($mux).
+Removed top 1 bits (of 4) from mux cell controller.$procmux$307 ($mux).
+Removed top 1 bits (of 4) from mux cell controller.$procmux$310 ($mux).
+Removed top 2 bits (of 4) from wire controller.$procmux$304_Y.
+Removed top 1 bits (of 4) from wire controller.$procmux$307_Y.
+Removed top 1 bits (of 4) from wire controller.$procmux$310_Y.
+Removed top 30 bits (of 32) from wire controller.$add$controller.v:31$49_Y.
+
+3.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \controller..
+Removed 0 unused cells and 4 unused wires.
+<suppressed ~1 debug messages>
+
+3.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.11. Executing OPT pass (performing simple optimizations).
+
+3.11.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+3.11.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\controller'.
+Computing hashes of 147 cells of `\controller'.
+Finding duplicate cells in `\controller'.
+Removed a total of 0 cells.
+
+3.11.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \controller..
+
+3.11.4. Finished fast OPT passes.
+
+3.12. Executing SORT pass.
+
+3.13. Printing statistics.
+
+=== controller ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      155 wires
+     2770 wire bits
+       23 public wires
+      559 public wire bits
+       19 ports
+      303 port bits
+      147 cells
+        4   $add
+       11   $dff
+        3   $eq
+        3   $gt
+        3   $logic_not
+        7   $logic_or
+        3   $lt
+        4   $mul
+      106   $mux
+        1   $ne
+        1   $reduce_bool
+        1   $sub
+
+3.14. Executing CHECK pass (checking for obvious problems).
+Checking module controller...
+Found and reported 0 problems.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module controller...
+Found and reported 0 problems.
+
+5. Executing CXXRTL backend.
+
+5.1. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `controller'. Setting top module to controller.
+
+5.1.1. Analyzing design hierarchy..
+Top module:  \controller
+
+5.1.2. Analyzing design hierarchy..
+Top module:  \controller
+Removed 0 unused modules.
+
+5.2. Executing FLATTEN pass (flatten design).
+
+5.3. Executing PROC pass (convert processes to netlists).
+
+5.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+5.3.4. Executing PROC_INIT pass (extract init attributes).
+
+5.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+5.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module controller.
+
+<suppressed ~12 debug messages>
+
+End of script. Logfile hash: 2cf2d41713, time: 0.05s, user: 0.06s, system: 0.00s
+Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+Time spent: 42% 3x check (0 sec), 13% 5x opt_clean (0 sec), ...

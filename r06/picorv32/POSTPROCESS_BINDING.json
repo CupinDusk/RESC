@@ -1,0 +1,48 @@
+{
+  "kind": "postprocessing actual completed attempt-007; original ATTEMPT ledger untouched",
+  "executed_commands": [
+    {
+      "argv": [
+        "[PYTHON]",
+        "-B",
+        "-X",
+        "utf8",
+        "audit_reports.py",
+        "--attempt",
+        "attempt-007"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "[PYTHON]",
+        "-B",
+        "-X",
+        "utf8",
+        "pack_streams.py",
+        "--attempt",
+        "attempt-007"
+      ],
+      "returncode": 0
+    }
+  ],
+  "sources": {
+    "audit_reports.py": "dc25b42944f049dcc80d0600c10bcf1890b063788e11c6781fea4f454039b3ff",
+    "functional_oracle.py": "44448b1b2d02125d5c02d51058d4d320ab0c47a8f6a2cd3306017b405899165a",
+    "audit_core.py": "9a4ad638a45cd69b43e7b2389417d6a43481225ee2c6e67fd9664b58d31f55a9",
+    "exact_logs.py": "76878662ed887ff9b62dc560c18dbbd60b633b269eac2d571dde4574f4975de4",
+    "r05_certificate_checker.py": "fefd3dcbd3513daed0bef44abf1a2aa1ff3d55b62f09a97e3d14ff55b9642520",
+    "pack_streams.py": "edfd25a42957ccd7f769fdd9781104d276348dc5823c8cdfcf08bfccb3e512ab"
+  },
+  "outputs": {
+    "AUDIT_RESULTS.json": "c5fc9179167af1625c7286b76bfebf87231ab85f1c28013bb1e4c8214de09dca",
+    "AUDITOR_INPUTS.json": "9c1d782770c6f5a3bad03f76dcfb745fcdec3f64011195f2011373940d2aee9e",
+    "SOURCE_VALIDATOR_CONTROLS.json": "15dd7a00b9447adb9c27d907477651654db8574a870ed61acbb99c3224cfd69c",
+    "OBSERVATIONS.json": "d7356f97c014bda5b23f21a21cec1a1ae6705bdfd8b83d78ee2adca8f1d368c8",
+    "ALL_REPORTS.jsonl.gz": "02b19140d99c687c1ae997f0d6da631a91a6583f89a8c120940efeff86692d40",
+    "STREAM_BINDINGS.json": "db845c9d4ee8c661b99bb42580b1c8fe258f04434377351d95493b100fa50f6f"
+  },
+  "actual_DUT_snapshot_driver_sha256": "d4bea5d569e476f58405f0bfac628cd60af74ed20ee28bf00857fa76220b6b95",
+  "final_replay_driver_sha256": "d4bea5d569e476f58405f0bfac628cd60af74ed20ee28bf00857fa76220b6b95",
+  "note": "Top-level final replay adds automatic auditing/archiving; DUT and firmware sources equal successful attempt. Pending independent fresh gate."
+}

@@ -1,0 +1,6610 @@
+{
+  "scope": "One ordinary Windows collection on the same deliberately designed fixed R05 synthetic family. No representative distribution, stable crossover or machine-isolation claim.",
+  "raw_records": 3240,
+  "strata": [
+    {
+      "stratum": 0,
+      "n": 4,
+      "family": "first",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            139.0,
+            152.0,
+            150.0,
+            149.0,
+            151.0,
+            135.0,
+            140.0,
+            146.0,
+            138.0
+          ],
+          "median_complete_ns": 146.0,
+          "min_complete_ns": 135.0,
+          "max_complete_ns": 152.0,
+          "median_complete_ns_per_query_including_preparation": 146.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            292.0,
+            300.0,
+            283.0,
+            281.0,
+            306.0,
+            319.0,
+            377.0,
+            295.0,
+            281.0
+          ],
+          "median_complete_ns": 295.0,
+          "min_complete_ns": 281.0,
+          "max_complete_ns": 377.0,
+          "median_complete_ns_per_query_including_preparation": 295.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            300.0,
+            318.0,
+            325.0,
+            301.0,
+            298.0,
+            312.0,
+            303.0,
+            297.0,
+            298.0
+          ],
+          "median_complete_ns": 301.0,
+          "min_complete_ns": 297.0,
+          "max_complete_ns": 325.0,
+          "median_complete_ns_per_query_including_preparation": 301.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            273.0,
+            281.0,
+            273.0,
+            277.0,
+            303.0,
+            272.0,
+            275.0,
+            275.0,
+            273.0
+          ],
+          "median_complete_ns": 275.0,
+          "min_complete_ns": 272.0,
+          "max_complete_ns": 303.0,
+          "median_complete_ns_per_query_including_preparation": 275.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            397.0,
+            417.0,
+            403.0,
+            399.0,
+            524.0,
+            401.0,
+            446.0,
+            405.0,
+            408.0
+          ],
+          "median_complete_ns": 405.0,
+          "min_complete_ns": 397.0,
+          "max_complete_ns": 524.0,
+          "median_complete_ns_per_query_including_preparation": 405.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            396.0,
+            420.0,
+            398.0,
+            419.0,
+            408.0,
+            404.0,
+            401.0,
+            401.0,
+            396.0
+          ],
+          "median_complete_ns": 401.0,
+          "min_complete_ns": 396.0,
+          "max_complete_ns": 420.0,
+          "median_complete_ns_per_query_including_preparation": 401.0
+        }
+      }
+    },
+    {
+      "stratum": 0,
+      "n": 4,
+      "family": "first",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            2449.0,
+            2553.0,
+            2450.0,
+            2736.0,
+            2455.0,
+            2418.0,
+            2464.0,
+            2466.0,
+            2445.0
+          ],
+          "median_complete_ns": 2455.0,
+          "min_complete_ns": 2418.0,
+          "max_complete_ns": 2736.0,
+          "median_complete_ns_per_query_including_preparation": 51.145833333333336
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            2607.0,
+            2628.0,
+            2594.0,
+            2636.0,
+            2734.0,
+            2605.0,
+            2600.0,
+            2586.0,
+            2740.0
+          ],
+          "median_complete_ns": 2607.0,
+          "min_complete_ns": 2586.0,
+          "max_complete_ns": 2740.0,
+          "median_complete_ns_per_query_including_preparation": 54.3125
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            3114.0,
+            3738.0,
+            3085.0,
+            3091.0,
+            3070.0,
+            3068.0,
+            3068.0,
+            3270.0,
+            2780.0
+          ],
+          "median_complete_ns": 3085.0,
+          "min_complete_ns": 2780.0,
+          "max_complete_ns": 3738.0,
+          "median_complete_ns_per_query_including_preparation": 64.27083333333333
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            883.0,
+            1082.0,
+            901.0,
+            883.0,
+            882.0,
+            879.0,
+            877.0,
+            873.0,
+            843.0
+          ],
+          "median_complete_ns": 882.0,
+          "min_complete_ns": 843.0,
+          "max_complete_ns": 1082.0,
+          "median_complete_ns_per_query_including_preparation": 18.375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            1010.0,
+            1040.0,
+            2453.0,
+            1020.0,
+            1013.0,
+            1029.0,
+            999.0,
+            1085.0,
+            994.0
+          ],
+          "median_complete_ns": 1020.0,
+          "min_complete_ns": 994.0,
+          "max_complete_ns": 2453.0,
+          "median_complete_ns_per_query_including_preparation": 21.25
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            1001.0,
+            1032.0,
+            1019.0,
+            1008.0,
+            1049.0,
+            983.0,
+            1003.0,
+            996.0,
+            1001.0
+          ],
+          "median_complete_ns": 1003.0,
+          "min_complete_ns": 983.0,
+          "max_complete_ns": 1049.0,
+          "median_complete_ns_per_query_including_preparation": 20.895833333333332
+        }
+      }
+    },
+    {
+      "stratum": 0,
+      "n": 4,
+      "family": "first",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            9595.0,
+            9910.0,
+            9475.0,
+            11856.0,
+            10093.0,
+            9555.0,
+            9686.0,
+            10350.0,
+            9618.0
+          ],
+          "median_complete_ns": 9686.0,
+          "min_complete_ns": 9475.0,
+          "max_complete_ns": 11856.0,
+          "median_complete_ns_per_query_including_preparation": 50.447916666666664
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            9700.0,
+            10302.0,
+            10477.0,
+            9687.0,
+            9741.0,
+            9714.0,
+            10418.0,
+            9773.0,
+            9738.0
+          ],
+          "median_complete_ns": 9741.0,
+          "min_complete_ns": 9687.0,
+          "max_complete_ns": 10477.0,
+          "median_complete_ns_per_query_including_preparation": 50.734375
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11527.0,
+            11850.0,
+            11669.0,
+            11673.0,
+            12560.0,
+            11657.0,
+            11623.0,
+            12792.0,
+            11667.0
+          ],
+          "median_complete_ns": 11669.0,
+          "min_complete_ns": 11527.0,
+          "max_complete_ns": 12792.0,
+          "median_complete_ns_per_query_including_preparation": 60.776041666666664
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            2867.0,
+            2702.0,
+            2789.0,
+            2714.0,
+            2711.0,
+            3105.0,
+            2703.0,
+            2703.0,
+            2689.0
+          ],
+          "median_complete_ns": 2711.0,
+          "min_complete_ns": 2689.0,
+          "max_complete_ns": 3105.0,
+          "median_complete_ns_per_query_including_preparation": 14.119791666666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2846.0,
+            3144.0,
+            2933.0,
+            2836.0,
+            2835.0,
+            2828.0,
+            2832.0,
+            2856.0,
+            2816.0
+          ],
+          "median_complete_ns": 2836.0,
+          "min_complete_ns": 2816.0,
+          "max_complete_ns": 3144.0,
+          "median_complete_ns_per_query_including_preparation": 14.770833333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2989.0,
+            2825.0,
+            2847.0,
+            2847.0,
+            3006.0,
+            2836.0,
+            2826.0,
+            2849.0,
+            2846.0
+          ],
+          "median_complete_ns": 2847.0,
+          "min_complete_ns": 2825.0,
+          "max_complete_ns": 3006.0,
+          "median_complete_ns_per_query_including_preparation": 14.828125
+        }
+      }
+    },
+    {
+      "stratum": 0,
+      "n": 4,
+      "family": "first",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            39164.0,
+            38031.0,
+            38315.0,
+            38408.0,
+            39545.0,
+            39251.0,
+            38293.0,
+            43200.0,
+            39167.0
+          ],
+          "median_complete_ns": 39164.0,
+          "min_complete_ns": 38031.0,
+          "max_complete_ns": 43200.0,
+          "median_complete_ns_per_query_including_preparation": 50.994791666666664
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            39541.0,
+            42936.0,
+            38879.0,
+            39617.0,
+            38285.0,
+            38049.0,
+            38987.0,
+            38957.0,
+            37635.0
+          ],
+          "median_complete_ns": 38957.0,
+          "min_complete_ns": 37635.0,
+          "max_complete_ns": 42936.0,
+          "median_complete_ns_per_query_including_preparation": 50.725260416666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            46324.0,
+            49208.0,
+            47740.0,
+            46957.0,
+            46748.0,
+            46278.0,
+            47495.0,
+            47381.0,
+            45930.0
+          ],
+          "median_complete_ns": 46957.0,
+          "min_complete_ns": 45930.0,
+          "max_complete_ns": 49208.0,
+          "median_complete_ns_per_query_including_preparation": 61.141927083333336
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            10315.0,
+            10171.0,
+            10166.0,
+            11660.0,
+            10112.0,
+            10124.0,
+            10214.0,
+            10133.0,
+            10007.0
+          ],
+          "median_complete_ns": 10166.0,
+          "min_complete_ns": 10007.0,
+          "max_complete_ns": 11660.0,
+          "median_complete_ns_per_query_including_preparation": 13.236979166666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            10169.0,
+            10323.0,
+            10629.0,
+            10137.0,
+            11052.0,
+            10117.0,
+            10234.0,
+            10247.0,
+            10643.0
+          ],
+          "median_complete_ns": 10247.0,
+          "min_complete_ns": 10117.0,
+          "max_complete_ns": 11052.0,
+          "median_complete_ns_per_query_including_preparation": 13.342447916666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            10316.0,
+            12561.0,
+            10168.0,
+            10142.0,
+            10118.0,
+            10389.0,
+            10253.0,
+            10268.0,
+            10201.0
+          ],
+          "median_complete_ns": 10253.0,
+          "min_complete_ns": 10118.0,
+          "max_complete_ns": 12561.0,
+          "median_complete_ns_per_query_including_preparation": 13.350260416666666
+        }
+      }
+    },
+    {
+      "stratum": 1,
+      "n": 4,
+      "family": "last",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            146.0,
+            146.0,
+            136.0,
+            136.0,
+            136.0,
+            152.0,
+            135.0,
+            136.0,
+            147.0
+          ],
+          "median_complete_ns": 136.0,
+          "min_complete_ns": 135.0,
+          "max_complete_ns": 152.0,
+          "median_complete_ns_per_query_including_preparation": 136.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            278.0,
+            285.0,
+            278.0,
+            279.0,
+            312.0,
+            286.0,
+            276.0,
+            285.0,
+            276.0
+          ],
+          "median_complete_ns": 279.0,
+          "min_complete_ns": 276.0,
+          "max_complete_ns": 312.0,
+          "median_complete_ns_per_query_including_preparation": 279.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            308.0,
+            302.0,
+            294.0,
+            297.0,
+            298.0,
+            314.0,
+            294.0,
+            298.0,
+            297.0
+          ],
+          "median_complete_ns": 298.0,
+          "min_complete_ns": 294.0,
+          "max_complete_ns": 314.0,
+          "median_complete_ns_per_query_including_preparation": 298.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            269.0,
+            269.0,
+            274.0,
+            271.0,
+            273.0,
+            276.0,
+            272.0,
+            266.0,
+            270.0
+          ],
+          "median_complete_ns": 271.0,
+          "min_complete_ns": 266.0,
+          "max_complete_ns": 276.0,
+          "median_complete_ns_per_query_including_preparation": 271.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            395.0,
+            395.0,
+            393.0,
+            401.0,
+            411.0,
+            418.0,
+            418.0,
+            462.0,
+            405.0
+          ],
+          "median_complete_ns": 405.0,
+          "min_complete_ns": 393.0,
+          "max_complete_ns": 462.0,
+          "median_complete_ns_per_query_including_preparation": 405.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            406.0,
+            406.0,
+            396.0,
+            396.0,
+            400.0,
+            405.0,
+            400.0,
+            400.0,
+            402.0
+          ],
+          "median_complete_ns": 400.0,
+          "min_complete_ns": 396.0,
+          "max_complete_ns": 406.0,
+          "median_complete_ns_per_query_including_preparation": 400.0
+        }
+      }
+    },
+    {
+      "stratum": 1,
+      "n": 4,
+      "family": "last",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            2478.0,
+            2575.0,
+            2460.0,
+            4917.0,
+            2561.0,
+            2482.0,
+            2475.0,
+            2477.0,
+            2472.0
+          ],
+          "median_complete_ns": 2478.0,
+          "min_complete_ns": 2460.0,
+          "max_complete_ns": 4917.0,
+          "median_complete_ns_per_query_including_preparation": 51.625
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            2647.0,
+            2776.0,
+            2628.0,
+            2631.0,
+            2727.0,
+            2680.0,
+            2647.0,
+            2666.0,
+            2757.0
+          ],
+          "median_complete_ns": 2666.0,
+          "min_complete_ns": 2628.0,
+          "max_complete_ns": 2776.0,
+          "median_complete_ns_per_query_including_preparation": 55.541666666666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            3071.0,
+            3217.0,
+            3054.0,
+            3132.0,
+            3093.0,
+            3085.0,
+            3080.0,
+            3077.0,
+            3074.0
+          ],
+          "median_complete_ns": 3080.0,
+          "min_complete_ns": 3054.0,
+          "max_complete_ns": 3217.0,
+          "median_complete_ns_per_query_including_preparation": 64.16666666666667
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            879.0,
+            912.0,
+            882.0,
+            879.0,
+            913.0,
+            880.0,
+            878.0,
+            889.0,
+            877.0
+          ],
+          "median_complete_ns": 880.0,
+          "min_complete_ns": 877.0,
+          "max_complete_ns": 913.0,
+          "median_complete_ns_per_query_including_preparation": 18.333333333333332
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            1010.0,
+            1045.0,
+            1010.0,
+            1012.0,
+            1036.0,
+            1011.0,
+            1005.0,
+            1016.0,
+            1006.0
+          ],
+          "median_complete_ns": 1011.0,
+          "min_complete_ns": 1005.0,
+          "max_complete_ns": 1045.0,
+          "median_complete_ns_per_query_including_preparation": 21.0625
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            1007.0,
+            1089.0,
+            1028.0,
+            1003.0,
+            1030.0,
+            1023.0,
+            1002.0,
+            1014.0,
+            1016.0
+          ],
+          "median_complete_ns": 1016.0,
+          "min_complete_ns": 1002.0,
+          "max_complete_ns": 1089.0,
+          "median_complete_ns_per_query_including_preparation": 21.166666666666668
+        }
+      }
+    },
+    {
+      "stratum": 1,
+      "n": 4,
+      "family": "last",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            9674.0,
+            9727.0,
+            10413.0,
+            9587.0,
+            10113.0,
+            9782.0,
+            10326.0,
+            9559.0,
+            9725.0
+          ],
+          "median_complete_ns": 9727.0,
+          "min_complete_ns": 9559.0,
+          "max_complete_ns": 10413.0,
+          "median_complete_ns_per_query_including_preparation": 50.661458333333336
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            9985.0,
+            10335.0,
+            9783.0,
+            9771.0,
+            9908.0,
+            9880.0,
+            10099.0,
+            9959.0,
+            10768.0
+          ],
+          "median_complete_ns": 9959.0,
+          "min_complete_ns": 9771.0,
+          "max_complete_ns": 10768.0,
+          "median_complete_ns_per_query_including_preparation": 51.869791666666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11628.0,
+            12021.0,
+            11545.0,
+            12475.0,
+            11505.0,
+            11685.0,
+            11657.0,
+            12838.0,
+            11689.0
+          ],
+          "median_complete_ns": 11685.0,
+          "min_complete_ns": 11505.0,
+          "max_complete_ns": 12838.0,
+          "median_complete_ns_per_query_including_preparation": 60.859375
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            2704.0,
+            2712.0,
+            2702.0,
+            2769.0,
+            2709.0,
+            2801.0,
+            2692.0,
+            4182.0,
+            2690.0
+          ],
+          "median_complete_ns": 2709.0,
+          "min_complete_ns": 2690.0,
+          "max_complete_ns": 4182.0,
+          "median_complete_ns_per_query_including_preparation": 14.109375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2831.0,
+            2947.0,
+            2960.0,
+            4178.0,
+            2832.0,
+            2889.0,
+            3373.0,
+            2845.0,
+            2843.0
+          ],
+          "median_complete_ns": 2889.0,
+          "min_complete_ns": 2831.0,
+          "max_complete_ns": 4178.0,
+          "median_complete_ns_per_query_including_preparation": 15.046875
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            3593.0,
+            2958.0,
+            2957.0,
+            2854.0,
+            2868.0,
+            2843.0,
+            2837.0,
+            2844.0,
+            2872.0
+          ],
+          "median_complete_ns": 2868.0,
+          "min_complete_ns": 2837.0,
+          "max_complete_ns": 3593.0,
+          "median_complete_ns_per_query_including_preparation": 14.9375
+        }
+      }
+    },
+    {
+      "stratum": 1,
+      "n": 4,
+      "family": "last",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            38566.0,
+            38405.0,
+            42500.0,
+            39440.0,
+            38409.0,
+            39425.0,
+            38972.0,
+            39875.0,
+            40134.0
+          ],
+          "median_complete_ns": 39425.0,
+          "min_complete_ns": 38405.0,
+          "max_complete_ns": 42500.0,
+          "median_complete_ns_per_query_including_preparation": 51.334635416666664
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            38969.0,
+            38685.0,
+            41555.0,
+            39820.0,
+            38466.0,
+            38956.0,
+            38714.0,
+            39189.0,
+            38978.0
+          ],
+          "median_complete_ns": 38969.0,
+          "min_complete_ns": 38466.0,
+          "max_complete_ns": 41555.0,
+          "median_complete_ns_per_query_including_preparation": 50.740885416666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            46600.0,
+            45917.0,
+            46966.0,
+            46754.0,
+            48775.0,
+            46257.0,
+            47534.0,
+            46352.0,
+            45287.0
+          ],
+          "median_complete_ns": 46600.0,
+          "min_complete_ns": 45287.0,
+          "max_complete_ns": 48775.0,
+          "median_complete_ns_per_query_including_preparation": 60.677083333333336
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            9933.0,
+            9899.0,
+            10105.0,
+            10012.0,
+            9904.0,
+            10000.0,
+            10580.0,
+            9895.0,
+            9900.0
+          ],
+          "median_complete_ns": 9933.0,
+          "min_complete_ns": 9895.0,
+          "max_complete_ns": 10580.0,
+          "median_complete_ns_per_query_including_preparation": 12.93359375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            10003.0,
+            10210.0,
+            10794.0,
+            10127.0,
+            11405.0,
+            10432.0,
+            10222.0,
+            10149.0,
+            10475.0
+          ],
+          "median_complete_ns": 10222.0,
+          "min_complete_ns": 10003.0,
+          "max_complete_ns": 11405.0,
+          "median_complete_ns_per_query_including_preparation": 13.309895833333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            10110.0,
+            10122.0,
+            10766.0,
+            10181.0,
+            10613.0,
+            10475.0,
+            10230.0,
+            10365.0,
+            10163.0
+          ],
+          "median_complete_ns": 10230.0,
+          "min_complete_ns": 10110.0,
+          "max_complete_ns": 10766.0,
+          "median_complete_ns_per_query_including_preparation": 13.3203125
+        }
+      }
+    },
+    {
+      "stratum": 2,
+      "n": 4,
+      "family": "all",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            136.0,
+            136.0,
+            139.0,
+            137.0,
+            148.0,
+            137.0,
+            139.0,
+            137.0,
+            156.0
+          ],
+          "median_complete_ns": 137.0,
+          "min_complete_ns": 136.0,
+          "max_complete_ns": 156.0,
+          "median_complete_ns_per_query_including_preparation": 137.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            274.0,
+            278.0,
+            278.0,
+            279.0,
+            291.0,
+            297.0,
+            279.0,
+            297.0,
+            298.0
+          ],
+          "median_complete_ns": 279.0,
+          "min_complete_ns": 274.0,
+          "max_complete_ns": 298.0,
+          "median_complete_ns_per_query_including_preparation": 279.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            297.0,
+            312.0,
+            304.0,
+            312.0,
+            306.0,
+            308.0,
+            299.0,
+            304.0,
+            307.0
+          ],
+          "median_complete_ns": 306.0,
+          "min_complete_ns": 297.0,
+          "max_complete_ns": 312.0,
+          "median_complete_ns_per_query_including_preparation": 306.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            272.0,
+            271.0,
+            271.0,
+            269.0,
+            272.0,
+            270.0,
+            270.0,
+            268.0,
+            270.0
+          ],
+          "median_complete_ns": 270.0,
+          "min_complete_ns": 268.0,
+          "max_complete_ns": 272.0,
+          "median_complete_ns_per_query_including_preparation": 270.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            401.0,
+            401.0,
+            397.0,
+            395.0,
+            413.0,
+            394.0,
+            399.0,
+            399.0,
+            421.0
+          ],
+          "median_complete_ns": 399.0,
+          "min_complete_ns": 394.0,
+          "max_complete_ns": 421.0,
+          "median_complete_ns_per_query_including_preparation": 399.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            392.0,
+            394.0,
+            394.0,
+            396.0,
+            398.0,
+            405.0,
+            398.0,
+            2277.0,
+            418.0
+          ],
+          "median_complete_ns": 398.0,
+          "min_complete_ns": 392.0,
+          "max_complete_ns": 2277.0,
+          "median_complete_ns_per_query_including_preparation": 398.0
+        }
+      }
+    },
+    {
+      "stratum": 2,
+      "n": 4,
+      "family": "all",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            2526.0,
+            2458.0,
+            2436.0,
+            2445.0,
+            2441.0,
+            2444.0,
+            2449.0,
+            2480.0,
+            2432.0
+          ],
+          "median_complete_ns": 2445.0,
+          "min_complete_ns": 2432.0,
+          "max_complete_ns": 2526.0,
+          "median_complete_ns_per_query_including_preparation": 50.9375
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            2580.0,
+            2572.0,
+            2586.0,
+            3855.0,
+            2627.0,
+            2616.0,
+            2588.0,
+            2583.0,
+            2606.0
+          ],
+          "median_complete_ns": 2588.0,
+          "min_complete_ns": 2572.0,
+          "max_complete_ns": 3855.0,
+          "median_complete_ns_per_query_including_preparation": 53.916666666666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            3154.0,
+            3221.0,
+            3052.0,
+            3066.0,
+            3040.0,
+            3053.0,
+            3064.0,
+            3061.0,
+            3052.0
+          ],
+          "median_complete_ns": 3061.0,
+          "min_complete_ns": 3040.0,
+          "max_complete_ns": 3221.0,
+          "median_complete_ns_per_query_including_preparation": 63.770833333333336
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            898.0,
+            878.0,
+            887.0,
+            870.0,
+            877.0,
+            876.0,
+            878.0,
+            875.0,
+            882.0
+          ],
+          "median_complete_ns": 878.0,
+          "min_complete_ns": 870.0,
+          "max_complete_ns": 898.0,
+          "median_complete_ns_per_query_including_preparation": 18.291666666666668
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            1026.0,
+            1012.0,
+            1020.0,
+            993.0,
+            1002.0,
+            999.0,
+            993.0,
+            1039.0,
+            1005.0
+          ],
+          "median_complete_ns": 1005.0,
+          "min_complete_ns": 993.0,
+          "max_complete_ns": 1039.0,
+          "median_complete_ns_per_query_including_preparation": 20.9375
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            1032.0,
+            1010.0,
+            1003.0,
+            1002.0,
+            1004.0,
+            998.0,
+            998.0,
+            997.0,
+            1002.0
+          ],
+          "median_complete_ns": 1002.0,
+          "min_complete_ns": 997.0,
+          "max_complete_ns": 1032.0,
+          "median_complete_ns_per_query_including_preparation": 20.875
+        }
+      }
+    },
+    {
+      "stratum": 2,
+      "n": 4,
+      "family": "all",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            9734.0,
+            19424.0,
+            9764.0,
+            9430.0,
+            9592.0,
+            9512.0,
+            9679.0,
+            9617.0,
+            9538.0
+          ],
+          "median_complete_ns": 9617.0,
+          "min_complete_ns": 9430.0,
+          "max_complete_ns": 19424.0,
+          "median_complete_ns_per_query_including_preparation": 50.088541666666664
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            9444.0,
+            10494.0,
+            9707.0,
+            10447.0,
+            9732.0,
+            9736.0,
+            9598.0,
+            10954.0,
+            9796.0
+          ],
+          "median_complete_ns": 9736.0,
+          "min_complete_ns": 9444.0,
+          "max_complete_ns": 10954.0,
+          "median_complete_ns_per_query_including_preparation": 50.708333333333336
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11561.0,
+            12326.0,
+            12061.0,
+            11444.0,
+            12816.0,
+            11714.0,
+            12482.0,
+            11783.0,
+            11524.0
+          ],
+          "median_complete_ns": 11783.0,
+          "min_complete_ns": 11444.0,
+          "max_complete_ns": 12816.0,
+          "median_complete_ns_per_query_including_preparation": 61.369791666666664
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            2714.0,
+            2957.0,
+            2714.0,
+            2672.0,
+            2706.0,
+            2704.0,
+            2765.0,
+            2698.0,
+            2689.0
+          ],
+          "median_complete_ns": 2706.0,
+          "min_complete_ns": 2672.0,
+          "max_complete_ns": 2957.0,
+          "median_complete_ns_per_query_including_preparation": 14.09375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2837.0,
+            2857.0,
+            2935.0,
+            2793.0,
+            2834.0,
+            2823.0,
+            2878.0,
+            2846.0,
+            2629.0
+          ],
+          "median_complete_ns": 2837.0,
+          "min_complete_ns": 2629.0,
+          "max_complete_ns": 2935.0,
+          "median_complete_ns_per_query_including_preparation": 14.776041666666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2830.0,
+            2987.0,
+            2914.0,
+            2844.0,
+            2845.0,
+            2826.0,
+            2844.0,
+            2822.0,
+            2730.0
+          ],
+          "median_complete_ns": 2844.0,
+          "min_complete_ns": 2730.0,
+          "max_complete_ns": 2987.0,
+          "median_complete_ns_per_query_including_preparation": 14.8125
+        }
+      }
+    },
+    {
+      "stratum": 2,
+      "n": 4,
+      "family": "all",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            38583.0,
+            38957.0,
+            37660.0,
+            38352.0,
+            37823.0,
+            38623.0,
+            37830.0,
+            38242.0,
+            39193.0
+          ],
+          "median_complete_ns": 38352.0,
+          "min_complete_ns": 37660.0,
+          "max_complete_ns": 39193.0,
+          "median_complete_ns_per_query_including_preparation": 49.9375
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            38030.0,
+            39316.0,
+            37501.0,
+            38064.0,
+            39111.0,
+            41799.0,
+            38030.0,
+            38422.0,
+            38105.0
+          ],
+          "median_complete_ns": 38105.0,
+          "min_complete_ns": 37501.0,
+          "max_complete_ns": 41799.0,
+          "median_complete_ns_per_query_including_preparation": 49.615885416666664
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            46297.0,
+            45920.0,
+            45982.0,
+            46461.0,
+            45569.0,
+            46601.0,
+            47658.0,
+            46836.0,
+            46116.0
+          ],
+          "median_complete_ns": 46297.0,
+          "min_complete_ns": 45569.0,
+          "max_complete_ns": 47658.0,
+          "median_complete_ns_per_query_including_preparation": 60.282552083333336
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            10171.0,
+            10456.0,
+            11473.0,
+            10124.0,
+            9748.0,
+            9999.0,
+            10226.0,
+            10352.0,
+            11337.0
+          ],
+          "median_complete_ns": 10226.0,
+          "min_complete_ns": 9748.0,
+          "max_complete_ns": 11473.0,
+          "median_complete_ns_per_query_including_preparation": 13.315104166666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            9689.0,
+            10561.0,
+            10200.0,
+            10228.0,
+            10323.0,
+            10151.0,
+            11469.0,
+            10732.0,
+            10727.0
+          ],
+          "median_complete_ns": 10323.0,
+          "min_complete_ns": 9689.0,
+          "max_complete_ns": 11469.0,
+          "median_complete_ns_per_query_including_preparation": 13.44140625
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            9906.0,
+            11514.0,
+            10628.0,
+            10190.0,
+            10132.0,
+            10366.0,
+            10136.0,
+            10115.0,
+            10341.0
+          ],
+          "median_complete_ns": 10190.0,
+          "min_complete_ns": 9906.0,
+          "max_complete_ns": 11514.0,
+          "median_complete_ns_per_query_including_preparation": 13.268229166666666
+        }
+      }
+    },
+    {
+      "stratum": 3,
+      "n": 8,
+      "family": "first",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            275.0,
+            265.0,
+            275.0,
+            265.0,
+            275.0,
+            265.0,
+            280.0,
+            285.0,
+            265.0
+          ],
+          "median_complete_ns": 275.0,
+          "min_complete_ns": 265.0,
+          "max_complete_ns": 285.0,
+          "median_complete_ns_per_query_including_preparation": 275.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            595.0,
+            585.0,
+            580.0,
+            590.0,
+            570.0,
+            600.0,
+            580.0,
+            585.0,
+            580.0
+          ],
+          "median_complete_ns": 585.0,
+          "min_complete_ns": 570.0,
+          "max_complete_ns": 600.0,
+          "median_complete_ns_per_query_including_preparation": 585.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            660.0,
+            630.0,
+            655.0,
+            645.0,
+            685.0,
+            640.0,
+            715.0,
+            655.0,
+            655.0
+          ],
+          "median_complete_ns": 655.0,
+          "min_complete_ns": 630.0,
+          "max_complete_ns": 715.0,
+          "median_complete_ns_per_query_including_preparation": 655.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            1080.0,
+            1090.0,
+            1160.0,
+            1090.0,
+            1115.0,
+            1095.0,
+            2000.0,
+            1105.0,
+            1080.0
+          ],
+          "median_complete_ns": 1095.0,
+          "min_complete_ns": 1080.0,
+          "max_complete_ns": 2000.0,
+          "median_complete_ns_per_query_including_preparation": 1095.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            655.0,
+            670.0,
+            690.0,
+            675.0,
+            885.0,
+            670.0,
+            695.0,
+            740.0,
+            670.0
+          ],
+          "median_complete_ns": 675.0,
+          "min_complete_ns": 655.0,
+          "max_complete_ns": 885.0,
+          "median_complete_ns_per_query_including_preparation": 675.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            650.0,
+            705.0,
+            650.0,
+            675.0,
+            655.0,
+            665.0,
+            650.0,
+            665.0,
+            660.0
+          ],
+          "median_complete_ns": 660.0,
+          "min_complete_ns": 650.0,
+          "max_complete_ns": 705.0,
+          "median_complete_ns_per_query_including_preparation": 660.0
+        }
+      }
+    },
+    {
+      "stratum": 3,
+      "n": 8,
+      "family": "first",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            8060.0,
+            8080.0,
+            7575.0,
+            8025.0,
+            7995.0,
+            7995.0,
+            8040.0,
+            7985.0,
+            8050.0
+          ],
+          "median_complete_ns": 8025.0,
+          "min_complete_ns": 7575.0,
+          "max_complete_ns": 8080.0,
+          "median_complete_ns_per_query_including_preparation": 167.1875
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            8570.0,
+            8565.0,
+            8460.0,
+            9255.0,
+            8505.0,
+            8425.0,
+            8475.0,
+            8450.0,
+            8650.0
+          ],
+          "median_complete_ns": 8505.0,
+          "min_complete_ns": 8425.0,
+          "max_complete_ns": 9255.0,
+          "median_complete_ns_per_query_including_preparation": 177.1875
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            10360.0,
+            10900.0,
+            10590.0,
+            10540.0,
+            10505.0,
+            10765.0,
+            10580.0,
+            10380.0,
+            10515.0
+          ],
+          "median_complete_ns": 10540.0,
+          "min_complete_ns": 10360.0,
+          "max_complete_ns": 10900.0,
+          "median_complete_ns_per_query_including_preparation": 219.58333333333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            3300.0,
+            3405.0,
+            3325.0,
+            3370.0,
+            3355.0,
+            3370.0,
+            3310.0,
+            3160.0,
+            3185.0
+          ],
+          "median_complete_ns": 3325.0,
+          "min_complete_ns": 3160.0,
+          "max_complete_ns": 3405.0,
+          "median_complete_ns_per_query_including_preparation": 69.27083333333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2725.0,
+            2845.0,
+            2455.0,
+            3075.0,
+            2755.0,
+            2875.0,
+            2750.0,
+            2755.0,
+            2925.0
+          ],
+          "median_complete_ns": 2755.0,
+          "min_complete_ns": 2455.0,
+          "max_complete_ns": 3075.0,
+          "median_complete_ns_per_query_including_preparation": 57.395833333333336
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2765.0,
+            2935.0,
+            3015.0,
+            2890.0,
+            2830.0,
+            3115.0,
+            2740.0,
+            2720.0,
+            2740.0
+          ],
+          "median_complete_ns": 2830.0,
+          "min_complete_ns": 2720.0,
+          "max_complete_ns": 3115.0,
+          "median_complete_ns_per_query_including_preparation": 58.958333333333336
+        }
+      }
+    },
+    {
+      "stratum": 3,
+      "n": 8,
+      "family": "first",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            31945.0,
+            32195.0,
+            31815.0,
+            31955.0,
+            32075.0,
+            31770.0,
+            34545.0,
+            37855.0,
+            31980.0
+          ],
+          "median_complete_ns": 31980.0,
+          "min_complete_ns": 31770.0,
+          "max_complete_ns": 37855.0,
+          "median_complete_ns_per_query_including_preparation": 166.5625
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            32545.0,
+            32750.0,
+            33060.0,
+            32380.0,
+            32660.0,
+            32440.0,
+            35695.0,
+            32395.0,
+            32395.0
+          ],
+          "median_complete_ns": 32545.0,
+          "min_complete_ns": 32380.0,
+          "max_complete_ns": 35695.0,
+          "median_complete_ns_per_query_including_preparation": 169.50520833333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            40405.0,
+            40830.0,
+            40720.0,
+            40805.0,
+            41455.0,
+            40825.0,
+            46775.0,
+            42920.0,
+            40725.0
+          ],
+          "median_complete_ns": 40825.0,
+          "min_complete_ns": 40405.0,
+          "max_complete_ns": 46775.0,
+          "median_complete_ns_per_query_including_preparation": 212.63020833333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            10220.0,
+            9600.0,
+            8585.0,
+            10260.0,
+            10095.0,
+            10365.0,
+            10000.0,
+            10045.0,
+            9455.0
+          ],
+          "median_complete_ns": 10045.0,
+          "min_complete_ns": 8585.0,
+          "max_complete_ns": 10365.0,
+          "median_complete_ns_per_query_including_preparation": 52.317708333333336
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            9255.0,
+            9200.0,
+            9620.0,
+            9645.0,
+            10210.0,
+            9575.0,
+            9070.0,
+            9505.0,
+            9425.0
+          ],
+          "median_complete_ns": 9505.0,
+          "min_complete_ns": 9070.0,
+          "max_complete_ns": 10210.0,
+          "median_complete_ns_per_query_including_preparation": 49.505208333333336
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            9715.0,
+            9550.0,
+            9105.0,
+            9690.0,
+            9740.0,
+            9715.0,
+            9815.0,
+            9670.0,
+            9265.0
+          ],
+          "median_complete_ns": 9690.0,
+          "min_complete_ns": 9105.0,
+          "max_complete_ns": 9815.0,
+          "median_complete_ns_per_query_including_preparation": 50.46875
+        }
+      }
+    },
+    {
+      "stratum": 3,
+      "n": 8,
+      "family": "first",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            139370.0,
+            135810.0,
+            127605.0,
+            128430.0,
+            126850.0,
+            130100.0,
+            143575.0,
+            131120.0,
+            128135.0
+          ],
+          "median_complete_ns": 130100.0,
+          "min_complete_ns": 126850.0,
+          "max_complete_ns": 143575.0,
+          "median_complete_ns_per_query_including_preparation": 169.40104166666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            130255.0,
+            131870.0,
+            131175.0,
+            143930.0,
+            129000.0,
+            129070.0,
+            132665.0,
+            132690.0,
+            132415.0
+          ],
+          "median_complete_ns": 131870.0,
+          "min_complete_ns": 129000.0,
+          "max_complete_ns": 143930.0,
+          "median_complete_ns_per_query_including_preparation": 171.70572916666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            165135.0,
+            163085.0,
+            166970.0,
+            164765.0,
+            161995.0,
+            163860.0,
+            165425.0,
+            163385.0,
+            169675.0
+          ],
+          "median_complete_ns": 164765.0,
+          "min_complete_ns": 161995.0,
+          "max_complete_ns": 169675.0,
+          "median_complete_ns_per_query_including_preparation": 214.53776041666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            36680.0,
+            33765.0,
+            35845.0,
+            37275.0,
+            37005.0,
+            37145.0,
+            34770.0,
+            37315.0,
+            38025.0
+          ],
+          "median_complete_ns": 37005.0,
+          "min_complete_ns": 33765.0,
+          "max_complete_ns": 38025.0,
+          "median_complete_ns_per_query_including_preparation": 48.18359375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            36325.0,
+            40770.0,
+            37540.0,
+            37620.0,
+            35455.0,
+            34530.0,
+            36585.0,
+            41505.0,
+            36575.0
+          ],
+          "median_complete_ns": 36585.0,
+          "min_complete_ns": 34530.0,
+          "max_complete_ns": 41505.0,
+          "median_complete_ns_per_query_including_preparation": 47.63671875
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            35740.0,
+            35395.0,
+            36420.0,
+            36645.0,
+            37200.0,
+            38420.0,
+            36295.0,
+            37435.0,
+            37560.0
+          ],
+          "median_complete_ns": 36645.0,
+          "min_complete_ns": 35395.0,
+          "max_complete_ns": 38420.0,
+          "median_complete_ns_per_query_including_preparation": 47.71484375
+        }
+      }
+    },
+    {
+      "stratum": 4,
+      "n": 8,
+      "family": "last",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            270.0,
+            280.0,
+            280.0,
+            275.0,
+            275.0,
+            245.0,
+            275.0,
+            265.0,
+            305.0
+          ],
+          "median_complete_ns": 275.0,
+          "min_complete_ns": 245.0,
+          "max_complete_ns": 305.0,
+          "median_complete_ns_per_query_including_preparation": 275.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            560.0,
+            555.0,
+            555.0,
+            555.0,
+            580.0,
+            580.0,
+            575.0,
+            610.0,
+            555.0
+          ],
+          "median_complete_ns": 560.0,
+          "min_complete_ns": 555.0,
+          "max_complete_ns": 610.0,
+          "median_complete_ns_per_query_including_preparation": 560.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            650.0,
+            630.0,
+            650.0,
+            635.0,
+            625.0,
+            590.0,
+            645.0,
+            630.0,
+            635.0
+          ],
+          "median_complete_ns": 635.0,
+          "min_complete_ns": 590.0,
+          "max_complete_ns": 650.0,
+          "median_complete_ns_per_query_including_preparation": 635.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            1060.0,
+            1075.0,
+            1075.0,
+            1070.0,
+            1130.0,
+            1065.0,
+            1090.0,
+            1085.0,
+            1100.0
+          ],
+          "median_complete_ns": 1075.0,
+          "min_complete_ns": 1060.0,
+          "max_complete_ns": 1130.0,
+          "median_complete_ns_per_query_including_preparation": 1075.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            640.0,
+            635.0,
+            700.0,
+            640.0,
+            645.0,
+            570.0,
+            655.0,
+            655.0,
+            720.0
+          ],
+          "median_complete_ns": 645.0,
+          "min_complete_ns": 570.0,
+          "max_complete_ns": 720.0,
+          "median_complete_ns_per_query_including_preparation": 645.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            645.0,
+            640.0,
+            655.0,
+            660.0,
+            645.0,
+            705.0,
+            650.0,
+            645.0,
+            640.0
+          ],
+          "median_complete_ns": 645.0,
+          "min_complete_ns": 640.0,
+          "max_complete_ns": 705.0,
+          "median_complete_ns_per_query_including_preparation": 645.0
+        }
+      }
+    },
+    {
+      "stratum": 4,
+      "n": 8,
+      "family": "last",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            8055.0,
+            8000.0,
+            8025.0,
+            8050.0,
+            8025.0,
+            8015.0,
+            8035.0,
+            8120.0,
+            8020.0
+          ],
+          "median_complete_ns": 8025.0,
+          "min_complete_ns": 8000.0,
+          "max_complete_ns": 8120.0,
+          "median_complete_ns_per_query_including_preparation": 167.1875
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            8400.0,
+            8420.0,
+            9105.0,
+            8450.0,
+            8470.0,
+            8500.0,
+            8450.0,
+            8460.0,
+            8510.0
+          ],
+          "median_complete_ns": 8460.0,
+          "min_complete_ns": 8400.0,
+          "max_complete_ns": 9105.0,
+          "median_complete_ns_per_query_including_preparation": 176.25
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            10565.0,
+            10405.0,
+            10465.0,
+            11020.0,
+            10490.0,
+            10420.0,
+            10400.0,
+            10375.0,
+            10410.0
+          ],
+          "median_complete_ns": 10420.0,
+          "min_complete_ns": 10375.0,
+          "max_complete_ns": 11020.0,
+          "median_complete_ns_per_query_including_preparation": 217.08333333333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            3225.0,
+            3395.0,
+            3270.0,
+            3405.0,
+            3175.0,
+            3265.0,
+            3290.0,
+            3415.0,
+            3350.0
+          ],
+          "median_complete_ns": 3290.0,
+          "min_complete_ns": 3175.0,
+          "max_complete_ns": 3415.0,
+          "median_complete_ns_per_query_including_preparation": 68.54166666666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2830.0,
+            2770.0,
+            2760.0,
+            3375.0,
+            2775.0,
+            2730.0,
+            2770.0,
+            2855.0,
+            3565.0
+          ],
+          "median_complete_ns": 2775.0,
+          "min_complete_ns": 2730.0,
+          "max_complete_ns": 3565.0,
+          "median_complete_ns_per_query_including_preparation": 57.8125
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2765.0,
+            2870.0,
+            2880.0,
+            2730.0,
+            2765.0,
+            2775.0,
+            2730.0,
+            2715.0,
+            2820.0
+          ],
+          "median_complete_ns": 2765.0,
+          "min_complete_ns": 2715.0,
+          "max_complete_ns": 2880.0,
+          "median_complete_ns_per_query_including_preparation": 57.604166666666664
+        }
+      }
+    },
+    {
+      "stratum": 4,
+      "n": 8,
+      "family": "last",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            34945.0,
+            31750.0,
+            32225.0,
+            32255.0,
+            33060.0,
+            32035.0,
+            31880.0,
+            31605.0,
+            33215.0
+          ],
+          "median_complete_ns": 32225.0,
+          "min_complete_ns": 31605.0,
+          "max_complete_ns": 34945.0,
+          "median_complete_ns_per_query_including_preparation": 167.83854166666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            35100.0,
+            32725.0,
+            32525.0,
+            32555.0,
+            31960.0,
+            32460.0,
+            36780.0,
+            32430.0,
+            33220.0
+          ],
+          "median_complete_ns": 32555.0,
+          "min_complete_ns": 31960.0,
+          "max_complete_ns": 36780.0,
+          "median_complete_ns_per_query_including_preparation": 169.55729166666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            41585.0,
+            40900.0,
+            51150.0,
+            40315.0,
+            40320.0,
+            41800.0,
+            40370.0,
+            40655.0,
+            46190.0
+          ],
+          "median_complete_ns": 40900.0,
+          "min_complete_ns": 40315.0,
+          "max_complete_ns": 51150.0,
+          "median_complete_ns_per_query_including_preparation": 213.02083333333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            10370.0,
+            9535.0,
+            9705.0,
+            9705.0,
+            10115.0,
+            10255.0,
+            11625.0,
+            12250.0,
+            10185.0
+          ],
+          "median_complete_ns": 10185.0,
+          "min_complete_ns": 9535.0,
+          "max_complete_ns": 12250.0,
+          "median_complete_ns_per_query_including_preparation": 53.046875
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            9715.0,
+            9315.0,
+            9525.0,
+            9765.0,
+            9055.0,
+            9475.0,
+            9490.0,
+            10115.0,
+            15720.0
+          ],
+          "median_complete_ns": 9525.0,
+          "min_complete_ns": 9055.0,
+          "max_complete_ns": 15720.0,
+          "median_complete_ns_per_query_including_preparation": 49.609375
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            9660.0,
+            9700.0,
+            9360.0,
+            9605.0,
+            9695.0,
+            9495.0,
+            9450.0,
+            9325.0,
+            9410.0
+          ],
+          "median_complete_ns": 9495.0,
+          "min_complete_ns": 9325.0,
+          "max_complete_ns": 9700.0,
+          "median_complete_ns_per_query_including_preparation": 49.453125
+        }
+      }
+    },
+    {
+      "stratum": 4,
+      "n": 8,
+      "family": "last",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            135285.0,
+            127190.0,
+            129570.0,
+            130375.0,
+            127965.0,
+            134475.0,
+            126890.0,
+            130965.0,
+            130150.0
+          ],
+          "median_complete_ns": 130150.0,
+          "min_complete_ns": 126890.0,
+          "max_complete_ns": 135285.0,
+          "median_complete_ns_per_query_including_preparation": 169.46614583333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            135370.0,
+            130250.0,
+            128910.0,
+            129700.0,
+            128945.0,
+            130745.0,
+            131590.0,
+            133700.0,
+            131805.0
+          ],
+          "median_complete_ns": 130745.0,
+          "min_complete_ns": 128910.0,
+          "max_complete_ns": 135370.0,
+          "median_complete_ns_per_query_including_preparation": 170.24088541666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            162600.0,
+            211105.0,
+            166550.0,
+            162075.0,
+            167775.0,
+            160745.0,
+            163275.0,
+            161385.0,
+            161500.0
+          ],
+          "median_complete_ns": 162600.0,
+          "min_complete_ns": 160745.0,
+          "max_complete_ns": 211105.0,
+          "median_complete_ns_per_query_including_preparation": 211.71875
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            35370.0,
+            36365.0,
+            37375.0,
+            36845.0,
+            37350.0,
+            38610.0,
+            37355.0,
+            39545.0,
+            37040.0
+          ],
+          "median_complete_ns": 37350.0,
+          "min_complete_ns": 35370.0,
+          "max_complete_ns": 39545.0,
+          "median_complete_ns_per_query_including_preparation": 48.6328125
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            34595.0,
+            40125.0,
+            39020.0,
+            36370.0,
+            36230.0,
+            36670.0,
+            36670.0,
+            39815.0,
+            36575.0
+          ],
+          "median_complete_ns": 36670.0,
+          "min_complete_ns": 34595.0,
+          "max_complete_ns": 40125.0,
+          "median_complete_ns_per_query_including_preparation": 47.747395833333336
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            36815.0,
+            36545.0,
+            35555.0,
+            37130.0,
+            35035.0,
+            35300.0,
+            36085.0,
+            44060.0,
+            36075.0
+          ],
+          "median_complete_ns": 36085.0,
+          "min_complete_ns": 35035.0,
+          "max_complete_ns": 44060.0,
+          "median_complete_ns_per_query_including_preparation": 46.985677083333336
+        }
+      }
+    },
+    {
+      "stratum": 5,
+      "n": 8,
+      "family": "all",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            275.0,
+            270.0,
+            270.0,
+            280.0,
+            275.0,
+            280.0,
+            285.0,
+            270.0,
+            265.0
+          ],
+          "median_complete_ns": 275.0,
+          "min_complete_ns": 265.0,
+          "max_complete_ns": 285.0,
+          "median_complete_ns_per_query_including_preparation": 275.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            555.0,
+            540.0,
+            550.0,
+            560.0,
+            550.0,
+            565.0,
+            555.0,
+            585.0,
+            550.0
+          ],
+          "median_complete_ns": 555.0,
+          "min_complete_ns": 540.0,
+          "max_complete_ns": 585.0,
+          "median_complete_ns_per_query_including_preparation": 555.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            665.0,
+            630.0,
+            605.0,
+            610.0,
+            630.0,
+            630.0,
+            610.0,
+            605.0,
+            620.0
+          ],
+          "median_complete_ns": 620.0,
+          "min_complete_ns": 605.0,
+          "max_complete_ns": 665.0,
+          "median_complete_ns_per_query_including_preparation": 620.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            1080.0,
+            1045.0,
+            1050.0,
+            1090.0,
+            1040.0,
+            1110.0,
+            1040.0,
+            1100.0,
+            1045.0
+          ],
+          "median_complete_ns": 1050.0,
+          "min_complete_ns": 1040.0,
+          "max_complete_ns": 1110.0,
+          "median_complete_ns_per_query_including_preparation": 1050.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            660.0,
+            680.0,
+            630.0,
+            655.0,
+            630.0,
+            640.0,
+            625.0,
+            780.0,
+            640.0
+          ],
+          "median_complete_ns": 640.0,
+          "min_complete_ns": 625.0,
+          "max_complete_ns": 780.0,
+          "median_complete_ns_per_query_including_preparation": 640.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            625.0,
+            660.0,
+            655.0,
+            630.0,
+            640.0,
+            635.0,
+            615.0,
+            625.0,
+            635.0
+          ],
+          "median_complete_ns": 635.0,
+          "min_complete_ns": 615.0,
+          "max_complete_ns": 660.0,
+          "median_complete_ns_per_query_including_preparation": 635.0
+        }
+      }
+    },
+    {
+      "stratum": 5,
+      "n": 8,
+      "family": "all",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            7865.0,
+            7935.0,
+            7900.0,
+            7885.0,
+            7875.0,
+            7910.0,
+            7925.0,
+            11620.0,
+            7855.0
+          ],
+          "median_complete_ns": 7900.0,
+          "min_complete_ns": 7855.0,
+          "max_complete_ns": 11620.0,
+          "median_complete_ns_per_query_including_preparation": 164.58333333333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            8240.0,
+            8415.0,
+            8310.0,
+            8325.0,
+            8240.0,
+            8305.0,
+            9025.0,
+            9530.0,
+            8295.0
+          ],
+          "median_complete_ns": 8310.0,
+          "min_complete_ns": 8240.0,
+          "max_complete_ns": 9530.0,
+          "median_complete_ns_per_query_including_preparation": 173.125
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11075.0,
+            10350.0,
+            10250.0,
+            10275.0,
+            10385.0,
+            10750.0,
+            10250.0,
+            10270.0,
+            12150.0
+          ],
+          "median_complete_ns": 10350.0,
+          "min_complete_ns": 10250.0,
+          "max_complete_ns": 12150.0,
+          "median_complete_ns_per_query_including_preparation": 215.625
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            3155.0,
+            3165.0,
+            3340.0,
+            3145.0,
+            3305.0,
+            3195.0,
+            3355.0,
+            3220.0,
+            3335.0
+          ],
+          "median_complete_ns": 3220.0,
+          "min_complete_ns": 3145.0,
+          "max_complete_ns": 3355.0,
+          "median_complete_ns_per_query_including_preparation": 67.08333333333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2745.0,
+            2730.0,
+            2710.0,
+            2810.0,
+            2680.0,
+            2925.0,
+            2790.0,
+            2940.0,
+            2720.0
+          ],
+          "median_complete_ns": 2745.0,
+          "min_complete_ns": 2680.0,
+          "max_complete_ns": 2940.0,
+          "median_complete_ns_per_query_including_preparation": 57.1875
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2850.0,
+            2745.0,
+            2805.0,
+            2960.0,
+            2805.0,
+            2725.0,
+            2775.0,
+            2775.0,
+            2700.0
+          ],
+          "median_complete_ns": 2775.0,
+          "min_complete_ns": 2700.0,
+          "max_complete_ns": 2960.0,
+          "median_complete_ns_per_query_including_preparation": 57.8125
+        }
+      }
+    },
+    {
+      "stratum": 5,
+      "n": 8,
+      "family": "all",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            31100.0,
+            30920.0,
+            34860.0,
+            32415.0,
+            30740.0,
+            31035.0,
+            31670.0,
+            31690.0,
+            31125.0
+          ],
+          "median_complete_ns": 31125.0,
+          "min_complete_ns": 30740.0,
+          "max_complete_ns": 34860.0,
+          "median_complete_ns_per_query_including_preparation": 162.109375
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            32480.0,
+            31980.0,
+            31975.0,
+            33150.0,
+            31575.0,
+            32750.0,
+            32570.0,
+            32410.0,
+            31780.0
+          ],
+          "median_complete_ns": 32410.0,
+          "min_complete_ns": 31575.0,
+          "max_complete_ns": 33150.0,
+          "median_complete_ns_per_query_including_preparation": 168.80208333333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            40660.0,
+            39795.0,
+            39745.0,
+            40535.0,
+            40440.0,
+            39770.0,
+            39655.0,
+            39770.0,
+            39915.0
+          ],
+          "median_complete_ns": 39795.0,
+          "min_complete_ns": 39655.0,
+          "max_complete_ns": 40660.0,
+          "median_complete_ns_per_query_including_preparation": 207.265625
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            9515.0,
+            9680.0,
+            10140.0,
+            9920.0,
+            11095.0,
+            9610.0,
+            9540.0,
+            10080.0,
+            9610.0
+          ],
+          "median_complete_ns": 9680.0,
+          "min_complete_ns": 9515.0,
+          "max_complete_ns": 11095.0,
+          "median_complete_ns_per_query_including_preparation": 50.416666666666664
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            9725.0,
+            9710.0,
+            9640.0,
+            9575.0,
+            9525.0,
+            9580.0,
+            9610.0,
+            9255.0,
+            9640.0
+          ],
+          "median_complete_ns": 9610.0,
+          "min_complete_ns": 9255.0,
+          "max_complete_ns": 9725.0,
+          "median_complete_ns_per_query_including_preparation": 50.052083333333336
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            9590.0,
+            9375.0,
+            9280.0,
+            9765.0,
+            9350.0,
+            9865.0,
+            9555.0,
+            9575.0,
+            9305.0
+          ],
+          "median_complete_ns": 9555.0,
+          "min_complete_ns": 9280.0,
+          "max_complete_ns": 9865.0,
+          "median_complete_ns_per_query_including_preparation": 49.765625
+        }
+      }
+    },
+    {
+      "stratum": 5,
+      "n": 8,
+      "family": "all",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            129425.0,
+            135255.0,
+            126575.0,
+            123545.0,
+            133575.0,
+            124340.0,
+            127590.0,
+            125375.0,
+            124415.0
+          ],
+          "median_complete_ns": 126575.0,
+          "min_complete_ns": 123545.0,
+          "max_complete_ns": 135255.0,
+          "median_complete_ns_per_query_including_preparation": 164.81119791666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            128515.0,
+            124900.0,
+            127410.0,
+            126905.0,
+            126435.0,
+            128445.0,
+            141435.0,
+            130075.0,
+            126725.0
+          ],
+          "median_complete_ns": 127410.0,
+          "min_complete_ns": 124900.0,
+          "max_complete_ns": 141435.0,
+          "median_complete_ns_per_query_including_preparation": 165.8984375
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            158780.0,
+            166455.0,
+            161110.0,
+            158090.0,
+            159240.0,
+            162955.0,
+            157840.0,
+            159180.0,
+            166695.0
+          ],
+          "median_complete_ns": 159240.0,
+          "min_complete_ns": 157840.0,
+          "max_complete_ns": 166695.0,
+          "median_complete_ns_per_query_including_preparation": 207.34375
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            37145.0,
+            39045.0,
+            35185.0,
+            38475.0,
+            37540.0,
+            36695.0,
+            36985.0,
+            36900.0,
+            43175.0
+          ],
+          "median_complete_ns": 37145.0,
+          "min_complete_ns": 35185.0,
+          "max_complete_ns": 43175.0,
+          "median_complete_ns_per_query_including_preparation": 48.365885416666664
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            36785.0,
+            34560.0,
+            36640.0,
+            35820.0,
+            34970.0,
+            36530.0,
+            34480.0,
+            38270.0,
+            36065.0
+          ],
+          "median_complete_ns": 36065.0,
+          "min_complete_ns": 34480.0,
+          "max_complete_ns": 38270.0,
+          "median_complete_ns_per_query_including_preparation": 46.959635416666664
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            36495.0,
+            36125.0,
+            39735.0,
+            34840.0,
+            36695.0,
+            36415.0,
+            39375.0,
+            43860.0,
+            37680.0
+          ],
+          "median_complete_ns": 36695.0,
+          "min_complete_ns": 34840.0,
+          "max_complete_ns": 43860.0,
+          "median_complete_ns_per_query_including_preparation": 47.779947916666664
+        }
+      }
+    },
+    {
+      "stratum": 6,
+      "n": 16,
+      "family": "first",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            1160.0,
+            900.0,
+            840.0,
+            900.0,
+            880.0,
+            840.0,
+            840.0,
+            1520.0,
+            860.0
+          ],
+          "median_complete_ns": 880.0,
+          "min_complete_ns": 840.0,
+          "max_complete_ns": 1520.0,
+          "median_complete_ns_per_query_including_preparation": 880.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            2060.0,
+            2180.0,
+            2720.0,
+            1960.0,
+            1900.0,
+            1900.0,
+            1920.0,
+            3300.0,
+            2220.0
+          ],
+          "median_complete_ns": 2060.0,
+          "min_complete_ns": 1900.0,
+          "max_complete_ns": 3300.0,
+          "median_complete_ns_per_query_including_preparation": 2060.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2500.0,
+            2480.0,
+            2360.0,
+            2200.0,
+            2220.0,
+            2300.0,
+            2440.0,
+            3500.0,
+            2260.0
+          ],
+          "median_complete_ns": 2360.0,
+          "min_complete_ns": 2200.0,
+          "max_complete_ns": 3500.0,
+          "median_complete_ns_per_query_including_preparation": 2360.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            15020.0,
+            15860.0,
+            14780.0,
+            14680.0,
+            14780.0,
+            14920.0,
+            14740.0,
+            26380.0,
+            15240.0
+          ],
+          "median_complete_ns": 14920.0,
+          "min_complete_ns": 14680.0,
+          "max_complete_ns": 26380.0,
+          "median_complete_ns_per_query_including_preparation": 14920.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2080.0,
+            2160.0,
+            2260.0,
+            1920.0,
+            1880.0,
+            1860.0,
+            2060.0,
+            2740.0,
+            1860.0
+          ],
+          "median_complete_ns": 2060.0,
+          "min_complete_ns": 1860.0,
+          "max_complete_ns": 2740.0,
+          "median_complete_ns_per_query_including_preparation": 2060.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2560.0,
+            2120.0,
+            2060.0,
+            1940.0,
+            1880.0,
+            1880.0,
+            2400.0,
+            3260.0,
+            2440.0
+          ],
+          "median_complete_ns": 2120.0,
+          "min_complete_ns": 1880.0,
+          "max_complete_ns": 3260.0,
+          "median_complete_ns_per_query_including_preparation": 2120.0
+        }
+      }
+    },
+    {
+      "stratum": 6,
+      "n": 16,
+      "family": "first",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            29160.0,
+            29260.0,
+            28900.0,
+            28820.0,
+            28780.0,
+            32040.0,
+            28980.0,
+            47180.0,
+            28940.0
+          ],
+          "median_complete_ns": 28980.0,
+          "min_complete_ns": 28780.0,
+          "max_complete_ns": 47180.0,
+          "median_complete_ns_per_query_including_preparation": 603.75
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            31220.0,
+            32800.0,
+            31220.0,
+            31240.0,
+            31160.0,
+            31340.0,
+            31760.0,
+            39200.0,
+            39260.0
+          ],
+          "median_complete_ns": 31340.0,
+          "min_complete_ns": 31160.0,
+          "max_complete_ns": 39260.0,
+          "median_complete_ns_per_query_including_preparation": 652.9166666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            46780.0,
+            39560.0,
+            39740.0,
+            43140.0,
+            39660.0,
+            39980.0,
+            39620.0,
+            39340.0,
+            40640.0
+          ],
+          "median_complete_ns": 39740.0,
+          "min_complete_ns": 39340.0,
+          "max_complete_ns": 46780.0,
+          "median_complete_ns_per_query_including_preparation": 827.9166666666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            23220.0,
+            23240.0,
+            23480.0,
+            23280.0,
+            22760.0,
+            27360.0,
+            22900.0,
+            22880.0,
+            23080.0
+          ],
+          "median_complete_ns": 23220.0,
+          "min_complete_ns": 22760.0,
+          "max_complete_ns": 27360.0,
+          "median_complete_ns_per_query_including_preparation": 483.75
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            10360.0,
+            10400.0,
+            10500.0,
+            10380.0,
+            10100.0,
+            10600.0,
+            10380.0,
+            10260.0,
+            10380.0
+          ],
+          "median_complete_ns": 10380.0,
+          "min_complete_ns": 10100.0,
+          "max_complete_ns": 10600.0,
+          "median_complete_ns_per_query_including_preparation": 216.25
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            10300.0,
+            10260.0,
+            10300.0,
+            10200.0,
+            10180.0,
+            11440.0,
+            10220.0,
+            10100.0,
+            11180.0
+          ],
+          "median_complete_ns": 10260.0,
+          "min_complete_ns": 10100.0,
+          "max_complete_ns": 11440.0,
+          "median_complete_ns_per_query_including_preparation": 213.75
+        }
+      }
+    },
+    {
+      "stratum": 6,
+      "n": 16,
+      "family": "first",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            115320.0,
+            114680.0,
+            125660.0,
+            114740.0,
+            114360.0,
+            115140.0,
+            114920.0,
+            126200.0,
+            115020.0
+          ],
+          "median_complete_ns": 115020.0,
+          "min_complete_ns": 114360.0,
+          "max_complete_ns": 126200.0,
+          "median_complete_ns_per_query_including_preparation": 599.0625
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            130640.0,
+            130400.0,
+            127140.0,
+            121660.0,
+            149000.0,
+            130160.0,
+            120460.0,
+            143800.0,
+            120960.0
+          ],
+          "median_complete_ns": 130160.0,
+          "min_complete_ns": 120460.0,
+          "max_complete_ns": 149000.0,
+          "median_complete_ns_per_query_including_preparation": 677.9166666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            153660.0,
+            161200.0,
+            154260.0,
+            156260.0,
+            153080.0,
+            153960.0,
+            154760.0,
+            157260.0,
+            153880.0
+          ],
+          "median_complete_ns": 154260.0,
+          "min_complete_ns": 153080.0,
+          "max_complete_ns": 161200.0,
+          "median_complete_ns_per_query_including_preparation": 803.4375
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            48500.0,
+            52240.0,
+            48220.0,
+            48720.0,
+            49500.0,
+            48700.0,
+            48420.0,
+            48060.0,
+            48860.0
+          ],
+          "median_complete_ns": 48700.0,
+          "min_complete_ns": 48060.0,
+          "max_complete_ns": 52240.0,
+          "median_complete_ns_per_query_including_preparation": 253.64583333333334
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            35700.0,
+            38400.0,
+            35540.0,
+            35680.0,
+            36740.0,
+            35800.0,
+            35760.0,
+            35380.0,
+            37460.0
+          ],
+          "median_complete_ns": 35760.0,
+          "min_complete_ns": 35380.0,
+          "max_complete_ns": 38400.0,
+          "median_complete_ns_per_query_including_preparation": 186.25
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            36540.0,
+            38480.0,
+            35380.0,
+            39020.0,
+            35960.0,
+            35440.0,
+            35500.0,
+            35460.0,
+            35400.0
+          ],
+          "median_complete_ns": 35500.0,
+          "min_complete_ns": 35380.0,
+          "max_complete_ns": 39020.0,
+          "median_complete_ns_per_query_including_preparation": 184.89583333333334
+        }
+      }
+    },
+    {
+      "stratum": 6,
+      "n": 16,
+      "family": "first",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            471860.0,
+            491040.0,
+            469600.0,
+            462280.0,
+            461420.0,
+            464520.0,
+            463360.0,
+            478160.0,
+            480320.0
+          ],
+          "median_complete_ns": 469600.0,
+          "min_complete_ns": 461420.0,
+          "max_complete_ns": 491040.0,
+          "median_complete_ns_per_query_including_preparation": 611.4583333333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            480540.0,
+            516520.0,
+            481680.0,
+            481140.0,
+            486940.0,
+            491000.0,
+            499800.0,
+            483860.0,
+            480860.0
+          ],
+          "median_complete_ns": 483860.0,
+          "min_complete_ns": 480540.0,
+          "max_complete_ns": 516520.0,
+          "median_complete_ns_per_query_including_preparation": 630.0260416666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            661840.0,
+            674860.0,
+            613560.0,
+            627740.0,
+            607240.0,
+            610660.0,
+            610260.0,
+            633880.0,
+            617440.0
+          ],
+          "median_complete_ns": 617440.0,
+          "min_complete_ns": 607240.0,
+          "max_complete_ns": 674860.0,
+          "median_complete_ns_per_query_including_preparation": 803.9583333333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            168420.0,
+            168260.0,
+            152020.0,
+            164720.0,
+            149940.0,
+            153980.0,
+            151980.0,
+            164200.0,
+            150200.0
+          ],
+          "median_complete_ns": 153980.0,
+          "min_complete_ns": 149940.0,
+          "max_complete_ns": 168420.0,
+          "median_complete_ns_per_query_including_preparation": 200.49479166666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            143760.0,
+            148120.0,
+            137220.0,
+            138160.0,
+            136040.0,
+            137040.0,
+            168740.0,
+            139500.0,
+            146800.0
+          ],
+          "median_complete_ns": 139500.0,
+          "min_complete_ns": 136040.0,
+          "max_complete_ns": 168740.0,
+          "median_complete_ns_per_query_including_preparation": 181.640625
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            137760.0,
+            153260.0,
+            136420.0,
+            137980.0,
+            136360.0,
+            137600.0,
+            137160.0,
+            136720.0,
+            138660.0
+          ],
+          "median_complete_ns": 137600.0,
+          "min_complete_ns": 136360.0,
+          "max_complete_ns": 153260.0,
+          "median_complete_ns_per_query_including_preparation": 179.16666666666666
+        }
+      }
+    },
+    {
+      "stratum": 7,
+      "n": 16,
+      "family": "last",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            900.0,
+            860.0,
+            820.0,
+            840.0,
+            920.0,
+            920.0,
+            940.0,
+            800.0,
+            1000.0
+          ],
+          "median_complete_ns": 900.0,
+          "min_complete_ns": 800.0,
+          "max_complete_ns": 1000.0,
+          "median_complete_ns_per_query_including_preparation": 900.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            1980.0,
+            2740.0,
+            1960.0,
+            1940.0,
+            1860.0,
+            1860.0,
+            3300.0,
+            1840.0,
+            2060.0
+          ],
+          "median_complete_ns": 1960.0,
+          "min_complete_ns": 1840.0,
+          "max_complete_ns": 3300.0,
+          "median_complete_ns_per_query_including_preparation": 1960.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2660.0,
+            2300.0,
+            2500.0,
+            2180.0,
+            2280.0,
+            2300.0,
+            2180.0,
+            2180.0,
+            2220.0
+          ],
+          "median_complete_ns": 2280.0,
+          "min_complete_ns": 2180.0,
+          "max_complete_ns": 2660.0,
+          "median_complete_ns_per_query_including_preparation": 2280.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            14800.0,
+            14780.0,
+            14700.0,
+            14540.0,
+            14740.0,
+            14800.0,
+            15200.0,
+            14560.0,
+            14680.0
+          ],
+          "median_complete_ns": 14740.0,
+          "min_complete_ns": 14540.0,
+          "max_complete_ns": 15200.0,
+          "median_complete_ns_per_query_including_preparation": 14740.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2720.0,
+            1960.0,
+            2000.0,
+            1880.0,
+            1900.0,
+            1900.0,
+            2040.0,
+            1800.0,
+            1800.0
+          ],
+          "median_complete_ns": 1900.0,
+          "min_complete_ns": 1800.0,
+          "max_complete_ns": 2720.0,
+          "median_complete_ns_per_query_including_preparation": 1900.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2000.0,
+            2340.0,
+            1940.0,
+            1860.0,
+            2840.0,
+            1880.0,
+            7360.0,
+            1820.0,
+            1800.0
+          ],
+          "median_complete_ns": 1940.0,
+          "min_complete_ns": 1800.0,
+          "max_complete_ns": 7360.0,
+          "median_complete_ns_per_query_including_preparation": 1940.0
+        }
+      }
+    },
+    {
+      "stratum": 7,
+      "n": 16,
+      "family": "last",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            29340.0,
+            29120.0,
+            28760.0,
+            29100.0,
+            28900.0,
+            28940.0,
+            28700.0,
+            29040.0,
+            28780.0
+          ],
+          "median_complete_ns": 28940.0,
+          "min_complete_ns": 28700.0,
+          "max_complete_ns": 29340.0,
+          "median_complete_ns_per_query_including_preparation": 602.9166666666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            31200.0,
+            38420.0,
+            31100.0,
+            31780.0,
+            31580.0,
+            31380.0,
+            31000.0,
+            31480.0,
+            30920.0
+          ],
+          "median_complete_ns": 31380.0,
+          "min_complete_ns": 30920.0,
+          "max_complete_ns": 38420.0,
+          "median_complete_ns_per_query_including_preparation": 653.75
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            39980.0,
+            39720.0,
+            39860.0,
+            39420.0,
+            39480.0,
+            39520.0,
+            39420.0,
+            39280.0,
+            39380.0
+          ],
+          "median_complete_ns": 39480.0,
+          "min_complete_ns": 39280.0,
+          "max_complete_ns": 39980.0,
+          "median_complete_ns_per_query_including_preparation": 822.5
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            23080.0,
+            23240.0,
+            22840.0,
+            23040.0,
+            23100.0,
+            22740.0,
+            22840.0,
+            23040.0,
+            22920.0
+          ],
+          "median_complete_ns": 23040.0,
+          "min_complete_ns": 22740.0,
+          "max_complete_ns": 23240.0,
+          "median_complete_ns_per_query_including_preparation": 480.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            10320.0,
+            10960.0,
+            10140.0,
+            10180.0,
+            11020.0,
+            10100.0,
+            15440.0,
+            11220.0,
+            10120.0
+          ],
+          "median_complete_ns": 10320.0,
+          "min_complete_ns": 10100.0,
+          "max_complete_ns": 15440.0,
+          "median_complete_ns_per_query_including_preparation": 215.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            10280.0,
+            10280.0,
+            10220.0,
+            10420.0,
+            10220.0,
+            10100.0,
+            12440.0,
+            10120.0,
+            10120.0
+          ],
+          "median_complete_ns": 10220.0,
+          "min_complete_ns": 10100.0,
+          "max_complete_ns": 12440.0,
+          "median_complete_ns_per_query_including_preparation": 212.91666666666666
+        }
+      }
+    },
+    {
+      "stratum": 7,
+      "n": 16,
+      "family": "last",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            115220.0,
+            115440.0,
+            137880.0,
+            115420.0,
+            114920.0,
+            119080.0,
+            114720.0,
+            118500.0,
+            115200.0
+          ],
+          "median_complete_ns": 115420.0,
+          "min_complete_ns": 114720.0,
+          "max_complete_ns": 137880.0,
+          "median_complete_ns_per_query_including_preparation": 601.1458333333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            120520.0,
+            133340.0,
+            126940.0,
+            139640.0,
+            120680.0,
+            133680.0,
+            122180.0,
+            120500.0,
+            120640.0
+          ],
+          "median_complete_ns": 122180.0,
+          "min_complete_ns": 120500.0,
+          "max_complete_ns": 139640.0,
+          "median_complete_ns_per_query_including_preparation": 636.3541666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            157840.0,
+            157280.0,
+            156040.0,
+            155900.0,
+            153880.0,
+            159460.0,
+            154260.0,
+            155640.0,
+            155140.0
+          ],
+          "median_complete_ns": 155900.0,
+          "min_complete_ns": 153880.0,
+          "max_complete_ns": 159460.0,
+          "median_complete_ns_per_query_including_preparation": 811.9791666666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            52480.0,
+            49760.0,
+            47920.0,
+            48560.0,
+            48580.0,
+            48320.0,
+            53660.0,
+            48460.0,
+            48280.0
+          ],
+          "median_complete_ns": 48560.0,
+          "min_complete_ns": 47920.0,
+          "max_complete_ns": 53660.0,
+          "median_complete_ns_per_query_including_preparation": 252.91666666666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            35860.0,
+            35800.0,
+            36240.0,
+            35740.0,
+            35640.0,
+            35720.0,
+            39100.0,
+            35380.0,
+            35540.0
+          ],
+          "median_complete_ns": 35740.0,
+          "min_complete_ns": 35380.0,
+          "max_complete_ns": 39100.0,
+          "median_complete_ns_per_query_including_preparation": 186.14583333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            35680.0,
+            35200.0,
+            40920.0,
+            35680.0,
+            38380.0,
+            39520.0,
+            35800.0,
+            35760.0,
+            37360.0
+          ],
+          "median_complete_ns": 35800.0,
+          "min_complete_ns": 35200.0,
+          "max_complete_ns": 40920.0,
+          "median_complete_ns_per_query_including_preparation": 186.45833333333334
+        }
+      }
+    },
+    {
+      "stratum": 7,
+      "n": 16,
+      "family": "last",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            473280.0,
+            464360.0,
+            472280.0,
+            462160.0,
+            507100.0,
+            476820.0,
+            442200.0,
+            457660.0,
+            499140.0
+          ],
+          "median_complete_ns": 472280.0,
+          "min_complete_ns": 442200.0,
+          "max_complete_ns": 507100.0,
+          "median_complete_ns_per_query_including_preparation": 614.9479166666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            479400.0,
+            490720.0,
+            485960.0,
+            481060.0,
+            487420.0,
+            494320.0,
+            485540.0,
+            482300.0,
+            549600.0
+          ],
+          "median_complete_ns": 485960.0,
+          "min_complete_ns": 479400.0,
+          "max_complete_ns": 549600.0,
+          "median_complete_ns_per_query_including_preparation": 632.7604166666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            649520.0,
+            613900.0,
+            614720.0,
+            616660.0,
+            626580.0,
+            619680.0,
+            618920.0,
+            657880.0,
+            627700.0
+          ],
+          "median_complete_ns": 619680.0,
+          "min_complete_ns": 613900.0,
+          "max_complete_ns": 657880.0,
+          "median_complete_ns_per_query_including_preparation": 806.875
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            150420.0,
+            150380.0,
+            148520.0,
+            179860.0,
+            162160.0,
+            159500.0,
+            149440.0,
+            182520.0,
+            149420.0
+          ],
+          "median_complete_ns": 150420.0,
+          "min_complete_ns": 148520.0,
+          "max_complete_ns": 182520.0,
+          "median_complete_ns_per_query_including_preparation": 195.859375
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            137340.0,
+            136680.0,
+            142780.0,
+            139100.0,
+            136440.0,
+            161820.0,
+            139240.0,
+            137940.0,
+            146280.0
+          ],
+          "median_complete_ns": 139100.0,
+          "min_complete_ns": 136440.0,
+          "max_complete_ns": 161820.0,
+          "median_complete_ns_per_query_including_preparation": 181.11979166666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            138080.0,
+            140280.0,
+            136840.0,
+            139100.0,
+            156400.0,
+            161780.0,
+            145020.0,
+            136800.0,
+            137100.0
+          ],
+          "median_complete_ns": 139100.0,
+          "min_complete_ns": 136800.0,
+          "max_complete_ns": 161780.0,
+          "median_complete_ns_per_query_including_preparation": 181.11979166666666
+        }
+      }
+    },
+    {
+      "stratum": 8,
+      "n": 16,
+      "family": "all",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            980.0,
+            820.0,
+            920.0,
+            840.0,
+            860.0,
+            780.0,
+            840.0,
+            840.0,
+            840.0
+          ],
+          "median_complete_ns": 840.0,
+          "min_complete_ns": 780.0,
+          "max_complete_ns": 980.0,
+          "median_complete_ns_per_query_including_preparation": 840.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            1860.0,
+            1700.0,
+            1740.0,
+            1620.0,
+            1620.0,
+            1640.0,
+            1600.0,
+            1560.0,
+            1880.0
+          ],
+          "median_complete_ns": 1640.0,
+          "min_complete_ns": 1560.0,
+          "max_complete_ns": 1880.0,
+          "median_complete_ns_per_query_including_preparation": 1640.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2060.0,
+            2040.0,
+            2160.0,
+            1980.0,
+            1940.0,
+            1880.0,
+            2200.0,
+            1900.0,
+            2000.0
+          ],
+          "median_complete_ns": 2000.0,
+          "min_complete_ns": 1880.0,
+          "max_complete_ns": 2200.0,
+          "median_complete_ns_per_query_including_preparation": 2000.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            15060.0,
+            14500.0,
+            14880.0,
+            14760.0,
+            18520.0,
+            14460.0,
+            15460.0,
+            14600.0,
+            17480.0
+          ],
+          "median_complete_ns": 14880.0,
+          "min_complete_ns": 14460.0,
+          "max_complete_ns": 18520.0,
+          "median_complete_ns_per_query_including_preparation": 14880.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            1720.0,
+            1680.0,
+            1740.0,
+            1880.0,
+            1600.0,
+            1540.0,
+            1620.0,
+            1560.0,
+            1980.0
+          ],
+          "median_complete_ns": 1680.0,
+          "min_complete_ns": 1540.0,
+          "max_complete_ns": 1980.0,
+          "median_complete_ns_per_query_including_preparation": 1680.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            1800.0,
+            1760.0,
+            2160.0,
+            1680.0,
+            1660.0,
+            1540.0,
+            1760.0,
+            1720.0,
+            1900.0
+          ],
+          "median_complete_ns": 1760.0,
+          "min_complete_ns": 1540.0,
+          "max_complete_ns": 2160.0,
+          "median_complete_ns_per_query_including_preparation": 1760.0
+        }
+      }
+    },
+    {
+      "stratum": 8,
+      "n": 16,
+      "family": "all",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            28480.0,
+            28560.0,
+            28960.0,
+            36920.0,
+            32280.0,
+            28880.0,
+            28840.0,
+            28600.0,
+            28520.0
+          ],
+          "median_complete_ns": 28840.0,
+          "min_complete_ns": 28480.0,
+          "max_complete_ns": 36920.0,
+          "median_complete_ns_per_query_including_preparation": 600.8333333333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            30780.0,
+            31100.0,
+            30760.0,
+            30960.0,
+            30880.0,
+            30780.0,
+            30860.0,
+            30880.0,
+            30860.0
+          ],
+          "median_complete_ns": 30860.0,
+          "min_complete_ns": 30760.0,
+          "max_complete_ns": 31100.0,
+          "median_complete_ns_per_query_including_preparation": 642.9166666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            39120.0,
+            39080.0,
+            59260.0,
+            52800.0,
+            42240.0,
+            38980.0,
+            38980.0,
+            44380.0,
+            38860.0
+          ],
+          "median_complete_ns": 39120.0,
+          "min_complete_ns": 38860.0,
+          "max_complete_ns": 59260.0,
+          "median_complete_ns_per_query_including_preparation": 815.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            23220.0,
+            22860.0,
+            23240.0,
+            26040.0,
+            23040.0,
+            23180.0,
+            23100.0,
+            22980.0,
+            24340.0
+          ],
+          "median_complete_ns": 23180.0,
+          "min_complete_ns": 22860.0,
+          "max_complete_ns": 26040.0,
+          "median_complete_ns_per_query_including_preparation": 482.9166666666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            10060.0,
+            10040.0,
+            10120.0,
+            9960.0,
+            10260.0,
+            10620.0,
+            10520.0,
+            9940.0,
+            9900.0
+          ],
+          "median_complete_ns": 10060.0,
+          "min_complete_ns": 9900.0,
+          "max_complete_ns": 10620.0,
+          "median_complete_ns_per_query_including_preparation": 209.58333333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            10080.0,
+            10220.0,
+            10080.0,
+            10320.0,
+            10680.0,
+            9940.0,
+            9920.0,
+            10140.0,
+            10480.0
+          ],
+          "median_complete_ns": 10140.0,
+          "min_complete_ns": 9920.0,
+          "max_complete_ns": 10680.0,
+          "median_complete_ns_per_query_including_preparation": 211.25
+        }
+      }
+    },
+    {
+      "stratum": 8,
+      "n": 16,
+      "family": "all",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            118500.0,
+            115420.0,
+            113540.0,
+            113800.0,
+            128420.0,
+            121140.0,
+            118760.0,
+            113900.0,
+            115440.0
+          ],
+          "median_complete_ns": 115440.0,
+          "min_complete_ns": 113540.0,
+          "max_complete_ns": 128420.0,
+          "median_complete_ns_per_query_including_preparation": 601.25
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            137900.0,
+            122920.0,
+            119780.0,
+            120280.0,
+            122880.0,
+            122840.0,
+            121760.0,
+            119340.0,
+            119480.0
+          ],
+          "median_complete_ns": 121760.0,
+          "min_complete_ns": 119340.0,
+          "max_complete_ns": 137900.0,
+          "median_complete_ns_per_query_including_preparation": 634.1666666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            160000.0,
+            157240.0,
+            160060.0,
+            154160.0,
+            197240.0,
+            152620.0,
+            152340.0,
+            156200.0,
+            155800.0
+          ],
+          "median_complete_ns": 156200.0,
+          "min_complete_ns": 152340.0,
+          "max_complete_ns": 197240.0,
+          "median_complete_ns_per_query_including_preparation": 813.5416666666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            48380.0,
+            48080.0,
+            48320.0,
+            51420.0,
+            50360.0,
+            47740.0,
+            47860.0,
+            48520.0,
+            48760.0
+          ],
+          "median_complete_ns": 48380.0,
+          "min_complete_ns": 47740.0,
+          "max_complete_ns": 51420.0,
+          "median_complete_ns_per_query_including_preparation": 251.97916666666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            35520.0,
+            35300.0,
+            35280.0,
+            47660.0,
+            35480.0,
+            36160.0,
+            35120.0,
+            35780.0,
+            34780.0
+          ],
+          "median_complete_ns": 35480.0,
+          "min_complete_ns": 34780.0,
+          "max_complete_ns": 47660.0,
+          "median_complete_ns_per_query_including_preparation": 184.79166666666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            36120.0,
+            35100.0,
+            35140.0,
+            35320.0,
+            35620.0,
+            35860.0,
+            35440.0,
+            35260.0,
+            35020.0
+          ],
+          "median_complete_ns": 35320.0,
+          "min_complete_ns": 35020.0,
+          "max_complete_ns": 36120.0,
+          "median_complete_ns_per_query_including_preparation": 183.95833333333334
+        }
+      }
+    },
+    {
+      "stratum": 8,
+      "n": 16,
+      "family": "all",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            458520.0,
+            476380.0,
+            463400.0,
+            500380.0,
+            459800.0,
+            458000.0,
+            453620.0,
+            457160.0,
+            463940.0
+          ],
+          "median_complete_ns": 459800.0,
+          "min_complete_ns": 453620.0,
+          "max_complete_ns": 500380.0,
+          "median_complete_ns_per_query_including_preparation": 598.6979166666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            510980.0,
+            476020.0,
+            486020.0,
+            477460.0,
+            479160.0,
+            484140.0,
+            478040.0,
+            496220.0,
+            481340.0
+          ],
+          "median_complete_ns": 481340.0,
+          "min_complete_ns": 476020.0,
+          "max_complete_ns": 510980.0,
+          "median_complete_ns_per_query_including_preparation": 626.7447916666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            657400.0,
+            610760.0,
+            612760.0,
+            638100.0,
+            612180.0,
+            618760.0,
+            614860.0,
+            611120.0,
+            643940.0
+          ],
+          "median_complete_ns": 614860.0,
+          "min_complete_ns": 610760.0,
+          "max_complete_ns": 657400.0,
+          "median_complete_ns_per_query_including_preparation": 800.5989583333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            149920.0,
+            151220.0,
+            149920.0,
+            149540.0,
+            164140.0,
+            150220.0,
+            149300.0,
+            151100.0,
+            147300.0
+          ],
+          "median_complete_ns": 149920.0,
+          "min_complete_ns": 147300.0,
+          "max_complete_ns": 164140.0,
+          "median_complete_ns_per_query_including_preparation": 195.20833333333334
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            138700.0,
+            136520.0,
+            138200.0,
+            137600.0,
+            137060.0,
+            138700.0,
+            136080.0,
+            138640.0,
+            135660.0
+          ],
+          "median_complete_ns": 137600.0,
+          "min_complete_ns": 135660.0,
+          "max_complete_ns": 138700.0,
+          "median_complete_ns_per_query_including_preparation": 179.16666666666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            137280.0,
+            147940.0,
+            136260.0,
+            146680.0,
+            136360.0,
+            135500.0,
+            136820.0,
+            135440.0,
+            137500.0
+          ],
+          "median_complete_ns": 136820.0,
+          "min_complete_ns": 135440.0,
+          "max_complete_ns": 147940.0,
+          "median_complete_ns_per_query_including_preparation": 178.15104166666666
+        }
+      }
+    },
+    {
+      "stratum": 9,
+      "n": 32,
+      "family": "first",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            4050.0,
+            4300.0,
+            3600.0,
+            3350.0,
+            9950.0,
+            3250.0,
+            2900.0,
+            3350.0,
+            2950.0
+          ],
+          "median_complete_ns": 3350.0,
+          "min_complete_ns": 2900.0,
+          "max_complete_ns": 9950.0,
+          "median_complete_ns_per_query_including_preparation": 3350.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            10300.0,
+            9800.0,
+            9900.0,
+            10600.0,
+            11600.0,
+            9800.0,
+            9450.0,
+            9850.0,
+            9000.0
+          ],
+          "median_complete_ns": 9850.0,
+          "min_complete_ns": 9000.0,
+          "max_complete_ns": 11600.0,
+          "median_complete_ns_per_query_including_preparation": 9850.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            13050.0,
+            12800.0,
+            12300.0,
+            10950.0,
+            11050.0,
+            12300.0,
+            10700.0,
+            12150.0,
+            10600.0
+          ],
+          "median_complete_ns": 12150.0,
+          "min_complete_ns": 10600.0,
+          "max_complete_ns": 13050.0,
+          "median_complete_ns_per_query_including_preparation": 12150.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            253600.0,
+            248450.0,
+            279450.0,
+            248050.0,
+            249700.0,
+            247850.0,
+            249700.0,
+            250300.0,
+            250750.0
+          ],
+          "median_complete_ns": 249700.0,
+          "min_complete_ns": 247850.0,
+          "max_complete_ns": 279450.0,
+          "median_complete_ns_per_query_including_preparation": 249700.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            9150.0,
+            9450.0,
+            9000.0,
+            9800.0,
+            9650.0,
+            9500.0,
+            8900.0,
+            9000.0,
+            8900.0
+          ],
+          "median_complete_ns": 9150.0,
+          "min_complete_ns": 8900.0,
+          "max_complete_ns": 9800.0,
+          "median_complete_ns_per_query_including_preparation": 9150.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            9000.0,
+            9050.0,
+            9550.0,
+            9000.0,
+            9000.0,
+            8950.0,
+            8900.0,
+            11500.0,
+            9000.0
+          ],
+          "median_complete_ns": 9000.0,
+          "min_complete_ns": 8900.0,
+          "max_complete_ns": 11500.0,
+          "median_complete_ns_per_query_including_preparation": 9000.0
+        }
+      }
+    },
+    {
+      "stratum": 9,
+      "n": 32,
+      "family": "first",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            113600.0,
+            112900.0,
+            112450.0,
+            112250.0,
+            112200.0,
+            108350.0,
+            112450.0,
+            112300.0,
+            112800.0
+          ],
+          "median_complete_ns": 112450.0,
+          "min_complete_ns": 108350.0,
+          "max_complete_ns": 113600.0,
+          "median_complete_ns_per_query_including_preparation": 2342.7083333333335
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            161400.0,
+            123450.0,
+            123650.0,
+            123050.0,
+            126000.0,
+            125250.0,
+            122550.0,
+            123350.0,
+            123250.0
+          ],
+          "median_complete_ns": 123450.0,
+          "min_complete_ns": 122550.0,
+          "max_complete_ns": 161400.0,
+          "median_complete_ns_per_query_including_preparation": 2571.875
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            211050.0,
+            157250.0,
+            159700.0,
+            157150.0,
+            204650.0,
+            174100.0,
+            157750.0,
+            157350.0,
+            184700.0
+          ],
+          "median_complete_ns": 159700.0,
+          "min_complete_ns": 157150.0,
+          "max_complete_ns": 211050.0,
+          "median_complete_ns_per_query_including_preparation": 3327.0833333333335
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            350650.0,
+            293350.0,
+            308400.0,
+            288450.0,
+            334650.0,
+            282950.0,
+            281050.0,
+            280900.0,
+            364100.0
+          ],
+          "median_complete_ns": 293350.0,
+          "min_complete_ns": 280900.0,
+          "max_complete_ns": 364100.0,
+          "median_complete_ns_per_query_including_preparation": 6111.458333333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            42500.0,
+            42650.0,
+            42800.0,
+            42850.0,
+            44700.0,
+            66500.0,
+            42350.0,
+            43650.0,
+            43300.0
+          ],
+          "median_complete_ns": 42850.0,
+          "min_complete_ns": 42350.0,
+          "max_complete_ns": 66500.0,
+          "median_complete_ns_per_query_including_preparation": 892.7083333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            43200.0,
+            45150.0,
+            42400.0,
+            42500.0,
+            43200.0,
+            44200.0,
+            42400.0,
+            42150.0,
+            44350.0
+          ],
+          "median_complete_ns": 43200.0,
+          "min_complete_ns": 42150.0,
+          "max_complete_ns": 45150.0,
+          "median_complete_ns_per_query_including_preparation": 900.0
+        }
+      }
+    },
+    {
+      "stratum": 9,
+      "n": 32,
+      "family": "first",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            447950.0,
+            456100.0,
+            458600.0,
+            456950.0,
+            447300.0,
+            457700.0,
+            473450.0,
+            468400.0,
+            462750.0
+          ],
+          "median_complete_ns": 457700.0,
+          "min_complete_ns": 447300.0,
+          "max_complete_ns": 473450.0,
+          "median_complete_ns_per_query_including_preparation": 2383.8541666666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            479100.0,
+            473650.0,
+            473000.0,
+            490700.0,
+            481550.0,
+            513450.0,
+            475350.0,
+            485000.0,
+            452300.0
+          ],
+          "median_complete_ns": 479100.0,
+          "min_complete_ns": 452300.0,
+          "max_complete_ns": 513450.0,
+          "median_complete_ns_per_query_including_preparation": 2495.3125
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            639400.0,
+            612750.0,
+            623500.0,
+            802950.0,
+            624150.0,
+            617950.0,
+            616000.0,
+            614350.0,
+            618650.0
+          ],
+          "median_complete_ns": 618650.0,
+          "min_complete_ns": 612750.0,
+          "max_complete_ns": 802950.0,
+          "median_complete_ns_per_query_including_preparation": 3222.1354166666665
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            386200.0,
+            428600.0,
+            449800.0,
+            410750.0,
+            387600.0,
+            377000.0,
+            386550.0,
+            398400.0,
+            384950.0
+          ],
+          "median_complete_ns": 387600.0,
+          "min_complete_ns": 377000.0,
+          "max_complete_ns": 449800.0,
+          "median_complete_ns_per_query_including_preparation": 2018.75
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            145350.0,
+            145050.0,
+            146250.0,
+            176600.0,
+            145050.0,
+            146700.0,
+            146650.0,
+            153900.0,
+            145950.0
+          ],
+          "median_complete_ns": 146250.0,
+          "min_complete_ns": 145050.0,
+          "max_complete_ns": 176600.0,
+          "median_complete_ns_per_query_including_preparation": 761.71875
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            144500.0,
+            147300.0,
+            146150.0,
+            144050.0,
+            144700.0,
+            200800.0,
+            152700.0,
+            144250.0,
+            150500.0
+          ],
+          "median_complete_ns": 146150.0,
+          "min_complete_ns": 144050.0,
+          "max_complete_ns": 200800.0,
+          "median_complete_ns_per_query_including_preparation": 761.1979166666666
+        }
+      }
+    },
+    {
+      "stratum": 9,
+      "n": 32,
+      "family": "first",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            1850900.0,
+            1824000.0,
+            1866350.0,
+            1853500.0,
+            1804350.0,
+            1850650.0,
+            1845600.0,
+            1894650.0,
+            1863650.0
+          ],
+          "median_complete_ns": 1850900.0,
+          "min_complete_ns": 1804350.0,
+          "max_complete_ns": 1894650.0,
+          "median_complete_ns_per_query_including_preparation": 2410.0260416666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            1896500.0,
+            1913400.0,
+            1951450.0,
+            1876450.0,
+            1908450.0,
+            1995500.0,
+            1955650.0,
+            1958300.0,
+            1895000.0
+          ],
+          "median_complete_ns": 1913400.0,
+          "min_complete_ns": 1876450.0,
+          "max_complete_ns": 1995500.0,
+          "median_complete_ns_per_query_including_preparation": 2491.40625
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2459000.0,
+            2494550.0,
+            2445800.0,
+            2472550.0,
+            2530100.0,
+            2418000.0,
+            2425450.0,
+            2444800.0,
+            2428950.0
+          ],
+          "median_complete_ns": 2445800.0,
+          "min_complete_ns": 2418000.0,
+          "max_complete_ns": 2530100.0,
+          "median_complete_ns_per_query_including_preparation": 3184.6354166666665
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            833300.0,
+            793800.0,
+            798450.0,
+            800900.0,
+            806250.0,
+            804850.0,
+            804300.0,
+            816350.0,
+            885800.0
+          ],
+          "median_complete_ns": 804850.0,
+          "min_complete_ns": 793800.0,
+          "max_complete_ns": 885800.0,
+          "median_complete_ns_per_query_including_preparation": 1047.9817708333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            556800.0,
+            584350.0,
+            562700.0,
+            570800.0,
+            575250.0,
+            581850.0,
+            593300.0,
+            575650.0,
+            563150.0
+          ],
+          "median_complete_ns": 575250.0,
+          "min_complete_ns": 556800.0,
+          "max_complete_ns": 593300.0,
+          "median_complete_ns_per_query_including_preparation": 749.0234375
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            597050.0,
+            556200.0,
+            623950.0,
+            700500.0,
+            561650.0,
+            549450.0,
+            557350.0,
+            551500.0,
+            553550.0
+          ],
+          "median_complete_ns": 557350.0,
+          "min_complete_ns": 549450.0,
+          "max_complete_ns": 700500.0,
+          "median_complete_ns_per_query_including_preparation": 725.7161458333334
+        }
+      }
+    },
+    {
+      "stratum": 10,
+      "n": 32,
+      "family": "last",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            3750.0,
+            3650.0,
+            4050.0,
+            3300.0,
+            2950.0,
+            3250.0,
+            2900.0,
+            3550.0,
+            3300.0
+          ],
+          "median_complete_ns": 3300.0,
+          "min_complete_ns": 2900.0,
+          "max_complete_ns": 4050.0,
+          "median_complete_ns_per_query_including_preparation": 3300.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            9600.0,
+            9950.0,
+            11550.0,
+            9500.0,
+            9350.0,
+            9250.0,
+            9150.0,
+            9750.0,
+            9250.0
+          ],
+          "median_complete_ns": 9500.0,
+          "min_complete_ns": 9150.0,
+          "max_complete_ns": 11550.0,
+          "median_complete_ns_per_query_including_preparation": 9500.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11350.0,
+            10750.0,
+            11050.0,
+            10850.0,
+            10450.0,
+            11100.0,
+            10300.0,
+            10550.0,
+            10300.0
+          ],
+          "median_complete_ns": 10750.0,
+          "min_complete_ns": 10300.0,
+          "max_complete_ns": 11350.0,
+          "median_complete_ns_per_query_including_preparation": 10750.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            257200.0,
+            248650.0,
+            247750.0,
+            257150.0,
+            248200.0,
+            247850.0,
+            247500.0,
+            270450.0,
+            254500.0
+          ],
+          "median_complete_ns": 248650.0,
+          "min_complete_ns": 247500.0,
+          "max_complete_ns": 270450.0,
+          "median_complete_ns_per_query_including_preparation": 248650.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            8700.0,
+            12100.0,
+            8750.0,
+            9650.0,
+            8700.0,
+            8600.0,
+            8550.0,
+            9800.0,
+            8600.0
+          ],
+          "median_complete_ns": 8700.0,
+          "min_complete_ns": 8550.0,
+          "max_complete_ns": 12100.0,
+          "median_complete_ns_per_query_including_preparation": 8700.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            8850.0,
+            8800.0,
+            9150.0,
+            8800.0,
+            8900.0,
+            8750.0,
+            8500.0,
+            8700.0,
+            9250.0
+          ],
+          "median_complete_ns": 8800.0,
+          "min_complete_ns": 8500.0,
+          "max_complete_ns": 9250.0,
+          "median_complete_ns_per_query_including_preparation": 8800.0
+        }
+      }
+    },
+    {
+      "stratum": 10,
+      "n": 32,
+      "family": "last",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            113750.0,
+            116700.0,
+            114200.0,
+            132150.0,
+            112800.0,
+            163650.0,
+            112650.0,
+            113900.0,
+            112550.0
+          ],
+          "median_complete_ns": 113900.0,
+          "min_complete_ns": 112550.0,
+          "max_complete_ns": 163650.0,
+          "median_complete_ns_per_query_including_preparation": 2372.9166666666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            123500.0,
+            126000.0,
+            124800.0,
+            124900.0,
+            123500.0,
+            123750.0,
+            122850.0,
+            125050.0,
+            126200.0
+          ],
+          "median_complete_ns": 124800.0,
+          "min_complete_ns": 122850.0,
+          "max_complete_ns": 126200.0,
+          "median_complete_ns_per_query_including_preparation": 2600.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            159550.0,
+            164500.0,
+            157650.0,
+            157500.0,
+            158100.0,
+            160200.0,
+            158150.0,
+            159000.0,
+            158850.0
+          ],
+          "median_complete_ns": 158850.0,
+          "min_complete_ns": 157500.0,
+          "max_complete_ns": 164500.0,
+          "median_complete_ns_per_query_including_preparation": 3309.375
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            282250.0,
+            295350.0,
+            280900.0,
+            282750.0,
+            283950.0,
+            282750.0,
+            282550.0,
+            290300.0,
+            281100.0
+          ],
+          "median_complete_ns": 282750.0,
+          "min_complete_ns": 280900.0,
+          "max_complete_ns": 295350.0,
+          "median_complete_ns_per_query_including_preparation": 5890.625
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            75950.0,
+            44450.0,
+            44600.0,
+            42400.0,
+            42050.0,
+            44050.0,
+            41900.0,
+            42100.0,
+            43300.0
+          ],
+          "median_complete_ns": 43300.0,
+          "min_complete_ns": 41900.0,
+          "max_complete_ns": 75950.0,
+          "median_complete_ns_per_query_including_preparation": 902.0833333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            42300.0,
+            44000.0,
+            42050.0,
+            41950.0,
+            41850.0,
+            42200.0,
+            42150.0,
+            42950.0,
+            47550.0
+          ],
+          "median_complete_ns": 42200.0,
+          "min_complete_ns": 41850.0,
+          "max_complete_ns": 47550.0,
+          "median_complete_ns_per_query_including_preparation": 879.1666666666666
+        }
+      }
+    },
+    {
+      "stratum": 10,
+      "n": 32,
+      "family": "last",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            511400.0,
+            451450.0,
+            453950.0,
+            465100.0,
+            452700.0,
+            459650.0,
+            455550.0,
+            448250.0,
+            451700.0
+          ],
+          "median_complete_ns": 453950.0,
+          "min_complete_ns": 448250.0,
+          "max_complete_ns": 511400.0,
+          "median_complete_ns_per_query_including_preparation": 2364.3229166666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            493400.0,
+            473100.0,
+            478650.0,
+            480150.0,
+            476700.0,
+            481900.0,
+            517000.0,
+            478400.0,
+            506350.0
+          ],
+          "median_complete_ns": 480150.0,
+          "min_complete_ns": 473100.0,
+          "max_complete_ns": 517000.0,
+          "median_complete_ns_per_query_including_preparation": 2500.78125
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            621600.0,
+            624000.0,
+            760150.0,
+            635500.0,
+            619900.0,
+            614100.0,
+            617550.0,
+            617400.0,
+            613550.0
+          ],
+          "median_complete_ns": 619900.0,
+          "min_complete_ns": 613550.0,
+          "max_complete_ns": 760150.0,
+          "median_complete_ns_per_query_including_preparation": 3228.6458333333335
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            389900.0,
+            386150.0,
+            394800.0,
+            384600.0,
+            416300.0,
+            384250.0,
+            401450.0,
+            415700.0,
+            387550.0
+          ],
+          "median_complete_ns": 389900.0,
+          "min_complete_ns": 384250.0,
+          "max_complete_ns": 416300.0,
+          "median_complete_ns_per_query_including_preparation": 2030.7291666666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            147000.0,
+            144700.0,
+            145550.0,
+            144700.0,
+            144300.0,
+            144650.0,
+            144450.0,
+            144400.0,
+            144400.0
+          ],
+          "median_complete_ns": 144650.0,
+          "min_complete_ns": 144300.0,
+          "max_complete_ns": 147000.0,
+          "median_complete_ns_per_query_including_preparation": 753.3854166666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            144800.0,
+            144450.0,
+            179650.0,
+            145150.0,
+            142350.0,
+            145400.0,
+            144950.0,
+            145300.0,
+            146600.0
+          ],
+          "median_complete_ns": 145150.0,
+          "min_complete_ns": 142350.0,
+          "max_complete_ns": 179650.0,
+          "median_complete_ns_per_query_including_preparation": 755.9895833333334
+        }
+      }
+    },
+    {
+      "stratum": 10,
+      "n": 32,
+      "family": "last",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            1818350.0,
+            1792450.0,
+            1840900.0,
+            1814150.0,
+            1788500.0,
+            1803800.0,
+            1802350.0,
+            1819700.0,
+            1818250.0
+          ],
+          "median_complete_ns": 1814150.0,
+          "min_complete_ns": 1788500.0,
+          "max_complete_ns": 1840900.0,
+          "median_complete_ns_per_query_including_preparation": 2362.1744791666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            1907750.0,
+            1905750.0,
+            1907700.0,
+            1965050.0,
+            1906550.0,
+            1860300.0,
+            1922500.0,
+            1881350.0,
+            1907550.0
+          ],
+          "median_complete_ns": 1907550.0,
+          "min_complete_ns": 1860300.0,
+          "max_complete_ns": 1965050.0,
+          "median_complete_ns_per_query_including_preparation": 2483.7890625
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2479500.0,
+            2423500.0,
+            2515550.0,
+            2512600.0,
+            2743800.0,
+            2586500.0,
+            2429750.0,
+            2453550.0,
+            2490400.0
+          ],
+          "median_complete_ns": 2490400.0,
+          "min_complete_ns": 2423500.0,
+          "max_complete_ns": 2743800.0,
+          "median_complete_ns_per_query_including_preparation": 3242.7083333333335
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            802100.0,
+            801050.0,
+            798200.0,
+            796850.0,
+            807600.0,
+            823200.0,
+            788400.0,
+            794350.0,
+            807000.0
+          ],
+          "median_complete_ns": 801050.0,
+          "min_complete_ns": 788400.0,
+          "max_complete_ns": 823200.0,
+          "median_complete_ns_per_query_including_preparation": 1043.0338541666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            565300.0,
+            557000.0,
+            568950.0,
+            552950.0,
+            558900.0,
+            553800.0,
+            555750.0,
+            613800.0,
+            555850.0
+          ],
+          "median_complete_ns": 557000.0,
+          "min_complete_ns": 552950.0,
+          "max_complete_ns": 613800.0,
+          "median_complete_ns_per_query_including_preparation": 725.2604166666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            557850.0,
+            556300.0,
+            552800.0,
+            555350.0,
+            556400.0,
+            571200.0,
+            608950.0,
+            551700.0,
+            555350.0
+          ],
+          "median_complete_ns": 556300.0,
+          "min_complete_ns": 551700.0,
+          "max_complete_ns": 608950.0,
+          "median_complete_ns_per_query_including_preparation": 724.3489583333334
+        }
+      }
+    },
+    {
+      "stratum": 11,
+      "n": 32,
+      "family": "all",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            3000.0,
+            2950.0,
+            3100.0,
+            3050.0,
+            3600.0,
+            3600.0,
+            3350.0,
+            3250.0,
+            3200.0
+          ],
+          "median_complete_ns": 3200.0,
+          "min_complete_ns": 2950.0,
+          "max_complete_ns": 3600.0,
+          "median_complete_ns_per_query_including_preparation": 3200.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            7400.0,
+            7300.0,
+            7350.0,
+            7200.0,
+            6950.0,
+            7300.0,
+            8100.0,
+            7000.0,
+            7400.0
+          ],
+          "median_complete_ns": 7300.0,
+          "min_complete_ns": 6950.0,
+          "max_complete_ns": 8100.0,
+          "median_complete_ns_per_query_including_preparation": 7300.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            8900.0,
+            8300.0,
+            9800.0,
+            8500.0,
+            9500.0,
+            8100.0,
+            8450.0,
+            8300.0,
+            8900.0
+          ],
+          "median_complete_ns": 8500.0,
+          "min_complete_ns": 8100.0,
+          "max_complete_ns": 9800.0,
+          "median_complete_ns_per_query_including_preparation": 8500.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            253850.0,
+            251700.0,
+            251550.0,
+            279850.0,
+            264900.0,
+            251300.0,
+            251000.0,
+            250500.0,
+            263200.0
+          ],
+          "median_complete_ns": 251700.0,
+          "min_complete_ns": 250500.0,
+          "max_complete_ns": 279850.0,
+          "median_complete_ns_per_query_including_preparation": 251700.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            6450.0,
+            6550.0,
+            6500.0,
+            7550.0,
+            6350.0,
+            6450.0,
+            9050.0,
+            7150.0,
+            7500.0
+          ],
+          "median_complete_ns": 6550.0,
+          "min_complete_ns": 6350.0,
+          "max_complete_ns": 9050.0,
+          "median_complete_ns_per_query_including_preparation": 6550.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            6650.0,
+            6800.0,
+            6800.0,
+            6800.0,
+            6550.0,
+            8600.0,
+            6500.0,
+            6400.0,
+            6550.0
+          ],
+          "median_complete_ns": 6650.0,
+          "min_complete_ns": 6400.0,
+          "max_complete_ns": 8600.0,
+          "median_complete_ns_per_query_including_preparation": 6650.0
+        }
+      }
+    },
+    {
+      "stratum": 11,
+      "n": 32,
+      "family": "all",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            112050.0,
+            111250.0,
+            115550.0,
+            118500.0,
+            111700.0,
+            113500.0,
+            112250.0,
+            112800.0,
+            112700.0
+          ],
+          "median_complete_ns": 112700.0,
+          "min_complete_ns": 111250.0,
+          "max_complete_ns": 118500.0,
+          "median_complete_ns_per_query_including_preparation": 2347.9166666666665
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            120900.0,
+            124050.0,
+            120700.0,
+            120150.0,
+            120000.0,
+            120650.0,
+            120650.0,
+            120650.0,
+            134050.0
+          ],
+          "median_complete_ns": 120650.0,
+          "min_complete_ns": 120000.0,
+          "max_complete_ns": 134050.0,
+          "median_complete_ns_per_query_including_preparation": 2513.5416666666665
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            158250.0,
+            154750.0,
+            156500.0,
+            157900.0,
+            158650.0,
+            153900.0,
+            165350.0,
+            158700.0,
+            154450.0
+          ],
+          "median_complete_ns": 157900.0,
+          "min_complete_ns": 153900.0,
+          "max_complete_ns": 165350.0,
+          "median_complete_ns_per_query_including_preparation": 3289.5833333333335
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            292250.0,
+            322600.0,
+            284600.0,
+            286550.0,
+            285900.0,
+            292550.0,
+            284450.0,
+            284300.0,
+            284400.0
+          ],
+          "median_complete_ns": 285900.0,
+          "min_complete_ns": 284300.0,
+          "max_complete_ns": 322600.0,
+          "median_complete_ns_per_query_including_preparation": 5956.25
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            42250.0,
+            39950.0,
+            39900.0,
+            41100.0,
+            40300.0,
+            41950.0,
+            41850.0,
+            39950.0,
+            39750.0
+          ],
+          "median_complete_ns": 40300.0,
+          "min_complete_ns": 39750.0,
+          "max_complete_ns": 42250.0,
+          "median_complete_ns_per_query_including_preparation": 839.5833333333334
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            40350.0,
+            40050.0,
+            40100.0,
+            68650.0,
+            39900.0,
+            39850.0,
+            39950.0,
+            40650.0,
+            39950.0
+          ],
+          "median_complete_ns": 40050.0,
+          "min_complete_ns": 39850.0,
+          "max_complete_ns": 68650.0,
+          "median_complete_ns_per_query_including_preparation": 834.375
+        }
+      }
+    },
+    {
+      "stratum": 11,
+      "n": 32,
+      "family": "all",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            451350.0,
+            430000.0,
+            446450.0,
+            445650.0,
+            451150.0,
+            470500.0,
+            445650.0,
+            524550.0,
+            479550.0
+          ],
+          "median_complete_ns": 451150.0,
+          "min_complete_ns": 430000.0,
+          "max_complete_ns": 524550.0,
+          "median_complete_ns_per_query_including_preparation": 2349.7395833333335
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            521800.0,
+            474500.0,
+            472150.0,
+            488450.0,
+            468750.0,
+            469050.0,
+            530300.0,
+            481500.0,
+            471050.0
+          ],
+          "median_complete_ns": 474500.0,
+          "min_complete_ns": 468750.0,
+          "max_complete_ns": 530300.0,
+          "median_complete_ns_per_query_including_preparation": 2471.3541666666665
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            637150.0,
+            607850.0,
+            752300.0,
+            610100.0,
+            609050.0,
+            670250.0,
+            597350.0,
+            622500.0,
+            607350.0
+          ],
+          "median_complete_ns": 610100.0,
+          "min_complete_ns": 597350.0,
+          "max_complete_ns": 752300.0,
+          "median_complete_ns_per_query_including_preparation": 3177.6041666666665
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            387700.0,
+            434200.0,
+            394850.0,
+            395100.0,
+            387250.0,
+            390650.0,
+            401350.0,
+            392100.0,
+            387300.0
+          ],
+          "median_complete_ns": 392100.0,
+          "min_complete_ns": 387250.0,
+          "max_complete_ns": 434200.0,
+          "median_complete_ns_per_query_including_preparation": 2042.1875
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            143850.0,
+            144200.0,
+            143000.0,
+            145200.0,
+            142350.0,
+            141350.0,
+            142600.0,
+            144000.0,
+            141850.0
+          ],
+          "median_complete_ns": 143000.0,
+          "min_complete_ns": 141350.0,
+          "max_complete_ns": 145200.0,
+          "median_complete_ns_per_query_including_preparation": 744.7916666666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            144150.0,
+            143150.0,
+            140900.0,
+            142900.0,
+            141200.0,
+            143600.0,
+            142400.0,
+            146300.0,
+            141650.0
+          ],
+          "median_complete_ns": 142900.0,
+          "min_complete_ns": 140900.0,
+          "max_complete_ns": 146300.0,
+          "median_complete_ns_per_query_including_preparation": 744.2708333333334
+        }
+      }
+    },
+    {
+      "stratum": 11,
+      "n": 32,
+      "family": "all",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            1833850.0,
+            1971950.0,
+            1796700.0,
+            1800350.0,
+            1777050.0,
+            1920350.0,
+            1821000.0,
+            1818900.0,
+            1855350.0
+          ],
+          "median_complete_ns": 1821000.0,
+          "min_complete_ns": 1777050.0,
+          "max_complete_ns": 1971950.0,
+          "median_complete_ns_per_query_including_preparation": 2371.09375
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            1891900.0,
+            1902000.0,
+            1954150.0,
+            1867000.0,
+            1859000.0,
+            1920550.0,
+            1970900.0,
+            1897200.0,
+            1970900.0
+          ],
+          "median_complete_ns": 1902000.0,
+          "min_complete_ns": 1859000.0,
+          "max_complete_ns": 1970900.0,
+          "median_complete_ns_per_query_including_preparation": 2476.5625
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            2446100.0,
+            2654100.0,
+            2426950.0,
+            2439550.0,
+            2396850.0,
+            2434100.0,
+            2421450.0,
+            2479100.0,
+            2506400.0
+          ],
+          "median_complete_ns": 2439550.0,
+          "min_complete_ns": 2396850.0,
+          "max_complete_ns": 2654100.0,
+          "median_complete_ns_per_query_including_preparation": 3176.4973958333335
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            799100.0,
+            938950.0,
+            805000.0,
+            818500.0,
+            802400.0,
+            829250.0,
+            803350.0,
+            799450.0,
+            801850.0
+          ],
+          "median_complete_ns": 803350.0,
+          "min_complete_ns": 799100.0,
+          "max_complete_ns": 938950.0,
+          "median_complete_ns_per_query_including_preparation": 1046.0286458333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            560050.0,
+            565350.0,
+            553700.0,
+            550400.0,
+            553700.0,
+            552400.0,
+            545150.0,
+            563900.0,
+            558800.0
+          ],
+          "median_complete_ns": 553700.0,
+          "min_complete_ns": 545150.0,
+          "max_complete_ns": 565350.0,
+          "median_complete_ns_per_query_including_preparation": 720.9635416666666
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            557400.0,
+            558550.0,
+            581800.0,
+            550800.0,
+            550100.0,
+            572800.0,
+            629100.0,
+            567400.0,
+            551100.0
+          ],
+          "median_complete_ns": 558550.0,
+          "min_complete_ns": 550100.0,
+          "max_complete_ns": 629100.0,
+          "median_complete_ns_per_query_including_preparation": 727.2786458333334
+        }
+      }
+    },
+    {
+      "stratum": 12,
+      "n": 64,
+      "family": "first",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            13300.0,
+            12500.0,
+            13300.0,
+            12500.0,
+            12700.0,
+            12200.0,
+            12400.0,
+            27600.0,
+            12800.0
+          ],
+          "median_complete_ns": 12700.0,
+          "min_complete_ns": 12200.0,
+          "max_complete_ns": 27600.0,
+          "median_complete_ns_per_query_including_preparation": 12700.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            61800.0,
+            58200.0,
+            60200.0,
+            63900.0,
+            61700.0,
+            59800.0,
+            59200.0,
+            59200.0,
+            61600.0
+          ],
+          "median_complete_ns": 60200.0,
+          "min_complete_ns": 58200.0,
+          "max_complete_ns": 63900.0,
+          "median_complete_ns_per_query_including_preparation": 60200.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            62900.0,
+            66100.0,
+            62600.0,
+            121800.0,
+            68100.0,
+            63400.0,
+            68100.0,
+            63000.0,
+            65300.0
+          ],
+          "median_complete_ns": 65300.0,
+          "min_complete_ns": 62600.0,
+          "max_complete_ns": 121800.0,
+          "median_complete_ns_per_query_including_preparation": 65300.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4262400.0,
+            4123200.0,
+            4207600.0,
+            4311500.0,
+            4334200.0,
+            4131000.0,
+            4105100.0,
+            4100500.0,
+            4200300.0
+          ],
+          "median_complete_ns": 4200300.0,
+          "min_complete_ns": 4100500.0,
+          "max_complete_ns": 4334200.0,
+          "median_complete_ns_per_query_including_preparation": 4200300.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            73100.0,
+            55300.0,
+            55600.0,
+            57600.0,
+            60800.0,
+            54400.0,
+            55300.0,
+            56700.0,
+            57600.0
+          ],
+          "median_complete_ns": 56700.0,
+          "min_complete_ns": 54400.0,
+          "max_complete_ns": 73100.0,
+          "median_complete_ns_per_query_including_preparation": 56700.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            54200.0,
+            54400.0,
+            58400.0,
+            54300.0,
+            55600.0,
+            54900.0,
+            61900.0,
+            54700.0,
+            55200.0
+          ],
+          "median_complete_ns": 54900.0,
+          "min_complete_ns": 54200.0,
+          "max_complete_ns": 61900.0,
+          "median_complete_ns_per_query_including_preparation": 54900.0
+        }
+      }
+    },
+    {
+      "stratum": 12,
+      "n": 64,
+      "family": "first",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            476300.0,
+            489000.0,
+            475400.0,
+            488000.0,
+            545100.0,
+            480500.0,
+            485600.0,
+            480900.0,
+            478900.0
+          ],
+          "median_complete_ns": 480900.0,
+          "min_complete_ns": 475400.0,
+          "max_complete_ns": 545100.0,
+          "median_complete_ns_per_query_including_preparation": 10018.75
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            553700.0,
+            546000.0,
+            539600.0,
+            565400.0,
+            555600.0,
+            567900.0,
+            557400.0,
+            554000.0,
+            551500.0
+          ],
+          "median_complete_ns": 554000.0,
+          "min_complete_ns": 539600.0,
+          "max_complete_ns": 567900.0,
+          "median_complete_ns_per_query_including_preparation": 11541.666666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            694300.0,
+            724100.0,
+            695700.0,
+            697300.0,
+            688100.0,
+            740600.0,
+            764300.0,
+            689200.0,
+            689200.0
+          ],
+          "median_complete_ns": 695700.0,
+          "min_complete_ns": 688100.0,
+          "max_complete_ns": 764300.0,
+          "median_complete_ns_per_query_including_preparation": 14493.75
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4272600.0,
+            4513300.0,
+            4241000.0,
+            4266100.0,
+            4455400.0,
+            4245500.0,
+            4282300.0,
+            4388400.0,
+            4439600.0
+          ],
+          "median_complete_ns": 4282300.0,
+          "min_complete_ns": 4241000.0,
+          "max_complete_ns": 4513300.0,
+          "median_complete_ns_per_query_including_preparation": 89214.58333333333
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            193600.0,
+            190000.0,
+            189500.0,
+            187900.0,
+            191400.0,
+            192300.0,
+            191500.0,
+            191800.0,
+            194900.0
+          ],
+          "median_complete_ns": 191500.0,
+          "min_complete_ns": 187900.0,
+          "max_complete_ns": 194900.0,
+          "median_complete_ns_per_query_including_preparation": 3989.5833333333335
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            190800.0,
+            190700.0,
+            187800.0,
+            191500.0,
+            191600.0,
+            192200.0,
+            191700.0,
+            189200.0,
+            189300.0
+          ],
+          "median_complete_ns": 190800.0,
+          "min_complete_ns": 187800.0,
+          "max_complete_ns": 192200.0,
+          "median_complete_ns_per_query_including_preparation": 3975.0
+        }
+      }
+    },
+    {
+      "stratum": 12,
+      "n": 64,
+      "family": "first",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            3414300.0,
+            1952600.0,
+            1947500.0,
+            1904800.0,
+            1922800.0,
+            1898500.0,
+            2009300.0,
+            1886700.0,
+            1923400.0
+          ],
+          "median_complete_ns": 1923400.0,
+          "min_complete_ns": 1886700.0,
+          "max_complete_ns": 3414300.0,
+          "median_complete_ns_per_query_including_preparation": 10017.708333333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            3343200.0,
+            2048700.0,
+            2119100.0,
+            2078300.0,
+            2138100.0,
+            2197300.0,
+            2046700.0,
+            2153400.0,
+            2090000.0
+          ],
+          "median_complete_ns": 2119100.0,
+          "min_complete_ns": 2046700.0,
+          "max_complete_ns": 3343200.0,
+          "median_complete_ns_per_query_including_preparation": 11036.979166666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            3683300.0,
+            2734000.0,
+            2728600.0,
+            2722400.0,
+            2582200.0,
+            2789900.0,
+            2749300.0,
+            2667700.0,
+            2671600.0
+          ],
+          "median_complete_ns": 2728600.0,
+          "min_complete_ns": 2582200.0,
+          "max_complete_ns": 3683300.0,
+          "median_complete_ns_per_query_including_preparation": 14211.458333333334
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4943300.0,
+            4703400.0,
+            4792300.0,
+            4840800.0,
+            4844000.0,
+            4693200.0,
+            4654300.0,
+            5150400.0,
+            4797800.0
+          ],
+          "median_complete_ns": 4797800.0,
+          "min_complete_ns": 4654300.0,
+          "max_complete_ns": 5150400.0,
+          "median_complete_ns_per_query_including_preparation": 24988.541666666668
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            622700.0,
+            617200.0,
+            595600.0,
+            602500.0,
+            680500.0,
+            604100.0,
+            603700.0,
+            597700.0,
+            599400.0
+          ],
+          "median_complete_ns": 603700.0,
+          "min_complete_ns": 595600.0,
+          "max_complete_ns": 680500.0,
+          "median_complete_ns_per_query_including_preparation": 3144.2708333333335
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            632700.0,
+            603800.0,
+            617600.0,
+            713300.0,
+            602600.0,
+            602700.0,
+            669300.0,
+            604200.0,
+            601000.0
+          ],
+          "median_complete_ns": 604200.0,
+          "min_complete_ns": 601000.0,
+          "max_complete_ns": 713300.0,
+          "median_complete_ns_per_query_including_preparation": 3146.875
+        }
+      }
+    },
+    {
+      "stratum": 12,
+      "n": 64,
+      "family": "first",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            7662700.0,
+            7621600.0,
+            7669300.0,
+            7831800.0,
+            7753900.0,
+            7539300.0,
+            7833600.0,
+            7816900.0,
+            7865300.0
+          ],
+          "median_complete_ns": 7753900.0,
+          "min_complete_ns": 7539300.0,
+          "max_complete_ns": 7865300.0,
+          "median_complete_ns_per_query_including_preparation": 10096.223958333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            8098200.0,
+            8549800.0,
+            8190400.0,
+            8218400.0,
+            7955600.0,
+            8226900.0,
+            8122700.0,
+            8475900.0,
+            8081700.0
+          ],
+          "median_complete_ns": 8190400.0,
+          "min_complete_ns": 7955600.0,
+          "max_complete_ns": 8549800.0,
+          "median_complete_ns_per_query_including_preparation": 10664.583333333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            11795700.0,
+            10978500.0,
+            10291600.0,
+            10446800.0,
+            10545300.0,
+            10734800.0,
+            10518300.0,
+            10619000.0,
+            10570700.0
+          ],
+          "median_complete_ns": 10570700.0,
+          "min_complete_ns": 10291600.0,
+          "max_complete_ns": 11795700.0,
+          "median_complete_ns_per_query_including_preparation": 13763.932291666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            12493300.0,
+            6740200.0,
+            6419700.0,
+            6450700.0,
+            6610500.0,
+            6516200.0,
+            6463100.0,
+            6840200.0,
+            6337500.0
+          ],
+          "median_complete_ns": 6516200.0,
+          "min_complete_ns": 6337500.0,
+          "max_complete_ns": 12493300.0,
+          "median_complete_ns_per_query_including_preparation": 8484.635416666666
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2315700.0,
+            2251500.0,
+            2275600.0,
+            2441000.0,
+            2256600.0,
+            2261100.0,
+            2319500.0,
+            2264300.0,
+            2261800.0
+          ],
+          "median_complete_ns": 2264300.0,
+          "min_complete_ns": 2251500.0,
+          "max_complete_ns": 2441000.0,
+          "median_complete_ns_per_query_including_preparation": 2948.3072916666665
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2677500.0,
+            2321600.0,
+            2217000.0,
+            2253900.0,
+            2296600.0,
+            2270500.0,
+            2295500.0,
+            2245700.0,
+            2341500.0
+          ],
+          "median_complete_ns": 2295500.0,
+          "min_complete_ns": 2217000.0,
+          "max_complete_ns": 2677500.0,
+          "median_complete_ns_per_query_including_preparation": 2988.9322916666665
+        }
+      }
+    },
+    {
+      "stratum": 13,
+      "n": 64,
+      "family": "last",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            21200.0,
+            13400.0,
+            12900.0,
+            13300.0,
+            11800.0,
+            12400.0,
+            12000.0,
+            13500.0,
+            12400.0
+          ],
+          "median_complete_ns": 12900.0,
+          "min_complete_ns": 11800.0,
+          "max_complete_ns": 21200.0,
+          "median_complete_ns_per_query_including_preparation": 12900.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            59300.0,
+            56300.0,
+            57700.0,
+            58700.0,
+            60400.0,
+            58700.0,
+            58100.0,
+            82000.0,
+            57400.0
+          ],
+          "median_complete_ns": 58700.0,
+          "min_complete_ns": 56300.0,
+          "max_complete_ns": 82000.0,
+          "median_complete_ns_per_query_including_preparation": 58700.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            94300.0,
+            61400.0,
+            61700.0,
+            64600.0,
+            61800.0,
+            61800.0,
+            65800.0,
+            63200.0,
+            62900.0
+          ],
+          "median_complete_ns": 62900.0,
+          "min_complete_ns": 61400.0,
+          "max_complete_ns": 94300.0,
+          "median_complete_ns_per_query_including_preparation": 62900.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            6309700.0,
+            4128500.0,
+            4095900.0,
+            4222700.0,
+            4269200.0,
+            4077700.0,
+            4113100.0,
+            4224900.0,
+            4338000.0
+          ],
+          "median_complete_ns": 4222700.0,
+          "min_complete_ns": 4077700.0,
+          "max_complete_ns": 6309700.0,
+          "median_complete_ns_per_query_including_preparation": 4222700.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            58700.0,
+            53300.0,
+            57400.0,
+            55500.0,
+            53300.0,
+            53600.0,
+            53800.0,
+            64400.0,
+            57300.0
+          ],
+          "median_complete_ns": 55500.0,
+          "min_complete_ns": 53300.0,
+          "max_complete_ns": 64400.0,
+          "median_complete_ns_per_query_including_preparation": 55500.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            85700.0,
+            55800.0,
+            54000.0,
+            53600.0,
+            54500.0,
+            53000.0,
+            56600.0,
+            59600.0,
+            57900.0
+          ],
+          "median_complete_ns": 55800.0,
+          "min_complete_ns": 53000.0,
+          "max_complete_ns": 85700.0,
+          "median_complete_ns_per_query_including_preparation": 55800.0
+        }
+      }
+    },
+    {
+      "stratum": 13,
+      "n": 64,
+      "family": "last",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            889800.0,
+            481600.0,
+            491400.0,
+            500300.0,
+            484100.0,
+            473600.0,
+            477100.0,
+            480000.0,
+            555700.0
+          ],
+          "median_complete_ns": 484100.0,
+          "min_complete_ns": 473600.0,
+          "max_complete_ns": 889800.0,
+          "median_complete_ns_per_query_including_preparation": 10085.416666666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            940100.0,
+            551300.0,
+            552800.0,
+            552100.0,
+            556900.0,
+            546100.0,
+            569300.0,
+            551100.0,
+            559600.0
+          ],
+          "median_complete_ns": 552800.0,
+          "min_complete_ns": 546100.0,
+          "max_complete_ns": 940100.0,
+          "median_complete_ns_per_query_including_preparation": 11516.666666666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            1272500.0,
+            701400.0,
+            687600.0,
+            764300.0,
+            718200.0,
+            675000.0,
+            722800.0,
+            686200.0,
+            694400.0
+          ],
+          "median_complete_ns": 701400.0,
+          "min_complete_ns": 675000.0,
+          "max_complete_ns": 1272500.0,
+          "median_complete_ns_per_query_including_preparation": 14612.5
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            7464500.0,
+            4264300.0,
+            4320500.0,
+            4352400.0,
+            4294300.0,
+            4239200.0,
+            4238900.0,
+            4346700.0,
+            4494000.0
+          ],
+          "median_complete_ns": 4320500.0,
+          "min_complete_ns": 4238900.0,
+          "max_complete_ns": 7464500.0,
+          "median_complete_ns_per_query_including_preparation": 90010.41666666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            408100.0,
+            187600.0,
+            194200.0,
+            189200.0,
+            199000.0,
+            193200.0,
+            191000.0,
+            190100.0,
+            452800.0
+          ],
+          "median_complete_ns": 193200.0,
+          "min_complete_ns": 187600.0,
+          "max_complete_ns": 452800.0,
+          "median_complete_ns_per_query_including_preparation": 4025.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            377800.0,
+            191500.0,
+            188800.0,
+            213100.0,
+            187900.0,
+            188800.0,
+            189400.0,
+            187800.0,
+            198000.0
+          ],
+          "median_complete_ns": 189400.0,
+          "min_complete_ns": 187800.0,
+          "max_complete_ns": 377800.0,
+          "median_complete_ns_per_query_including_preparation": 3945.8333333333335
+        }
+      }
+    },
+    {
+      "stratum": 13,
+      "n": 64,
+      "family": "last",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            3344200.0,
+            1883200.0,
+            1955800.0,
+            1974900.0,
+            1879700.0,
+            1878800.0,
+            1921400.0,
+            2040800.0,
+            1922700.0
+          ],
+          "median_complete_ns": 1922700.0,
+          "min_complete_ns": 1878800.0,
+          "max_complete_ns": 3344200.0,
+          "median_complete_ns_per_query_including_preparation": 10014.0625
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            3813800.0,
+            2041900.0,
+            2024200.0,
+            2022700.0,
+            2064100.0,
+            2052000.0,
+            2217300.0,
+            2067400.0,
+            2119400.0
+          ],
+          "median_complete_ns": 2064100.0,
+          "min_complete_ns": 2022700.0,
+          "max_complete_ns": 3813800.0,
+          "median_complete_ns_per_query_including_preparation": 10750.520833333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            4718600.0,
+            2648400.0,
+            2659400.0,
+            2615600.0,
+            2703900.0,
+            2519300.0,
+            2598500.0,
+            2657000.0,
+            3194800.0
+          ],
+          "median_complete_ns": 2657000.0,
+          "min_complete_ns": 2519300.0,
+          "max_complete_ns": 4718600.0,
+          "median_complete_ns_per_query_including_preparation": 13838.541666666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            7388500.0,
+            4736600.0,
+            4836600.0,
+            4648100.0,
+            4800200.0,
+            4734400.0,
+            4633300.0,
+            4948200.0,
+            4741400.0
+          ],
+          "median_complete_ns": 4741400.0,
+          "min_complete_ns": 4633300.0,
+          "max_complete_ns": 7388500.0,
+          "median_complete_ns_per_query_including_preparation": 24694.791666666668
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            1330300.0,
+            602800.0,
+            614300.0,
+            598600.0,
+            613500.0,
+            609000.0,
+            607700.0,
+            613000.0,
+            618200.0
+          ],
+          "median_complete_ns": 613000.0,
+          "min_complete_ns": 598600.0,
+          "max_complete_ns": 1330300.0,
+          "median_complete_ns_per_query_including_preparation": 3192.7083333333335
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            622300.0,
+            597600.0,
+            601400.0,
+            595300.0,
+            601200.0,
+            597800.0,
+            600600.0,
+            602400.0,
+            621300.0
+          ],
+          "median_complete_ns": 601200.0,
+          "min_complete_ns": 595300.0,
+          "max_complete_ns": 622300.0,
+          "median_complete_ns_per_query_including_preparation": 3131.25
+        }
+      }
+    },
+    {
+      "stratum": 13,
+      "n": 64,
+      "family": "last",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            8538100.0,
+            7606300.0,
+            7716400.0,
+            8045600.0,
+            7657000.0,
+            7558300.0,
+            7431900.0,
+            7731700.0,
+            8147500.0
+          ],
+          "median_complete_ns": 7716400.0,
+          "min_complete_ns": 7431900.0,
+          "max_complete_ns": 8538100.0,
+          "median_complete_ns_per_query_including_preparation": 10047.395833333334
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            9413100.0,
+            8232500.0,
+            8056900.0,
+            8259600.0,
+            8094800.0,
+            8462900.0,
+            8183700.0,
+            8222000.0,
+            8166800.0
+          ],
+          "median_complete_ns": 8222000.0,
+          "min_complete_ns": 8056900.0,
+          "max_complete_ns": 9413100.0,
+          "median_complete_ns_per_query_including_preparation": 10705.729166666666
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            14881000.0,
+            10267800.0,
+            10678200.0,
+            10495800.0,
+            10227300.0,
+            10697800.0,
+            10617000.0,
+            10199700.0,
+            10603100.0
+          ],
+          "median_complete_ns": 10603100.0,
+          "min_complete_ns": 10199700.0,
+          "max_complete_ns": 14881000.0,
+          "median_complete_ns_per_query_including_preparation": 13806.119791666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            9290200.0,
+            6348400.0,
+            6468600.0,
+            6321600.0,
+            6421900.0,
+            6580600.0,
+            6305200.0,
+            6357900.0,
+            6481600.0
+          ],
+          "median_complete_ns": 6421900.0,
+          "min_complete_ns": 6305200.0,
+          "max_complete_ns": 9290200.0,
+          "median_complete_ns_per_query_including_preparation": 8361.848958333334
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2644000.0,
+            2275600.0,
+            2243100.0,
+            2315100.0,
+            2313300.0,
+            2254800.0,
+            2325400.0,
+            2280000.0,
+            2291700.0
+          ],
+          "median_complete_ns": 2291700.0,
+          "min_complete_ns": 2243100.0,
+          "max_complete_ns": 2644000.0,
+          "median_complete_ns_per_query_including_preparation": 2983.984375
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            3653500.0,
+            2243000.0,
+            2375000.0,
+            2382800.0,
+            2364800.0,
+            2281500.0,
+            2254800.0,
+            2293600.0,
+            2464600.0
+          ],
+          "median_complete_ns": 2364800.0,
+          "min_complete_ns": 2243000.0,
+          "max_complete_ns": 3653500.0,
+          "median_complete_ns_per_query_including_preparation": 3079.1666666666665
+        }
+      }
+    },
+    {
+      "stratum": 14,
+      "n": 64,
+      "family": "all",
+      "queries": 1,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            13700.0,
+            12700.0,
+            12300.0,
+            11600.0,
+            12600.0,
+            12300.0,
+            11400.0,
+            12300.0,
+            11900.0
+          ],
+          "median_complete_ns": 12300.0,
+          "min_complete_ns": 11400.0,
+          "max_complete_ns": 13700.0,
+          "median_complete_ns_per_query_including_preparation": 12300.0
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            41600.0,
+            38500.0,
+            41500.0,
+            38400.0,
+            44200.0,
+            39400.0,
+            40200.0,
+            40100.0,
+            40000.0
+          ],
+          "median_complete_ns": 40100.0,
+          "min_complete_ns": 38400.0,
+          "max_complete_ns": 44200.0,
+          "median_complete_ns_per_query_including_preparation": 40100.0
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            47300.0,
+            43500.0,
+            47100.0,
+            42500.0,
+            43700.0,
+            42900.0,
+            43100.0,
+            44800.0,
+            45900.0
+          ],
+          "median_complete_ns": 43700.0,
+          "min_complete_ns": 42500.0,
+          "max_complete_ns": 47300.0,
+          "median_complete_ns_per_query_including_preparation": 43700.0
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4457300.0,
+            4399600.0,
+            4314000.0,
+            4183600.0,
+            4196900.0,
+            4173900.0,
+            4095700.0,
+            4197500.0,
+            4129300.0
+          ],
+          "median_complete_ns": 4196900.0,
+          "min_complete_ns": 4095700.0,
+          "max_complete_ns": 4457300.0,
+          "median_complete_ns_per_query_including_preparation": 4196900.0
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            39600.0,
+            37200.0,
+            36200.0,
+            34900.0,
+            33200.0,
+            39500.0,
+            35200.0,
+            38000.0,
+            36400.0
+          ],
+          "median_complete_ns": 36400.0,
+          "min_complete_ns": 33200.0,
+          "max_complete_ns": 39600.0,
+          "median_complete_ns_per_query_including_preparation": 36400.0
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            35700.0,
+            34700.0,
+            35100.0,
+            34600.0,
+            36400.0,
+            35600.0,
+            36100.0,
+            35300.0,
+            38900.0
+          ],
+          "median_complete_ns": 35600.0,
+          "min_complete_ns": 34600.0,
+          "max_complete_ns": 38900.0,
+          "median_complete_ns_per_query_including_preparation": 35600.0
+        }
+      }
+    },
+    {
+      "stratum": 14,
+      "n": 64,
+      "family": "all",
+      "queries": 48,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            497000.0,
+            635900.0,
+            483800.0,
+            468800.0,
+            521300.0,
+            481400.0,
+            512500.0,
+            469800.0,
+            582100.0
+          ],
+          "median_complete_ns": 497000.0,
+          "min_complete_ns": 468800.0,
+          "max_complete_ns": 635900.0,
+          "median_complete_ns_per_query_including_preparation": 10354.166666666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            528200.0,
+            547000.0,
+            542000.0,
+            527800.0,
+            541400.0,
+            518500.0,
+            614300.0,
+            523000.0,
+            538600.0
+          ],
+          "median_complete_ns": 538600.0,
+          "min_complete_ns": 518500.0,
+          "max_complete_ns": 614300.0,
+          "median_complete_ns_per_query_including_preparation": 11220.833333333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            1275800.0,
+            682100.0,
+            681900.0,
+            669700.0,
+            662200.0,
+            623300.0,
+            699500.0,
+            773800.0,
+            669600.0
+          ],
+          "median_complete_ns": 681900.0,
+          "min_complete_ns": 623300.0,
+          "max_complete_ns": 1275800.0,
+          "median_complete_ns_per_query_including_preparation": 14206.25
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4344700.0,
+            4360100.0,
+            4704700.0,
+            4346000.0,
+            4417400.0,
+            4239400.0,
+            4491100.0,
+            4537700.0,
+            4516300.0
+          ],
+          "median_complete_ns": 4417400.0,
+          "min_complete_ns": 4239400.0,
+          "max_complete_ns": 4704700.0,
+          "median_complete_ns_per_query_including_preparation": 92029.16666666667
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            349900.0,
+            172400.0,
+            182100.0,
+            170700.0,
+            174400.0,
+            185300.0,
+            229700.0,
+            173900.0,
+            173800.0
+          ],
+          "median_complete_ns": 174400.0,
+          "min_complete_ns": 170700.0,
+          "max_complete_ns": 349900.0,
+          "median_complete_ns_per_query_including_preparation": 3633.3333333333335
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            172800.0,
+            169700.0,
+            168500.0,
+            169400.0,
+            170500.0,
+            169600.0,
+            173700.0,
+            170200.0,
+            171200.0
+          ],
+          "median_complete_ns": 170200.0,
+          "min_complete_ns": 168500.0,
+          "max_complete_ns": 173700.0,
+          "median_complete_ns_per_query_including_preparation": 3545.8333333333335
+        }
+      }
+    },
+    {
+      "stratum": 14,
+      "n": 64,
+      "family": "all",
+      "queries": 192,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            1867500.0,
+            1845300.0,
+            1858000.0,
+            1832400.0,
+            1875300.0,
+            1863600.0,
+            1958000.0,
+            1865300.0,
+            1873400.0
+          ],
+          "median_complete_ns": 1865300.0,
+          "min_complete_ns": 1832400.0,
+          "max_complete_ns": 1958000.0,
+          "median_complete_ns_per_query_including_preparation": 9715.104166666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            2015200.0,
+            2040100.0,
+            1973200.0,
+            2004700.0,
+            2116300.0,
+            1961800.0,
+            2087500.0,
+            2002300.0,
+            2067700.0
+          ],
+          "median_complete_ns": 2015200.0,
+          "min_complete_ns": 1961800.0,
+          "max_complete_ns": 2116300.0,
+          "median_complete_ns_per_query_including_preparation": 10495.833333333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            3037400.0,
+            2568300.0,
+            2640600.0,
+            2520800.0,
+            2783500.0,
+            2498800.0,
+            2695700.0,
+            2603300.0,
+            2700000.0
+          ],
+          "median_complete_ns": 2640600.0,
+          "min_complete_ns": 2498800.0,
+          "max_complete_ns": 3037400.0,
+          "median_complete_ns_per_query_including_preparation": 13753.125
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            4779000.0,
+            4823800.0,
+            4824100.0,
+            4813500.0,
+            4905100.0,
+            4736300.0,
+            4737800.0,
+            4855400.0,
+            4757300.0
+          ],
+          "median_complete_ns": 4813500.0,
+          "min_complete_ns": 4736300.0,
+          "max_complete_ns": 4905100.0,
+          "median_complete_ns_per_query_including_preparation": 25070.3125
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            597900.0,
+            582500.0,
+            598300.0,
+            587900.0,
+            585300.0,
+            600200.0,
+            593700.0,
+            585500.0,
+            585900.0
+          ],
+          "median_complete_ns": 587900.0,
+          "min_complete_ns": 582500.0,
+          "max_complete_ns": 600200.0,
+          "median_complete_ns_per_query_including_preparation": 3061.9791666666665
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            604000.0,
+            603500.0,
+            584100.0,
+            593400.0,
+            592700.0,
+            580900.0,
+            601100.0,
+            586000.0,
+            586000.0
+          ],
+          "median_complete_ns": 592700.0,
+          "min_complete_ns": 580900.0,
+          "max_complete_ns": 604000.0,
+          "median_complete_ns_per_query_including_preparation": 3086.9791666666665
+        }
+      }
+    },
+    {
+      "stratum": 14,
+      "n": 64,
+      "family": "all",
+      "queries": 768,
+      "routes": {
+        "Raw": {
+          "complete_ns_all_9_blocks": [
+            8049100.0,
+            7625900.0,
+            7511200.0,
+            7763400.0,
+            7521500.0,
+            7522800.0,
+            7417800.0,
+            7454300.0,
+            7464600.0
+          ],
+          "median_complete_ns": 7521500.0,
+          "min_complete_ns": 7417800.0,
+          "max_complete_ns": 8049100.0,
+          "median_complete_ns_per_query_including_preparation": 9793.619791666666
+        },
+        "Closed": {
+          "complete_ns_all_9_blocks": [
+            8509900.0,
+            7910600.0,
+            8010100.0,
+            8144000.0,
+            8026000.0,
+            8095900.0,
+            7915000.0,
+            8146500.0,
+            7945600.0
+          ],
+          "median_complete_ns": 8026000.0,
+          "min_complete_ns": 7910600.0,
+          "max_complete_ns": 8509900.0,
+          "median_complete_ns_per_query_including_preparation": 10450.520833333334
+        },
+        "Cheap": {
+          "complete_ns_all_9_blocks": [
+            10619700.0,
+            10257300.0,
+            9949900.0,
+            10594600.0,
+            10320900.0,
+            10130300.0,
+            10256300.0,
+            10122200.0,
+            9922500.0
+          ],
+          "median_complete_ns": 10256300.0,
+          "min_complete_ns": 9922500.0,
+          "max_complete_ns": 10619700.0,
+          "median_complete_ns_per_query_including_preparation": 13354.557291666666
+        },
+        "Quartet": {
+          "complete_ns_all_9_blocks": [
+            9610000.0,
+            6464600.0,
+            6391800.0,
+            6565700.0,
+            6501400.0,
+            6503500.0,
+            6483600.0,
+            6392600.0,
+            6533000.0
+          ],
+          "median_complete_ns": 6501400.0,
+          "min_complete_ns": 6391800.0,
+          "max_complete_ns": 9610000.0,
+          "median_complete_ns_per_query_including_preparation": 8465.364583333334
+        },
+        "Specialized": {
+          "complete_ns_all_9_blocks": [
+            2343900.0,
+            2250000.0,
+            2234400.0,
+            2229500.0,
+            2150400.0,
+            2315300.0,
+            2228900.0,
+            2283900.0,
+            2254100.0
+          ],
+          "median_complete_ns": 2250000.0,
+          "min_complete_ns": 2150400.0,
+          "max_complete_ns": 2343900.0,
+          "median_complete_ns_per_query_including_preparation": 2929.6875
+        },
+        "Specialized+Quartet": {
+          "complete_ns_all_9_blocks": [
+            2445000.0,
+            2302700.0,
+            2247000.0,
+            2407800.0,
+            2356400.0,
+            2342900.0,
+            2306900.0,
+            2253000.0,
+            2226200.0
+          ],
+          "median_complete_ns": 2306900.0,
+          "min_complete_ns": 2226200.0,
+          "max_complete_ns": 2445000.0,
+          "median_complete_ns_per_query_including_preparation": 3003.7760416666665
+        }
+      }
+    }
+  ],
+  "paired_rows": 2160,
+  "per_query_boundary": "Complete preparation-inclusive job divided by Q; no separately measured query kernel.",
+  "old_R05": "Preserved prior once-only evidence, not called repeated reproduction.",
+  "raw_sha256": "123e514af335ac1c07ad0e884cfa3a54e9fba2d8199cb8b1c64ef74a0793faed"
+}

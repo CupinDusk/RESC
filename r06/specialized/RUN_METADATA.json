@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_ONCE",
+  "utc": "2026-10-23T01:12:15.042595+00:00",
+  "argv": [
+    "outputs/iscas-final-polish-20261022/r06-analysis/hopper-specialized-baseline/candidate-v2/run_once.py"
+  ],
+  "package_sha256": "25ee6fcc40ec5c7d2d4a15a0feec19b45ee80fa229cccbf5caee1e01ac179a3d",
+  "root_gate_sha256": "6b37291574bc5bf1971733410415b645ac1aad3108abae1d1410a3fe5a14fac7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "[LOCAL_USER]/.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "compiler": "Zig0.14.1 C++17 -O3 -DNDEBUG -Wall -Wextra",
+  "executable_sha256": "d22cbc708b4c709cb4c7393e6b6fb910b0c24431bcd438ed6fd131377257aac9",
+  "executable_bytes": 845824,
+  "command": [
+    "[WORKSPACE]/outputs\\iscas-final-polish-20261022\\r06-analysis\\hopper-specialized-baseline\\candidate-v2\\benchmark.exe",
+    "time"
+  ],
+  "cwd": "[WORKSPACE]/outputs\\iscas-final-polish-20261022\\r06-analysis\\hopper-specialized-baseline\\candidate-v2",
+  "controls": "Ordinary Windows. No affinity/priority/power/frequency/service changes; no machine-isolation claim.",
+  "methodology": "One full warmup, nine paired shuffled blocks, all 60 plan/Q strata, six complete routes; fresh preparation, queries, rolling hash and local cleanup inside measured caller boundary.",
+  "boundary": "Parsing, validation, output, expected comparisons and outer volatile consumption excluded equally; per-query normalization retains preparation cost.",
+  "returncode": 0,
+  "end_utc": "2026-10-23T01:12:19.027074+00:00",
+  "wall_elapsed_ns": 3903957600,
+  "records": 3240,
+  "raw_sha256": "123e514af335ac1c07ad0e884cfa3a54e9fba2d8199cb8b1c64ef74a0793faed",
+  "log_sha256": "3c7e9c7338342ed4b93b39816fcbf918e3dcc009ba0d38c7a0f4beae7cf6ccbf"
+}

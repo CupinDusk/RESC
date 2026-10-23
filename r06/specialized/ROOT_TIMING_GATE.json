@@ -1,0 +1,10 @@
+{
+  "package_sha256": "25ee6fcc40ec5c7d2d4a15a0feec19b45ee80fa229cccbf5caee1e01ac179a3d",
+  "different_agent_fresh_compile_and_audit_passed": true,
+  "heavy_synthesis_finished_for_short_window": true,
+  "authorize_exactly_one_collection": true,
+  "independent_audit_artifact": "outputs\\iscas-final-polish-20261022\\r06-analysis\\hopper-specialized-baseline\\root-independent-v2\\INDEPENDENT_V2_GATE.json",
+  "independent_audit_sha256": "69e2e3d8fd47a377bc90b20afb733163ae05c0353d94dd9a48a997221c0dc4bb",
+  "coordinated_window_utc": "2026-10-23T01:12:14.658301+00:00",
+  "coordination": "Only remaining agent reports all full RTL/edge/certificate work passed and is writing metadata; asked not to start heavy work during this short window. Ordinary Windows apps remain active. No affinity/priority/power change or isolation claim."
+}

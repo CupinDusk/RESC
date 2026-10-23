@@ -1,0 +1,6711 @@
+{
+  "status": "PASS_PRODUCER_ONLY_PENDING_DIFFERENT_AGENT_FRESH_EXECUTION_AND_CERTIFICATE_AUDIT",
+  "reports": 96,
+  "jobs": 576,
+  "queries": 69888,
+  "total_orders": {
+    "queries": 69120,
+    "false": 67968,
+    "reject": 66162,
+    "false_reject": 66162,
+    "box_reject": 66099,
+    "additional_joint_rejections": 63,
+    "true": 1152,
+    "admit": 2958,
+    "true_admit": 1152,
+    "box_admit": 3021,
+    "box_admitted_true": 1152,
+    "box_admitted_false": 1869,
+    "false_admit": 1806
+  },
+  "fixed_partials": {
+    "queries": 768,
+    "false": 480,
+    "reject": 435,
+    "false_reject": 435,
+    "box_reject": 435,
+    "additional_joint_rejections": 0,
+    "true": 288,
+    "admit": 333,
+    "true_admit": 288,
+    "box_admit": 333,
+    "box_admitted_true": 288,
+    "false_admit": 45,
+    "box_admitted_false": 45
+  },
+  "groups": {
+    "tight201_200_total": {
+      "queries": 34560,
+      "false": 33984,
+      "reject": 33648,
+      "false_reject": 33648,
+      "box_reject": 33643,
+      "additional_joint_rejections": 5,
+      "true": 576,
+      "admit": 912,
+      "true_admit": 576,
+      "box_admit": 917,
+      "box_admitted_true": 576,
+      "false_admit": 336,
+      "box_admitted_false": 341
+    },
+    "tight201_200_partial": {
+      "queries": 384,
+      "false": 240,
+      "reject": 233,
+      "false_reject": 233,
+      "box_reject": 233,
+      "additional_joint_rejections": 0,
+      "true": 144,
+      "admit": 151,
+      "true_admit": 144,
+      "box_admit": 151,
+      "box_admitted_true": 144,
+      "false_admit": 7,
+      "box_admitted_false": 7
+    },
+    "contains_ties_total": {
+      "queries": 69120,
+      "false": 67968,
+      "reject": 66162,
+      "false_reject": 66162,
+      "box_reject": 66099,
+      "additional_joint_rejections": 63,
+      "true": 1152,
+      "admit": 2958,
+      "true_admit": 1152,
+      "box_admit": 3021,
+      "box_admitted_true": 1152,
+      "box_admitted_false": 1869,
+      "false_admit": 1806
+    },
+    "contains_ties_partial": {
+      "queries": 768,
+      "false": 480,
+      "reject": 435,
+      "false_reject": 435,
+      "box_reject": 435,
+      "additional_joint_rejections": 0,
+      "true": 288,
+      "admit": 333,
+      "true_admit": 288,
+      "box_admit": 333,
+      "box_admitted_true": 288,
+      "false_admit": 45,
+      "box_admitted_false": 45
+    },
+    "wide21_20_total": {
+      "queries": 34560,
+      "false": 33984,
+      "reject": 32514,
+      "false_reject": 32514,
+      "box_reject": 32456,
+      "additional_joint_rejections": 58,
+      "true": 576,
+      "admit": 2046,
+      "true_admit": 576,
+      "box_admit": 2104,
+      "box_admitted_true": 576,
+      "box_admitted_false": 1528,
+      "false_admit": 1470
+    },
+    "wide21_20_partial": {
+      "queries": 384,
+      "false": 240,
+      "reject": 202,
+      "false_reject": 202,
+      "box_reject": 202,
+      "additional_joint_rejections": 0,
+      "true": 144,
+      "admit": 182,
+      "true_admit": 144,
+      "box_admit": 182,
+      "box_admitted_true": 144,
+      "false_admit": 38,
+      "box_admitted_false": 38
+    }
+  },
+  "cells": [
+    {
+      "report": 0,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 1,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 2,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 3,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 4,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 707,
+        "false_reject": 707,
+        "box_reject": 706,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 13,
+        "true_admit": 12,
+        "box_admit": 14,
+        "box_admitted_true": 12,
+        "box_admitted_false": 2,
+        "false_admit": 1
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 5,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 6,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 7,
+      "function": "array_sum",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 703,
+        "false_reject": 703,
+        "box_reject": 702,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 17,
+        "true_admit": 12,
+        "box_admit": 18,
+        "box_admitted_true": 12,
+        "false_admit": 5,
+        "box_admitted_false": 6
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 8,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 9,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 10,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 11,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 12,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 707,
+        "false_reject": 707,
+        "box_reject": 706,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 13,
+        "true_admit": 12,
+        "box_admit": 14,
+        "box_admitted_true": 12,
+        "box_admitted_false": 2,
+        "false_admit": 1
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 13,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 14,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 15,
+      "function": "array_sum",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        729,
+        181,
+        181,
+        181,
+        213,
+        213
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 703,
+        "false_reject": 703,
+        "box_reject": 702,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 17,
+        "true_admit": 12,
+        "box_admit": 18,
+        "box_admitted_true": 12,
+        "false_admit": 5,
+        "box_admitted_false": 6
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 16,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 17,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 18,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 19,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 20,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 698,
+        "false_reject": 698,
+        "box_reject": 695,
+        "additional_joint_rejections": 3,
+        "true": 12,
+        "admit": 22,
+        "true_admit": 12,
+        "box_admit": 25,
+        "box_admitted_true": 12,
+        "false_admit": 10,
+        "box_admitted_false": 13
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 21,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 22,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 23,
+      "function": "shifted_xor",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 703,
+        "false_reject": 703,
+        "box_reject": 702,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 17,
+        "true_admit": 12,
+        "box_admit": 18,
+        "box_admitted_true": 12,
+        "false_admit": 5,
+        "box_admitted_false": 6
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 24,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 25,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 26,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 27,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 28,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 698,
+        "false_reject": 698,
+        "box_reject": 695,
+        "additional_joint_rejections": 3,
+        "true": 12,
+        "admit": 22,
+        "true_admit": 12,
+        "box_admit": 25,
+        "box_admitted_true": 12,
+        "false_admit": 10,
+        "box_admitted_false": 13
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 29,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 30,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 31,
+      "function": "shifted_xor",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        855,
+        295,
+        295,
+        295,
+        336,
+        336
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 703,
+        "false_reject": 703,
+        "box_reject": 702,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 17,
+        "true_admit": 12,
+        "box_admit": 18,
+        "box_admitted_true": 12,
+        "false_admit": 5,
+        "box_admitted_false": 6
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 32,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 33,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 707,
+        "false_reject": 707,
+        "box_reject": 706,
+        "additional_joint_rejections": 1,
+        "admit": 13,
+        "false_admit": 1,
+        "box_admit": 14,
+        "box_admitted_false": 2,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 34,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 35,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 36,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 37,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 38,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 39,
+      "function": "xorshift",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 40,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 41,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 707,
+        "false_reject": 707,
+        "box_reject": 706,
+        "additional_joint_rejections": 1,
+        "admit": 13,
+        "false_admit": 1,
+        "box_admit": 14,
+        "box_admitted_false": 2,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 42,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 43,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 44,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 45,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 46,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 47,
+      "function": "xorshift",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2469,
+        1092,
+        1092,
+        1092,
+        1050,
+        1050
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 48,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 49,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 50,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 51,
+      "function": "crc32",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 52,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 53,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 54,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 699,
+        "false_reject": 699,
+        "box_reject": 695,
+        "additional_joint_rejections": 4,
+        "true": 12,
+        "admit": 21,
+        "true_admit": 12,
+        "box_admit": 25,
+        "box_admitted_true": 12,
+        "box_admitted_false": 13,
+        "false_admit": 9
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 55,
+      "function": "crc32",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 56,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 57,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 58,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 59,
+      "function": "crc32",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 60,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 61,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 62,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 699,
+        "false_reject": 699,
+        "box_reject": 695,
+        "additional_joint_rejections": 4,
+        "true": 12,
+        "admit": 21,
+        "true_admit": 12,
+        "box_admit": 25,
+        "box_admitted_true": 12,
+        "box_admitted_false": 13,
+        "false_admit": 9
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 63,
+      "function": "crc32",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        6583,
+        2523,
+        2523,
+        2523,
+        3334,
+        3334
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 64,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 65,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 66,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 67,
+      "function": "popcount",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 68,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 698,
+        "false_reject": 698,
+        "box_reject": 695,
+        "additional_joint_rejections": 3,
+        "true": 12,
+        "admit": 22,
+        "true_admit": 12,
+        "box_admit": 25,
+        "box_admitted_true": 12,
+        "false_admit": 10,
+        "box_admitted_false": 13
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 69,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 70,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 71,
+      "function": "popcount",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        2532,
+        748,
+        748,
+        748,
+        846,
+        846
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 703,
+        "false_reject": 703,
+        "box_reject": 702,
+        "additional_joint_rejections": 1,
+        "true": 12,
+        "admit": 17,
+        "true_admit": 12,
+        "box_admit": 18,
+        "box_admitted_true": 12,
+        "false_admit": 5,
+        "box_admitted_false": 6
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 72,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 73,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 74,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 75,
+      "function": "popcount",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 76,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 660,
+        "false_reject": 660,
+        "box_reject": 660,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 60,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 48,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 77,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 78,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 120,
+        "true_admit": 12,
+        "box_admit": 120,
+        "box_admitted_true": 12,
+        "false_admit": 108,
+        "box_admitted_false": 108
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 79,
+      "function": "popcount",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        4166,
+        1284,
+        1284,
+        1284,
+        1382,
+        1382
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 665,
+        "false_reject": 665,
+        "box_reject": 660,
+        "additional_joint_rejections": 5,
+        "true": 12,
+        "admit": 55,
+        "true_admit": 12,
+        "box_admit": 60,
+        "box_admitted_true": 12,
+        "false_admit": 43,
+        "box_admitted_false": 48
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 80,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 81,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 82,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 83,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 84,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 85,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 699,
+        "false_reject": 699,
+        "box_reject": 695,
+        "additional_joint_rejections": 4,
+        "admit": 21,
+        "false_admit": 9,
+        "box_admit": 25,
+        "box_admitted_false": 13,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 86,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 87,
+      "function": "subtractive_gcd",
+      "input": 0,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        365,
+        232,
+        232,
+        232,
+        190,
+        190
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 88,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 89,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 90,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 698,
+        "false_reject": 698,
+        "box_reject": 695,
+        "additional_joint_rejections": 3,
+        "admit": 22,
+        "false_admit": 10,
+        "box_admit": 25,
+        "box_admitted_false": 13,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 4,
+        "false_reject": 4,
+        "box_reject": 4,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 4,
+        "true_admit": 3,
+        "box_admit": 4,
+        "box_admitted_true": 3,
+        "false_admit": 1,
+        "box_admitted_false": 1
+      }
+    },
+    {
+      "report": 91,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 0,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 92,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "constant",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 93,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "increasing",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    },
+    {
+      "report": 94,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "decreasing",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 708,
+        "false_reject": 708,
+        "box_reject": 708,
+        "additional_joint_rejections": 0,
+        "true": 12,
+        "admit": 12,
+        "true_admit": 12,
+        "box_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 5,
+        "false_reject": 5,
+        "box_reject": 5,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 3,
+        "true_admit": 3,
+        "box_admit": 3,
+        "box_admitted_true": 3
+      }
+    },
+    {
+      "report": 95,
+      "function": "subtractive_gcd",
+      "input": 1,
+      "guard": 1,
+      "path": "alternating",
+      "tie_group": "contains_ties",
+      "N": [
+        42256,
+        21924,
+        21924,
+        21924,
+        21882,
+        21882
+      ],
+      "total": {
+        "queries": 720,
+        "false": 708,
+        "reject": 600,
+        "false_reject": 600,
+        "box_reject": 600,
+        "additional_joint_rejections": 0,
+        "admit": 120,
+        "false_admit": 108,
+        "box_admit": 120,
+        "box_admitted_false": 108,
+        "true": 12,
+        "true_admit": 12,
+        "box_admitted_true": 12
+      },
+      "partial": {
+        "queries": 8,
+        "false": 5,
+        "reject": 3,
+        "false_reject": 3,
+        "box_reject": 3,
+        "additional_joint_rejections": 0,
+        "true": 3,
+        "admit": 5,
+        "true_admit": 3,
+        "box_admit": 5,
+        "box_admitted_true": 3,
+        "false_admit": 2,
+        "box_admitted_false": 2
+      }
+    }
+  ],
+  "certificates": {
+    "reject": 66597,
+    "admit": 3291
+  },
+  "source_licensed_jobs": 576,
+  "source_unknown_jobs": 0,
+  "invalid_control_unknown": 12,
+  "query_stream": {
+    "compressed_sha256": "02b19140d99c687c1ae997f0d6da631a91a6583f89a8c120940efeff86692d40",
+    "expanded_sha256": "34b511e2edf889af5dc7a4feacfb9b012218b0f270108e4613b1ef2bdbe44a6c",
+    "expanded_bytes": 39909076
+  },
+  "duplicate_ram_binary_groups": [
+    [
+      "array_sum_O1",
+      "array_sum_O2",
+      "array_sum_O3"
+    ],
+    [
+      "array_sum_Os",
+      "array_sum_Oz"
+    ],
+    [
+      "shifted_xor_O1",
+      "shifted_xor_O2",
+      "shifted_xor_O3"
+    ],
+    [
+      "shifted_xor_Os",
+      "shifted_xor_Oz"
+    ],
+    [
+      "xorshift_O1",
+      "xorshift_O2",
+      "xorshift_O3"
+    ],
+    [
+      "xorshift_Os",
+      "xorshift_Oz"
+    ],
+    [
+      "crc32_O1",
+      "crc32_O2",
+      "crc32_O3"
+    ],
+    [
+      "crc32_Os",
+      "crc32_Oz"
+    ],
+    [
+      "popcount_O1",
+      "popcount_O2",
+      "popcount_O3"
+    ],
+    [
+      "popcount_Os",
+      "popcount_Oz"
+    ],
+    [
+      "subtractive_gcd_O1",
+      "subtractive_gcd_O2",
+      "subtractive_gcd_O3"
+    ],
+    [
+      "subtractive_gcd_Os",
+      "subtractive_gcd_Oz"
+    ]
+  ],
+  "cycle_invariance_72_combinations_all_8_guard_path_pairs": true,
+  "changed_decision_examples": [
+    {
+      "report": 4,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "81392457375140689659591920814670143968521505807600934292789/2",
+      "beta_upper": "40696228687570344829795960407335071984260752903800467146395/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          48801213893189021570342273625269434740072551592705373816692,
+          0,
+          -65204586411417373188435033183010970721095682784037048505424,
+          0
+        ],
+        "total": -16403372518228351618092759557741535981023131191331674688732
+      }
+    },
+    {
+      "report": 6,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48530529558338981368278785196566399063240141815875022656075/1",
+      "beta_upper": "48530529558338981368278785196566399063240141815875022656076/1",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          287764271336778313057012796050785210396268425638146914150,
+          0,
+          -65505472539837679237216079963512792408114463214564446998532
+        ],
+        "total": -65217708268500900924159067167462007197718194788926300084382
+      }
+    },
+    {
+      "report": 7,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48779377535754791622183119648139456195447940320810312707629/1",
+      "beta_upper": "48779377535754791622183119648139456195447940320810312707631/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          10786633677211443191284575025202412525724094772097332448,
+          0,
+          -65204586411417373188435033183010970721095682784037048505424,
+          0
+        ],
+        "total": -65193799777740161745243748607985768308569958689264951172976
+      }
+    },
+    {
+      "report": 12,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "81392457375140689659591920814670143968521505807600934292789/2",
+      "beta_upper": "40696228687570344829795960407335071984260752903800467146395/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          48801213893189021570342273625269434740072551592705373816692,
+          0,
+          -65204586411417373188435033183010970721095682784037048505424,
+          0
+        ],
+        "total": -16403372518228351618092759557741535981023131191331674688732
+      }
+    },
+    {
+      "report": 14,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48530529558338981368278785196566399063240141815875022656075/1",
+      "beta_upper": "48530529558338981368278785196566399063240141815875022656076/1",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          287764271336778313057012796050785210396268425638146914150,
+          0,
+          -65505472539837679237216079963512792408114463214564446998532
+        ],
+        "total": -65217708268500900924159067167462007197718194788926300084382
+      }
+    },
+    {
+      "report": 15,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48779377535754791622183119648139456195447940320810312707629/1",
+      "beta_upper": "48779377535754791622183119648139456195447940320810312707631/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          10786633677211443191284575025202412525724094772097332448,
+          0,
+          -65204586411417373188435033183010970721095682784037048505424,
+          0
+        ],
+        "total": -65193799777740161745243748607985768308569958689264951172976
+      }
+    },
+    {
+      "report": 20,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "43376479201238780897180599001030014102071381880018987775588/1",
+      "beta_upper": "130129437603716342691541797003090042306214145640056963326766/3",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          48796943830448978186167344933287777999085498140383823023688,
+          0,
+          -81339273434284339626167392779925383698240481224474553286687,
+          0
+        ],
+        "total": -32542329603835361440000047846637605699154983084090730262999
+      }
+    },
+    {
+      "report": 22,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "97066001527826945398395647691720271148066770676100451153887/2",
+      "beta_upper": "97066001527826945398395647691720271148066770676100451153889/2",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          282944672020085804988221710724317469511464386872669515286,
+          0,
+          -32850922130740314013473142275400272218950415259265963330557
+        ],
+        "total": -32567977458720228208484920564675954749438950872393293815271
+      }
+    },
+    {
+      "report": 23,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48783545929449593111773928938742152783390474081011645882900/1",
+      "beta_upper": "48783545929449593111773928938742152783390474081011645882902/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          6618239982409953600475284422505824583190334570764157177,
+          0,
+          -32549109264852336560792988556760725090266816808892143246610,
+          0
+        ],
+        "total": -32542491024869926607192513272338219265683626474321379089433
+      }
+    },
+    {
+      "report": 28,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "43376479201238780897180599001030014102071381880018987775588/1",
+      "beta_upper": "130129437603716342691541797003090042306214145640056963326766/3",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          48796943830448978186167344933287777999085498140383823023688,
+          0,
+          -81339273434284339626167392779925383698240481224474553286687,
+          0
+        ],
+        "total": -32542329603835361440000047846637605699154983084090730262999
+      }
+    },
+    {
+      "report": 30,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "97066001527826945398395647691720271148066770676100451153887/2",
+      "beta_upper": "97066001527826945398395647691720271148066770676100451153889/2",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          282944672020085804988221710724317469511464386872669515286,
+          0,
+          -32850922130740314013473142275400272218950415259265963330557
+        ],
+        "total": -32567977458720228208484920564675954749438950872393293815271
+      }
+    },
+    {
+      "report": 31,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48783545929449593111773928938742152783390474081011645882900/1",
+      "beta_upper": "48783545929449593111773928938742152783390474081011645882902/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          6618239982409953600475284422505824583190334570764157177,
+          0,
+          -32549109264852336560792988556760725090266816808892143246610,
+          0
+        ],
+        "total": -32542491024869926607192513272338219265683626474321379089433
+      }
+    },
+    {
+      "report": 33,
+      "kind": "total_order",
+      "query": [
+        4,
+        1,
+        5,
+        3,
+        2,
+        0
+      ],
+      "claims": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4912214789766609906441274258682967637202106694459470479112/1",
+      "beta_upper": "4912214789766609906441274258682967637202106694459470479114/1",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          9927632053351672784182997866688990711166354123841945299131,
+          0,
+          -19487632749146139221996856074236974673781909627065433583011
+        ],
+        "total": -9560000695794466437813858207547983962615555503223488283880
+      }
+    },
+    {
+      "report": 41,
+      "kind": "total_order",
+      "query": [
+        4,
+        1,
+        5,
+        3,
+        2,
+        0
+      ],
+      "claims": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "4912214789766609906441274258682967637202106694459470479112/1",
+      "beta_upper": "4912214789766609906441274258682967637202106694459470479114/1",
+      "certificate": {
+        "cycle": [
+          [
+            5,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "weights": [
+          0,
+          9927632053351672784182997866688990711166354123841945299131,
+          0,
+          -19487632749146139221996856074236974673781909627065433583011
+        ],
+        "total": -9560000695794466437813858207547983962615555503223488283880
+      }
+    },
+    {
+      "report": 54,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "97072931167538040553938749318905344167642282540590229334773/2",
+      "beta_upper": "97072931167538040553938749318905344167642282540590229334775/2",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          276187224919169469092818020714404434888149522794256288173,
+          0,
+          -84375352394950933932148487393775069388860876729810245585221
+        ],
+        "total": -84099165170031764463055669373060664953972727207015989297048
+      }
+    },
+    {
+      "report": 62,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "97072931167538040553938749318905344167642282540590229334773/2",
+      "beta_upper": "97072931167538040553938749318905344167642282540590229334775/2",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          276187224919169469092818020714404434888149522794256288173,
+          0,
+          -84375352394950933932148487393775069388860876729810245585221
+        ],
+        "total": -84099165170031764463055669373060664953972727207015989297048
+      }
+    },
+    {
+      "report": 68,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "123113862700448433435784901283983883886450481931607965433609/3",
+      "beta_upper": "41037954233482811145261633761327961295483493977202655144537/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          48792837966223448508598397525993348116420647111911253468293,
+          0,
+          -74323698531016430370410497060819225278476817516025555393532,
+          0
+        ],
+        "total": -25530860564792981861812099534825877162056170404114301925239
+      }
+    },
+    {
+      "report": 70,
+      "kind": "total_order",
+      "query": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48535376943741554902266620107937274048755295735977372229318/1",
+      "beta_upper": "48535376943741554902266620107937274048755295735977372229319/1",
+      "certificate": {
+        "cycle": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "weights": [
+          0,
+          278310402247248566888792494772863096981093250674259490965,
+          0,
+          -25836277111278118040968847553706438845730806868924602716163
+        ],
+        "total": -25557966709030869474080055058933575748749713618250343225198
+      }
+    },
+    {
+      "report": 71,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48787554034552008423339560459320118584899851185540369176860/1",
+      "beta_upper": "48787554034552008423339560459320118584899851185540369176862/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          2610134879994642034843763844540023073813230042040863217,
+          0,
+          -25533534361584427305036092837654566670503153100443145353455,
+          0
+        ],
+        "total": -25530924226704432663001249073810026647429339870401104490238
+      }
+    },
+    {
+      "report": 79,
+      "kind": "total_order",
+      "query": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "claims": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48788751448072563807597511781258487338371226192929082896872/1",
+      "beta_upper": "48788751448072563807597511781258487338371226192929082896874/1",
+      "certificate": {
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "weights": [
+          1520545884873718925261443366509988452109490103772753361,
+          0,
+          -73550052129192840247586695313756760870182610013507843285483,
+          0
+        ],
+        "total": -73548531583307966528661433870390250881730500523404070532122
+      }
+    },
+    {
+      "report": 85,
+      "kind": "total_order",
+      "query": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "48082968445954669756051652454353848811630126109034431341410/1",
+      "beta_upper": "48082968445954669756051652454353848811630126109034431341412/1",
+      "certificate": {
+        "cycle": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "weights": [
+          0,
+          97501538483939071832518151209304714551185651443125566738346,
+          0,
+          -102674589087658798869697062979202745223284456256197898008212
+        ],
+        "total": -5173050603719727037178911769898030672098804813072331269866
+      }
+    },
+    {
+      "report": 90,
+      "kind": "total_order",
+      "query": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "claims": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "true": false,
+      "path": "reject",
+      "box": "admit",
+      "beta_lower": "14087989137264827411587701924578609659461789147438672560071/3",
+      "beta_upper": "4695996379088275803862567308192869886487263049146224186691/1",
+      "certificate": {
+        "cycle": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "weights": [
+          0,
+          947224120096170336539198113324121528875525563647504738859,
+          0,
+          -1003237019785601094021506812096250444553823146118340757273
+        ],
+        "total": -56012899689430757482308698772128915678297582470836018414
+      }
+    }
+  ],
+  "numerics": {
+    "method": "positive atanh series plus geometric tail; exact integer floor/ceil per term",
+    "terms": 120,
+    "work_scale": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "output_scale": "1000000000000000000000000000000000000000000000000000000000000",
+    "range": "all input x>=1; binary range reduction y in[1,2), z in[0,1/3)",
+    "tail": "2*z^(2M+1)/((2M+1)*(1-z^2))",
+    "boundary": "tight feasible => admit; relaxed negative cycle => reject; otherwise unknown, never forced"
+  },
+  "limitations": "Actual upstream processor RTL translated by Yosys to CXXRTL and executed, with author-owned reference divider RTL, deterministic host memory, C firmware, and functional oracle. Digital discrete-event reference-design boundary only: no native Hopper/H20, physical clock, silicon, FPGA, PPA, latency/performance evidence, confidentiality, cryptography, necessity or inference resistance. Full debug intentionally reveals N/D. No remote experiment, publication, paper edit or scoring."
+}

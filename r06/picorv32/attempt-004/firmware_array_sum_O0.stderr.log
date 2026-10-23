@@ -1,0 +1,7 @@
+ld.lld: error: undefined symbol: __udivsi3
+>>> referenced by Writer.zig:16 ([LOCAL_USER]\Documents\ChatGPT\论文\.tools\zig-0.14.1\zig-x86_64-windows-0.14.1\lib\std\io/Writer.zig:16)
+>>>               [LOCAL_USER]\AppData\Local\zig\o\d2e05067081f6bc5b7595b9365ad2aa9\libubsan_rt.a.o:(debug.panicExtra__anon_2161) in archive [LOCAL_USER]\AppData\Local\zig\o\d2e05067081f6bc5b7595b9365ad2aa9\libubsan_rt.a
+
+ld.lld: error: undefined symbol: __mulsi3
+>>> referenced by Writer.zig:16 ([LOCAL_USER]\Documents\ChatGPT\论文\.tools\zig-0.14.1\zig-x86_64-windows-0.14.1\lib\std\io/Writer.zig:16)
+>>>               [LOCAL_USER]\AppData\Local\zig\o\d2e05067081f6bc5b7595b9365ad2aa9\libubsan_rt.a.o:(debug.panicExtra__anon_2161) in archive [LOCAL_USER]\AppData\Local\zig\o\d2e05067081f6bc5b7595b9365ad2aa9\libubsan_rt.a
